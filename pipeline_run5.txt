@@ -1,0 +1,55 @@
+﻿2026-09-26 15:59:37 [INFO] src.ingestion.ocr_extractor: EasyOCR engine loaded successfully.
+2026-09-26 15:59:39 [INFO] src.ingestion.ocr_extractor: pytesseract/tesseract not available — relying on EasyOCR.
+2026-09-26 15:59:39 [INFO] src.ingestion.pipeline: ============================================================
+2026-09-26 15:59:39 [INFO] src.ingestion.pipeline: Starting Phase 1: Document Ingestion Pipeline
+2026-09-26 15:59:39 [INFO] src.ingestion.pipeline: ============================================================
+2026-09-26 15:59:39 [INFO] src.ingestion.pipeline: Discovered 10 PDF files.
+2026-09-26 15:59:41 [INFO] src.ingestion.pipeline: Document registry written to configs\documents.json with 10 entries.
+2026-09-26 15:59:43 [INFO] src.ingestion.pipeline: Processing Policy Wordings - Digit Health Insurance Policy.pdf (DOC-001)...
+2026-09-26 15:59:45 [INFO] src.ingestion.pipeline: Normalized output written to data\normalized\DOC-001.json
+2026-09-26 15:59:47 [INFO] src.ingestion.pipeline: Processing PolicyClause_ NewIndiaMediclaimPolicy.pdf (DOC-002)...
+2026-09-26 15:59:48 [INFO] src.ingestion.pipeline: Normalized output written to data\normalized\DOC-002.json
+2026-09-26 15:59:51 [INFO] src.ingestion.pipeline: Processing PolicyWordings_myOptimaSecure-76673175551_HDFC.pdf (DOC-003)...
+2026-09-26 15:59:53 [INFO] src.ingestion.pipeline: Normalized output written to data\normalized\DOC-003.json
+2026-09-26 15:59:54 [INFO] src.ingestion.pipeline: Processing Prospectus_Star_Comprehensive_Insurance_Policy_V_12_dc6058c95e.pdf (DOC-004)...
+python : C:\Python314\Lib\site-packages\torch\utils\data\dataloader.py:775: UserWarning: 'pin_memory' argument is set 
+as true but no accelerator is found, then device pinned memory won't be used.
+At line:4 char:1
++ python run_phase1.py 2>&1 | Out-File -FilePath "D:\LLM_PROJECT\pipeli ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Python314\Li... won't be used.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  super().__init__(loader)
+2026-09-26 16:01:41 [INFO] src.ingestion.pipeline: Normalized output written to data\normalized\DOC-004.json
+2026-09-26 16:01:43 [INFO] src.ingestion.pipeline: Processing ReAssure 2.0 - PolicyWording.pdf (DOC-005)...
+2026-09-26 16:01:44 [INFO] src.ingestion.pipeline: Normalized output written to data\normalized\DOC-005.json
+2026-09-26 16:01:44 [INFO] src.ingestion.pipeline: Processing Tata_AIG_Medi_Care_82932b277a.pdf (DOC-006)...
+2026-09-26 16:01:45 [INFO] src.ingestion.pipeline: Normalized output written to data\normalized\DOC-006.json
+2026-09-26 16:01:47 [INFO] src.ingestion.pipeline: Processing elevate-policy-wordings.pdf (DOC-007)...
+2026-09-26 16:01:49 [INFO] src.ingestion.pipeline: Normalized output written to data\normalized\DOC-007.json
+2026-09-26 16:01:52 [INFO] src.ingestion.pipeline: Processing en-ultimate-care---policy-terms-and-conditions.pdf (DOC-008)...
+2026-09-26 16:01:54 [INFO] src.ingestion.pipeline: Normalized output written to data\normalized\DOC-008.json
+2026-09-26 16:01:56 [INFO] src.ingestion.pipeline: Processing policy-document.pdf (DOC-009)...
+2026-09-26 16:01:58 [INFO] src.ingestion.pipeline: Normalized output written to data\normalized\DOC-009.json
+2026-09-26 16:02:00 [INFO] src.ingestion.pipeline: Processing policy-wordings-digit-health-insurance-policy.pdf (DOC-010)...
+2026-09-26 16:02:02 [INFO] src.ingestion.pipeline: Normalized output written to data\normalized\DOC-010.json
+2026-09-26 16:02:02 [INFO] src.ingestion.pipeline: Extraction report written to reports\phase1_extraction_report.json
+2026-09-26 16:02:02 [INFO] src.ingestion.pipeline: Extraction report (markdown) written to reports\phase1_extraction_report.md
+2026-09-26 16:02:02 [INFO] src.ingestion.pipeline: ============================================================
+2026-09-26 16:02:02 [INFO] src.ingestion.pipeline: Phase 1 pipeline complete.
+2026-09-26 16:02:02 [INFO] src.ingestion.pipeline: ============================================================
+
+============================================================
+PHASE 1 PIPELINE COMPLETE
+============================================================
+Documents processed: 10
+Total pages: 553
+Native text pages: 551
+OCR pages: 1
+Documents with OCR: 1
+Errors: 0
+Warnings: 0
+Normalized JSON: data/normalized/
+Reports: reports/phase1_extraction_report.json, .md
+============================================================

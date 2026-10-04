@@ -1,0 +1,14 @@
+﻿Page 2: slow (0.92s), chars=2674, images=3
+Page 3: slow (0.81s), chars=2740, images=3
+Page 4: slow (0.80s), chars=2689, images=3
+Page 5: slow (0.59s), chars=2820, images=3
+Page 9: slow (0.52s), chars=2329, images=3
+Page 11: slow (0.50s), chars=2247, images=3
+Page 12: slow (0.57s), chars=2519, images=3
+Page 21: slow (0.52s), chars=2279, images=3
+Page 22: slow (0.51s), chars=2057, images=3
+Page 43: slow (0.51s), chars=4153, images=3
+
+Total pages: 53
+Page 1 images: 1
+get_image_rects: 0.176s

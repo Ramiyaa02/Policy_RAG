@@ -1,0 +1,48 @@
+﻿2026-09-26 13:56:31 [INFO] src.ingestion.ocr_extractor: EasyOCR engine loaded successfully.
+2026-09-26 13:56:32 [INFO] src.ingestion.ocr_extractor: pytesseract/tesseract not available — relying on EasyOCR.
+2026-09-26 13:56:32 [INFO] src.ingestion.pipeline: ============================================================
+2026-09-26 13:56:32 [INFO] src.ingestion.pipeline: Starting Phase 1: Document Ingestion Pipeline
+2026-09-26 13:56:32 [INFO] src.ingestion.pipeline: ============================================================
+2026-09-26 13:56:32 [INFO] src.ingestion.pipeline: Discovered 10 PDF files.
+2026-09-26 13:56:33 [INFO] src.ingestion.pipeline: Document registry written to configs\documents.json with 10 entries.
+2026-09-26 13:56:34 [INFO] src.ingestion.pipeline: Processing Policy Wordings - Digit Health Insurance Policy.pdf (DOC-001)...
+2026-09-26 13:56:35 [INFO] src.ingestion.pipeline: Normalized output written to data\normalized\DOC-001.json
+2026-09-26 13:56:37 [INFO] src.ingestion.pipeline: Processing PolicyClause_ NewIndiaMediclaimPolicy.pdf (DOC-002)...
+2026-09-26 13:56:38 [INFO] src.ingestion.pipeline: Normalized output written to data\normalized\DOC-002.json
+2026-09-26 13:56:39 [INFO] src.ingestion.pipeline: Processing PolicyWordings_myOptimaSecure-76673175551_HDFC.pdf (DOC-003)...
+2026-09-26 13:56:40 [INFO] src.ingestion.pipeline: Normalized output written to data\normalized\DOC-003.json
+2026-09-26 13:56:41 [INFO] src.ingestion.pipeline: Processing Prospectus_Star_Comprehensive_Insurance_Policy_V_12_dc6058c95e.pdf (DOC-004)...
+python : C:\Python314\Lib\site-packages\torch\utils\data\dataloader.py:775: UserWarning: 'pin_memory' argument is set 
+as true but no accelerator is found, then device pinned memory won't be used.
+At line:4 char:1
++ python run_phase1.py 2>&1 | Out-File -FilePath "D:\LLM_PROJECT\pipeli ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Python314\Li... won't be used.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  super().__init__(loader)
+2026-09-26 13:57:54 [INFO] src.ingestion.pipeline: Normalized output written to data\normalized\DOC-004.json
+2026-09-26 13:57:55 [INFO] src.ingestion.pipeline: Processing ReAssure 2.0 - PolicyWording.pdf (DOC-005)...
+2026-09-26 13:57:56 [INFO] src.ingestion.pipeline: Normalized output written to data\normalized\DOC-005.json
+2026-09-26 13:57:56 [INFO] src.ingestion.pipeline: Processing Tata_AIG_Medi_Care_82932b277a.pdf (DOC-006)...
+2026-09-26 13:57:57 [INFO] src.ingestion.pipeline: Normalized output written to data\normalized\DOC-006.json
+2026-09-26 13:57:58 [INFO] src.ingestion.pipeline: Processing elevate-policy-wordings.pdf (DOC-007)...
+2026-09-26 13:57:59 [INFO] src.ingestion.pipeline: Normalized output written to data\normalized\DOC-007.json
+2026-09-26 13:58:01 [INFO] src.ingestion.pipeline: Processing en-ultimate-care---policy-terms-and-conditions.pdf (DOC-008)...
+2026-09-26 13:58:02 [INFO] src.ingestion.pipeline: Normalized output written to data\normalized\DOC-008.json
+2026-09-26 13:58:03 [INFO] src.ingestion.pipeline: Processing policy-document.pdf (DOC-009)...
+2026-09-26 13:58:05 [INFO] src.ingestion.pipeline: Normalized output written to data\normalized\DOC-009.json
+2026-09-26 13:58:06 [INFO] src.ingestion.pipeline: Processing policy-wordings-digit-health-insurance-policy.pdf (DOC-010)...
+2026-09-26 13:58:08 [INFO] src.ingestion.pipeline: Normalized output written to data\normalized\DOC-010.json
+Traceback (most recent call last):
+  File "D:\LLM_PROJECT\run_phase1.py", line 78, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "D:\LLM_PROJECT\run_phase1.py", line 56, in main
+    report = pipeline.run()
+  File "D:\LLM_PROJECT\src\ingestion\pipeline.py", line 459, in run
+    report = self._generate_report(results, inspection_results, registry_entries)
+  File "D:\LLM_PROJECT\src\ingestion\pipeline.py", line 511, in _generate_report
+    total_images += len(insp.pages[page.page_number - 1].images) if page.page_number <= len(insp.pages) else 0
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'PageInspection' object has no attribute 'images'

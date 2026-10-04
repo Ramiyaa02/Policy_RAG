@@ -1,0 +1,152 @@
+{
+  "document_id": "DOC-004",
+  "filename": "D:\\LLM_PROJECT\\rag_policy_dataset\\Prospectus_Star_Comprehensive_Insurance_Policy_V_12_dc6058c95e.pdf",
+  "engine": "easyocr",
+  "total_pages": 53,
+  "ocr_pages": [
+    {
+      "page_number": 1,
+      "ocr_used": true,
+      "ocr_engine": "easyocr",
+      "ocr_confidence_mean": 0.9363,
+      "ocr_confidence_min": 0.6769,
+      "ocr_text": "STAR\nHealth\nPersonal &\nCaring\nInsurance\nStar Comprehensive\nInsurance Policy\nSHAHLIP26044V092526\nProspectus",
+      "blocks": [
+        {
+          "page_number": 1,
+          "text": "STAR",
+          "bbox": [
+            239.28,
+            145.2,
+            334.8,
+            176.88
+          ],
+          "confidence": 0.8282,
+          "block_id": "p1_ocr_b0",
+          "source": "ocr",
+          "engine": "easyocr"
+        },
+        {
+          "page_number": 1,
+          "text": "Health",
+          "bbox": [
+            344.16,
+            162.72,
+            377.76,
+            174.48
+          ],
+          "confidence": 0.9999,
+          "block_id": "p1_ocr_b1",
+          "source": "ocr",
+          "engine": "easyocr"
+        },
+        {
+          "page_number": 1,
+          "text": "Personal &",
+          "bbox": [
+            251.76,
+            175.44,
+            301.2,
+            184.08
+          ],
+          "confidence": 0.9992,
+          "block_id": "p1_ocr_b2",
+          "source": "ocr",
+          "engine": "easyocr"
+        },
+        {
+          "page_number": 1,
+          "text": "Caring",
+          "bbox": [
+            302.4,
+            174.0,
+            334.8,
+            186.72
+          ],
+          "confidence": 0.9999,
+          "block_id": "p1_ocr_b3",
+          "source": "ocr",
+          "engine": "easyocr"
+        },
+        {
+          "page_number": 1,
+          "text": "Insurance",
+          "bbox": [
+            343.68,
+            174.48,
+            392.16,
+            186.24
+          ],
+          "confidence": 1.0,
+          "block_id": "p1_ocr_b4",
+          "source": "ocr",
+          "engine": "easyocr"
+        },
+        {
+          "page_number": 1,
+          "text": "Star Comprehensive",
+          "bbox": [
+            103.68,
+            585.12,
+            487.68,
+            635.28
+          ],
+          "confidence": 0.988,
+          "block_id": "p1_ocr_b5",
+          "source": "ocr",
+          "engine": "easyocr"
+        },
+        {
+          "page_number": 1,
+          "text": "Insurance Policy",
+          "bbox": [
+            138.0,
+            624.24,
+            449.52,
+            671.52
+          ],
+          "confidence": 0.9351,
+          "block_id": "p1_ocr_b6",
+          "source": "ocr",
+          "engine": "easyocr"
+        },
+        {
+          "page_number": 1,
+          "text": "SHAHLIP26044V092526",
+          "bbox": [
+            241.92,
+            673.44,
+            356.4,
+            684.0
+          ],
+          "confidence": 0.6769,
+          "block_id": "p1_ocr_b7",
+          "source": "ocr",
+          "engine": "easyocr"
+        },
+        {
+          "page_number": 1,
+          "text": "Prospectus",
+          "bbox": [
+            256.56,
+            719.52,
+            340.56,
+            739.92
+          ],
+          "confidence": 1.0,
+          "block_id": "p1_ocr_b8",
+          "source": "ocr",
+          "engine": "easyocr"
+        }
+      ],
+      "errors": [],
+      "char_count": 106
+    }
+  ],
+  "page_numbers": [
+    1
+  ],
+  "warnings": [],
+  "errors": [],
+  "available": true
+}

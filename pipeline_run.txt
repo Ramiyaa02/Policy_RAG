@@ -1,0 +1,33 @@
+﻿2026-09-26 13:51:58 [INFO] src.ingestion.ocr_extractor: EasyOCR engine loaded successfully.
+2026-09-26 13:51:59 [INFO] src.ingestion.ocr_extractor: pytesseract/tesseract not available — relying on EasyOCR.
+2026-09-26 13:51:59 [INFO] src.ingestion.pipeline: ============================================================
+2026-09-26 13:51:59 [INFO] src.ingestion.pipeline: Starting Phase 1: Document Ingestion Pipeline
+2026-09-26 13:51:59 [INFO] src.ingestion.pipeline: ============================================================
+2026-09-26 13:51:59 [INFO] src.ingestion.pipeline: Discovered 0 PDF files.
+2026-09-26 13:51:59 [ERROR] src.ingestion.pipeline: No PDF files found in data/ directory.
+
+============================================================
+PHASE 1 PIPELINE COMPLETE
+============================================================
+Documents processed: 0
+Total pages: 0
+Native text pages: 0
+OCR pages: 0
+Documents with OCR: 0
+Errors: 0
+Warnings: 0
+Normalized JSON: data/normalized/
+python : Traceback (most recent call last):
+At line:4 char:1
++ python run_phase1.py 2>&1 | Out-File -FilePath "D:\LLM_PROJECT\pipeli ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback (most recent call last)::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  File "D:\LLM_PROJECT\run_phase1.py", line 78, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "D:\LLM_PROJECT\run_phase1.py", line 71, in main
+    print(f"Reports: {args.reports_dir}/phase1_extraction_report.{json,md}")
+                                                                  ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'?

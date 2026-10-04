@@ -1,0 +1,387 @@
+{
+  "phase": "Phase 1 — Document Ingestion",
+  "generated_at": "2026-09-27T07:15:01.384876+00:00",
+  "pipeline_version": "1.0",
+  "summary": {
+    "total_documents": 10,
+    "total_pages": 553,
+    "total_native_text_pages": 551,
+    "total_ocr_pages": 1,
+    "documents_with_ocr": 1,
+    "total_errors": 0,
+    "total_warnings": 0
+  },
+  "documents": [
+    {
+      "document_id": "DOC-001",
+      "filename": "Policy Wordings - Digit Health Insurance Policy.pdf",
+      "insurer": "Go Digit General Insurance Limited",
+      "product": "Digit Health Insurance Policy",
+      "uin": "GODHLIP23073V012223",
+      "document_type": "Policy Wording",
+      "version": null,
+      "page_count": 48,
+      "file_size": 4702069,
+      "checksum": "0f5a5499632239eb28260a461fa7b93275a2f6ff5b2b0f3ddf706c335d4d5a26",
+      "native_text_pages": 48,
+      "ocr_pages": [],
+      "ocr_page_count": 0,
+      "total_images": 0,
+      "detected_tables": 0,
+      "extraction_method": "pymupdf",
+      "extraction_errors": [],
+      "warnings": [],
+      "suspicious_pages": [],
+      "review_flags": [],
+      "ocr_engine": null
+    },
+    {
+      "document_id": "DOC-002",
+      "filename": "PolicyClause_ NewIndiaMediclaimPolicy.pdf",
+      "insurer": "The New India Assurance Company Limited",
+      "product": "MediClaim Policy",
+      "uin": "NIAHLIP25040V102425",
+      "document_type": "Policy Clause",
+      "version": null,
+      "page_count": 52,
+      "file_size": 1378313,
+      "checksum": "fda8fa21a04aadb720000e82be5a9afcf113dfa99e1343917b84435f55ef9133",
+      "native_text_pages": 52,
+      "ocr_pages": [],
+      "ocr_page_count": 0,
+      "total_images": 1,
+      "detected_tables": 0,
+      "extraction_method": "pymupdf",
+      "extraction_errors": [],
+      "warnings": [],
+      "suspicious_pages": [],
+      "review_flags": [
+        "product_from_filename"
+      ],
+      "ocr_engine": null
+    },
+    {
+      "document_id": "DOC-003",
+      "filename": "PolicyWordings_myOptimaSecure-76673175551_HDFC.pdf",
+      "insurer": "HDFC ERGO General Insurance Company Limited",
+      "product": "my:Optima Secure",
+      "uin": "HDFHLIP26058V082526",
+      "document_type": "Policy Wording",
+      "version": null,
+      "page_count": 69,
+      "file_size": 925936,
+      "checksum": "195eb0499db969c6789472e7f87ef1c72da110e2a8c7761ecb5add378fe964c1",
+      "native_text_pages": 69,
+      "ocr_pages": [],
+      "ocr_page_count": 0,
+      "total_images": 69,
+      "detected_tables": 0,
+      "extraction_method": "pymupdf",
+      "extraction_errors": [],
+      "warnings": [],
+      "suspicious_pages": [],
+      "review_flags": [],
+      "ocr_engine": null
+    },
+    {
+      "document_id": "DOC-004",
+      "filename": "Prospectus_Star_Comprehensive_Insurance_Policy_V_12_dc6058c95e.pdf",
+      "insurer": "Star Health and Allied Insurance Company Limited",
+      "product": "Star Comprehensive",
+      "uin": "SHAHLIP26044V092526",
+      "document_type": "Prospectus",
+      "version": "1",
+      "page_count": 53,
+      "file_size": 2479350,
+      "checksum": "0404693147bd5202e28e39bfdb8fcc87f78e7ee6aa6a6f1032f63cbec63698e1",
+      "native_text_pages": 52,
+      "ocr_pages": [
+        1
+      ],
+      "ocr_page_count": 1,
+      "total_images": 157,
+      "detected_tables": 2,
+      "extraction_method": "pymupdf + OCR",
+      "extraction_errors": [],
+      "warnings": [],
+      "suspicious_pages": [
+        {
+          "page": 1,
+          "reason": "very_low_text_with_images",
+          "char_count": 11,
+          "image_count": 1
+        }
+      ],
+      "review_flags": [
+        "document_type_mismatch_content_vs_filename",
+        "document_type_from_filename"
+      ],
+      "ocr_engine": "easyocr"
+    },
+    {
+      "document_id": "DOC-005",
+      "filename": "ReAssure 2.0 - PolicyWording.pdf",
+      "insurer": "Niva Bupa Health Insurance Company Limited",
+      "product": "ReAssure 2.0",
+      "uin": "NBHHLIP26042V022526",
+      "document_type": "Policy Wording",
+      "version": null,
+      "page_count": 36,
+      "file_size": 472137,
+      "checksum": "8b00f5307e46553b955c3e21d0adea417e206a635b936f0623109fbec2f8c1bb",
+      "native_text_pages": 36,
+      "ocr_pages": [],
+      "ocr_page_count": 0,
+      "total_images": 36,
+      "detected_tables": 0,
+      "extraction_method": "pymupdf",
+      "extraction_errors": [],
+      "warnings": [],
+      "suspicious_pages": [],
+      "review_flags": [
+        "insurer_from_filename"
+      ],
+      "ocr_engine": null
+    },
+    {
+      "document_id": "DOC-006",
+      "filename": "Tata_AIG_Medi_Care_82932b277a.pdf",
+      "insurer": "Tata AIG General Insurance Company Limited",
+      "product": "MediCare",
+      "uin": "TATHLIP21224V022021",
+      "document_type": "Policy Wording",
+      "version": null,
+      "page_count": 29,
+      "file_size": 233850,
+      "checksum": "96c110e10de085402c58326a1aed438bfc3d76ed44dd3be91ba3cb3d46c4a569",
+      "native_text_pages": 29,
+      "ocr_pages": [],
+      "ocr_page_count": 0,
+      "total_images": 1,
+      "detected_tables": 0,
+      "extraction_method": "pymupdf",
+      "extraction_errors": [],
+      "warnings": [],
+      "suspicious_pages": [],
+      "review_flags": [],
+      "ocr_engine": null
+    },
+    {
+      "document_id": "DOC-007",
+      "filename": "elevate-policy-wordings.pdf",
+      "insurer": "ICICI Lombard General Insurance Company Limited",
+      "product": "Elevate",
+      "uin": "ICIHLIP25048V042425",
+      "document_type": "Policy Wording",
+      "version": null,
+      "page_count": 45,
+      "file_size": 891156,
+      "checksum": "46d61cbee18e10a56dca3ff4924290a5f48565d71eb91cce7e079d48015a61d8",
+      "native_text_pages": 45,
+      "ocr_pages": [],
+      "ocr_page_count": 0,
+      "total_images": 50,
+      "detected_tables": 0,
+      "extraction_method": "pymupdf",
+      "extraction_errors": [],
+      "warnings": [],
+      "suspicious_pages": [],
+      "review_flags": [],
+      "ocr_engine": null
+    },
+    {
+      "document_id": "DOC-008",
+      "filename": "en-ultimate-care---policy-terms-and-conditions.pdf",
+      "insurer": "Care Health Insurance Limited",
+      "product": "Ultimate Care",
+      "uin": "CHIHLIP27063V012627",
+      "document_type": "Policy Terms and Conditions",
+      "version": null,
+      "page_count": 98,
+      "file_size": 583118,
+      "checksum": "9adc5eb689f0c9daef919d49ea2b9e95fae1cc47747f699d4d73c029b73927ed",
+      "native_text_pages": 97,
+      "ocr_pages": [],
+      "ocr_page_count": 0,
+      "total_images": 3,
+      "detected_tables": 0,
+      "extraction_method": "pymupdf",
+      "extraction_errors": [],
+      "warnings": [],
+      "suspicious_pages": [],
+      "review_flags": [],
+      "ocr_engine": null
+    },
+    {
+      "document_id": "DOC-009",
+      "filename": "policy-document.pdf",
+      "insurer": "Aditya Birla Health Insurance Company Limited",
+      "product": "Activ One",
+      "uin": "ADIHLIP27048V022627",
+      "document_type": "Policy Document",
+      "version": null,
+      "page_count": 56,
+      "file_size": 1547048,
+      "checksum": "73ff738922e11968a2776f1c827edc159beb7456a58e720fbdb7657b45568066",
+      "native_text_pages": 56,
+      "ocr_pages": [],
+      "ocr_page_count": 0,
+      "total_images": 6,
+      "detected_tables": 0,
+      "extraction_method": "pymupdf",
+      "extraction_errors": [],
+      "warnings": [],
+      "suspicious_pages": [],
+      "review_flags": [
+        "document_type_mismatch_content_vs_filename",
+        "document_type_from_filename"
+      ],
+      "ocr_engine": null
+    },
+    {
+      "document_id": "DOC-010",
+      "filename": "policy-wordings-digit-health-insurance-policy.pdf",
+      "insurer": "Go Digit General Insurance Limited",
+      "product": "Digit Health Insurance Policy",
+      "uin": "GODHLIP25039V022425",
+      "document_type": "Policy Wording",
+      "version": null,
+      "page_count": 67,
+      "file_size": 5172673,
+      "checksum": "1ef8c3627ee30f32c683fdc788c34c85d7536474e8612ebcae36d1b8ce385c4a",
+      "native_text_pages": 67,
+      "ocr_pages": [],
+      "ocr_page_count": 0,
+      "total_images": 0,
+      "detected_tables": 0,
+      "extraction_method": "pymupdf",
+      "extraction_errors": [],
+      "warnings": [],
+      "suspicious_pages": [],
+      "review_flags": [],
+      "ocr_engine": null
+    }
+  ],
+  "duplicate_analysis": [
+    {
+      "type": "same_product_different_version",
+      "product": "Digit Health Insurance Policy",
+      "documents": [
+        "DOC-001",
+        "DOC-010"
+      ],
+      "uins": [
+        "GODHLIP23073V012223",
+        "GODHLIP25039V022425"
+      ],
+      "action": "kept_separate_reported_as_related"
+    }
+  ],
+  "manual_review_candidates": [
+    {
+      "document_id": "DOC-001",
+      "filename": "Policy Wordings - Digit Health Insurance Policy.pdf",
+      "page": 1,
+      "reason": "cover_page",
+      "char_count": 1861,
+      "recommendation": "Review — verify metadata extraction accuracy"
+    },
+    {
+      "document_id": "DOC-002",
+      "filename": "PolicyClause_ NewIndiaMediclaimPolicy.pdf",
+      "page": 1,
+      "reason": "cover_page",
+      "char_count": 2300,
+      "recommendation": "Review — verify metadata extraction accuracy"
+    },
+    {
+      "document_id": "DOC-003",
+      "filename": "PolicyWordings_myOptimaSecure-76673175551_HDFC.pdf",
+      "page": 1,
+      "reason": "cover_page",
+      "char_count": 793,
+      "recommendation": "Review — verify metadata extraction accuracy"
+    },
+    {
+      "document_id": "DOC-004",
+      "filename": "Prospectus_Star_Comprehensive_Insurance_Policy_V_12_dc6058c95e.pdf",
+      "page": 1,
+      "reason": "ocr_processed_page",
+      "char_count": 11,
+      "recommendation": "Verify OCR quality — text may contain recognition errors"
+    },
+    {
+      "document_id": "DOC-004",
+      "filename": "Prospectus_Star_Comprehensive_Insurance_Policy_V_12_dc6058c95e.pdf",
+      "page": 2,
+      "reason": "table_page",
+      "char_count": 2674,
+      "recommendation": "Review — table structure preservation"
+    },
+    {
+      "document_id": "DOC-004",
+      "filename": "Prospectus_Star_Comprehensive_Insurance_Policy_V_12_dc6058c95e.pdf",
+      "page": 53,
+      "reason": "table_page",
+      "char_count": 2840,
+      "recommendation": "Review — table structure preservation"
+    },
+    {
+      "document_id": "DOC-005",
+      "filename": "ReAssure 2.0 - PolicyWording.pdf",
+      "page": 1,
+      "reason": "cover_page",
+      "char_count": 3267,
+      "recommendation": "Review — verify metadata extraction accuracy"
+    },
+    {
+      "document_id": "DOC-006",
+      "filename": "Tata_AIG_Medi_Care_82932b277a.pdf",
+      "page": 1,
+      "reason": "cover_page",
+      "char_count": 1706,
+      "recommendation": "Review — verify metadata extraction accuracy"
+    },
+    {
+      "document_id": "DOC-007",
+      "filename": "elevate-policy-wordings.pdf",
+      "page": 1,
+      "reason": "cover_page",
+      "char_count": 5597,
+      "recommendation": "Review — verify metadata extraction accuracy"
+    },
+    {
+      "document_id": "DOC-008",
+      "filename": "en-ultimate-care---policy-terms-and-conditions.pdf",
+      "page": 1,
+      "reason": "low_text_content",
+      "char_count": 39,
+      "recommendation": "Review — page may have extraction issues"
+    },
+    {
+      "document_id": "DOC-009",
+      "filename": "policy-document.pdf",
+      "page": 1,
+      "reason": "cover_page",
+      "char_count": 5425,
+      "recommendation": "Review — verify metadata extraction accuracy"
+    },
+    {
+      "document_id": "DOC-010",
+      "filename": "policy-wordings-digit-health-insurance-policy.pdf",
+      "page": 1,
+      "reason": "cover_page",
+      "char_count": 2797,
+      "recommendation": "Review — verify metadata extraction accuracy"
+    }
+  ],
+  "assumptions": [
+    "Document IDs are assigned sequentially based on sorted filename order",
+    "Insurer and product names are inferred from document content first, then filename",
+    "UIN values are trusted when explicitly stated in the document",
+    "OCR candidates are determined by text density and image coverage thresholds",
+    "EasyOCR is used as the primary OCR engine (tesseract not installed in environment)",
+    "Two Digit Health Insurance PDFs are different versions of the same product (different UINs)",
+    "policy-document.pdf identified as Aditya Birla Activ One based on content extraction"
+  ]
+}

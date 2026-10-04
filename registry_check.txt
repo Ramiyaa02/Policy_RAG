@@ -1,0 +1,10 @@
+﻿python :   File "<string>", line 6
+At line:4 char:1
++ python -c "
++ ~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (  File "<string>", line 6:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+    print(f'{doc[" document_id\]}:
+                 ^
+SyntaxError: unterminated string literal (detected at line 6)

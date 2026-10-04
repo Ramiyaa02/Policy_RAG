@@ -1,0 +1,25 @@
+﻿Page 1 product matches: ['Product Beneﬁt Table of ', 'Product if Claim Protect (Non-Medical Expense Waiver) is ', 'Product Beneﬁt Table - All the beneﬁts (including optiona', 'Product Beneﬁt Table', 'Product Name: Activ One, Product UIN: ADIHLIP27048V022627']
+Page 1 name matches: ['Product Name: Activ One, Product UIN: ADIHLIP27048V022627 ']
+Page 2 product matches: ['Product Name: Activ One, Product UIN: ADIHLIP27048V022627']
+Page 2 name matches: ['Product Name: Activ One, Product UIN: ADIHLIP27048V022627 ']
+Page 3 product matches: ['Product Name: Activ One, Product UIN: ADIHLIP27048V022627']
+Page 3 name matches: ['Product Name: Activ One, Product UIN: ADIHLIP27048V022627 ']
+Page 4 product matches: ['Product Name: Activ One, Product UIN: ADIHLIP27048V022627']
+Page 4 name matches: ['Product Name: Activ One, Product UIN: ADIHLIP27048V022627 ']
+Page 5 product matches: ['Product Name: Activ One, Product UIN: ADIHLIP27048V022627']
+Page 5 name matches: ['Product Name: Activ One, Product UIN: ADIHLIP27048V022627 ']
+Page 1 line 95: Policy Wording
+Page 1 line 101: Product Name: Activ One, Product UIN: ADIHLIP27048V022627
+Page 2 line 164: Product Name: Activ One, Product UIN: ADIHLIP27048V022627
+Page 3 line 149: Product Name: Activ One, Product UIN: ADIHLIP27048V022627
+Page 4 line 142: Product Name: Activ One, Product UIN: ADIHLIP27048V022627
+Page 5 line 132: Product Name: Activ One, Product UIN: ADIHLIP27048V022627
+Page 6 line 26: a. Blood product transfusion;
+Page 6 line 52: all Insured Persons in the Policy Schedule and Annexure III - Product Beneﬁt Table.
+Page 6 line 134: Product Name: Activ One, Product UIN: ADIHLIP27048V022627
+Page 7 line 135: Product Name: Activ One, Product UIN: ADIHLIP27048V022627
+Page 8 line 106: Product Name: Activ One, Product UIN: ADIHLIP27048V022627
+Page 9 line 132: Product Name: Activ One, Product UIN: ADIHLIP27048V022627
+Page 10 line 9: Policy Schedule / Product Beneﬁt Table of this Policy of continuous coverage after the
+Page 10 line 31: Product Beneﬁt Table of this Policy for any pre-existing disease is subject to the same
+Page 10 line 151: Product Name: Activ One, Product UIN: ADIHLIP27048V022627

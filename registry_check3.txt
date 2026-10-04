@@ -1,0 +1,90 @@
+﻿DOC-001: Policy Wordings - Digit Health Insurance Policy.pd
+  insurer=Go Digit General Insurance Limited
+  product=Digit Health Insurance Policy
+  uin=GODHLIP23073V012223
+  type=Policy Wording
+  version=None
+  pages=48
+  review_flags=[]
+
+DOC-002: PolicyClause_ NewIndiaMediclaimPolicy.pdf
+  insurer=The New India Assurance Company Limited
+  product=MediClaim Policy
+  uin=NIAHLIP25040V102425
+  type=Policy Clause
+  version=None
+  pages=52
+  review_flags=['product_from_filename']
+
+DOC-003: PolicyWordings_myOptimaSecure-76673175551_HDFC.pdf
+  insurer=HDFC ERGO General Insurance Company Limited
+  product=my:Optima Secure
+  uin=HDFHLIP26058V082526
+  type=Policy Wording
+  version=None
+  pages=69
+  review_flags=[]
+
+DOC-004: Prospectus_Star_Comprehensive_Insurance_Policy_V_1
+  insurer=Star Health and Allied Insurance Company Limited
+  product=Star Comprehensive
+  uin=SHAHLIP26044V092526
+  type=Policy Wording
+  version=1
+  pages=53
+  review_flags=[]
+
+DOC-005: ReAssure 2.0 - PolicyWording.pdf
+  insurer=Niva Bupa Health Insurance Company Limited
+  product=ReAssure 2.0
+  uin=NBHHLIP26042V022526
+  type=Policy Wording
+  version=None
+  pages=36
+  review_flags=['insurer_from_filename']
+
+DOC-006: Tata_AIG_Medi_Care_82932b277a.pdf
+  insurer=Tata AIG General Insurance Company Limited
+  product=MediCare
+  uin=TATHLIP21224V022021
+  type=Policy Wording
+  version=None
+  pages=29
+  review_flags=[]
+
+DOC-007: elevate-policy-wordings.pdf
+  insurer=ICICI Lombard General Insurance Company Limited
+  product=Elevate
+  uin=ICIHLIP25048V042425
+  type=Policy Wording
+  version=None
+  pages=45
+  review_flags=[]
+
+DOC-008: en-ultimate-care---policy-terms-and-conditions.pdf
+  insurer=Care Health Insurance Limited
+  product=Ultimate Care
+  uin=CHIHLIP27063V012627
+  type=Policy Wording
+  version=None
+  pages=98
+  review_flags=['document_type_from_filename']
+
+DOC-009: policy-document.pdf
+  insurer=Aditya Birla Health Insurance Company Limited
+  product=Activ One
+  uin=ADIHLIP27048V022627
+  type=Policy Wording
+  version=None
+  pages=56
+  review_flags=[]
+
+DOC-010: policy-wordings-digit-health-insurance-policy.pdf
+  insurer=Go Digit General Insurance Limited
+  product=Digit Health Insurance Policy
+  uin=GODHLIP25039V022425
+  type=Policy Wording
+  version=None
+  pages=67
+  review_flags=[]
+
