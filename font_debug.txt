@@ -1,8 +1,0 @@
-﻿Number of fonts: 1
-Font 0: type=<class 'tuple'>, len=6
-  [0]: type=int, value=287
-  [1]: type=str, value='ttf'
-  [2]: type=str, value='TrueType'
-  [3]: type=str, value='MJVICF+Poppins-SemiBold'
-  [4]: type=str, value='TT0'
-  [5]: type=str, value='WinAnsiEncoding'

@@ -8,8 +8,12 @@ __pycache__/
 # Rebuildable Phase 2 vector index (regenerate with: python run_phase2.py build)
 data/chroma/
 
-# Phase 2 runtime query log (append-only)
+# Phase 2 runtime outputs (append-only log + one-off query answers)
 reports/phase2_query_log.jsonl
+reports/answer.json
+
+# Redundant archive of rag_policy_dataset/ (all 10 PDFs are extracted there)
+rag_policy_dataset.zip
 
 # Scratch/debug output files from PDF & OCR investigation
 check_norm.py

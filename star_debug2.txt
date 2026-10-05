@@ -1,8 +1,0 @@
-﻿Page 1: chars=11, words=1, blocks=1
-Page 1: images=1
-Page 1: fonts=1, time=0.000s
-Page 1: text_dict time=1.079s
-Page 1: get_image_rects time=0.180s
-Page 1: get_text time=0.001s
-Page 2: get_text time=0.018s, chars=2674
-Done
