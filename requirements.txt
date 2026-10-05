@@ -1,0 +1,23 @@
+# Phase 1 — Insurance Policy RAG: Document Ingestion
+# Runtime + test dependencies (derived from actual imports in src/ and tests/)
+
+# PDF inspection and native text extraction (imports as `fitz`)
+PyMuPDF>=1.24,<2.0
+
+# Array/image handling for OCR page rendering
+numpy>=1.24
+Pillow>=10.0
+
+# Test suite (tests/test_phase1_ingestion.py)
+pytest>=7.4
+
+# Phase 2 — Baseline RAG (chunking -> embeddings -> ChromaDB -> Ollama generation)
+
+# Embeddings: configurable sentence-transformers model (default all-MiniLM-L6-v2).
+# Pulls in torch as a dependency.
+sentence-transformers>=3.0
+
+# Vector store: persistent client, cosine similarity, metadata filtering
+chromadb>=1.0
+
+# Optional OCR engines (easyocr or pytesseract) — see requirements-ocr.txt

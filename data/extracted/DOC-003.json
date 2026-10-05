@@ -1,7 +1,7 @@
 {
   "document_id": "DOC-003",
   "filename": "PolicyWordings_myOptimaSecure-76673175551_HDFC.pdf",
-  "source_path": "D:\\LLM_PROJECT\\rag_policy_dataset\\PolicyWordings_myOptimaSecure-76673175551_HDFC.pdf",
+  "source_path": "F:\\Policy_RAG-main\\rag_policy_dataset\\PolicyWordings_myOptimaSecure-76673175551_HDFC.pdf",
   "page_count": 69,
   "pages": [
     {
@@ -2580,12 +2580,12 @@
         {
           "page_number": 5,
           "block_type": "paragraph",
-          "text": "1. it needs ongoing or long-term monitoring through consultations, examinations, check-",
+          "text": "1. it needs ongoing or long-term monitoring through consultations, examinations, check-ups, and /or tests ",
           "bbox": [
             108.0199966430664,
             545.4700317382812,
             559.467529296875,
-            558.8284301757812
+            574.7552490234375
           ],
           "block_id": "p5_b21",
           "font_name": "Tahoma-Bold",
@@ -2594,31 +2594,9 @@
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 87,
-          "word_count": 11,
-          "line_count": 1,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 5,
-          "block_type": "paragraph",
-          "text": "ups, and /or tests ",
-          "bbox": [
-            129.6199951171875,
-            561.4299926757812,
-            219.02552795410156,
-            574.7552490234375
-          ],
-          "block_id": "p5_b22",
-          "font_name": "Tahoma",
-          "font_size": 11.039999961853027,
-          "flags": 0,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 19,
-          "word_count": 4,
-          "line_count": 1,
+          "char_count": 106,
+          "word_count": 14,
+          "line_count": 2,
           "source": "pymupdf"
         },
         {
@@ -2631,7 +2609,7 @@
             421.4855041503906,
             595.6683959960938
           ],
-          "block_id": "p5_b23",
+          "block_id": "p5_b22",
           "font_name": "Tahoma-Bold",
           "font_size": 11.039999961853027,
           "flags": 16,
@@ -2646,45 +2624,23 @@
         {
           "page_number": 5,
           "block_type": "paragraph",
-          "text": "3. it requires rehabilitation for the patient or for the patient to be specially trained to cope ",
+          "text": "3. it requires rehabilitation for the patient or for the patient to be specially trained to cope with it ",
           "bbox": [
             108.0199966430664,
             603.3099975585938,
             562.6084594726562,
-            616.6683959960938
+            632.5052490234375
           ],
-          "block_id": "p5_b24",
+          "block_id": "p5_b23",
           "font_name": "Tahoma-Bold",
           "font_size": 11.039999961853027,
           "flags": 16,
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 97,
-          "word_count": 17,
-          "line_count": 1,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 5,
-          "block_type": "paragraph",
-          "text": "with it ",
-          "bbox": [
-            129.6199951171875,
-            619.1799926757812,
-            163.19552612304688,
-            632.5052490234375
-          ],
-          "block_id": "p5_b25",
-          "font_name": "Tahoma",
-          "font_size": 11.039999961853027,
-          "flags": 0,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 8,
-          "word_count": 2,
-          "line_count": 1,
+          "char_count": 105,
+          "word_count": 19,
+          "line_count": 2,
           "source": "pymupdf"
         },
         {
@@ -2697,7 +2653,7 @@
             245.18551635742188,
             653.5383911132812
           ],
-          "block_id": "p5_b26",
+          "block_id": "p5_b24",
           "font_name": "Tahoma-Bold",
           "font_size": 11.039999961853027,
           "flags": 16,
@@ -2719,7 +2675,7 @@
             265.94549560546875,
             674.4183959960938
           ],
-          "block_id": "p5_b27",
+          "block_id": "p5_b25",
           "font_name": "Tahoma-Bold",
           "font_size": 11.039999961853027,
           "flags": 16,
@@ -2741,7 +2697,7 @@
             562.6768188476562,
             695.4183959960938
           ],
-          "block_id": "p5_b28",
+          "block_id": "p5_b26",
           "font_name": "Tahoma-Bold",
           "font_size": 11.039999961853027,
           "flags": 16,
@@ -2763,7 +2719,7 @@
             562.60107421875,
             727.1852416992188
           ],
-          "block_id": "p5_b29",
+          "block_id": "p5_b27",
           "font_name": "Tahoma",
           "font_size": 11.039999961853027,
           "flags": 0,
@@ -2785,7 +2741,7 @@
             562.8223266601562,
             748.2144165039062
           ],
-          "block_id": "p5_b30",
+          "block_id": "p5_b28",
           "font_name": "Tahoma-Bold",
           "font_size": 11.039999961853027,
           "flags": 16,
@@ -2807,7 +2763,7 @@
             258.8655090332031,
             764.021240234375
           ],
-          "block_id": "p5_b31",
+          "block_id": "p5_b29",
           "font_name": "Tahoma",
           "font_size": 11.039999961853027,
           "flags": 0,
@@ -2820,9 +2776,9 @@
           "source": "pymupdf"
         }
       ],
-      "block_count": 32,
+      "block_count": 30,
       "char_count": 3006,
-      "word_count": 471,
+      "word_count": 470,
       "page_width": 595.3200073242188,
       "page_height": 841.9199829101562,
       "images": [
@@ -14131,12 +14087,12 @@
         {
           "page_number": 26,
           "block_type": "paragraph",
-          "text": "1. Modification of PED waiting period from 36 months (as specified under Section C.1.a – Pre-",
+          "text": "1. Modification of PED waiting period from 36 months (as specified under Section C.1.a – Pre-Existing Diseases) to 24 months (2 years) ",
           "bbox": [
             86.42400360107422,
             324.28997802734375,
             559.467529296875,
-            337.64837646484375
+            353.45526123046875
           ],
           "block_id": "p26_b9",
           "font_name": "Tahoma-Bold",
@@ -14145,75 +14101,31 @@
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 93,
-          "word_count": 16,
-          "line_count": 1,
+          "char_count": 135,
+          "word_count": 22,
+          "line_count": 2,
           "source": "pymupdf"
         },
         {
           "page_number": 26,
           "block_type": "paragraph",
-          "text": "Existing Diseases) to 24 months (2 years) ",
-          "bbox": [
-            108.0199966430664,
-            340.1299743652344,
-            314.6855163574219,
-            353.45526123046875
-          ],
-          "block_id": "p26_b10",
-          "font_name": "Tahoma",
-          "font_size": 11.039999961853027,
-          "flags": 0,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 42,
-          "word_count": 7,
-          "line_count": 1,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 26,
-          "block_type": "paragraph",
-          "text": "2. Modification of PED waiting period from 36 months (as specified under Section C.1.a – Pre-",
+          "text": "2. Modification of PED waiting period from 36 months (as specified under Section C.1.a – Pre-Existing Diseases) to 12 months (1 year) ",
           "bbox": [
             86.42400360107422,
             361.1299743652344,
             559.467529296875,
-            374.4883728027344
+            390.4152526855469
           ],
-          "block_id": "p26_b11",
+          "block_id": "p26_b10",
           "font_name": "Tahoma-Bold",
           "font_size": 11.039999961853027,
           "flags": 16,
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 93,
-          "word_count": 16,
-          "line_count": 1,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 26,
-          "block_type": "paragraph",
-          "text": "Existing Diseases) to 12 months (1 year) ",
-          "bbox": [
-            108.0199966430664,
-            377.0899658203125,
-            309.7455139160156,
-            390.4152526855469
-          ],
-          "block_id": "p26_b12",
-          "font_name": "Tahoma",
-          "font_size": 11.039999961853027,
-          "flags": 0,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 41,
-          "word_count": 7,
-          "line_count": 1,
+          "char_count": 134,
+          "word_count": 22,
+          "line_count": 2,
           "source": "pymupdf"
         },
         {
@@ -14226,7 +14138,7 @@
             237.0447235107422,
             411.328369140625
           ],
-          "block_id": "p26_b13",
+          "block_id": "p26_b11",
           "font_name": "Tahoma-Bold",
           "font_size": 11.039999961853027,
           "flags": 16,
@@ -14248,7 +14160,7 @@
             562.87548828125,
             496.0352478027344
           ],
-          "block_id": "p26_b14",
+          "block_id": "p26_b12",
           "font_name": "Tahoma",
           "font_size": 11.039999961853027,
           "flags": 0,
@@ -14270,7 +14182,7 @@
             377.8055114746094,
             516.915283203125
           ],
-          "block_id": "p26_b15",
+          "block_id": "p26_b13",
           "font_name": "Tahoma",
           "font_size": 11.039999961853027,
           "flags": 0,
@@ -14285,45 +14197,23 @@
         {
           "page_number": 26,
           "block_type": "paragraph",
-          "text": "1. Modification of Room category coverage from At Actuals (as specified under Section B.1.1. – ",
+          "text": "1. Modification of Room category coverage from At Actuals (as specified under Section B.1.1. – Hospitalization Expenses) to upto 1% of base sum insured per day AND Modification of ICU / ICCU expenses coverage from At Actuals (as specified under Section B.1.1. – Hospitalization Expenses) to upto 2% of base sum insured per day ",
           "bbox": [
             86.42400360107422,
             524.4700317382812,
-            562.87548828125,
-            537.8284301757812
+            562.8826293945312,
+            585.67529296875
           ],
-          "block_id": "p26_b16",
+          "block_id": "p26_b14",
           "font_name": "Tahoma-Bold",
           "font_size": 11.039999961853027,
           "flags": 16,
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 95,
-          "word_count": 15,
-          "line_count": 1,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 26,
-          "block_type": "paragraph",
-          "text": "Hospitalization Expenses) to upto 1% of base sum insured per day AND Modification of ICU / ICCU expenses coverage from At Actuals (as specified under Section B.1.1. – Hospitalization Expenses) to upto 2% of base sum insured per day ",
-          "bbox": [
-            108.0199966430664,
-            540.4299926757812,
-            562.8826293945312,
-            585.67529296875
-          ],
-          "block_id": "p26_b17",
-          "font_name": "Tahoma",
-          "font_size": 11.039999961853027,
-          "flags": 0,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 232,
-          "word_count": 39,
-          "line_count": 3,
+          "char_count": 327,
+          "word_count": 54,
+          "line_count": 4,
           "source": "pymupdf"
         },
         {
@@ -14336,7 +14226,7 @@
             562.8682861328125,
             654.4652709960938
           ],
-          "block_id": "p26_b18",
+          "block_id": "p26_b15",
           "font_name": "Tahoma-Bold",
           "font_size": 11.039999961853027,
           "flags": 16,
@@ -14358,7 +14248,7 @@
             540.0755004882812,
             675.37841796875
           ],
-          "block_id": "p26_b19",
+          "block_id": "p26_b16",
           "font_name": "Tahoma-Bold",
           "font_size": 11.039999961853027,
           "flags": 16,
@@ -14373,45 +14263,23 @@
         {
           "page_number": 26,
           "block_type": "paragraph",
-          "text": "2. Modification of Room category coverage from At Actuals (as specified under Section B.1.1. – ",
+          "text": "2. Modification of Room category coverage from At Actuals (as specified under Section B.1.1. – Hospitalization Expenses) to upto Single Private room ",
           "bbox": [
             86.42400360107422,
             682.9000244140625,
             562.87548828125,
-            696.2584228515625
+            712.1852416992188
           ],
-          "block_id": "p26_b20",
+          "block_id": "p26_b17",
           "font_name": "Tahoma-Bold",
           "font_size": 11.039999961853027,
           "flags": 16,
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 95,
-          "word_count": 15,
-          "line_count": 1,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 26,
-          "block_type": "paragraph",
-          "text": "Hospitalization Expenses) to upto Single Private room ",
-          "bbox": [
-            108.0199966430664,
-            698.8599853515625,
-            371.08551025390625,
-            712.1852416992188
-          ],
-          "block_id": "p26_b21",
-          "font_name": "Tahoma",
-          "font_size": 11.039999961853027,
-          "flags": 0,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 54,
-          "word_count": 7,
-          "line_count": 1,
+          "char_count": 149,
+          "word_count": 22,
+          "line_count": 2,
           "source": "pymupdf"
         },
         {
@@ -14424,7 +14292,7 @@
             562.8262939453125,
             764.9812622070312
           ],
-          "block_id": "p26_b22",
+          "block_id": "p26_b18",
           "font_name": "Tahoma-Bold",
           "font_size": 11.039999961853027,
           "flags": 16,
@@ -14437,9 +14305,9 @@
           "source": "pymupdf"
         }
       ],
-      "block_count": 23,
+      "block_count": 19,
       "char_count": 3136,
-      "word_count": 509,
+      "word_count": 507,
       "page_width": 595.3200073242188,
       "page_height": 841.9199829101562,
       "images": [
@@ -14636,12 +14504,12 @@
         {
           "page_number": 27,
           "block_type": "paragraph",
-          "text": "3. Modification of Room category coverage from Single Private room (default in Optima Select ",
+          "text": "3. Modification of Room category coverage from Single Private room (default in Optima Select plan) to At Actuals ",
           "bbox": [
             86.42400360107422,
             250.4600067138672,
             562.7716064453125,
-            263.8183898925781
+            279.7752685546875
           ],
           "block_id": "p27_b8",
           "font_name": "Tahoma-Bold",
@@ -14650,31 +14518,9 @@
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 93,
-          "word_count": 14,
-          "line_count": 1,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 27,
-          "block_type": "paragraph",
-          "text": "plan) to At Actuals ",
-          "bbox": [
-            108.0199966430664,
-            266.4499816894531,
-            201.14552307128906,
-            279.7752685546875
-          ],
-          "block_id": "p27_b9",
-          "font_name": "Tahoma",
-          "font_size": 11.039999961853027,
-          "flags": 0,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 20,
-          "word_count": 4,
-          "line_count": 1,
+          "char_count": 113,
+          "word_count": 18,
+          "line_count": 2,
           "source": "pymupdf"
         },
         {
@@ -14687,7 +14533,7 @@
             562.8792724609375,
             348.5352478027344
           ],
-          "block_id": "p27_b10",
+          "block_id": "p27_b9",
           "font_name": "Tahoma-Bold",
           "font_size": 11.039999961853027,
           "flags": 16,
@@ -14709,7 +14555,7 @@
             540.0755004882812,
             369.4483642578125
           ],
-          "block_id": "p27_b11",
+          "block_id": "p27_b10",
           "font_name": "Tahoma-Bold",
           "font_size": 11.039999961853027,
           "flags": 16,
@@ -14724,45 +14570,23 @@
         {
           "page_number": 27,
           "block_type": "paragraph",
-          "text": "4. Modification of Room category coverage from Single Private room (default in Optima Select ",
+          "text": "4. Modification of Room category coverage from Single Private room (default in Optima Select plan) to Shared room ",
           "bbox": [
             86.42400360107422,
             377.0899658203125,
             562.731689453125,
-            390.4483642578125
+            406.2552490234375
           ],
-          "block_id": "p27_b12",
+          "block_id": "p27_b11",
           "font_name": "Tahoma-Bold",
           "font_size": 11.039999961853027,
           "flags": 16,
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 93,
-          "word_count": 14,
-          "line_count": 1,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 27,
-          "block_type": "paragraph",
-          "text": "plan) to Shared room ",
-          "bbox": [
-            108.0199966430664,
-            392.9299621582031,
-            215.18551635742188,
-            406.2552490234375
-          ],
-          "block_id": "p27_b13",
-          "font_name": "Tahoma",
-          "font_size": 11.039999961853027,
-          "flags": 0,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 21,
-          "word_count": 4,
-          "line_count": 1,
+          "char_count": 114,
+          "word_count": 18,
+          "line_count": 2,
           "source": "pymupdf"
         },
         {
@@ -14775,7 +14599,7 @@
             562.858642578125,
             475.0352478027344
           ],
-          "block_id": "p27_b14",
+          "block_id": "p27_b12",
           "font_name": "Tahoma-Bold",
           "font_size": 11.039999961853027,
           "flags": 16,
@@ -14797,7 +14621,7 @@
             540.0755004882812,
             496.0352478027344
           ],
-          "block_id": "p27_b15",
+          "block_id": "p27_b13",
           "font_name": "Tahoma",
           "font_size": 11.039999961853027,
           "flags": 0,
@@ -14819,7 +14643,7 @@
             374.7047119140625,
             516.9484252929688
           ],
-          "block_id": "p27_b16",
+          "block_id": "p27_b14",
           "font_name": "Tahoma-Bold",
           "font_size": 11.039999961853027,
           "flags": 16,
@@ -14841,7 +14665,7 @@
             562.8179931640625,
             585.67529296875
           ],
-          "block_id": "p27_b17",
+          "block_id": "p27_b15",
           "font_name": "Tahoma",
           "font_size": 11.039999961853027,
           "flags": 0,
@@ -14863,7 +14687,7 @@
             364.7447204589844,
             606.5552978515625
           ],
-          "block_id": "p27_b18",
+          "block_id": "p27_b16",
           "font_name": "Tahoma",
           "font_size": 11.039999961853027,
           "flags": 0,
@@ -14878,45 +14702,23 @@
         {
           "page_number": 27,
           "block_type": "paragraph",
-          "text": "1. Modification of Pre-Hospitalization expenses days from 60 days (as specified under Section ",
+          "text": "1. Modification of Pre-Hospitalization expenses days from 60 days (as specified under Section B.1.5. – Pre-Hospitalization Expenses) to 30 days ",
           "bbox": [
             86.42400360107422,
             614.260009765625,
             562.890380859375,
-            627.618408203125
+            643.42529296875
           ],
-          "block_id": "p27_b19",
+          "block_id": "p27_b17",
           "font_name": "Tahoma-Bold",
           "font_size": 11.039999961853027,
           "flags": 16,
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 94,
-          "word_count": 13,
-          "line_count": 1,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 27,
-          "block_type": "paragraph",
-          "text": "B.1.5. – Pre-Hospitalization Expenses) to 30 days ",
-          "bbox": [
-            108.0199966430664,
-            630.1000366210938,
-            350.08551025390625,
-            643.42529296875
-          ],
-          "block_id": "p27_b20",
-          "font_name": "Tahoma",
-          "font_size": 11.039999961853027,
-          "flags": 0,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 50,
-          "word_count": 7,
-          "line_count": 1,
+          "char_count": 144,
+          "word_count": 20,
+          "line_count": 2,
           "source": "pymupdf"
         },
         {
@@ -14929,7 +14731,7 @@
             562.8712158203125,
             712.1852416992188
           ],
-          "block_id": "p27_b21",
+          "block_id": "p27_b18",
           "font_name": "Tahoma-Bold",
           "font_size": 11.039999961853027,
           "flags": 16,
@@ -14951,7 +14753,7 @@
             562.7410278320312,
             733.2183837890625
           ],
-          "block_id": "p27_b22",
+          "block_id": "p27_b19",
           "font_name": "Tahoma-Bold",
           "font_size": 11.039999961853027,
           "flags": 16,
@@ -14973,7 +14775,7 @@
             216.38551330566406,
             749.021240234375
           ],
-          "block_id": "p27_b23",
+          "block_id": "p27_b20",
           "font_name": "Tahoma",
           "font_size": 11.039999961853027,
           "flags": 0,
@@ -14995,7 +14797,7 @@
             380.4647216796875,
             770.0543823242188
           ],
-          "block_id": "p27_b24",
+          "block_id": "p27_b21",
           "font_name": "Tahoma-Bold",
           "font_size": 11.039999961853027,
           "flags": 16,
@@ -15008,7 +14810,7 @@
           "source": "pymupdf"
         }
       ],
-      "block_count": 25,
+      "block_count": 22,
       "char_count": 3096,
       "word_count": 473,
       "page_width": 595.3200073242188,
@@ -15141,12 +14943,12 @@
         {
           "page_number": 28,
           "block_type": "paragraph",
-          "text": "1. Modification of Post-Hospitalization expenses days from 180 days (as specified under Section ",
+          "text": "1. Modification of Post-Hospitalization expenses days from 180 days (as specified under Section B.1.6. – Post-Hospitalization Expenses) to 60 days ",
           "bbox": [
             86.42400360107422,
             197.66001892089844,
             562.8778686523438,
-            211.01841735839844
+            226.94525146484375
           ],
           "block_id": "p28_b5",
           "font_name": "Tahoma-Bold",
@@ -15155,31 +14957,9 @@
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 96,
-          "word_count": 13,
-          "line_count": 1,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 28,
-          "block_type": "paragraph",
-          "text": "B.1.6. – Post-Hospitalization Expenses) to 60 days ",
-          "bbox": [
-            108.0199966430664,
-            213.61997985839844,
-            354.885498046875,
-            226.94525146484375
-          ],
-          "block_id": "p28_b6",
-          "font_name": "Tahoma",
-          "font_size": 11.039999961853027,
-          "flags": 0,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 51,
-          "word_count": 7,
-          "line_count": 1,
+          "char_count": 147,
+          "word_count": 20,
+          "line_count": 2,
           "source": "pymupdf"
         },
         {
@@ -15192,7 +14972,7 @@
             562.8524780273438,
             295.73529052734375
           ],
-          "block_id": "p28_b7",
+          "block_id": "p28_b6",
           "font_name": "Tahoma-Bold",
           "font_size": 11.039999961853027,
           "flags": 16,
@@ -15214,7 +14994,7 @@
             562.7410278320312,
             316.6483459472656
           ],
-          "block_id": "p28_b8",
+          "block_id": "p28_b7",
           "font_name": "Tahoma-Bold",
           "font_size": 11.039999961853027,
           "flags": 16,
@@ -15236,7 +15016,7 @@
             216.38551330566406,
             332.57525634765625
           ],
-          "block_id": "p28_b9",
+          "block_id": "p28_b8",
           "font_name": "Tahoma",
           "font_size": 11.039999961853027,
           "flags": 0,
@@ -15258,7 +15038,7 @@
             275.564697265625,
             353.4883728027344
           ],
-          "block_id": "p28_b10",
+          "block_id": "p28_b9",
           "font_name": "Tahoma-Bold",
           "font_size": 11.039999961853027,
           "flags": 16,
@@ -15280,7 +15060,7 @@
             562.8749389648438,
             422.21527099609375
           ],
-          "block_id": "p28_b11",
+          "block_id": "p28_b10",
           "font_name": "Tahoma",
           "font_size": 11.039999961853027,
           "flags": 0,
@@ -15302,7 +15082,7 @@
             364.7447204589844,
             443.2352600097656
           ],
-          "block_id": "p28_b12",
+          "block_id": "p28_b11",
           "font_name": "Tahoma",
           "font_size": 11.039999961853027,
           "flags": 0,
@@ -15317,45 +15097,23 @@
         {
           "page_number": 28,
           "block_type": "paragraph",
-          "text": "1. Modification of Cumulative bonus from 10% of Base Sum Insured upto 100% (as specified ",
+          "text": "1. Modification of Cumulative bonus from 10% of Base Sum Insured upto 100% (as specified under Section B.1.8. – Cumulative Bonus) to 25% of Base Sum Insured upto 100% ",
           "bbox": [
             86.42400360107422,
             450.78997802734375,
             562.6246948242188,
-            464.14837646484375
+            480.07525634765625
           ],
-          "block_id": "p28_b13",
+          "block_id": "p28_b12",
           "font_name": "Tahoma-Bold",
           "font_size": 11.039999961853027,
           "flags": 16,
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 89,
-          "word_count": 15,
-          "line_count": 1,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 28,
-          "block_type": "paragraph",
-          "text": "under Section B.1.8. – Cumulative Bonus) to 25% of Base Sum Insured upto 100% ",
-          "bbox": [
-            108.0199966430664,
-            466.7499694824219,
-            515.9555053710938,
-            480.07525634765625
-          ],
-          "block_id": "p28_b14",
-          "font_name": "Tahoma",
-          "font_size": 11.039999961853027,
-          "flags": 0,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 78,
-          "word_count": 14,
-          "line_count": 1,
+          "char_count": 167,
+          "word_count": 29,
+          "line_count": 2,
           "source": "pymupdf"
         },
         {
@@ -15368,7 +15126,7 @@
             562.8463134765625,
             533.8352661132812
           ],
-          "block_id": "p28_b15",
+          "block_id": "p28_b13",
           "font_name": "Tahoma-Bold",
           "font_size": 11.881757736206055,
           "flags": 16,
@@ -15390,7 +15148,7 @@
             562.8650512695312,
             570.67529296875
           ],
-          "block_id": "p28_b16",
+          "block_id": "p28_b14",
           "font_name": "Tahoma",
           "font_size": 11.039999961853027,
           "flags": 0,
@@ -15412,7 +15170,7 @@
             177.25473022460938,
             612.5884399414062
           ],
-          "block_id": "p28_b17",
+          "block_id": "p28_b15",
           "font_name": "Tahoma-Bold",
           "font_size": 11.039999961853027,
           "flags": 16,
@@ -15434,7 +15192,7 @@
             539.854736328125,
             633.5852661132812
           ],
-          "block_id": "p28_b18",
+          "block_id": "p28_b16",
           "font_name": "Tahoma-Bold",
           "font_size": 11.039999961853027,
           "flags": 16,
@@ -15456,7 +15214,7 @@
             562.7160034179688,
             685.0652465820312
           ],
-          "block_id": "p28_b19",
+          "block_id": "p28_b17",
           "font_name": "Tahoma",
           "font_size": 11.039999961853027,
           "flags": 0,
@@ -15478,7 +15236,7 @@
             562.8004760742188,
             705.37841796875
           ],
-          "block_id": "p28_b20",
+          "block_id": "p28_b18",
           "font_name": "Tahoma-Bold",
           "font_size": 11.039999961853027,
           "flags": 16,
@@ -15500,7 +15258,7 @@
             415.0054931640625,
             720.5852661132812
           ],
-          "block_id": "p28_b21",
+          "block_id": "p28_b19",
           "font_name": "Tahoma",
           "font_size": 11.039999961853027,
           "flags": 0,
@@ -15522,7 +15280,7 @@
             562.6791381835938,
             740.8983764648438
           ],
-          "block_id": "p28_b22",
+          "block_id": "p28_b20",
           "font_name": "Tahoma-Bold",
           "font_size": 11.039999961853027,
           "flags": 16,
@@ -15544,7 +15302,7 @@
             307.58551025390625,
             756.1012573242188
           ],
-          "block_id": "p28_b23",
+          "block_id": "p28_b21",
           "font_name": "Tahoma",
           "font_size": 11.039999961853027,
           "flags": 0,
@@ -15557,7 +15315,7 @@
           "source": "pymupdf"
         }
       ],
-      "block_count": 24,
+      "block_count": 22,
       "char_count": 2892,
       "word_count": 441,
       "page_width": 595.3200073242188,
@@ -16569,12 +16327,12 @@
         {
           "page_number": 30,
           "block_type": "paragraph",
-          "text": "5 & 7.5 ",
+          "text": "5 & 7.5 Lacs ",
           "bbox": [
             219.2899932861328,
             350.6899719238281,
             262.0810546875,
-            364.0152587890625
+            379.9752502441406
           ],
           "block_id": "p30_b15",
           "font_name": "Tahoma-Bold",
@@ -16583,19 +16341,19 @@
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 8,
-          "word_count": 3,
-          "line_count": 1,
+          "char_count": 13,
+          "word_count": 4,
+          "line_count": 2,
           "source": "pymupdf"
         },
         {
           "page_number": 30,
           "block_type": "paragraph",
-          "text": "Lacs ",
+          "text": "10 Lacs 15 Lacs 20, 25, 50 & 75 Lakhs 100 & 200 Lacs ",
           "bbox": [
-            226.85000610351562,
-            366.64996337890625,
-            254.44473266601562,
+            289.6099853515625,
+            350.6899719238281,
+            555.5205688476562,
             379.9752502441406
           ],
           "block_id": "p30_b16",
@@ -16605,97 +16363,9 @@
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 5,
-          "word_count": 1,
-          "line_count": 1,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 30,
-          "block_type": "paragraph",
-          "text": "10 Lacs 15 Lacs 20, 25, 50 & ",
-          "bbox": [
-            289.6099853515625,
-            350.6899719238281,
-            481.5492248535156,
-            364.0152587890625
-          ],
-          "block_id": "p30_b17",
-          "font_name": "Tahoma-Bold",
-          "font_size": 11.039999961853027,
-          "flags": 16,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 29,
-          "word_count": 8,
-          "line_count": 3,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 30,
-          "block_type": "paragraph",
-          "text": "75 Lakhs ",
-          "bbox": [
-            419.95001220703125,
-            366.64996337890625,
-            472.65472412109375,
-            379.9752502441406
-          ],
-          "block_id": "p30_b18",
-          "font_name": "Tahoma-Bold",
-          "font_size": 11.039999961853027,
-          "flags": 16,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 9,
-          "word_count": 2,
-          "line_count": 1,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 30,
-          "block_type": "paragraph",
-          "text": "100 & 200 ",
-          "bbox": [
-            495.2200012207031,
-            350.6899719238281,
-            555.5205688476562,
-            364.0152587890625
-          ],
-          "block_id": "p30_b19",
-          "font_name": "Tahoma-Bold",
-          "font_size": 11.039999961853027,
-          "flags": 16,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 10,
-          "word_count": 3,
-          "line_count": 1,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 30,
-          "block_type": "paragraph",
-          "text": "Lacs ",
-          "bbox": [
-            511.6600036621094,
-            366.64996337890625,
-            539.2547607421875,
-            379.9752502441406
-          ],
-          "block_id": "p30_b20",
-          "font_name": "Tahoma-Bold",
-          "font_size": 11.039999961853027,
-          "flags": 16,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 5,
-          "word_count": 1,
-          "line_count": 1,
+          "char_count": 53,
+          "word_count": 14,
+          "line_count": 6,
           "source": "pymupdf"
         },
         {
@@ -16708,7 +16378,7 @@
             550.155517578125,
             404.81524658203125
           ],
-          "block_id": "p30_b21",
+          "block_id": "p30_b17",
           "font_name": "Tahoma",
           "font_size": 11.039999961853027,
           "flags": 0,
@@ -16730,7 +16400,7 @@
             562.8663940429688,
             468.6752624511719
           ],
-          "block_id": "p30_b22",
+          "block_id": "p30_b18",
           "font_name": "Tahoma",
           "font_size": 11.039999961853027,
           "flags": 0,
@@ -16752,7 +16422,7 @@
             199.0373077392578,
             490.1552734375
           ],
-          "block_id": "p30_b23",
+          "block_id": "p30_b19",
           "font_name": "Tahoma-Bold",
           "font_size": 11.039999961853027,
           "flags": 16,
@@ -16774,7 +16444,7 @@
             193.60472106933594,
             505.9952697753906
           ],
-          "block_id": "p30_b24",
+          "block_id": "p30_b20",
           "font_name": "Tahoma-Bold",
           "font_size": 11.039999961853027,
           "flags": 16,
@@ -16789,133 +16459,45 @@
         {
           "page_number": 30,
           "block_type": "paragraph",
-          "text": "5 & 7.5 ",
+          "text": "5 & 7.5 Lacs ",
           "bbox": [
             220.49000549316406,
             476.8299865722656,
             263.28106689453125,
-            490.1552734375
-          ],
-          "block_id": "p30_b25",
-          "font_name": "Tahoma-Bold",
-          "font_size": 11.039999961853027,
-          "flags": 16,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 8,
-          "word_count": 3,
-          "line_count": 1,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 30,
-          "block_type": "paragraph",
-          "text": "Lacs ",
-          "bbox": [
-            228.0500030517578,
-            492.66998291015625,
-            255.6447296142578,
             505.9952697753906
           ],
-          "block_id": "p30_b26",
+          "block_id": "p30_b21",
           "font_name": "Tahoma-Bold",
           "font_size": 11.039999961853027,
           "flags": 16,
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 5,
-          "word_count": 1,
-          "line_count": 1,
+          "char_count": 13,
+          "word_count": 4,
+          "line_count": 2,
           "source": "pymupdf"
         },
         {
           "page_number": 30,
           "block_type": "paragraph",
-          "text": "10 Lacs 15 Lacs 20, 25, 50 & ",
+          "text": "10 Lacs 15 Lacs 20, 25, 50 & 75 Lakhs 100 & 200 Lacs ",
           "bbox": [
             291.2900085449219,
             476.8299865722656,
-            484.4292297363281,
-            490.1552734375
-          ],
-          "block_id": "p30_b27",
-          "font_name": "Tahoma-Bold",
-          "font_size": 11.039999961853027,
-          "flags": 16,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 29,
-          "word_count": 8,
-          "line_count": 3,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 30,
-          "block_type": "paragraph",
-          "text": "75 Lakhs ",
-          "bbox": [
-            422.8299865722656,
-            492.66998291015625,
-            475.5346984863281,
-            505.9952697753906
-          ],
-          "block_id": "p30_b28",
-          "font_name": "Tahoma-Bold",
-          "font_size": 11.039999961853027,
-          "flags": 16,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 9,
-          "word_count": 2,
-          "line_count": 1,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 30,
-          "block_type": "paragraph",
-          "text": "100 & 200 ",
-          "bbox": [
-            499.7799987792969,
-            476.8299865722656,
             560.08056640625,
-            490.1552734375
-          ],
-          "block_id": "p30_b29",
-          "font_name": "Tahoma-Bold",
-          "font_size": 11.039999961853027,
-          "flags": 16,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 10,
-          "word_count": 3,
-          "line_count": 1,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 30,
-          "block_type": "paragraph",
-          "text": "Lacs ",
-          "bbox": [
-            516.219970703125,
-            492.66998291015625,
-            543.8147583007812,
             505.9952697753906
           ],
-          "block_id": "p30_b30",
+          "block_id": "p30_b22",
           "font_name": "Tahoma-Bold",
           "font_size": 11.039999961853027,
           "flags": 16,
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 5,
-          "word_count": 1,
-          "line_count": 1,
+          "char_count": 53,
+          "word_count": 14,
+          "line_count": 6,
           "source": "pymupdf"
         },
         {
@@ -16928,7 +16510,7 @@
             557.7155151367188,
             532.2752685546875
           ],
-          "block_id": "p30_b31",
+          "block_id": "p30_b23",
           "font_name": "Tahoma",
           "font_size": 11.039999961853027,
           "flags": 0,
@@ -16950,7 +16532,7 @@
             436.26470947265625,
             580.9952392578125
           ],
-          "block_id": "p30_b32",
+          "block_id": "p30_b24",
           "font_name": "Tahoma-Bold",
           "font_size": 11.039999961853027,
           "flags": 16,
@@ -16972,7 +16554,7 @@
             562.8040771484375,
             617.9552612304688
           ],
-          "block_id": "p30_b33",
+          "block_id": "p30_b25",
           "font_name": "Tahoma",
           "font_size": 11.039999961853027,
           "flags": 0,
@@ -16994,7 +16576,7 @@
             177.1347198486328,
             638.8983764648438
           ],
-          "block_id": "p30_b34",
+          "block_id": "p30_b26",
           "font_name": "Tahoma-Bold",
           "font_size": 11.039999961853027,
           "flags": 16,
@@ -17016,7 +16598,7 @@
             562.8561401367188,
             675.7052612304688
           ],
-          "block_id": "p30_b35",
+          "block_id": "p30_b27",
           "font_name": "Tahoma",
           "font_size": 11.039999961853027,
           "flags": 0,
@@ -17038,7 +16620,7 @@
             293.564697265625,
             696.7384033203125
           ],
-          "block_id": "p30_b36",
+          "block_id": "p30_b28",
           "font_name": "Tahoma-Bold",
           "font_size": 11.039999961853027,
           "flags": 16,
@@ -17060,7 +16642,7 @@
             562.8448486328125,
             749.5012817382812
           ],
-          "block_id": "p30_b37",
+          "block_id": "p30_b29",
           "font_name": "Tahoma-Bold",
           "font_size": 11.039999961853027,
           "flags": 16,
@@ -17082,7 +16664,7 @@
             562.8277587890625,
             770.4144287109375
           ],
-          "block_id": "p30_b38",
+          "block_id": "p30_b30",
           "font_name": "Tahoma-Bold",
           "font_size": 11.039999961853027,
           "flags": 16,
@@ -17095,7 +16677,7 @@
           "source": "pymupdf"
         }
       ],
-      "block_count": 39,
+      "block_count": 31,
       "char_count": 2428,
       "word_count": 411,
       "page_width": 595.3200073242188,
@@ -34116,12 +33698,12 @@
         {
           "page_number": 61,
           "block_type": "paragraph",
-          "text": "5/10/15/20/25/50 ",
+          "text": "5/10/15/20/25/50 Lakhs ",
           "bbox": [
             174.6199951171875,
             236.8100128173828,
             256.7500915527344,
-            248.8317413330078
+            262.751708984375
           ],
           "block_id": "p61_b22",
           "font_name": "Tahoma",
@@ -34130,19 +33712,19 @@
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 17,
-          "word_count": 1,
-          "line_count": 1,
+          "char_count": 23,
+          "word_count": 2,
+          "line_count": 2,
           "source": "pymupdf"
         },
         {
           "page_number": 61,
           "block_type": "paragraph",
-          "text": "Lakhs ",
+          "text": "5/10/15/20/25/50/ 100/200 Lakhs 10/15/20/25/50/100/200 Lakhs ",
           "bbox": [
-            201.6199951171875,
-            250.72999572753906,
-            229.93748474121094,
+            261.7699890136719,
+            236.8100128173828,
+            465.89593505859375,
             262.751708984375
           ],
           "block_id": "p61_b23",
@@ -34152,97 +33734,9 @@
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 6,
-          "word_count": 1,
-          "line_count": 1,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 61,
-          "block_type": "paragraph",
-          "text": "5/10/15/20/25/50/ ",
-          "bbox": [
-            261.7699890136719,
-            236.8100128173828,
-            347.73504638671875,
-            248.8317413330078
-          ],
-          "block_id": "p61_b24",
-          "font_name": "Tahoma",
-          "font_size": 9.960000038146973,
-          "flags": 0,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 18,
-          "word_count": 1,
-          "line_count": 1,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 61,
-          "block_type": "paragraph",
-          "text": "100/200 Lakhs ",
-          "bbox": [
-            270.7699890136719,
-            250.72999572753906,
-            338.8074951171875,
-            262.751708984375
-          ],
-          "block_id": "p61_b25",
-          "font_name": "Tahoma",
-          "font_size": 9.960000038146973,
-          "flags": 0,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 14,
-          "word_count": 2,
-          "line_count": 1,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 61,
-          "block_type": "paragraph",
-          "text": "10/15/20/25/50/100/200 ",
-          "bbox": [
-            352.7300109863281,
-            236.8100128173828,
-            465.89593505859375,
-            248.8317413330078
-          ],
-          "block_id": "p61_b26",
-          "font_name": "Tahoma",
-          "font_size": 9.960000038146973,
-          "flags": 0,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 23,
-          "word_count": 1,
-          "line_count": 1,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 61,
-          "block_type": "paragraph",
-          "text": "Lakhs ",
-          "bbox": [
-            395.2099914550781,
-            250.72999572753906,
-            423.5274963378906,
-            262.751708984375
-          ],
-          "block_id": "p61_b27",
-          "font_name": "Tahoma",
-          "font_size": 9.960000038146973,
-          "flags": 0,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 6,
-          "word_count": 1,
-          "line_count": 1,
+          "char_count": 61,
+          "word_count": 5,
+          "line_count": 4,
           "source": "pymupdf"
         },
         {
@@ -34255,7 +33749,7 @@
             518.4674682617188,
             243.91172790527344
           ],
-          "block_id": "p61_b28",
+          "block_id": "p61_b24",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -34277,7 +33771,7 @@
             512.7074584960938,
             267.7917175292969
           ],
-          "block_id": "p61_b29",
+          "block_id": "p61_b25",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -34292,89 +33786,23 @@
         {
           "page_number": 61,
           "block_type": "paragraph",
-          "text": "25/50/75/100/ ",
+          "text": "25/50/75/100/ 200 Lakhs 5/7.5/10/15/ 20/ 25 Lakhs 5/7.5 Lakhs ",
           "bbox": [
             531.1900024414062,
-            236.8100128173828,
-            598.5596313476562,
-            248.8317413330078
-          ],
-          "block_id": "p61_b30",
-          "font_name": "Tahoma",
-          "font_size": 9.960000038146973,
-          "flags": 0,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 14,
-          "word_count": 1,
-          "line_count": 1,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 61,
-          "block_type": "paragraph",
-          "text": "200 Lakhs ",
-          "bbox": [
-            540.9099731445312,
-            250.72999572753906,
-            588.7874755859375,
-            262.751708984375
-          ],
-          "block_id": "p61_b31",
-          "font_name": "Tahoma",
-          "font_size": 9.960000038146973,
-          "flags": 0,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 10,
-          "word_count": 2,
-          "line_count": 1,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 61,
-          "block_type": "paragraph",
-          "text": "5/7.5/10/15/ 20/ 25 Lakhs ",
-          "bbox": [
-            603.0700073242188,
-            236.8100128173828,
-            663.3374633789062,
-            262.751708984375
-          ],
-          "block_id": "p61_b32",
-          "font_name": "Tahoma",
-          "font_size": 9.960000038146973,
-          "flags": 0,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 26,
-          "word_count": 4,
-          "line_count": 2,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 61,
-          "block_type": "paragraph",
-          "text": "5/7.5 Lakhs ",
-          "bbox": [
-            682.2999877929688,
             236.8100128173828,
             710.6174926757812,
             262.751708984375
           ],
-          "block_id": "p61_b33",
+          "block_id": "p61_b26",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 12,
-          "word_count": 2,
-          "line_count": 2,
+          "char_count": 62,
+          "word_count": 9,
+          "line_count": 6,
           "source": "pymupdf"
         },
         {
@@ -34387,7 +33815,7 @@
             817.5574951171875,
             243.91172790527344
           ],
-          "block_id": "p61_b34",
+          "block_id": "p61_b27",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -34409,7 +33837,7 @@
             808.4375,
             267.7917175292969
           ],
-          "block_id": "p61_b35",
+          "block_id": "p61_b28",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -34431,7 +33859,7 @@
             436.16827392578125,
             310.8717041015625
           ],
-          "block_id": "p61_b36",
+          "block_id": "p61_b29",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -34453,7 +33881,7 @@
             525.921142578125,
             296.95172119140625
           ],
-          "block_id": "p61_b37",
+          "block_id": "p61_b30",
           "font_name": "Tahoma-Bold",
           "font_size": 9.960000038146973,
           "flags": 16,
@@ -34475,7 +33903,7 @@
             521.9633178710938,
             310.8717041015625
           ],
-          "block_id": "p61_b38",
+          "block_id": "p61_b31",
           "font_name": "Tahoma-Bold",
           "font_size": 9.960000038146973,
           "flags": 16,
@@ -34497,7 +33925,7 @@
             512.1483154296875,
             324.81170654296875
           ],
-          "block_id": "p61_b39",
+          "block_id": "p61_b32",
           "font_name": "Tahoma-Bold",
           "font_size": 9.960000038146973,
           "flags": 16,
@@ -34519,7 +33947,7 @@
             593.2410278320312,
             296.95172119140625
           ],
-          "block_id": "p61_b40",
+          "block_id": "p61_b33",
           "font_name": "Tahoma-Bold",
           "font_size": 9.960000038146973,
           "flags": 16,
@@ -34541,7 +33969,7 @@
             589.2832641601562,
             310.8717041015625
           ],
-          "block_id": "p61_b41",
+          "block_id": "p61_b34",
           "font_name": "Tahoma-Bold",
           "font_size": 9.960000038146973,
           "flags": 16,
@@ -34563,7 +33991,7 @@
             579.46826171875,
             324.81170654296875
           ],
-          "block_id": "p61_b42",
+          "block_id": "p61_b35",
           "font_name": "Tahoma-Bold",
           "font_size": 9.960000038146973,
           "flags": 16,
@@ -34585,7 +34013,7 @@
             711.1318359375,
             310.8717041015625
           ],
-          "block_id": "p61_b43",
+          "block_id": "p61_b36",
           "font_name": "Tahoma-Bold",
           "font_size": 9.960000038146973,
           "flags": 16,
@@ -34607,7 +34035,7 @@
             801.1582641601562,
             317.8517150878906
           ],
-          "block_id": "p61_b44",
+          "block_id": "p61_b37",
           "font_name": "Tahoma-Bold",
           "font_size": 9.960000038146973,
           "flags": 16,
@@ -34629,7 +34057,7 @@
             153.9352569580078,
             359.01171875
           ],
-          "block_id": "p61_b45",
+          "block_id": "p61_b38",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -34651,7 +34079,7 @@
             794.0175170898438,
             365.9717102050781
           ],
-          "block_id": "p61_b46",
+          "block_id": "p61_b39",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -34673,7 +34101,7 @@
             662.9774780273438,
             427.8917236328125
           ],
-          "block_id": "p61_b47",
+          "block_id": "p61_b40",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -34695,7 +34123,7 @@
             717.5803833007812,
             393.21173095703125
           ],
-          "block_id": "p61_b48",
+          "block_id": "p61_b41",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -34717,7 +34145,7 @@
             714.0784301757812,
             407.1317138671875
           ],
-          "block_id": "p61_b49",
+          "block_id": "p61_b42",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -34739,7 +34167,7 @@
             722.8279418945312,
             434.8517150878906
           ],
-          "block_id": "p61_b50",
+          "block_id": "p61_b43",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -34761,7 +34189,7 @@
             705.9375,
             448.80169677734375
           ],
-          "block_id": "p61_b51",
+          "block_id": "p61_b44",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -34783,7 +34211,7 @@
             797.9774780273438,
             432.93170166015625
           ],
-          "block_id": "p61_b52",
+          "block_id": "p61_b45",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -34805,7 +34233,7 @@
             656.8574829101562,
             503.7577209472656
           ],
-          "block_id": "p61_b53",
+          "block_id": "p61_b46",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -34827,7 +34255,7 @@
             717.5803833007812,
             476.0417175292969
           ],
-          "block_id": "p61_b54",
+          "block_id": "p61_b47",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -34849,7 +34277,7 @@
             714.0784301757812,
             489.96173095703125
           ],
-          "block_id": "p61_b55",
+          "block_id": "p61_b48",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -34871,7 +34299,7 @@
             722.8279418945312,
             517.677734375
           ],
-          "block_id": "p61_b56",
+          "block_id": "p61_b49",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -34893,7 +34321,7 @@
             705.9375,
             531.5977172851562
           ],
-          "block_id": "p61_b57",
+          "block_id": "p61_b50",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -34915,7 +34343,7 @@
             797.9774780273438,
             503.7577209472656
           ],
-          "block_id": "p61_b58",
+          "block_id": "p61_b51",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -34928,7 +34356,7 @@
           "source": "pymupdf"
         }
       ],
-      "block_count": 59,
+      "block_count": 52,
       "char_count": 1306,
       "word_count": 196,
       "page_width": 841.9199829101562,
@@ -35655,12 +35083,12 @@
         {
           "page_number": 62,
           "block_type": "paragraph",
-          "text": "1.1.1. ii. ",
+          "text": "1.1.1. ii. Dental Treatment(Accidental ",
           "bbox": [
             26.639999389648438,
-            233.9300079345703,
-            65.99748229980469,
-            245.9517364501953
+            220.25001525878906,
+            169.3109588623047,
+            246.1016082763672
           ],
           "block_id": "p62_b32",
           "font_name": "Tahoma",
@@ -35669,31 +35097,9 @@
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 11,
-          "word_count": 2,
-          "line_count": 1,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 62,
-          "block_type": "paragraph",
-          "text": "Dental Treatment(Accidental ",
-          "bbox": [
-            71.27999877929688,
-            220.25001525878906,
-            169.3109588623047,
-            246.1016082763672
-          ],
-          "block_id": "p62_b33",
-          "font_name": "Tahoma",
-          "font_size": 9.960000038146973,
-          "flags": 0,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 28,
-          "word_count": 2,
-          "line_count": 2,
+          "char_count": 39,
+          "word_count": 4,
+          "line_count": 3,
           "source": "pymupdf"
         },
         {
@@ -35706,7 +35112,7 @@
             166.81747436523438,
             259.421630859375
           ],
-          "block_id": "p62_b34",
+          "block_id": "p62_b33",
           "font_name": "ArialMT",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -35728,7 +35134,7 @@
             257.50421142578125,
             238.99171447753906
           ],
-          "block_id": "p62_b35",
+          "block_id": "p62_b34",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -35750,7 +35156,7 @@
             233.41748046875,
             252.79173278808594
           ],
-          "block_id": "p62_b36",
+          "block_id": "p62_b35",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -35772,7 +35178,7 @@
             346.5743103027344,
             238.99171447753906
           ],
-          "block_id": "p62_b37",
+          "block_id": "p62_b36",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -35794,7 +35200,7 @@
             322.48748779296875,
             252.79173278808594
           ],
-          "block_id": "p62_b38",
+          "block_id": "p62_b37",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -35816,7 +35222,7 @@
             451.21429443359375,
             238.99171447753906
           ],
-          "block_id": "p62_b39",
+          "block_id": "p62_b38",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -35838,7 +35244,7 @@
             427.12750244140625,
             252.79173278808594
           ],
-          "block_id": "p62_b40",
+          "block_id": "p62_b39",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -35860,7 +35266,7 @@
             520.7218017578125,
             245.9517364501953
           ],
-          "block_id": "p62_b41",
+          "block_id": "p62_b40",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -35882,7 +35288,7 @@
             516.3074951171875,
             259.751708984375
           ],
-          "block_id": "p62_b42",
+          "block_id": "p62_b41",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -35904,7 +35310,7 @@
             595.8409423828125,
             238.99171447753906
           ],
-          "block_id": "p62_b43",
+          "block_id": "p62_b42",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -35926,7 +35332,7 @@
             593.3474731445312,
             252.79173278808594
           ],
-          "block_id": "p62_b44",
+          "block_id": "p62_b43",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -35948,7 +35354,7 @@
             664.2409057617188,
             238.99171447753906
           ],
-          "block_id": "p62_b45",
+          "block_id": "p62_b44",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -35970,7 +35376,7 @@
             661.7774658203125,
             252.79173278808594
           ],
-          "block_id": "p62_b46",
+          "block_id": "p62_b45",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -35992,7 +35398,7 @@
             718.6317749023438,
             245.9517364501953
           ],
-          "block_id": "p62_b47",
+          "block_id": "p62_b46",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -36014,7 +35420,7 @@
             714.2174682617188,
             259.751708984375
           ],
-          "block_id": "p62_b48",
+          "block_id": "p62_b47",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -36036,7 +35442,7 @@
             816.1841430664062,
             238.99171447753906
           ],
-          "block_id": "p62_b49",
+          "block_id": "p62_b48",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -36058,7 +35464,7 @@
             792.0974731445312,
             252.79173278808594
           ],
-          "block_id": "p62_b50",
+          "block_id": "p62_b49",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -36080,7 +35486,7 @@
             257.50421142578125,
             300.9117126464844
           ],
-          "block_id": "p62_b51",
+          "block_id": "p62_b50",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -36102,7 +35508,7 @@
             233.41748046875,
             307.8717041015625
           ],
-          "block_id": "p62_b52",
+          "block_id": "p62_b51",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -36124,7 +35530,7 @@
             346.5743103027344,
             293.95172119140625
           ],
-          "block_id": "p62_b53",
+          "block_id": "p62_b52",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -36146,7 +35552,7 @@
             322.48748779296875,
             307.8717041015625
           ],
-          "block_id": "p62_b54",
+          "block_id": "p62_b53",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -36168,7 +35574,7 @@
             451.21429443359375,
             293.95172119140625
           ],
-          "block_id": "p62_b55",
+          "block_id": "p62_b54",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -36190,7 +35596,7 @@
             427.12750244140625,
             307.8717041015625
           ],
-          "block_id": "p62_b56",
+          "block_id": "p62_b55",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -36212,7 +35618,7 @@
             520.7218017578125,
             300.9117126464844
           ],
-          "block_id": "p62_b57",
+          "block_id": "p62_b56",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -36234,7 +35640,7 @@
             516.3074951171875,
             314.8517150878906
           ],
-          "block_id": "p62_b58",
+          "block_id": "p62_b57",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -36256,7 +35662,7 @@
             595.8409423828125,
             293.95172119140625
           ],
-          "block_id": "p62_b59",
+          "block_id": "p62_b58",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -36278,7 +35684,7 @@
             593.3474731445312,
             307.8717041015625
           ],
-          "block_id": "p62_b60",
+          "block_id": "p62_b59",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -36300,7 +35706,7 @@
             664.2409057617188,
             293.95172119140625
           ],
-          "block_id": "p62_b61",
+          "block_id": "p62_b60",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -36322,7 +35728,7 @@
             661.7774658203125,
             307.8717041015625
           ],
-          "block_id": "p62_b62",
+          "block_id": "p62_b61",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -36344,7 +35750,7 @@
             718.6317749023438,
             300.9117126464844
           ],
-          "block_id": "p62_b63",
+          "block_id": "p62_b62",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -36366,7 +35772,7 @@
             714.2174682617188,
             314.8517150878906
           ],
-          "block_id": "p62_b64",
+          "block_id": "p62_b63",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -36388,7 +35794,7 @@
             816.1841430664062,
             293.95172119140625
           ],
-          "block_id": "p62_b65",
+          "block_id": "p62_b64",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -36410,7 +35816,7 @@
             792.0974731445312,
             307.8717041015625
           ],
-          "block_id": "p62_b66",
+          "block_id": "p62_b65",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -36425,22 +35831,44 @@
         {
           "page_number": 62,
           "block_type": "paragraph",
-          "text": "1.1.1. iv. Day Care Treatment Covered upto sum ",
+          "text": "1.1.1. iv. Day Care Treatment Covered upto sum insured ",
           "bbox": [
             25.31999969482422,
             337.0299987792969,
             257.50421142578125,
-            356.01171875
+            362.9717102050781
           ],
-          "block_id": "p62_b67",
+          "block_id": "p62_b66",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
           "is_bold": false,
           "is_italic": true,
           "is_upper": false,
-          "char_count": 47,
-          "word_count": 8,
+          "char_count": 55,
+          "word_count": 9,
+          "line_count": 2,
+          "source": "pymupdf"
+        },
+        {
+          "page_number": 62,
+          "block_type": "paragraph",
+          "text": "Covered upto sum ",
+          "bbox": [
+            262.9700012207031,
+            337.0299987792969,
+            346.5743103027344,
+            349.05169677734375
+          ],
+          "block_id": "p62_b67",
+          "font_name": "Tahoma",
+          "font_size": 9.960000038146973,
+          "flags": 0,
+          "is_bold": false,
+          "is_italic": false,
+          "is_upper": false,
+          "char_count": 17,
+          "word_count": 3,
           "line_count": 1,
           "source": "pymupdf"
         },
@@ -36449,9 +35877,9 @@
           "block_type": "paragraph",
           "text": "insured ",
           "bbox": [
-            198.02000427246094,
+            287.0899963378906,
             350.95001220703125,
-            233.41748046875,
+            322.48748779296875,
             362.9717102050781
           ],
           "block_id": "p62_b68",
@@ -36471,56 +35899,12 @@
           "block_type": "paragraph",
           "text": "Covered upto sum ",
           "bbox": [
-            262.9700012207031,
-            337.0299987792969,
-            346.5743103027344,
-            349.05169677734375
-          ],
-          "block_id": "p62_b69",
-          "font_name": "Tahoma",
-          "font_size": 9.960000038146973,
-          "flags": 0,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 17,
-          "word_count": 3,
-          "line_count": 1,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 62,
-          "block_type": "paragraph",
-          "text": "insured ",
-          "bbox": [
-            287.0899963378906,
-            350.95001220703125,
-            322.48748779296875,
-            362.9717102050781
-          ],
-          "block_id": "p62_b70",
-          "font_name": "Tahoma",
-          "font_size": 9.960000038146973,
-          "flags": 0,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 8,
-          "word_count": 1,
-          "line_count": 1,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 62,
-          "block_type": "paragraph",
-          "text": "Covered upto sum ",
-          "bbox": [
             367.6099853515625,
             337.0299987792969,
             451.21429443359375,
             349.05169677734375
           ],
-          "block_id": "p62_b71",
+          "block_id": "p62_b69",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -36542,7 +35926,7 @@
             427.12750244140625,
             362.9717102050781
           ],
-          "block_id": "p62_b72",
+          "block_id": "p62_b70",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -36564,7 +35948,7 @@
             520.7218017578125,
             356.01171875
           ],
-          "block_id": "p62_b73",
+          "block_id": "p62_b71",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -36586,7 +35970,7 @@
             516.3074951171875,
             369.93170166015625
           ],
-          "block_id": "p62_b74",
+          "block_id": "p62_b72",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -36608,7 +35992,7 @@
             595.8409423828125,
             349.05169677734375
           ],
-          "block_id": "p62_b75",
+          "block_id": "p62_b73",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -36630,7 +36014,7 @@
             593.3474731445312,
             362.9717102050781
           ],
-          "block_id": "p62_b76",
+          "block_id": "p62_b74",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -36652,7 +36036,7 @@
             664.2409057617188,
             349.05169677734375
           ],
-          "block_id": "p62_b77",
+          "block_id": "p62_b75",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -36674,7 +36058,7 @@
             661.7774658203125,
             362.9717102050781
           ],
-          "block_id": "p62_b78",
+          "block_id": "p62_b76",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -36696,7 +36080,7 @@
             718.6317749023438,
             356.01171875
           ],
-          "block_id": "p62_b79",
+          "block_id": "p62_b77",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -36718,7 +36102,7 @@
             714.2174682617188,
             369.93170166015625
           ],
-          "block_id": "p62_b80",
+          "block_id": "p62_b78",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -36740,7 +36124,7 @@
             816.1841430664062,
             349.05169677734375
           ],
-          "block_id": "p62_b81",
+          "block_id": "p62_b79",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -36762,7 +36146,7 @@
             792.0974731445312,
             362.9717102050781
           ],
-          "block_id": "p62_b82",
+          "block_id": "p62_b80",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -36784,7 +36168,7 @@
             257.50421142578125,
             417.93170166015625
           ],
-          "block_id": "p62_b83",
+          "block_id": "p62_b81",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -36806,7 +36190,7 @@
             233.41748046875,
             424.8917236328125
           ],
-          "block_id": "p62_b84",
+          "block_id": "p62_b82",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -36828,7 +36212,7 @@
             346.5743103027344,
             411.09173583984375
           ],
-          "block_id": "p62_b85",
+          "block_id": "p62_b83",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -36850,7 +36234,7 @@
             322.48748779296875,
             424.8917236328125
           ],
-          "block_id": "p62_b86",
+          "block_id": "p62_b84",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -36872,7 +36256,7 @@
             451.21429443359375,
             411.09173583984375
           ],
-          "block_id": "p62_b87",
+          "block_id": "p62_b85",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -36894,7 +36278,7 @@
             427.12750244140625,
             424.8917236328125
           ],
-          "block_id": "p62_b88",
+          "block_id": "p62_b86",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -36916,7 +36300,7 @@
             520.7218017578125,
             411.09173583984375
           ],
-          "block_id": "p62_b89",
+          "block_id": "p62_b87",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -36938,7 +36322,7 @@
             525.907470703125,
             438.81170654296875
           ],
-          "block_id": "p62_b90",
+          "block_id": "p62_b88",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -36960,7 +36344,7 @@
             595.8409423828125,
             404.1317138671875
           ],
-          "block_id": "p62_b91",
+          "block_id": "p62_b89",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -36982,7 +36366,7 @@
             593.3015747070312,
             417.93170166015625
           ],
-          "block_id": "p62_b92",
+          "block_id": "p62_b90",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -37004,7 +36388,7 @@
             592.1475219726562,
             431.8517150878906
           ],
-          "block_id": "p62_b93",
+          "block_id": "p62_b91",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -37026,7 +36410,7 @@
             664.2409057617188,
             411.09173583984375
           ],
-          "block_id": "p62_b94",
+          "block_id": "p62_b92",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -37048,7 +36432,7 @@
             661.7774658203125,
             424.8917236328125
           ],
-          "block_id": "p62_b95",
+          "block_id": "p62_b93",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -37070,7 +36454,7 @@
             718.6317749023438,
             417.93170166015625
           ],
-          "block_id": "p62_b96",
+          "block_id": "p62_b94",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -37092,7 +36476,7 @@
             714.2174682617188,
             431.8517150878906
           ],
-          "block_id": "p62_b97",
+          "block_id": "p62_b95",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -37114,7 +36498,7 @@
             816.1841430664062,
             411.09173583984375
           ],
-          "block_id": "p62_b98",
+          "block_id": "p62_b96",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -37136,7 +36520,7 @@
             792.0974731445312,
             424.8917236328125
           ],
-          "block_id": "p62_b99",
+          "block_id": "p62_b97",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -37158,7 +36542,7 @@
             154.09747314453125,
             493.9217224121094
           ],
-          "block_id": "p62_b100",
+          "block_id": "p62_b98",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -37180,7 +36564,7 @@
             257.50421142578125,
             480.001708984375
           ],
-          "block_id": "p62_b101",
+          "block_id": "p62_b99",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -37202,7 +36586,7 @@
             233.41748046875,
             493.9217224121094
           ],
-          "block_id": "p62_b102",
+          "block_id": "p62_b100",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -37224,7 +36608,7 @@
             346.5743103027344,
             480.001708984375
           ],
-          "block_id": "p62_b103",
+          "block_id": "p62_b101",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -37246,7 +36630,7 @@
             322.48748779296875,
             493.9217224121094
           ],
-          "block_id": "p62_b104",
+          "block_id": "p62_b102",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -37268,7 +36652,7 @@
             451.21429443359375,
             480.001708984375
           ],
-          "block_id": "p62_b105",
+          "block_id": "p62_b103",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -37290,7 +36674,7 @@
             427.12750244140625,
             493.9217224121094
           ],
-          "block_id": "p62_b106",
+          "block_id": "p62_b104",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -37312,7 +36696,7 @@
             520.7218017578125,
             480.001708984375
           ],
-          "block_id": "p62_b107",
+          "block_id": "p62_b105",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -37334,7 +36718,7 @@
             525.907470703125,
             507.71771240234375
           ],
-          "block_id": "p62_b108",
+          "block_id": "p62_b106",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -37356,7 +36740,7 @@
             595.8409423828125,
             473.0417175292969
           ],
-          "block_id": "p62_b109",
+          "block_id": "p62_b107",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -37378,7 +36762,7 @@
             593.3015747070312,
             486.96173095703125
           ],
-          "block_id": "p62_b110",
+          "block_id": "p62_b108",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -37400,7 +36784,7 @@
             592.1475219726562,
             500.7577209472656
           ],
-          "block_id": "p62_b111",
+          "block_id": "p62_b109",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -37422,7 +36806,7 @@
             664.2979736328125,
             480.001708984375
           ],
-          "block_id": "p62_b112",
+          "block_id": "p62_b110",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -37444,7 +36828,7 @@
             661.7774658203125,
             493.9217224121094
           ],
-          "block_id": "p62_b113",
+          "block_id": "p62_b111",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -37466,7 +36850,7 @@
             718.6317749023438,
             486.96173095703125
           ],
-          "block_id": "p62_b114",
+          "block_id": "p62_b112",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -37488,7 +36872,7 @@
             714.2174682617188,
             500.7577209472656
           ],
-          "block_id": "p62_b115",
+          "block_id": "p62_b113",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -37510,7 +36894,7 @@
             816.1841430664062,
             480.001708984375
           ],
-          "block_id": "p62_b116",
+          "block_id": "p62_b114",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -37532,7 +36916,7 @@
             792.0974731445312,
             493.9217224121094
           ],
-          "block_id": "p62_b117",
+          "block_id": "p62_b115",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -37545,7 +36929,7 @@
           "source": "pymupdf"
         }
       ],
-      "block_count": 118,
+      "block_count": 116,
       "char_count": 1939,
       "word_count": 294,
       "page_width": 841.9199829101562,
@@ -38272,11 +37656,11 @@
         {
           "page_number": 63,
           "block_type": "paragraph",
-          "text": "1.5 Pre-Hospitalization 60 days 60 days 60 days ",
+          "text": "1.5 Pre-Hospitalization 60 days 60 days 60 days 60 days ",
           "bbox": [
             37.79999923706055,
-            231.88999938964844,
-            428.0874938964844,
+            220.00999450683594,
+            517.2675170898438,
             243.91172790527344
           ],
           "block_id": "p63_b32",
@@ -38286,31 +37670,9 @@
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 48,
-          "word_count": 8,
-          "line_count": 5,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 63,
-          "block_type": "paragraph",
-          "text": "60 days ",
-          "bbox": [
-            479.8299865722656,
-            220.00999450683594,
-            517.2675170898438,
-            232.03172302246094
-          ],
-          "block_id": "p63_b33",
-          "font_name": "Tahoma",
-          "font_size": 9.960000038146973,
-          "flags": 0,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 8,
-          "word_count": 2,
-          "line_count": 1,
+          "char_count": 56,
+          "word_count": 10,
+          "line_count": 6,
           "source": "pymupdf"
         },
         {
@@ -38323,7 +37685,7 @@
             525.907470703125,
             255.91172790527344
           ],
-          "block_id": "p63_b34",
+          "block_id": "p63_b33",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -38345,7 +37707,7 @@
             793.177490234375,
             243.91172790527344
           ],
-          "block_id": "p63_b35",
+          "block_id": "p63_b34",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -38360,45 +37722,23 @@
         {
           "page_number": 63,
           "block_type": "paragraph",
-          "text": "1.6 Post-Hospitalization 180 days 180 days 180 days ",
+          "text": "1.6 Post-Hospitalization 180 days 180 days 180 days 180 days ",
           "bbox": [
             37.79999923706055,
-            283.1300048828125,
-            430.8475036621094,
-            295.1517028808594
-          ],
-          "block_id": "p63_b36",
-          "font_name": "Tahoma",
-          "font_size": 9.960000038146973,
-          "flags": 0,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 52,
-          "word_count": 8,
-          "line_count": 5,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 63,
-          "block_type": "paragraph",
-          "text": "180 days ",
-          "bbox": [
-            477.19000244140625,
             271.1300048828125,
             520.0274658203125,
-            283.1517028808594
+            295.1517028808594
           ],
-          "block_id": "p63_b37",
+          "block_id": "p63_b35",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 9,
-          "word_count": 2,
-          "line_count": 1,
+          "char_count": 61,
+          "word_count": 10,
+          "line_count": 6,
           "source": "pymupdf"
         },
         {
@@ -38411,7 +37751,7 @@
             525.907470703125,
             307.0317077636719
           ],
-          "block_id": "p63_b38",
+          "block_id": "p63_b36",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -38433,7 +37773,7 @@
             795.8175048828125,
             295.1517028808594
           ],
-          "block_id": "p63_b39",
+          "block_id": "p63_b37",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -38455,7 +37795,7 @@
             150.45323181152344,
             348.21173095703125
           ],
-          "block_id": "p63_b40",
+          "block_id": "p63_b38",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -38477,7 +37817,7 @@
             142.69747924804688,
             355.17169189453125
           ],
-          "block_id": "p63_b41",
+          "block_id": "p63_b39",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -38499,7 +37839,7 @@
             257.50421142578125,
             341.251708984375
           ],
-          "block_id": "p63_b42",
+          "block_id": "p63_b40",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -38521,7 +37861,7 @@
             233.41748046875,
             355.17169189453125
           ],
-          "block_id": "p63_b43",
+          "block_id": "p63_b41",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -38543,7 +37883,7 @@
             346.5743103027344,
             341.251708984375
           ],
-          "block_id": "p63_b44",
+          "block_id": "p63_b42",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -38565,7 +37905,7 @@
             322.48748779296875,
             355.17169189453125
           ],
-          "block_id": "p63_b45",
+          "block_id": "p63_b43",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -38587,7 +37927,7 @@
             451.21429443359375,
             341.251708984375
           ],
-          "block_id": "p63_b46",
+          "block_id": "p63_b44",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -38609,7 +37949,7 @@
             427.12750244140625,
             355.17169189453125
           ],
-          "block_id": "p63_b47",
+          "block_id": "p63_b45",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -38631,7 +37971,7 @@
             520.7218017578125,
             348.21173095703125
           ],
-          "block_id": "p63_b48",
+          "block_id": "p63_b46",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -38653,7 +37993,7 @@
             516.3074951171875,
             362.1317138671875
           ],
-          "block_id": "p63_b49",
+          "block_id": "p63_b47",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -38675,7 +38015,7 @@
             595.8409423828125,
             341.251708984375
           ],
-          "block_id": "p63_b50",
+          "block_id": "p63_b48",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -38697,7 +38037,7 @@
             593.3474731445312,
             355.17169189453125
           ],
-          "block_id": "p63_b51",
+          "block_id": "p63_b49",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -38719,7 +38059,7 @@
             664.2409057617188,
             341.251708984375
           ],
-          "block_id": "p63_b52",
+          "block_id": "p63_b50",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -38741,7 +38081,7 @@
             661.7774658203125,
             355.17169189453125
           ],
-          "block_id": "p63_b53",
+          "block_id": "p63_b51",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -38763,7 +38103,7 @@
             718.6317749023438,
             348.21173095703125
           ],
-          "block_id": "p63_b54",
+          "block_id": "p63_b52",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -38785,7 +38125,7 @@
             714.2174682617188,
             362.1317138671875
           ],
-          "block_id": "p63_b55",
+          "block_id": "p63_b53",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -38807,7 +38147,7 @@
             816.1841430664062,
             341.251708984375
           ],
-          "block_id": "p63_b56",
+          "block_id": "p63_b54",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -38829,7 +38169,7 @@
             792.0974731445312,
             355.17169189453125
           ],
-          "block_id": "p63_b57",
+          "block_id": "p63_b55",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -38842,7 +38182,7 @@
           "source": "pymupdf"
         }
       ],
-      "block_count": 58,
+      "block_count": 56,
       "char_count": 1146,
       "word_count": 180,
       "page_width": 841.9199829101562,
@@ -39239,12 +38579,12 @@
         {
           "page_number": 64,
           "block_type": "paragraph",
-          "text": "10% of the Base ",
+          "text": "10% of the Base Sum Insured ",
           "bbox": [
             177.3800048828125,
             190.72999572753906,
             254.17747497558594,
-            202.75172424316406
+            216.67173767089844
           ],
           "block_id": "p64_b17",
           "font_name": "Tahoma",
@@ -39253,31 +38593,9 @@
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 16,
-          "word_count": 4,
-          "line_count": 1,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 64,
-          "block_type": "paragraph",
-          "text": "Sum Insured ",
-          "bbox": [
-            186.02000427246094,
-            204.65000915527344,
-            245.5374755859375,
-            216.67173767089844
-          ],
-          "block_id": "p64_b18",
-          "font_name": "Tahoma",
-          "font_size": 9.960000038146973,
-          "flags": 0,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 12,
-          "word_count": 2,
-          "line_count": 1,
+          "char_count": 28,
+          "word_count": 6,
+          "line_count": 2,
           "source": "pymupdf"
         },
         {
@@ -39290,7 +38608,7 @@
             250.29209899902344,
             240.55174255371094
           ],
-          "block_id": "p64_b19",
+          "block_id": "p64_b18",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -39312,7 +38630,7 @@
             252.77206420898438,
             282.19171142578125
           ],
-          "block_id": "p64_b20",
+          "block_id": "p64_b19",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -39334,7 +38652,7 @@
             248.35804748535156,
             296.1117248535156
           ],
-          "block_id": "p64_b21",
+          "block_id": "p64_b20",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -39356,7 +38674,7 @@
             232.4574737548828,
             309.9117126464844
           ],
-          "block_id": "p64_b22",
+          "block_id": "p64_b21",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -39378,7 +38696,7 @@
             593.70751953125,
             256.3917236328125
           ],
-          "block_id": "p64_b23",
+          "block_id": "p64_b22",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -39393,45 +38711,23 @@
         {
           "page_number": 64,
           "block_type": "paragraph",
-          "text": "25% of the ",
+          "text": "25% of the Base Sum ",
           "bbox": [
             606.7899780273438,
             164.90000915527344,
             659.5481567382812,
-            176.92173767089844
-          ],
-          "block_id": "p64_b24",
-          "font_name": "Tahoma",
-          "font_size": 9.960000038146973,
-          "flags": 0,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 11,
-          "word_count": 3,
-          "line_count": 1,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 64,
-          "block_type": "paragraph",
-          "text": "Base Sum ",
-          "bbox": [
-            609.9099731445312,
-            178.84999084472656,
-            656.4794921875,
             190.87171936035156
           ],
-          "block_id": "p64_b25",
+          "block_id": "p64_b23",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 9,
-          "word_count": 2,
-          "line_count": 1,
+          "char_count": 20,
+          "word_count": 5,
+          "line_count": 2,
           "source": "pymupdf"
         },
         {
@@ -39444,7 +38740,7 @@
             651.697509765625,
             204.67173767089844
           ],
-          "block_id": "p64_b26",
+          "block_id": "p64_b24",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -39466,7 +38762,7 @@
             659.3304443359375,
             242.4717254638672
           ],
-          "block_id": "p64_b27",
+          "block_id": "p64_b25",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -39488,7 +38784,7 @@
             664.57763671875,
             270.31170654296875
           ],
-          "block_id": "p64_b28",
+          "block_id": "p64_b26",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -39510,7 +38806,7 @@
             659.2575073242188,
             284.1117248535156
           ],
-          "block_id": "p64_b29",
+          "block_id": "p64_b27",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -39532,7 +38828,7 @@
             659.9050903320312,
             321.93170166015625
           ],
-          "block_id": "p64_b30",
+          "block_id": "p64_b28",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -39554,7 +38850,7 @@
             654.3374633789062,
             335.8517150878906
           ],
-          "block_id": "p64_b31",
+          "block_id": "p64_b29",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -39569,45 +38865,23 @@
         {
           "page_number": 64,
           "block_type": "paragraph",
-          "text": "10% of the ",
+          "text": "10% of the Base Sum ",
           "bbox": [
             670.0599975585938,
             174.86000061035156,
             722.8181762695312,
-            186.88172912597656
-          ],
-          "block_id": "p64_b32",
-          "font_name": "Tahoma",
-          "font_size": 9.960000038146973,
-          "flags": 0,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 11,
-          "word_count": 3,
-          "line_count": 1,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 64,
-          "block_type": "paragraph",
-          "text": "Base Sum ",
-          "bbox": [
-            673.1799926757812,
-            188.8100128173828,
-            719.719482421875,
             200.8317413330078
           ],
-          "block_id": "p64_b33",
+          "block_id": "p64_b30",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 9,
-          "word_count": 2,
-          "line_count": 1,
+          "char_count": 20,
+          "word_count": 5,
+          "line_count": 2,
           "source": "pymupdf"
         },
         {
@@ -39620,7 +38894,7 @@
             722.6004028320312,
             242.4717254638672
           ],
-          "block_id": "p64_b34",
+          "block_id": "p64_b31",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -39642,7 +38916,7 @@
             721.9848022460938,
             270.31170654296875
           ],
-          "block_id": "p64_b35",
+          "block_id": "p64_b32",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -39664,7 +38938,7 @@
             723.1751098632812,
             311.95172119140625
           ],
-          "block_id": "p64_b36",
+          "block_id": "p64_b33",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -39686,7 +38960,7 @@
             717.5775146484375,
             325.771728515625
           ],
-          "block_id": "p64_b37",
+          "block_id": "p64_b34",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -39708,7 +38982,7 @@
             803.2774658203125,
             256.3917236328125
           ],
-          "block_id": "p64_b38",
+          "block_id": "p64_b35",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -39730,7 +39004,7 @@
             153.92579650878906,
             377.01171875
           ],
-          "block_id": "p64_b39",
+          "block_id": "p64_b36",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -39752,7 +39026,7 @@
             146.29747009277344,
             383.8517150878906
           ],
-          "block_id": "p64_b40",
+          "block_id": "p64_b37",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -39774,7 +39048,7 @@
             248.88404846191406,
             370.05169677734375
           ],
-          "block_id": "p64_b41",
+          "block_id": "p64_b38",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -39789,45 +39063,23 @@
         {
           "page_number": 64,
           "block_type": "paragraph",
-          "text": "500,000 ",
+          "text": "500,000 Covered Up to ",
           "bbox": [
             196.33999633789062,
-            371.83001708984375,
-            235.2174835205078,
-            383.8517150878906
-          ],
-          "block_id": "p64_b42",
-          "font_name": "Tahoma",
-          "font_size": 9.960000038146973,
-          "flags": 0,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 8,
-          "word_count": 1,
-          "line_count": 1,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 64,
-          "block_type": "paragraph",
-          "text": "Covered Up to ",
-          "bbox": [
-            271.7300109863281,
             358.0299987792969,
             337.9541015625,
-            370.05169677734375
+            383.8517150878906
           ],
-          "block_id": "p64_b43",
+          "block_id": "p64_b39",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 14,
-          "word_count": 3,
-          "line_count": 1,
+          "char_count": 22,
+          "word_count": 4,
+          "line_count": 2,
           "source": "pymupdf"
         },
         {
@@ -39840,7 +39092,7 @@
             525.6422729492188,
             383.8517150878906
           ],
-          "block_id": "p64_b44",
+          "block_id": "p64_b40",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -39862,7 +39114,7 @@
             523.9874877929688,
             383.8517150878906
           ],
-          "block_id": "p64_b45",
+          "block_id": "p64_b41",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -39884,7 +39136,7 @@
             598.0139770507812,
             370.05169677734375
           ],
-          "block_id": "p64_b46",
+          "block_id": "p64_b42",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -39906,7 +39158,7 @@
             662.1375122070312,
             383.8517150878906
           ],
-          "block_id": "p64_b47",
+          "block_id": "p64_b43",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -39928,7 +39180,7 @@
             715.9929809570312,
             363.09173583984375
           ],
-          "block_id": "p64_b48",
+          "block_id": "p64_b44",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -39950,7 +39202,7 @@
             715.8975219726562,
             390.81170654296875
           ],
-          "block_id": "p64_b49",
+          "block_id": "p64_b45",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -39972,7 +39224,7 @@
             807.5640258789062,
             370.05169677734375
           ],
-          "block_id": "p64_b50",
+          "block_id": "p64_b46",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -39994,7 +39246,7 @@
             793.8975219726562,
             383.8517150878906
           ],
-          "block_id": "p64_b51",
+          "block_id": "p64_b47",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -40009,45 +39261,23 @@
         {
           "page_number": 64,
           "block_type": "paragraph",
-          "text": "2.2 ",
+          "text": "2.2 Daily Cash for choosing Shared ",
           "bbox": [
             37.79999923706055,
-            436.8999938964844,
-            54.83748245239258,
-            448.92169189453125
-          ],
-          "block_id": "p64_b52",
-          "font_name": "Tahoma",
-          "font_size": 9.960000038146973,
-          "flags": 0,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 4,
-          "word_count": 1,
-          "line_count": 1,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 64,
-          "block_type": "paragraph",
-          "text": "Daily Cash for choosing Shared ",
-          "bbox": [
-            82.55999755859375,
             423.0700378417969,
             158.3456268310547,
             448.92169189453125
           ],
-          "block_id": "p64_b53",
+          "block_id": "p64_b48",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 31,
-          "word_count": 5,
-          "line_count": 2,
+          "char_count": 35,
+          "word_count": 6,
+          "line_count": 3,
           "source": "pymupdf"
         },
         {
@@ -40060,7 +39290,7 @@
             157.2174835205078,
             462.84173583984375
           ],
-          "block_id": "p64_b54",
+          "block_id": "p64_b49",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -40082,7 +39312,7 @@
             243.7374725341797,
             437.01171875
           ],
-          "block_id": "p64_b55",
+          "block_id": "p64_b50",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -40104,7 +39334,7 @@
             252.13748168945312,
             460.92169189453125
           ],
-          "block_id": "p64_b56",
+          "block_id": "p64_b51",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -40126,7 +39356,7 @@
             332.8074951171875,
             437.01171875
           ],
-          "block_id": "p64_b57",
+          "block_id": "p64_b52",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -40148,7 +39378,7 @@
             339.6474914550781,
             460.92169189453125
           ],
-          "block_id": "p64_b58",
+          "block_id": "p64_b53",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -40170,7 +39400,7 @@
             440.0874938964844,
             437.01171875
           ],
-          "block_id": "p64_b59",
+          "block_id": "p64_b54",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -40192,7 +39422,7 @@
             445.86749267578125,
             460.92169189453125
           ],
-          "block_id": "p64_b60",
+          "block_id": "p64_b55",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -40214,7 +39444,7 @@
             526.5075073242188,
             418.17169189453125
           ],
-          "block_id": "p64_b61",
+          "block_id": "p64_b56",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -40236,7 +39466,7 @@
             520.8408813476562,
             442.08172607421875
           ],
-          "block_id": "p64_b62",
+          "block_id": "p64_b57",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -40258,7 +39488,7 @@
             511.0274963378906,
             455.8817138671875
           ],
-          "block_id": "p64_b63",
+          "block_id": "p64_b58",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -40280,7 +39510,7 @@
             525.907470703125,
             479.76171875
           ],
-          "block_id": "p64_b64",
+          "block_id": "p64_b59",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -40302,7 +39532,7 @@
             592.8674926757812,
             425.01171875
           ],
-          "block_id": "p64_b65",
+          "block_id": "p64_b60",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -40324,7 +39554,7 @@
             599.70751953125,
             448.92169189453125
           ],
-          "block_id": "p64_b66",
+          "block_id": "p64_b61",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -40346,7 +39576,7 @@
             592.1475219726562,
             472.80169677734375
           ],
-          "block_id": "p64_b67",
+          "block_id": "p64_b62",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -40368,7 +39598,7 @@
             662.1375122070312,
             448.92169189453125
           ],
-          "block_id": "p64_b68",
+          "block_id": "p64_b63",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -40383,45 +39613,23 @@
         {
           "page_number": 64,
           "block_type": "paragraph",
-          "text": "800 per ",
+          "text": "800 per day ",
           "bbox": [
             677.97998046875,
             411.0700378417969,
             714.9016723632812,
-            423.09173583984375
-          ],
-          "block_id": "p64_b69",
-          "font_name": "Tahoma",
-          "font_size": 9.960000038146973,
-          "flags": 0,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 8,
-          "word_count": 2,
-          "line_count": 1,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 64,
-          "block_type": "paragraph",
-          "text": "day ",
-          "bbox": [
-            687.0999755859375,
-            424.9900207519531,
-            705.9375,
             437.01171875
           ],
-          "block_id": "p64_b70",
+          "block_id": "p64_b64",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 4,
-          "word_count": 1,
-          "line_count": 1,
+          "char_count": 12,
+          "word_count": 3,
+          "line_count": 2,
           "source": "pymupdf"
         },
         {
@@ -40434,7 +39642,7 @@
             718.7508544921875,
             460.92169189453125
           ],
-          "block_id": "p64_b71",
+          "block_id": "p64_b65",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -40456,7 +39664,7 @@
             708.9375,
             474.8417053222656
           ],
-          "block_id": "p64_b72",
+          "block_id": "p64_b66",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -40478,7 +39686,7 @@
             802.4375,
             437.01171875
           ],
-          "block_id": "p64_b73",
+          "block_id": "p64_b67",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -40500,7 +39708,7 @@
             809.2774658203125,
             460.92169189453125
           ],
-          "block_id": "p64_b74",
+          "block_id": "p64_b68",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -40513,7 +39721,7 @@
           "source": "pymupdf"
         }
       ],
-      "block_count": 75,
+      "block_count": 69,
       "char_count": 1354,
       "word_count": 227,
       "page_width": 841.9199829101562,
@@ -41306,12 +40514,12 @@
         {
           "page_number": 65,
           "block_type": "paragraph",
-          "text": "Bonus of 50% of the ",
+          "text": "Bonus of 50% of the Base Sum ",
           "bbox": [
             472.1499938964844,
             262.7300109863281,
             524.9082641601562,
-            288.6717224121094
+            302.5917053222656
           ],
           "block_id": "p65_b35",
           "font_name": "Tahoma",
@@ -41320,31 +40528,9 @@
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 20,
-          "word_count": 5,
-          "line_count": 2,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 65,
-          "block_type": "paragraph",
-          "text": "Base Sum ",
-          "bbox": [
-            475.2699890136719,
-            290.57000732421875,
-            521.793212890625,
-            302.5917053222656
-          ],
-          "block_id": "p65_b36",
-          "font_name": "Tahoma",
-          "font_size": 9.960000038146973,
-          "flags": 0,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 9,
-          "word_count": 2,
-          "line_count": 1,
+          "char_count": 29,
+          "word_count": 7,
+          "line_count": 3,
           "source": "pymupdf"
         },
         {
@@ -41357,7 +40543,7 @@
             526.2675170898438,
             344.251708984375
           ],
-          "block_id": "p65_b37",
+          "block_id": "p65_b36",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -41379,7 +40565,7 @@
             597.636962890625,
             281.7117004394531
           ],
-          "block_id": "p65_b38",
+          "block_id": "p65_b37",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -41401,7 +40587,7 @@
             599.4220581054688,
             323.3717041015625
           ],
-          "block_id": "p65_b39",
+          "block_id": "p65_b38",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -41423,7 +40609,7 @@
             580.9874877929688,
             337.2917175292969
           ],
-          "block_id": "p65_b40",
+          "block_id": "p65_b39",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -41445,7 +40631,7 @@
             653.1375122070312,
             262.8717041015625
           ],
-          "block_id": "p65_b41",
+          "block_id": "p65_b40",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -41460,45 +40646,23 @@
         {
           "page_number": 65,
           "block_type": "paragraph",
-          "text": "(Bonus of 50% of the ",
+          "text": "(Bonus of 50% of the Base Sum ",
           "bbox": [
             606.7899780273438,
             274.7300109863281,
             659.5481567382812,
-            300.5517272949219
-          ],
-          "block_id": "p65_b42",
-          "font_name": "Tahoma",
-          "font_size": 9.960000038146973,
-          "flags": 0,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 21,
-          "word_count": 5,
-          "line_count": 2,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 65,
-          "block_type": "paragraph",
-          "text": "Base Sum ",
-          "bbox": [
-            609.9099731445312,
-            302.4700012207031,
-            656.4331665039062,
             314.49169921875
           ],
-          "block_id": "p65_b43",
+          "block_id": "p65_b41",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 9,
-          "word_count": 2,
-          "line_count": 1,
+          "char_count": 30,
+          "word_count": 7,
+          "line_count": 3,
           "source": "pymupdf"
         },
         {
@@ -41511,7 +40675,7 @@
             661.2974853515625,
             356.1317138671875
           ],
-          "block_id": "p65_b44",
+          "block_id": "p65_b42",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -41533,7 +40697,7 @@
             716.3775024414062,
             255.91172790527344
           ],
-          "block_id": "p65_b45",
+          "block_id": "p65_b43",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -41548,45 +40712,23 @@
         {
           "page_number": 65,
           "block_type": "paragraph",
-          "text": "(Bonus of 50% of the ",
+          "text": "(Bonus of 50% of the Base Sum ",
           "bbox": [
             670.0599975585938,
             267.77001953125,
             722.8181762695312,
-            293.7117004394531
-          ],
-          "block_id": "p65_b46",
-          "font_name": "Tahoma",
-          "font_size": 9.960000038146973,
-          "flags": 0,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 21,
-          "word_count": 5,
-          "line_count": 2,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 65,
-          "block_type": "paragraph",
-          "text": "Base Sum ",
-          "bbox": [
-            673.1799926757812,
-            295.4900207519531,
-            719.7031860351562,
             307.51171875
           ],
-          "block_id": "p65_b47",
+          "block_id": "p65_b44",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 9,
-          "word_count": 2,
-          "line_count": 1,
+          "char_count": 30,
+          "word_count": 7,
+          "line_count": 3,
           "source": "pymupdf"
         },
         {
@@ -41599,7 +40741,7 @@
             719.5740966796875,
             335.3717041015625
           ],
-          "block_id": "p65_b48",
+          "block_id": "p65_b45",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -41621,7 +40763,7 @@
             713.0175170898438,
             363.09173583984375
           ],
-          "block_id": "p65_b49",
+          "block_id": "p65_b46",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -41643,7 +40785,7 @@
             803.2774658203125,
             309.43170166015625
           ],
-          "block_id": "p65_b50",
+          "block_id": "p65_b47",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -41665,7 +40807,7 @@
             345.2875061035156,
             430.05169677734375
           ],
-          "block_id": "p65_b51",
+          "block_id": "p65_b48",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -41687,7 +40829,7 @@
             461.3821105957031,
             416.1317138671875
           ],
-          "block_id": "p65_b52",
+          "block_id": "p65_b49",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -41709,7 +40851,7 @@
             437.927490234375,
             430.05169677734375
           ],
-          "block_id": "p65_b53",
+          "block_id": "p65_b50",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -41731,7 +40873,7 @@
             521.3075561523438,
             418.17169189453125
           ],
-          "block_id": "p65_b54",
+          "block_id": "p65_b51",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -41753,7 +40895,7 @@
             516.3074951171875,
             431.9717102050781
           ],
-          "block_id": "p65_b55",
+          "block_id": "p65_b52",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -41775,7 +40917,7 @@
             525.907470703125,
             455.8817138671875
           ],
-          "block_id": "p65_b56",
+          "block_id": "p65_b53",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -41797,7 +40939,7 @@
             599.08544921875,
             397.2917175292969
           ],
-          "block_id": "p65_b57",
+          "block_id": "p65_b54",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -41819,7 +40961,7 @@
             593.4307250976562,
             411.21173095703125
           ],
-          "block_id": "p65_b58",
+          "block_id": "p65_b55",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -41841,7 +40983,7 @@
             582.5474853515625,
             425.01171875
           ],
-          "block_id": "p65_b59",
+          "block_id": "p65_b56",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -41863,7 +41005,7 @@
             592.1475219726562,
             448.92169189453125
           ],
-          "block_id": "p65_b60",
+          "block_id": "p65_b57",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -41885,7 +41027,7 @@
             716.1375122070312,
             430.05169677734375
           ],
-          "block_id": "p65_b61",
+          "block_id": "p65_b58",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -41907,7 +41049,7 @@
             814.91748046875,
             430.05169677734375
           ],
-          "block_id": "p65_b62",
+          "block_id": "p65_b59",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -41920,7 +41062,7 @@
           "source": "pymupdf"
         }
       ],
-      "block_count": 63,
+      "block_count": 60,
       "char_count": 1434,
       "word_count": 234,
       "page_width": 841.9199829101562,
@@ -42735,12 +41877,12 @@
         {
           "page_number": 66,
           "block_type": "paragraph",
-          "text": "10K/25K/ 50K /1L ",
+          "text": "10K/25K/ 50K /1L /2L /3L /5L /10L ",
           "bbox": [
             174.97999572753906,
             276.6500244140625,
             256.5025634765625,
-            288.6717224121094
+            302.5917053222656
           ],
           "block_id": "p66_b36",
           "font_name": "Tahoma",
@@ -42749,31 +41891,9 @@
           "is_bold": false,
           "is_italic": false,
           "is_upper": true,
-          "char_count": 17,
-          "word_count": 3,
-          "line_count": 1,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 66,
-          "block_type": "paragraph",
-          "text": "/2L /3L /5L /10L ",
-          "bbox": [
-            178.33999633789062,
-            290.57000732421875,
-            253.14950561523438,
-            302.5917053222656
-          ],
-          "block_id": "p66_b37",
-          "font_name": "Tahoma",
-          "font_size": 9.960000038146973,
-          "flags": 0,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": true,
-          "char_count": 17,
-          "word_count": 4,
-          "line_count": 1,
+          "char_count": 34,
+          "word_count": 7,
+          "line_count": 2,
           "source": "pymupdf"
         },
         {
@@ -42786,7 +41906,7 @@
             238.57748413085938,
             316.4117126464844
           ],
-          "block_id": "p66_b38",
+          "block_id": "p66_b37",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -42801,45 +41921,23 @@
         {
           "page_number": 66,
           "block_type": "paragraph",
-          "text": "10K/25K/ 50K /1L ",
+          "text": "10K/25K/ 50K /1L /2L /3L /5L /10L ",
           "bbox": [
             264.04998779296875,
             276.6500244140625,
             345.57281494140625,
-            288.6717224121094
-          ],
-          "block_id": "p66_b39",
-          "font_name": "Tahoma",
-          "font_size": 9.960000038146973,
-          "flags": 0,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": true,
-          "char_count": 17,
-          "word_count": 3,
-          "line_count": 1,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 66,
-          "block_type": "paragraph",
-          "text": "/2L /3L /5L /10L ",
-          "bbox": [
-            267.4100036621094,
-            290.57000732421875,
-            342.21978759765625,
             302.5917053222656
           ],
-          "block_id": "p66_b40",
+          "block_id": "p66_b38",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
           "is_bold": false,
           "is_italic": false,
           "is_upper": true,
-          "char_count": 17,
-          "word_count": 4,
-          "line_count": 1,
+          "char_count": 34,
+          "word_count": 7,
+          "line_count": 2,
           "source": "pymupdf"
         },
         {
@@ -42852,7 +41950,7 @@
             327.6474914550781,
             316.4117126464844
           ],
-          "block_id": "p66_b41",
+          "block_id": "p66_b39",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -42867,45 +41965,23 @@
         {
           "page_number": 66,
           "block_type": "paragraph",
-          "text": "10K/25K/ 50K /1L /2L /3L ",
+          "text": "10K/25K/ 50K /1L /2L /3L /5L /10L /20L /25L ",
           "bbox": [
             351.2900085449219,
             283.6100158691406,
             467.4637756347656,
-            295.6317138671875
-          ],
-          "block_id": "p66_b42",
-          "font_name": "Tahoma",
-          "font_size": 9.960000038146973,
-          "flags": 0,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": true,
-          "char_count": 25,
-          "word_count": 5,
-          "line_count": 1,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 66,
-          "block_type": "paragraph",
-          "text": "/5L /10L /20L /25L ",
-          "bbox": [
-            366.4100036621094,
-            297.4100036621094,
-            452.3475036621094,
             309.43170166015625
           ],
-          "block_id": "p66_b43",
+          "block_id": "p66_b40",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
           "is_bold": false,
           "is_italic": false,
           "is_upper": true,
-          "char_count": 19,
-          "word_count": 4,
-          "line_count": 1,
+          "char_count": 44,
+          "word_count": 9,
+          "line_count": 2,
           "source": "pymupdf"
         },
         {
@@ -42918,7 +41994,7 @@
             527.2994384765625,
             297.5517272949219
           ],
-          "block_id": "p66_b44",
+          "block_id": "p66_b41",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -42940,7 +42016,7 @@
             521.4674682617188,
             311.4717102050781
           ],
-          "block_id": "p66_b45",
+          "block_id": "p66_b42",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -42962,7 +42038,7 @@
             525.907470703125,
             335.3717041015625
           ],
-          "block_id": "p66_b46",
+          "block_id": "p66_b43",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -42984,7 +42060,7 @@
             599.5318603515625,
             309.43170166015625
           ],
-          "block_id": "p66_b47",
+          "block_id": "p66_b44",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -43006,7 +42082,7 @@
             592.1475219726562,
             323.3717041015625
           ],
-          "block_id": "p66_b48",
+          "block_id": "p66_b45",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -43028,7 +42104,7 @@
             662.0175170898438,
             316.4117126464844
           ],
-          "block_id": "p66_b49",
+          "block_id": "p66_b46",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -43043,89 +42119,45 @@
         {
           "page_number": 66,
           "block_type": "paragraph",
-          "text": "10K/ 25K/ ",
+          "text": "10K/ 25K/ 50K ",
           "bbox": [
             672.8200073242188,
             283.6100158691406,
             720.179931640625,
-            295.6317138671875
+            309.43170166015625
           ],
-          "block_id": "p66_b50",
+          "block_id": "p66_b47",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
           "is_bold": false,
           "is_italic": false,
           "is_upper": true,
-          "char_count": 10,
-          "word_count": 2,
-          "line_count": 1,
+          "char_count": 14,
+          "word_count": 3,
+          "line_count": 2,
           "source": "pymupdf"
         },
         {
           "page_number": 66,
           "block_type": "paragraph",
-          "text": "50K ",
-          "bbox": [
-            686.5,
-            297.4100036621094,
-            706.41748046875,
-            309.43170166015625
-          ],
-          "block_id": "p66_b51",
-          "font_name": "Tahoma",
-          "font_size": 9.960000038146973,
-          "flags": 0,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 4,
-          "word_count": 1,
-          "line_count": 1,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 66,
-          "block_type": "paragraph",
-          "text": "10K/25K/ 50K /1L ",
+          "text": "10K/25K/ 50K /1L /2L /3L /5L /10L ",
           "bbox": [
             733.6599731445312,
             276.6500244140625,
             815.1827392578125,
-            288.6717224121094
-          ],
-          "block_id": "p66_b52",
-          "font_name": "Tahoma",
-          "font_size": 9.960000038146973,
-          "flags": 0,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": true,
-          "char_count": 17,
-          "word_count": 3,
-          "line_count": 1,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 66,
-          "block_type": "paragraph",
-          "text": "/2L /3L /5L /10L ",
-          "bbox": [
-            737.02001953125,
-            290.57000732421875,
-            811.8297729492188,
             302.5917053222656
           ],
-          "block_id": "p66_b53",
+          "block_id": "p66_b48",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
           "is_bold": false,
           "is_italic": false,
           "is_upper": true,
-          "char_count": 17,
-          "word_count": 4,
-          "line_count": 1,
+          "char_count": 34,
+          "word_count": 7,
+          "line_count": 2,
           "source": "pymupdf"
         },
         {
@@ -43138,7 +42170,7 @@
             797.2575073242188,
             316.4117126464844
           ],
-          "block_id": "p66_b54",
+          "block_id": "p66_b49",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -43160,7 +42192,7 @@
             167.56907653808594,
             369.57171630859375
           ],
-          "block_id": "p66_b55",
+          "block_id": "p66_b50",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -43182,7 +42214,7 @@
             793.41748046875,
             376.5317077636719
           ],
-          "block_id": "p66_b56",
+          "block_id": "p66_b51",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -43197,45 +42229,23 @@
         {
           "page_number": 66,
           "block_type": "paragraph",
-          "text": "2.9 ",
+          "text": "2.9 Global Health Cover ",
           "bbox": [
             37.79999923706055,
-            410.5899963378906,
-            54.83748245239258,
-            422.6116943359375
-          ],
-          "block_id": "p66_b57",
-          "font_name": "Tahoma",
-          "font_size": 9.960000038146973,
-          "flags": 0,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 4,
-          "word_count": 1,
-          "line_count": 1,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 66,
-          "block_type": "paragraph",
-          "text": "Global Health Cover ",
-          "bbox": [
-            75.23999786376953,
             396.7900085449219,
             165.63694763183594,
-            408.81170654296875
+            422.6116943359375
           ],
-          "block_id": "p66_b58",
+          "block_id": "p66_b52",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 20,
-          "word_count": 3,
-          "line_count": 1,
+          "char_count": 24,
+          "word_count": 4,
+          "line_count": 2,
           "source": "pymupdf"
         },
         {
@@ -43248,7 +42258,7 @@
             160.69747924804688,
             436.5317077636719
           ],
-          "block_id": "p66_b59",
+          "block_id": "p66_b53",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -43270,7 +42280,7 @@
             438.2875061035156,
             422.6116943359375
           ],
-          "block_id": "p66_b60",
+          "block_id": "p66_b54",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -43292,7 +42302,7 @@
             518.2274780273438,
             403.771728515625
           ],
-          "block_id": "p66_b61",
+          "block_id": "p66_b55",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -43314,7 +42324,7 @@
             523.9874877929688,
             441.6017150878906
           ],
-          "block_id": "p66_b62",
+          "block_id": "p66_b56",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -43336,7 +42346,7 @@
             803.2774658203125,
             429.57171630859375
           ],
-          "block_id": "p66_b63",
+          "block_id": "p66_b57",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -43351,45 +42361,23 @@
         {
           "page_number": 66,
           "block_type": "paragraph",
-          "text": "2.10 ",
+          "text": "2.10 Global Health Cover ",
           "bbox": [
             35.040000915527344,
-            475.6600036621094,
-            57.59748077392578,
-            487.68170166015625
-          ],
-          "block_id": "p66_b64",
-          "font_name": "Tahoma",
-          "font_size": 9.960000038146973,
-          "flags": 0,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 5,
-          "word_count": 1,
-          "line_count": 1,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 66,
-          "block_type": "paragraph",
-          "text": "Global Health Cover ",
-          "bbox": [
-            75.23999786376953,
             461.8600158691406,
             165.63694763183594,
-            473.8817138671875
+            487.68170166015625
           ],
-          "block_id": "p66_b65",
+          "block_id": "p66_b58",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 20,
-          "word_count": 3,
-          "line_count": 1,
+          "char_count": 25,
+          "word_count": 4,
+          "line_count": 2,
           "source": "pymupdf"
         },
         {
@@ -43402,7 +42390,7 @@
             168.25747680664062,
             501.59771728515625
           ],
-          "block_id": "p66_b66",
+          "block_id": "p66_b59",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -43424,7 +42412,7 @@
             527.4674682617188,
             487.68170166015625
           ],
-          "block_id": "p66_b67",
+          "block_id": "p66_b60",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -43446,7 +42434,7 @@
             584.4674682617188,
             468.84173583984375
           ],
-          "block_id": "p66_b68",
+          "block_id": "p66_b61",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -43468,7 +42456,7 @@
             597.735595703125,
             492.7217102050781
           ],
-          "block_id": "p66_b69",
+          "block_id": "p66_b62",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -43490,7 +42478,7 @@
             577.5075073242188,
             506.6376953125
           ],
-          "block_id": "p66_b70",
+          "block_id": "p66_b63",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -43512,7 +42500,7 @@
             803.2774658203125,
             494.6417236328125
           ],
-          "block_id": "p66_b71",
+          "block_id": "p66_b64",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -43525,7 +42513,7 @@
           "source": "pymupdf"
         }
       ],
-      "block_count": 72,
+      "block_count": 65,
       "char_count": 1580,
       "word_count": 259,
       "page_width": 841.9199829101562,
@@ -44186,12 +43174,12 @@
         {
           "page_number": 67,
           "block_type": "paragraph",
-          "text": "1 year / 2 year 1 year / 2 year 1 year / 2 year 1 year / 2 ",
+          "text": "1 year / 2 year 1 year / 2 year 1 year / 2 year 1 year / 2 year 1 year / 2 year 1 year / 2 year ",
           "bbox": [
             181.4600067138672,
             269.69000244140625,
-            521.6646728515625,
-            288.6717224121094
+            656.3047485351562,
+            295.6317138671875
           ],
           "block_id": "p67_b29",
           "font_name": "Tahoma",
@@ -44200,19 +43188,19 @@
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 59,
-          "word_count": 19,
-          "line_count": 4,
+          "char_count": 96,
+          "word_count": 30,
+          "line_count": 8,
           "source": "pymupdf"
         },
         {
           "page_number": 67,
           "block_type": "paragraph",
-          "text": "year 1 year / 2 year 1 year / 2 ",
+          "text": "1 year / 2 year 1 year / 2 year ",
           "bbox": [
-            487.510009765625,
+            673.4199829101562,
             269.69000244140625,
-            656.3047485351562,
+            808.677490234375,
             295.6317138671875
           ],
           "block_id": "p67_b30",
@@ -44230,72 +43218,6 @@
         {
           "page_number": 67,
           "block_type": "paragraph",
-          "text": "year ",
-          "bbox": [
-            622.1799926757812,
-            283.6100158691406,
-            644.3775024414062,
-            295.6317138671875
-          ],
-          "block_id": "p67_b31",
-          "font_name": "Tahoma",
-          "font_size": 9.960000038146973,
-          "flags": 0,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 5,
-          "word_count": 1,
-          "line_count": 1,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 67,
-          "block_type": "paragraph",
-          "text": "1 year / 2 ",
-          "bbox": [
-            673.4199829101562,
-            269.69000244140625,
-            719.57470703125,
-            281.7117004394531
-          ],
-          "block_id": "p67_b32",
-          "font_name": "Tahoma",
-          "font_size": 9.960000038146973,
-          "flags": 0,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 11,
-          "word_count": 4,
-          "line_count": 1,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 67,
-          "block_type": "paragraph",
-          "text": "year 1 year / 2 year ",
-          "bbox": [
-            685.4199829101562,
-            276.6500244140625,
-            808.677490234375,
-            295.6317138671875
-          ],
-          "block_id": "p67_b33",
-          "font_name": "Tahoma",
-          "font_size": 9.960000038146973,
-          "flags": 0,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 21,
-          "word_count": 6,
-          "line_count": 2,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 67,
-          "block_type": "paragraph",
           "text": "2.13 Modification of Room ",
           "bbox": [
             35.040000915527344,
@@ -44303,7 +43225,7 @@
             168.52378845214844,
             348.69171142578125
           ],
-          "block_id": "p67_b34",
+          "block_id": "p67_b31",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -44325,7 +43247,7 @@
             348.20135498046875,
             355.6517333984375
           ],
-          "block_id": "p67_b35",
+          "block_id": "p67_b32",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -44347,7 +43269,7 @@
             593.70751953125,
             355.6517333984375
           ],
-          "block_id": "p67_b36",
+          "block_id": "p67_b33",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -44369,7 +43291,7 @@
             658.3482666015625,
             348.69171142578125
           ],
-          "block_id": "p67_b37",
+          "block_id": "p67_b34",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -44391,7 +43313,7 @@
             646.2974853515625,
             362.6116943359375
           ],
-          "block_id": "p67_b38",
+          "block_id": "p67_b35",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -44413,7 +43335,7 @@
             716.1375122070312,
             355.6517333984375
           ],
-          "block_id": "p67_b39",
+          "block_id": "p67_b36",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -44435,7 +43357,7 @@
             807.3574829101562,
             355.6517333984375
           ],
-          "block_id": "p67_b40",
+          "block_id": "p67_b37",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -44457,7 +43379,7 @@
             333.6474914550781,
             415.6517333984375
           ],
-          "block_id": "p67_b41",
+          "block_id": "p67_b38",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -44479,7 +43401,7 @@
             429.2875061035156,
             389.8517150878906
           ],
-          "block_id": "p67_b42",
+          "block_id": "p67_b39",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -44501,7 +43423,7 @@
             461.977294921875,
             427.6517333984375
           ],
-          "block_id": "p67_b43",
+          "block_id": "p67_b40",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -44523,7 +43445,7 @@
             450.1875,
             441.6017150878906
           ],
-          "block_id": "p67_b44",
+          "block_id": "p67_b41",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -44545,7 +43467,7 @@
             716.1375122070312,
             422.6116943359375
           ],
-          "block_id": "p67_b45",
+          "block_id": "p67_b42",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -44567,7 +43489,7 @@
             815.6781616210938,
             394.8917236328125
           ],
-          "block_id": "p67_b46",
+          "block_id": "p67_b43",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -44589,7 +43511,7 @@
             817.2953491210938,
             422.6116943359375
           ],
-          "block_id": "p67_b47",
+          "block_id": "p67_b44",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -44611,7 +43533,7 @@
             799.677490234375,
             436.5317077636719
           ],
-          "block_id": "p67_b48",
+          "block_id": "p67_b45",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -44624,7 +43546,7 @@
           "source": "pymupdf"
         }
       ],
-      "block_count": 49,
+      "block_count": 46,
       "char_count": 1286,
       "word_count": 217,
       "page_width": 841.9199829101562,
@@ -44779,12 +43701,12 @@
         {
           "page_number": 68,
           "block_type": "paragraph",
-          "text": "Base Sum Insured 5 Lakhs 7.5 Lakhs 10 Lakhs 15 Lakhs 20 & 25 Lakhs 50 & 75 ",
+          "text": "Base Sum Insured 5 Lakhs 7.5 Lakhs 10 Lakhs 15 Lakhs 20 & 25 Lakhs 50 & 75 Lakhs ",
           "bbox": [
             73.31999969482422,
             137.1800079345703,
             728.1513061523438,
-            156.16172790527344
+            163.00172424316406
           ],
           "block_id": "p68_b6",
           "font_name": "Tahoma-Bold",
@@ -44793,19 +43715,19 @@
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 75,
-          "word_count": 18,
-          "line_count": 7,
+          "char_count": 81,
+          "word_count": 19,
+          "line_count": 8,
           "source": "pymupdf"
         },
         {
           "page_number": 68,
           "block_type": "paragraph",
-          "text": "Lakhs ",
+          "text": "100 & 200 Lakhs ",
           "bbox": [
-            691.0599975585938,
-            150.97999572753906,
-            723.25830078125,
+            752.02001953125,
+            137.1800079345703,
+            806.750244140625,
             163.00172424316406
           ],
           "block_id": "p68_b7",
@@ -44815,53 +43737,9 @@
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 6,
-          "word_count": 1,
-          "line_count": 1,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 68,
-          "block_type": "paragraph",
-          "text": "100 & 200 ",
-          "bbox": [
-            752.02001953125,
-            137.1800079345703,
-            806.750244140625,
-            149.2017364501953
-          ],
-          "block_id": "p68_b8",
-          "font_name": "Tahoma-Bold",
-          "font_size": 9.960000038146973,
-          "flags": 16,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 10,
-          "word_count": 3,
-          "line_count": 1,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 68,
-          "block_type": "paragraph",
-          "text": "Lakhs ",
-          "bbox": [
-            763.2999877929688,
-            150.97999572753906,
-            795.498291015625,
-            163.00172424316406
-          ],
-          "block_id": "p68_b9",
-          "font_name": "Tahoma-Bold",
-          "font_size": 9.960000038146973,
-          "flags": 16,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 6,
-          "word_count": 1,
-          "line_count": 1,
+          "char_count": 16,
+          "word_count": 4,
+          "line_count": 2,
           "source": "pymupdf"
         },
         {
@@ -44874,7 +43752,7 @@
             793.41748046875,
             190.39173889160156
           ],
-          "block_id": "p68_b10",
+          "block_id": "p68_b8",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -44896,7 +43774,7 @@
             796.177490234375,
             217.63172912597656
           ],
-          "block_id": "p68_b11",
+          "block_id": "p68_b9",
           "font_name": "Tahoma",
           "font_size": 9.960000038146973,
           "flags": 0,
@@ -44918,7 +43796,7 @@
             170.0547332763672,
             264.2952880859375
           ],
-          "block_id": "p68_b12",
+          "block_id": "p68_b10",
           "font_name": "Tahoma-Bold",
           "font_size": 11.039999961853027,
           "flags": 16,
@@ -44940,7 +43818,7 @@
             809.4008178710938,
             301.1352844238281
           ],
-          "block_id": "p68_b13",
+          "block_id": "p68_b11",
           "font_name": "Tahoma-Bold",
           "font_size": 11.039999961853027,
           "flags": 16,
@@ -44962,7 +43840,7 @@
             751.9954833984375,
             322.1883850097656
           ],
-          "block_id": "p68_b14",
+          "block_id": "p68_b12",
           "font_name": "Tahoma-Bold",
           "font_size": 11.039999961853027,
           "flags": 16,
@@ -44984,7 +43862,7 @@
             809.4954833984375,
             374.9552917480469
           ],
-          "block_id": "p68_b15",
+          "block_id": "p68_b13",
           "font_name": "Tahoma-Bold",
           "font_size": 11.039999961853027,
           "flags": 16,
@@ -45006,7 +43884,7 @@
             75.2347183227539,
             395.83526611328125
           ],
-          "block_id": "p68_b16",
+          "block_id": "p68_b14",
           "font_name": "Tahoma-Bold",
           "font_size": 11.039999961853027,
           "flags": 16,
@@ -45028,7 +43906,7 @@
             710.115478515625,
             416.8683776855469
           ],
-          "block_id": "p68_b17",
+          "block_id": "p68_b15",
           "font_name": "Tahoma-Bold",
           "font_size": 11.039999961853027,
           "flags": 16,
@@ -45050,7 +43928,7 @@
             809.4005126953125,
             437.7483825683594
           ],
-          "block_id": "p68_b18",
+          "block_id": "p68_b16",
           "font_name": "Tahoma-Bold",
           "font_size": 11.039999961853027,
           "flags": 16,
@@ -45072,7 +43950,7 @@
             809.4954833984375,
             453.7052917480469
           ],
-          "block_id": "p68_b19",
+          "block_id": "p68_b17",
           "font_name": "Tahoma",
           "font_size": 11.039999961853027,
           "flags": 0,
@@ -45094,7 +43972,7 @@
             809.1348266601562,
             490.5452880859375
           ],
-          "block_id": "p68_b20",
+          "block_id": "p68_b18",
           "font_name": "Tahoma-Bold",
           "font_size": 11.039999961853027,
           "flags": 16,
@@ -45116,7 +43994,7 @@
             722.4755249023438,
             511.57440185546875
           ],
-          "block_id": "p68_b21",
+          "block_id": "p68_b19",
           "font_name": "Tahoma-Bold",
           "font_size": 11.039999961853027,
           "flags": 16,
@@ -45138,7 +44016,7 @@
             809.3259887695312,
             548.3812866210938
           ],
-          "block_id": "p68_b22",
+          "block_id": "p68_b20",
           "font_name": "Tahoma-Bold",
           "font_size": 11.039999961853027,
           "flags": 16,
@@ -45151,7 +44029,7 @@
           "source": "pymupdf"
         }
       ],
-      "block_count": 23,
+      "block_count": 21,
       "char_count": 2367,
       "word_count": 388,
       "page_width": 841.9199829101562,

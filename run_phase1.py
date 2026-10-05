@@ -41,6 +41,15 @@ def main() -> int:
     parser.add_argument("--configs-dir", default="configs", help="Configs directory")
     parser.add_argument("--reports-dir", default="reports", help="Reports directory")
     parser.add_argument("--dpi", type=int, default=300, help="OCR rendering DPI")
+    parser.add_argument(
+        "--corpus-dir",
+        action="append",
+        dest="corpus_dirs",
+        help=(
+            "Directory to discover PDFs in; repeatable. "
+            "Defaults to --data-dir and ./rag_policy_dataset."
+        ),
+    )
     parser.add_argument("--verbose", "-v", action="store_true", help="Verbose logging")
     args = parser.parse_args()
 
@@ -51,6 +60,7 @@ def main() -> int:
         configs_dir=args.configs_dir,
         reports_dir=args.reports_dir,
         dpi=args.dpi,
+        corpus_dirs=args.corpus_dirs or [args.data_dir, "rag_policy_dataset"],
     )
 
     report = pipeline.run()
@@ -71,6 +81,11 @@ def main() -> int:
     print(f"Reports: {args.reports_dir}/phase1_extraction_report.json, .md")
     print("=" * 60)
 
+    # A failed run returns {"status": "error", ...} with no "summary" key, so it
+    # must be checked explicitly or an empty corpus would exit 0 as "success".
+    if report.get("status") == "error":
+        print(f"ERROR: {report.get('message', 'Pipeline failed')}")
+        return 1
     return 0 if report.get("summary", {}).get("total_errors", 0) == 0 else 1
 
 

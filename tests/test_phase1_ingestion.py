@@ -8,7 +8,8 @@ import tempfile
 import pytest
 
 # Ensure project root is on path
-PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+# tests/test_x.py -> tests/ -> <project root>
+PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, PROJECT_ROOT)
 
 from src.ingestion import (
@@ -24,7 +25,12 @@ from src.ingestion.normalizer import NormalizedDocument, NormalizedBlock
 
 
 DATA_DIR = os.path.join(PROJECT_ROOT, "data")
-RAG_DATASET_DIR = os.path.join(DATA_DIR, "rag_policy_dataset") if os.path.isdir(os.path.join(DATA_DIR, "rag_policy_dataset")) else DATA_DIR
+# The 10 corpus PDFs live at the repo root, not under data/.
+RAG_DATASET_DIR = (
+    os.path.join(PROJECT_ROOT, "rag_policy_dataset")
+    if os.path.isdir(os.path.join(PROJECT_ROOT, "rag_policy_dataset"))
+    else DATA_DIR
+)
 
 
 def find_pdfs(directory: str) -> list[str]:
@@ -45,28 +51,28 @@ class TestPDFDiscovery:
     """Test PDF discovery functionality."""
 
     def test_discover_pdfs_finds_all_pdfs(self):
-        """Pipeline.discover_pdfs should find all PDFs in data/."""
-        pipeline = IngestionPipeline(data_dir=DATA_DIR)
+        """Pipeline.discover_pdfs should find all PDFs in the corpus."""
+        pipeline = IngestionPipeline(data_dir=DATA_DIR, corpus_dirs=[RAG_DATASET_DIR])
         pdfs = pipeline.discover_pdfs()
         assert len(pdfs) >= 5, f"Expected at least 5 PDFs, found {len(pdfs)}"
 
     def test_discover_pdfs_returns_absolute_paths(self):
         """All discovered PDFs should have absolute paths."""
-        pipeline = IngestionPipeline(data_dir=DATA_DIR)
+        pipeline = IngestionPipeline(data_dir=DATA_DIR, corpus_dirs=[RAG_DATASET_DIR])
         pdfs = pipeline.discover_pdfs()
         for p in pdfs:
             assert os.path.isabs(p), f"Path not absolute: {p}"
 
     def test_discover_pdfs_all_end_with_pdf(self):
         """All discovered files should end with .pdf."""
-        pipeline = IngestionPipeline(data_dir=DATA_DIR)
+        pipeline = IngestionPipeline(data_dir=DATA_DIR, corpus_dirs=[RAG_DATASET_DIR])
         pdfs = pipeline.discover_pdfs()
         for p in pdfs:
             assert p.lower().endswith(".pdf"), f"Not a PDF: {p}"
 
     def test_discover_pdfs_no_duplicates(self):
         """No duplicate paths in discovery."""
-        pipeline = IngestionPipeline(data_dir=DATA_DIR)
+        pipeline = IngestionPipeline(data_dir=DATA_DIR, corpus_dirs=[RAG_DATASET_DIR])
         pdfs = pipeline.discover_pdfs()
         assert len(pdfs) == len(set(pdfs)), "Duplicate paths found in PDF discovery"
 
@@ -562,7 +568,12 @@ class TestFullPipeline:
         if not pdf_list:
             pytest.skip("No PDFs found for testing")
 
-        pipeline = IngestionPipeline(data_dir=DATA_DIR, configs_dir="configs", reports_dir="reports")
+        pipeline = IngestionPipeline(
+            data_dir=DATA_DIR,
+            configs_dir="configs",
+            reports_dir="reports",
+            corpus_dirs=[RAG_DATASET_DIR],
+        )
         report = pipeline.run()
 
         # Verify documents were processed

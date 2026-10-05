@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+*.egg-info/
+
+# Rebuildable Phase 2 vector index (regenerate with: python run_phase2.py build)
+data/chroma/
+
+# Phase 2 runtime query log (append-only)
+reports/phase2_query_log.jsonl
+
+# Scratch/debug output files from PDF & OCR investigation
+check_norm.py
+check_registry.py
+debug_fonts.py
+debug_star.py
+fix_fonts.py
+fix_fonts2.py
+profile_star.py
+docs_text.txt
+duplicate_check.txt
+effective_dates.txt
+font_debug.txt
+inspection_results*.txt
+norm_check*.txt
+ocr_test*.txt
+pdf_content_sample.txt
+pdf_inspection.txt
+pipeline_run*.txt
+policy_doc_sample.txt
+product_search.txt
+registry_check*.txt
+star_debug*.txt
+star_profile.txt
+temp_structure.csv
+
+# OS / editor noise
+.DS_Store
+Thumbs.db

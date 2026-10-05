@@ -1,7 +1,7 @@
 {
   "document_id": "DOC-009",
   "filename": "policy-document.pdf",
-  "source_path": "D:\\LLM_PROJECT\\rag_policy_dataset\\policy-document.pdf",
+  "source_path": "F:\\Policy_RAG-main\\rag_policy_dataset\\policy-document.pdf",
   "page_count": 56,
   "pages": [
     {
@@ -7563,12 +7563,12 @@
         {
           "page_number": 12,
           "block_type": "paragraph",
-          "text": "D.1.15. Refractive Error:(Code-Excl15) - Expenses related to the treatment for correction of eye sight due to refractive error less than 7.5 dioptres.Refractive Error: A vision problem that causes blurred vision due to the eye's inability to focus light properly at the back of the eye.",
+          "text": "D.1.15. Refractive Error:(Code-Excl15) - Expenses related to the treatment for correction of eye sight due to refractive error less than 7.5 dioptres.",
           "bbox": [
             44.314910888671875,
             553.4844360351562,
-            550.4628295898438,
-            582.5645141601562
+            362.27740478515625,
+            572.9644775390625
           ],
           "block_id": "p12_b20",
           "font_name": "AnekLatin-Medium",
@@ -7577,9 +7577,31 @@
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 286,
-          "word_count": 45,
-          "line_count": 5,
+          "char_count": 150,
+          "word_count": 22,
+          "line_count": 2,
+          "source": "pymupdf"
+        },
+        {
+          "page_number": 12,
+          "block_type": "paragraph",
+          "text": "Refractive Error: A vision problem that causes blurred vision due to the eye's inability to focus light properly at the back of the eye.",
+          "bbox": [
+            391.8429260253906,
+            553.4844360351562,
+            550.4628295898438,
+            582.5645141601562
+          ],
+          "block_id": "p12_b21",
+          "font_name": "AnekLatin-Medium",
+          "font_size": 8.0,
+          "flags": 4,
+          "is_bold": false,
+          "is_italic": false,
+          "is_upper": false,
+          "char_count": 136,
+          "word_count": 24,
+          "line_count": 3,
           "source": "pymupdf"
         },
         {
@@ -7592,7 +7614,7 @@
             367.0541687011719,
             630.676513671875
           ],
-          "block_id": "p12_b21",
+          "block_id": "p12_b22",
           "font_name": "AnekLatin-Medium",
           "font_size": 8.0,
           "flags": 4,
@@ -7614,7 +7636,7 @@
             554.917236328125,
             621.1005249023438
           ],
-          "block_id": "p12_b22",
+          "block_id": "p12_b23",
           "font_name": "AnekLatin-Medium",
           "font_size": 8.0,
           "flags": 4,
@@ -7636,7 +7658,7 @@
             332.2060852050781,
             709.5965576171875
           ],
-          "block_id": "p12_b23",
+          "block_id": "p12_b24",
           "font_name": "AnekLatin-Medium",
           "font_size": 8.0,
           "flags": 4,
@@ -7658,7 +7680,7 @@
             546.5245971679688,
             661.612548828125
           ],
-          "block_id": "p12_b24",
+          "block_id": "p12_b25",
           "font_name": "AnekLatin-Medium",
           "font_size": 8.0,
           "flags": 4,
@@ -7680,7 +7702,7 @@
             556.0789184570312,
             690.4125366210938
           ],
-          "block_id": "p12_b25",
+          "block_id": "p12_b26",
           "font_name": "AnekLatin-Medium",
           "font_size": 8.0,
           "flags": 4,
@@ -7702,7 +7724,7 @@
             554.9629516601562,
             738.4125366210938
           ],
-          "block_id": "p12_b26",
+          "block_id": "p12_b27",
           "font_name": "AnekLatin-Medium",
           "font_size": 8.0,
           "flags": 4,
@@ -7724,7 +7746,7 @@
             549.468505859375,
             796.0125122070312
           ],
-          "block_id": "p12_b27",
+          "block_id": "p12_b28",
           "font_name": "AnekLatin-Medium",
           "font_size": 8.0,
           "flags": 4,
@@ -7746,7 +7768,7 @@
             584.6543579101562,
             838.6727294921875
           ],
-          "block_id": "p12_b28",
+          "block_id": "p12_b29",
           "font_name": "AnekLatin-Medium",
           "font_size": 6.456051349639893,
           "flags": 4,
@@ -7759,9 +7781,9 @@
           "source": "pymupdf"
         }
       ],
-      "block_count": 29,
+      "block_count": 30,
       "char_count": 5735,
-      "word_count": 810,
+      "word_count": 811,
       "page_width": 595.2760009765625,
       "page_height": 841.8900146484375,
       "images": [],
@@ -8537,12 +8559,12 @@
         {
           "page_number": 14,
           "block_type": "paragraph",
-          "text": "D.2.8 Geographical Exclusion Treatment taken outside India, unless speciﬁed to be covered in the Policy Schedule.Geographical exclusion: Certain locations or regions are not covered by Policy, so any medical expenses incurred in those areas will not be payable.",
+          "text": "D.2.8 Geographical Exclusion Treatment taken outside India, unless speciﬁed to be covered in the Policy Schedule.",
           "bbox": [
             44.315673828125,
             569.8687133789062,
-            554.6141967773438,
-            608.5647583007812
+            340.91326904296875,
+            589.3487548828125
           ],
           "block_id": "p14_b14",
           "font_name": "AnekLatin-Medium",
@@ -8551,9 +8573,31 @@
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 261,
-          "word_count": 38,
-          "line_count": 7,
+          "char_count": 113,
+          "word_count": 16,
+          "line_count": 3,
+          "source": "pymupdf"
+        },
+        {
+          "page_number": 14,
+          "block_type": "paragraph",
+          "text": "Geographical exclusion: Certain locations or regions are not covered by Policy, so any medical expenses incurred in those areas will not be payable.",
+          "bbox": [
+            391.84368896484375,
+            569.884765625,
+            554.6141967773438,
+            608.5647583007812
+          ],
+          "block_id": "p14_b15",
+          "font_name": "AnekLatin-Medium",
+          "font_size": 8.0,
+          "flags": 4,
+          "is_bold": false,
+          "is_italic": false,
+          "is_upper": false,
+          "char_count": 148,
+          "word_count": 23,
+          "line_count": 4,
           "source": "pymupdf"
         },
         {
@@ -8566,7 +8610,7 @@
             584.6543579101562,
             838.6727294921875
           ],
-          "block_id": "p14_b15",
+          "block_id": "p14_b16",
           "font_name": "AnekLatin-Medium",
           "font_size": 6.456051349639893,
           "flags": 4,
@@ -8579,9 +8623,9 @@
           "source": "pymupdf"
         }
       ],
-      "block_count": 16,
+      "block_count": 17,
       "char_count": 2895,
-      "word_count": 420,
+      "word_count": 421,
       "page_width": 595.2760009765625,
       "page_height": 841.8900146484375,
       "images": [],
@@ -15256,12 +15300,12 @@
         {
           "page_number": 33,
           "block_type": "paragraph",
-          "text": "Healthy Heart ScoreTMORRed",
+          "text": "Healthy Heart ScoreTMOR",
           "bbox": [
             214.533203125,
             511.69580078125,
             513.0767211914062,
-            538.5187377929688
+            529.5027465820312
           ],
           "block_id": "p33_b33",
           "font_name": "AnekLatin-Medium",
@@ -15270,9 +15314,31 @@
           "is_bold": false,
           "is_italic": true,
           "is_upper": false,
-          "char_count": 26,
+          "char_count": 23,
           "word_count": 3,
-          "line_count": 3,
+          "line_count": 2,
+          "source": "pymupdf"
+        },
+        {
+          "page_number": 33,
+          "block_type": "paragraph",
+          "text": "Red",
+          "bbox": [
+            401.189208984375,
+            528.6387329101562,
+            413.98919677734375,
+            538.5187377929688
+          ],
+          "block_id": "p33_b34",
+          "font_name": "AnekLatin-Medium",
+          "font_size": 8.0,
+          "flags": 4,
+          "is_bold": false,
+          "is_italic": false,
+          "is_upper": false,
+          "char_count": 3,
+          "word_count": 1,
+          "line_count": 1,
           "source": "pymupdf"
         },
         {
@@ -15285,7 +15351,7 @@
             417.41644287109375,
             558.1187133789062
           ],
-          "block_id": "p33_b34",
+          "block_id": "p33_b35",
           "font_name": "AnekLatin-Medium",
           "font_size": 8.0,
           "flags": 4,
@@ -15307,7 +15373,7 @@
             416.66522216796875,
             577.7186889648438
           ],
-          "block_id": "p33_b35",
+          "block_id": "p33_b36",
           "font_name": "AnekLatin-Medium",
           "font_size": 8.0,
           "flags": 4,
@@ -15329,7 +15395,7 @@
             416.6212158203125,
             597.3187255859375
           ],
-          "block_id": "p33_b36",
+          "block_id": "p33_b37",
           "font_name": "AnekLatin-Medium",
           "font_size": 8.0,
           "flags": 4,
@@ -15351,7 +15417,7 @@
             415.2932434082031,
             616.9187622070312
           ],
-          "block_id": "p33_b37",
+          "block_id": "p33_b38",
           "font_name": "AnekLatin-Medium",
           "font_size": 8.0,
           "flags": 4,
@@ -15373,7 +15439,7 @@
             411.6452331542969,
             636.5187377929688
           ],
-          "block_id": "p33_b38",
+          "block_id": "p33_b39",
           "font_name": "AnekLatin-Medium",
           "font_size": 8.0,
           "flags": 4,
@@ -15395,7 +15461,7 @@
             493.5092468261719,
             538.5187377929688
           ],
-          "block_id": "p33_b39",
+          "block_id": "p33_b40",
           "font_name": "AnekLatin-Medium",
           "font_size": 8.0,
           "flags": 4,
@@ -15417,7 +15483,7 @@
             483.47723388671875,
             558.1187133789062
           ],
-          "block_id": "p33_b40",
+          "block_id": "p33_b41",
           "font_name": "AnekLatin-Medium",
           "font_size": 8.0,
           "flags": 4,
@@ -15439,7 +15505,7 @@
             485.75640869140625,
             577.71875
           ],
-          "block_id": "p33_b41",
+          "block_id": "p33_b42",
           "font_name": "AnekLatin-Medium",
           "font_size": 8.0,
           "flags": 4,
@@ -15461,7 +15527,7 @@
             487.3612060546875,
             597.3187866210938
           ],
-          "block_id": "p33_b42",
+          "block_id": "p33_b43",
           "font_name": "AnekLatin-Medium",
           "font_size": 8.0,
           "flags": 4,
@@ -15483,7 +15549,7 @@
             486.501220703125,
             616.9187622070312
           ],
-          "block_id": "p33_b43",
+          "block_id": "p33_b44",
           "font_name": "AnekLatin-Medium",
           "font_size": 8.0,
           "flags": 4,
@@ -15505,7 +15571,7 @@
             481.5252380371094,
             636.5187377929688
           ],
-          "block_id": "p33_b44",
+          "block_id": "p33_b45",
           "font_name": "AnekLatin-Medium",
           "font_size": 8.0,
           "flags": 4,
@@ -15527,7 +15593,7 @@
             552.2012329101562,
             538.5187377929688
           ],
-          "block_id": "p33_b45",
+          "block_id": "p33_b46",
           "font_name": "AnekLatin-Medium",
           "font_size": 8.0,
           "flags": 4,
@@ -15549,7 +15615,7 @@
             546.7332153320312,
             558.1187744140625
           ],
-          "block_id": "p33_b46",
+          "block_id": "p33_b47",
           "font_name": "AnekLatin-Medium",
           "font_size": 8.0,
           "flags": 4,
@@ -15571,7 +15637,7 @@
             545.44921875,
             577.7188110351562
           ],
-          "block_id": "p33_b47",
+          "block_id": "p33_b48",
           "font_name": "AnekLatin-Medium",
           "font_size": 8.0,
           "flags": 4,
@@ -15593,7 +15659,7 @@
             544.773193359375,
             597.3187866210938
           ],
-          "block_id": "p33_b48",
+          "block_id": "p33_b49",
           "font_name": "AnekLatin-Medium",
           "font_size": 8.0,
           "flags": 4,
@@ -15615,7 +15681,7 @@
             542.4932250976562,
             616.9187622070312
           ],
-          "block_id": "p33_b49",
+          "block_id": "p33_b50",
           "font_name": "AnekLatin-Medium",
           "font_size": 8.0,
           "flags": 4,
@@ -15637,7 +15703,7 @@
             542.8212280273438,
             636.518798828125
           ],
-          "block_id": "p33_b50",
+          "block_id": "p33_b51",
           "font_name": "AnekLatin-Medium",
           "font_size": 8.0,
           "flags": 4,
@@ -15659,7 +15725,7 @@
             357.3373718261719,
             532.1809692382812
           ],
-          "block_id": "p33_b51",
+          "block_id": "p33_b52",
           "font_name": "AnekLatin-Medium",
           "font_size": 8.0,
           "flags": 4,
@@ -15681,7 +15747,7 @@
             579.2477416992188,
             833.0769653320312
           ],
-          "block_id": "p33_b52",
+          "block_id": "p33_b53",
           "font_name": "AnekLatin-Medium",
           "font_size": 8.0,
           "flags": 4,
@@ -15694,9 +15760,9 @@
           "source": "pymupdf"
         }
       ],
-      "block_count": 53,
+      "block_count": 54,
       "char_count": 4313,
-      "word_count": 715,
+      "word_count": 716,
       "page_width": 595.2760009765625,
       "page_height": 841.8900146484375,
       "images": [],

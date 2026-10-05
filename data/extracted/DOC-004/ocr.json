@@ -1,6 +1,6 @@
 {
   "document_id": "DOC-004",
-  "filename": "D:\\LLM_PROJECT\\rag_policy_dataset\\Prospectus_Star_Comprehensive_Insurance_Policy_V_12_dc6058c95e.pdf",
+  "filename": "F:\\Policy_RAG-main\\rag_policy_dataset\\Prospectus_Star_Comprehensive_Insurance_Policy_V_12_dc6058c95e.pdf",
   "engine": "easyocr",
   "total_pages": 53,
   "ocr_pages": [

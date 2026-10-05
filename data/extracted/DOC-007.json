@@ -1,7 +1,7 @@
 {
   "document_id": "DOC-007",
   "filename": "elevate-policy-wordings.pdf",
-  "source_path": "D:\\LLM_PROJECT\\rag_policy_dataset\\elevate-policy-wordings.pdf",
+  "source_path": "F:\\Policy_RAG-main\\rag_policy_dataset\\elevate-policy-wordings.pdf",
   "page_count": 45,
   "pages": [
     {
@@ -7516,12 +7516,12 @@
         {
           "page_number": 9,
           "block_type": "paragraph",
-          "text": "10 Lacs ",
+          "text": "10 Lacs each",
           "bbox": [
             158.0594024658203,
             573.6300048828125,
             193.41140747070312,
-            585.89697265625
+            596.6969604492188
           ],
           "block_id": "p9_b24",
           "font_name": "Mulish-Bold",
@@ -7530,31 +7530,9 @@
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 8,
-          "word_count": 2,
-          "line_count": 1,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 9,
-          "block_type": "paragraph",
-          "text": "each",
-          "bbox": [
-            164.27389526367188,
-            584.4299926757812,
-            184.73089599609375,
-            596.6969604492188
-          ],
-          "block_id": "p9_b25",
-          "font_name": "Mulish-Bold",
-          "font_size": 9.0,
-          "flags": 20,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 4,
-          "word_count": 1,
-          "line_count": 1,
+          "char_count": 12,
+          "word_count": 3,
+          "line_count": 2,
           "source": "pymupdf"
         },
         {
@@ -7567,7 +7545,7 @@
             235.1623992919922,
             499.49700927734375
           ],
-          "block_id": "p9_b26",
+          "block_id": "p9_b25",
           "font_name": "Mulish-Bold",
           "font_size": 9.0,
           "flags": 20,
@@ -7589,7 +7567,7 @@
             235.61241149902344,
             531.89697265625
           ],
-          "block_id": "p9_b27",
+          "block_id": "p9_b26",
           "font_name": "Mulish-Bold",
           "font_size": 9.0,
           "flags": 20,
@@ -7611,7 +7589,7 @@
             232.7639923095703,
             564.2969970703125
           ],
-          "block_id": "p9_b28",
+          "block_id": "p9_b27",
           "font_name": "Mulish-Bold",
           "font_size": 9.0,
           "flags": 20,
@@ -7633,7 +7611,7 @@
             289.5740051269531,
             510.2970275878906
           ],
-          "block_id": "p9_b29",
+          "block_id": "p9_b28",
           "font_name": "Mulish-Bold",
           "font_size": 9.0,
           "flags": 20,
@@ -7655,7 +7633,7 @@
             287.7650451660156,
             531.89697265625
           ],
-          "block_id": "p9_b30",
+          "block_id": "p9_b29",
           "font_name": "Mulish-Bold",
           "font_size": 9.0,
           "flags": 20,
@@ -7677,7 +7655,7 @@
             276.9378967285156,
             542.6969604492188
           ],
-          "block_id": "p9_b31",
+          "block_id": "p9_b30",
           "font_name": "Mulish-Bold",
           "font_size": 9.0,
           "flags": 20,
@@ -7699,7 +7677,7 @@
             278.2562561035156,
             581.3418579101562
           ],
-          "block_id": "p9_b32",
+          "block_id": "p9_b31",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -7721,7 +7699,7 @@
             293.9877014160156,
             614.0470581054688
           ],
-          "block_id": "p9_b33",
+          "block_id": "p9_b32",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -7743,7 +7721,7 @@
             293.98699951171875,
             633.8471069335938
           ],
-          "block_id": "p9_b34",
+          "block_id": "p9_b33",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -7765,7 +7743,7 @@
             110.19520568847656,
             658.3419799804688
           ],
-          "block_id": "p9_b35",
+          "block_id": "p9_b34",
           "font_name": "Mulish-Bold",
           "font_size": 9.0,
           "flags": 20,
@@ -7787,7 +7765,7 @@
             108.1792984008789,
             679.9419555664062
           ],
-          "block_id": "p9_b36",
+          "block_id": "p9_b35",
           "font_name": "Mulish-Bold",
           "font_size": 9.0,
           "flags": 20,
@@ -7809,7 +7787,7 @@
             154.1320037841797,
             669.1419677734375
           ],
-          "block_id": "p9_b37",
+          "block_id": "p9_b36",
           "font_name": "Mulish-Bold",
           "font_size": 9.0,
           "flags": 20,
@@ -7831,7 +7809,7 @@
             152.16969299316406,
             679.9419555664062
           ],
-          "block_id": "p9_b38",
+          "block_id": "p9_b37",
           "font_name": "Mulish-Bold",
           "font_size": 9.0,
           "flags": 20,
@@ -7853,7 +7831,7 @@
             152.25531005859375,
             701.5419921875
           ],
-          "block_id": "p9_b39",
+          "block_id": "p9_b38",
           "font_name": "Mulish-Bold",
           "font_size": 9.0,
           "flags": 20,
@@ -7875,7 +7853,7 @@
             147.2692108154297,
             712.3419799804688
           ],
-          "block_id": "p9_b40",
+          "block_id": "p9_b39",
           "font_name": "Mulish-Bold",
           "font_size": 9.0,
           "flags": 20,
@@ -7897,7 +7875,7 @@
             194.4113006591797,
             658.3419799804688
           ],
-          "block_id": "p9_b41",
+          "block_id": "p9_b40",
           "font_name": "Mulish-Bold",
           "font_size": 9.0,
           "flags": 20,
@@ -7919,7 +7897,7 @@
             194.86131286621094,
             679.9419555664062
           ],
-          "block_id": "p9_b42",
+          "block_id": "p9_b41",
           "font_name": "Mulish-Bold",
           "font_size": 9.0,
           "flags": 20,
@@ -7941,7 +7919,7 @@
             191.9499053955078,
             701.5419921875
           ],
-          "block_id": "p9_b43",
+          "block_id": "p9_b42",
           "font_name": "Mulish-Bold",
           "font_size": 9.0,
           "flags": 20,
@@ -7963,7 +7941,7 @@
             192.94439697265625,
             723.1419677734375
           ],
-          "block_id": "p9_b44",
+          "block_id": "p9_b43",
           "font_name": "Mulish-Bold",
           "font_size": 9.0,
           "flags": 20,
@@ -7985,7 +7963,7 @@
             235.1623992919922,
             679.9419555664062
           ],
-          "block_id": "p9_b45",
+          "block_id": "p9_b44",
           "font_name": "Mulish-Bold",
           "font_size": 9.0,
           "flags": 20,
@@ -8007,7 +7985,7 @@
             233.1464080810547,
             701.5419921875
           ],
-          "block_id": "p9_b46",
+          "block_id": "p9_b45",
           "font_name": "Mulish-Bold",
           "font_size": 9.0,
           "flags": 20,
@@ -8029,7 +8007,7 @@
             283.4809265136719,
             658.3419799804688
           ],
-          "block_id": "p9_b47",
+          "block_id": "p9_b46",
           "font_name": "Mulish-Bold",
           "font_size": 9.0,
           "flags": 20,
@@ -8051,7 +8029,7 @@
             284.41705322265625,
             679.9419555664062
           ],
-          "block_id": "p9_b48",
+          "block_id": "p9_b47",
           "font_name": "Mulish-Bold",
           "font_size": 9.0,
           "flags": 20,
@@ -8073,7 +8051,7 @@
             282.4547119140625,
             690.7420043945312
           ],
-          "block_id": "p9_b49",
+          "block_id": "p9_b48",
           "font_name": "Mulish-Bold",
           "font_size": 9.0,
           "flags": 20,
@@ -8095,7 +8073,7 @@
             280.1913146972656,
             701.5419921875
           ],
-          "block_id": "p9_b50",
+          "block_id": "p9_b49",
           "font_name": "Mulish-Bold",
           "font_size": 9.0,
           "flags": 20,
@@ -8117,7 +8095,7 @@
             278.2562561035156,
             729.3869018554688
           ],
-          "block_id": "p9_b51",
+          "block_id": "p9_b50",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -8139,7 +8117,7 @@
             561.6318359375,
             47.502227783203125
           ],
-          "block_id": "p9_b52",
+          "block_id": "p9_b51",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -8161,7 +8139,7 @@
             561.6245727539062,
             77.20223999023438
           ],
-          "block_id": "p9_b53",
+          "block_id": "p9_b52",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -8183,7 +8161,7 @@
             377.83294677734375,
             98.09713745117188
           ],
-          "block_id": "p9_b54",
+          "block_id": "p9_b53",
           "font_name": "Mulish-Bold",
           "font_size": 9.0,
           "flags": 20,
@@ -8205,7 +8183,7 @@
             375.8170471191406,
             119.69699096679688
           ],
-          "block_id": "p9_b55",
+          "block_id": "p9_b54",
           "font_name": "Mulish-Bold",
           "font_size": 9.0,
           "flags": 20,
@@ -8227,7 +8205,7 @@
             421.769775390625,
             108.89700317382812
           ],
-          "block_id": "p9_b56",
+          "block_id": "p9_b55",
           "font_name": "Mulish-Bold",
           "font_size": 9.0,
           "flags": 20,
@@ -8249,7 +8227,7 @@
             419.80743408203125,
             119.69699096679688
           ],
-          "block_id": "p9_b57",
+          "block_id": "p9_b56",
           "font_name": "Mulish-Bold",
           "font_size": 9.0,
           "flags": 20,
@@ -8271,7 +8249,7 @@
             419.8931579589844,
             141.29708862304688
           ],
-          "block_id": "p9_b58",
+          "block_id": "p9_b57",
           "font_name": "Mulish-Bold",
           "font_size": 9.0,
           "flags": 20,
@@ -8293,7 +8271,7 @@
             414.90692138671875,
             152.09713745117188
           ],
-          "block_id": "p9_b59",
+          "block_id": "p9_b58",
           "font_name": "Mulish-Bold",
           "font_size": 9.0,
           "flags": 20,
@@ -8315,7 +8293,7 @@
             462.0490417480469,
             98.09713745117188
           ],
-          "block_id": "p9_b60",
+          "block_id": "p9_b59",
           "font_name": "Mulish-Bold",
           "font_size": 9.0,
           "flags": 20,
@@ -8337,7 +8315,7 @@
             462.4991455078125,
             119.69699096679688
           ],
-          "block_id": "p9_b61",
+          "block_id": "p9_b60",
           "font_name": "Mulish-Bold",
           "font_size": 9.0,
           "flags": 20,
@@ -8359,7 +8337,7 @@
             463.3451843261719,
             141.29708862304688
           ],
-          "block_id": "p9_b62",
+          "block_id": "p9_b61",
           "font_name": "Mulish-Bold",
           "font_size": 9.0,
           "flags": 20,
@@ -8381,7 +8359,7 @@
             460.5821228027344,
             162.89700317382812
           ],
-          "block_id": "p9_b63",
+          "block_id": "p9_b62",
           "font_name": "Mulish-Bold",
           "font_size": 9.0,
           "flags": 20,
@@ -8403,7 +8381,7 @@
             502.8001403808594,
             119.69699096679688
           ],
-          "block_id": "p9_b64",
+          "block_id": "p9_b63",
           "font_name": "Mulish-Bold",
           "font_size": 9.0,
           "flags": 20,
@@ -8425,7 +8403,7 @@
             500.78424072265625,
             141.29708862304688
           ],
-          "block_id": "p9_b65",
+          "block_id": "p9_b64",
           "font_name": "Mulish-Bold",
           "font_size": 9.0,
           "flags": 20,
@@ -8447,7 +8425,7 @@
             551.1185913085938,
             98.09713745117188
           ],
-          "block_id": "p9_b66",
+          "block_id": "p9_b65",
           "font_name": "Mulish-Bold",
           "font_size": 9.0,
           "flags": 20,
@@ -8469,7 +8447,7 @@
             552.0546875,
             119.69699096679688
           ],
-          "block_id": "p9_b67",
+          "block_id": "p9_b66",
           "font_name": "Mulish-Bold",
           "font_size": 9.0,
           "flags": 20,
@@ -8491,7 +8469,7 @@
             550.0924682617188,
             130.49703979492188
           ],
-          "block_id": "p9_b68",
+          "block_id": "p9_b67",
           "font_name": "Mulish-Bold",
           "font_size": 9.0,
           "flags": 20,
@@ -8513,7 +8491,7 @@
             545.363037109375,
             141.29708862304688
           ],
-          "block_id": "p9_b69",
+          "block_id": "p9_b68",
           "font_name": "Mulish-Bold",
           "font_size": 9.0,
           "flags": 20,
@@ -8535,7 +8513,7 @@
             543.194091796875,
             169.14199829101562
           ],
-          "block_id": "p9_b70",
+          "block_id": "p9_b69",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -8557,7 +8535,7 @@
             561.5950317382812,
             188.59188842773438
           ],
-          "block_id": "p9_b71",
+          "block_id": "p9_b70",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -8579,7 +8557,7 @@
             561.6245727539062,
             212.59188842773438
           ],
-          "block_id": "p9_b72",
+          "block_id": "p9_b71",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -8601,7 +8579,7 @@
             561.6246948242188,
             240.19198608398438
           ],
-          "block_id": "p9_b73",
+          "block_id": "p9_b72",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -8623,7 +8601,7 @@
             396.66094970703125,
             255.79190063476562
           ],
-          "block_id": "p9_b74",
+          "block_id": "p9_b73",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -8645,7 +8623,7 @@
             561.6316528320312,
             307.3919372558594
           ],
-          "block_id": "p9_b75",
+          "block_id": "p9_b74",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -8667,7 +8645,7 @@
             561.624755859375,
             334.99200439453125
           ],
-          "block_id": "p9_b76",
+          "block_id": "p9_b75",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -8689,7 +8667,7 @@
             561.6246948242188,
             362.5919189453125
           ],
-          "block_id": "p9_b77",
+          "block_id": "p9_b76",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -8711,7 +8689,7 @@
             561.6246337890625,
             378.1919250488281
           ],
-          "block_id": "p9_b78",
+          "block_id": "p9_b77",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -8733,7 +8711,7 @@
             561.62548828125,
             426.1919250488281
           ],
-          "block_id": "p9_b79",
+          "block_id": "p9_b78",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -8755,7 +8733,7 @@
             561.6246337890625,
             441.7919006347656
           ],
-          "block_id": "p9_b80",
+          "block_id": "p9_b79",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -8777,7 +8755,7 @@
             516.0350341796875,
             453.7919006347656
           ],
-          "block_id": "p9_b81",
+          "block_id": "p9_b80",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -8799,7 +8777,7 @@
             561.6318359375,
             481.39202880859375
           ],
-          "block_id": "p9_b82",
+          "block_id": "p9_b81",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -8821,7 +8799,7 @@
             561.6246337890625,
             496.99200439453125
           ],
-          "block_id": "p9_b83",
+          "block_id": "p9_b82",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -8843,7 +8821,7 @@
             561.6228637695312,
             532.9920043945312
           ],
-          "block_id": "p9_b84",
+          "block_id": "p9_b83",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -8865,7 +8843,7 @@
             561.6399536132812,
             548.5919799804688
           ],
-          "block_id": "p9_b85",
+          "block_id": "p9_b84",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -8887,7 +8865,7 @@
             561.6246337890625,
             572.5918579101562
           ],
-          "block_id": "p9_b86",
+          "block_id": "p9_b85",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -8909,7 +8887,7 @@
             561.6246337890625,
             588.1919555664062
           ],
-          "block_id": "p9_b87",
+          "block_id": "p9_b86",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -8931,7 +8909,7 @@
             524.0,
             600.1919555664062
           ],
-          "block_id": "p9_b88",
+          "block_id": "p9_b87",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -8953,7 +8931,7 @@
             561.6246948242188,
             615.7918701171875
           ],
-          "block_id": "p9_b89",
+          "block_id": "p9_b88",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -8975,7 +8953,7 @@
             548.408203125,
             627.7918701171875
           ],
-          "block_id": "p9_b90",
+          "block_id": "p9_b89",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -8997,7 +8975,7 @@
             440.02301025390625,
             643.3919067382812
           ],
-          "block_id": "p9_b91",
+          "block_id": "p9_b90",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -9019,7 +8997,7 @@
             561.6317138671875,
             706.9920043945312
           ],
-          "block_id": "p9_b92",
+          "block_id": "p9_b91",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -9041,7 +9019,7 @@
             561.6488647460938,
             734.5918579101562
           ],
-          "block_id": "p9_b93",
+          "block_id": "p9_b92",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -9054,7 +9032,7 @@
           "source": "pymupdf"
         }
       ],
-      "block_count": 94,
+      "block_count": 93,
       "char_count": 4963,
       "word_count": 792,
       "page_width": 595.2760009765625,
@@ -13738,11 +13716,11 @@
         {
           "page_number": 13,
           "block_type": "paragraph",
-          "text": "Points2500-3999",
+          "text": "Points2500-39995000-79997500-1199910000-1599912500-199992.50%1.25%",
           "bbox": [
             307.48779296875,
             474.2189025878906,
-            358.2030334472656,
+            552.1500244140625,
             492.14593505859375
           ],
           "block_id": "p13_b45",
@@ -13752,20 +13730,20 @@
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 15,
+          "char_count": 66,
           "word_count": 1,
-          "line_count": 3,
+          "line_count": 13,
           "source": "pymupdf"
         },
         {
           "page_number": 13,
           "block_type": "paragraph",
-          "text": "5000-7999",
+          "text": "4000-49998000-999912000-1499916000-1999920000-249995%2.50%",
           "bbox": [
-            367.20001220703125,
-            474.2189025878906,
-            387.0030517578125,
-            492.14593505859375
+            338.3999938964844,
+            496.85382080078125,
+            552.1500244140625,
+            514.7808837890625
           ],
           "block_id": "p13_b46",
           "font_name": "Mulish-Regular",
@@ -13774,20 +13752,20 @@
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 9,
+          "char_count": 58,
           "word_count": 1,
-          "line_count": 2,
+          "line_count": 12,
           "source": "pymupdf"
         },
         {
           "page_number": 13,
           "block_type": "paragraph",
-          "text": "7500-11999",
+          "text": "5000-699910000-1399915000-2099920000-2799925000-3499910%5%",
           "bbox": [
-            400.32000732421875,
-            474.2189025878906,
-            421.320068359375,
-            492.14593505859375
+            338.3999938964844,
+            519.4888305664062,
+            542.1329956054688,
+            537.4158325195312
           ],
           "block_id": "p13_b47",
           "font_name": "Mulish-Regular",
@@ -13796,20 +13774,20 @@
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 10,
+          "char_count": 58,
           "word_count": 1,
-          "line_count": 2,
+          "line_count": 12,
           "source": "pymupdf"
         },
         {
           "page_number": 13,
           "block_type": "paragraph",
-          "text": "10000-15999",
+          "text": "7000-899914000-1799921000-2699928000-3599935000-4499920%10%",
           "bbox": [
-            435.05670166015625,
-            474.2189025878906,
-            459.05975341796875,
-            492.14593505859375
+            338.3999938964844,
+            542.1237182617188,
+            546.3330078125,
+            560.05078125
           ],
           "block_id": "p13_b48",
           "font_name": "Mulish-Regular",
@@ -13818,449 +13796,9 @@
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 11,
+          "char_count": 59,
           "word_count": 1,
-          "line_count": 2,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 13,
-          "block_type": "paragraph",
-          "text": "12500-19999",
-          "bbox": [
-            469.44000244140625,
-            474.2189025878906,
-            493.44305419921875,
-            492.14593505859375
-          ],
-          "block_id": "p13_b49",
-          "font_name": "Mulish-Regular",
-          "font_size": 7.0,
-          "flags": 4,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 11,
-          "word_count": 1,
-          "line_count": 2,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 13,
-          "block_type": "paragraph",
-          "text": "2.50%1.25%",
-          "bbox": [
-            503.2799987792969,
-            474.2189025878906,
-            552.1500244140625,
-            483.74591064453125
-          ],
-          "block_id": "p13_b50",
-          "font_name": "Mulish-Regular",
-          "font_size": 7.0,
-          "flags": 4,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 10,
-          "word_count": 1,
-          "line_count": 2,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 13,
-          "block_type": "paragraph",
-          "text": "4000-4999",
-          "bbox": [
-            338.3999938964844,
-            496.85382080078125,
-            358.2030334472656,
-            514.7808837890625
-          ],
-          "block_id": "p13_b51",
-          "font_name": "Mulish-Regular",
-          "font_size": 7.0,
-          "flags": 4,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 9,
-          "word_count": 1,
-          "line_count": 2,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 13,
-          "block_type": "paragraph",
-          "text": "8000-9999",
-          "bbox": [
-            367.20001220703125,
-            496.85382080078125,
-            387.0030517578125,
-            514.7808837890625
-          ],
-          "block_id": "p13_b52",
-          "font_name": "Mulish-Regular",
-          "font_size": 7.0,
-          "flags": 4,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 9,
-          "word_count": 1,
-          "line_count": 2,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 13,
-          "block_type": "paragraph",
-          "text": "12000-14999",
-          "bbox": [
-            400.32000732421875,
-            496.85382080078125,
-            424.32305908203125,
-            514.7808837890625
-          ],
-          "block_id": "p13_b53",
-          "font_name": "Mulish-Regular",
-          "font_size": 7.0,
-          "flags": 4,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 11,
-          "word_count": 1,
-          "line_count": 2,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 13,
-          "block_type": "paragraph",
-          "text": "16000-19999",
-          "bbox": [
-            435.05670166015625,
-            496.85382080078125,
-            459.05975341796875,
-            514.7808837890625
-          ],
-          "block_id": "p13_b54",
-          "font_name": "Mulish-Regular",
-          "font_size": 7.0,
-          "flags": 4,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 11,
-          "word_count": 1,
-          "line_count": 2,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 13,
-          "block_type": "paragraph",
-          "text": "20000-24999",
-          "bbox": [
-            469.44000244140625,
-            496.85382080078125,
-            493.44305419921875,
-            514.7808837890625
-          ],
-          "block_id": "p13_b55",
-          "font_name": "Mulish-Regular",
-          "font_size": 7.0,
-          "flags": 4,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 11,
-          "word_count": 1,
-          "line_count": 2,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 13,
-          "block_type": "paragraph",
-          "text": "5%2.50%",
-          "bbox": [
-            503.2799987792969,
-            496.85382080078125,
-            552.1500244140625,
-            506.3808288574219
-          ],
-          "block_id": "p13_b56",
-          "font_name": "Mulish-Regular",
-          "font_size": 7.0,
-          "flags": 4,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 7,
-          "word_count": 1,
-          "line_count": 2,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 13,
-          "block_type": "paragraph",
-          "text": "5000-6999",
-          "bbox": [
-            338.3999938964844,
-            519.4888305664062,
-            358.2030334472656,
-            537.4158325195312
-          ],
-          "block_id": "p13_b57",
-          "font_name": "Mulish-Regular",
-          "font_size": 7.0,
-          "flags": 4,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 9,
-          "word_count": 1,
-          "line_count": 2,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 13,
-          "block_type": "paragraph",
-          "text": "10000-13999",
-          "bbox": [
-            367.20001220703125,
-            519.4888305664062,
-            391.20306396484375,
-            537.4158325195312
-          ],
-          "block_id": "p13_b58",
-          "font_name": "Mulish-Regular",
-          "font_size": 7.0,
-          "flags": 4,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 11,
-          "word_count": 1,
-          "line_count": 2,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 13,
-          "block_type": "paragraph",
-          "text": "15000-20999",
-          "bbox": [
-            400.32000732421875,
-            519.4888305664062,
-            424.32305908203125,
-            537.4158325195312
-          ],
-          "block_id": "p13_b59",
-          "font_name": "Mulish-Regular",
-          "font_size": 7.0,
-          "flags": 4,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 11,
-          "word_count": 1,
-          "line_count": 2,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 13,
-          "block_type": "paragraph",
-          "text": "20000-27999",
-          "bbox": [
-            435.05670166015625,
-            519.4888305664062,
-            459.05975341796875,
-            537.4158325195312
-          ],
-          "block_id": "p13_b60",
-          "font_name": "Mulish-Regular",
-          "font_size": 7.0,
-          "flags": 4,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 11,
-          "word_count": 1,
-          "line_count": 2,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 13,
-          "block_type": "paragraph",
-          "text": "25000-34999",
-          "bbox": [
-            469.44000244140625,
-            519.4888305664062,
-            493.44305419921875,
-            537.4158325195312
-          ],
-          "block_id": "p13_b61",
-          "font_name": "Mulish-Regular",
-          "font_size": 7.0,
-          "flags": 4,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 11,
-          "word_count": 1,
-          "line_count": 2,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 13,
-          "block_type": "paragraph",
-          "text": "10%5%",
-          "bbox": [
-            503.2799987792969,
-            519.4888305664062,
-            542.1329956054688,
-            529.015869140625
-          ],
-          "block_id": "p13_b62",
-          "font_name": "Mulish-Regular",
-          "font_size": 7.0,
-          "flags": 4,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 5,
-          "word_count": 1,
-          "line_count": 2,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 13,
-          "block_type": "paragraph",
-          "text": "7000-8999",
-          "bbox": [
-            338.3999938964844,
-            542.1237182617188,
-            358.2030334472656,
-            560.05078125
-          ],
-          "block_id": "p13_b63",
-          "font_name": "Mulish-Regular",
-          "font_size": 7.0,
-          "flags": 4,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 9,
-          "word_count": 1,
-          "line_count": 2,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 13,
-          "block_type": "paragraph",
-          "text": "14000-17999",
-          "bbox": [
-            367.20001220703125,
-            542.1237182617188,
-            391.20306396484375,
-            560.05078125
-          ],
-          "block_id": "p13_b64",
-          "font_name": "Mulish-Regular",
-          "font_size": 7.0,
-          "flags": 4,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 11,
-          "word_count": 1,
-          "line_count": 2,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 13,
-          "block_type": "paragraph",
-          "text": "21000-26999",
-          "bbox": [
-            400.32000732421875,
-            542.1237182617188,
-            424.32305908203125,
-            560.05078125
-          ],
-          "block_id": "p13_b65",
-          "font_name": "Mulish-Regular",
-          "font_size": 7.0,
-          "flags": 4,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 11,
-          "word_count": 1,
-          "line_count": 2,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 13,
-          "block_type": "paragraph",
-          "text": "28000-35999",
-          "bbox": [
-            435.05670166015625,
-            542.1237182617188,
-            459.05975341796875,
-            560.05078125
-          ],
-          "block_id": "p13_b66",
-          "font_name": "Mulish-Regular",
-          "font_size": 7.0,
-          "flags": 4,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 11,
-          "word_count": 1,
-          "line_count": 2,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 13,
-          "block_type": "paragraph",
-          "text": "35000-44999",
-          "bbox": [
-            469.44000244140625,
-            542.1237182617188,
-            493.44305419921875,
-            560.05078125
-          ],
-          "block_id": "p13_b67",
-          "font_name": "Mulish-Regular",
-          "font_size": 7.0,
-          "flags": 4,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 11,
-          "word_count": 1,
-          "line_count": 2,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 13,
-          "block_type": "paragraph",
-          "text": "20%10%",
-          "bbox": [
-            503.2799987792969,
-            542.1237182617188,
-            546.3330078125,
-            551.6507568359375
-          ],
-          "block_id": "p13_b68",
-          "font_name": "Mulish-Regular",
-          "font_size": 7.0,
-          "flags": 4,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 6,
-          "word_count": 1,
-          "line_count": 2,
+          "line_count": 12,
           "source": "pymupdf"
         },
         {
@@ -14273,7 +13811,7 @@
             546.4450073242188,
             574.2857666015625
           ],
-          "block_id": "p13_b69",
+          "block_id": "p13_b49",
           "font_name": "Mulish-Bold",
           "font_size": 7.0,
           "flags": 20,
@@ -14295,7 +13833,7 @@
             561.6588745117188,
             641.8816528320312
           ],
-          "block_id": "p13_b70",
+          "block_id": "p13_b50",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -14308,9 +13846,9 @@
           "source": "pymupdf"
         }
       ],
-      "block_count": 71,
+      "block_count": 51,
       "char_count": 4453,
-      "word_count": 680,
+      "word_count": 660,
       "page_width": 595.2760009765625,
       "page_height": 841.8900146484375,
       "images": [
@@ -14617,11 +14155,11 @@
         {
           "page_number": 14,
           "block_type": "paragraph",
-          "text": " TotalDiscount - 30%",
+          "text": " TotalDiscount - 30%Rs. 25,000",
           "bbox": [
             125.0999984741211,
             186.68272399902344,
-            170.18997192382812,
+            233.11557006835938,
             220.53182983398438
           ],
           "block_id": "p14_b13",
@@ -14631,31 +14169,9 @@
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 20,
-          "word_count": 3,
-          "line_count": 3,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 14,
-          "block_type": "paragraph",
-          "text": "Rs. 25,000",
-          "bbox": [
-            189.1956024169922,
-            197.4828338623047,
-            233.11557006835938,
-            209.73184204101562
-          ],
-          "block_id": "p14_b14",
-          "font_name": "Mulish-Regular",
-          "font_size": 9.0,
-          "flags": 4,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 10,
-          "word_count": 2,
-          "line_count": 1,
+          "char_count": 30,
+          "word_count": 4,
+          "line_count": 4,
           "source": "pymupdf"
         },
         {
@@ -14668,7 +14184,7 @@
             290.63726806640625,
             225.93173217773438
           ],
-          "block_id": "p14_b15",
+          "block_id": "p14_b14",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -14690,7 +14206,7 @@
             94.22801208496094,
             266.4767150878906
           ],
-          "block_id": "p14_b16",
+          "block_id": "p14_b15",
           "font_name": "Mulish-Bold",
           "font_size": 9.0,
           "flags": 20,
@@ -14712,7 +14228,7 @@
             166.12200927734375,
             266.4767150878906
           ],
-          "block_id": "p14_b17",
+          "block_id": "p14_b16",
           "font_name": "Mulish-Bold",
           "font_size": 9.0,
           "flags": 20,
@@ -14734,7 +14250,7 @@
             233.11570739746094,
             266.4767150878906
           ],
-          "block_id": "p14_b18",
+          "block_id": "p14_b17",
           "font_name": "Mulish-Bold",
           "font_size": 9.0,
           "flags": 20,
@@ -14756,7 +14272,7 @@
             280.6266174316406,
             271.8767395019531
           ],
-          "block_id": "p14_b19",
+          "block_id": "p14_b18",
           "font_name": "Mulish-Bold",
           "font_size": 9.0,
           "flags": 20,
@@ -14778,7 +14294,7 @@
             115.81800079345703,
             309.7215881347656
           ],
-          "block_id": "p14_b20",
+          "block_id": "p14_b19",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -14800,7 +14316,7 @@
             242.6645965576172,
             298.9216003417969
           ],
-          "block_id": "p14_b21",
+          "block_id": "p14_b20",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -14822,7 +14338,7 @@
             115.81800079345703,
             347.5665283203125
           ],
-          "block_id": "p14_b22",
+          "block_id": "p14_b21",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -14844,7 +14360,7 @@
             242.6645965576172,
             336.7665100097656
           ],
-          "block_id": "p14_b23",
+          "block_id": "p14_b22",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -14859,45 +14375,23 @@
         {
           "page_number": 14,
           "block_type": "paragraph",
-          "text": "Total\nDiscount- 25%",
+          "text": "Total\nDiscount- 25%Rs. 25,000",
           "bbox": [
             125.0999984741211,
             362.3624267578125,
-            167.71408081054688,
+            233.11557006835938,
             396.21142578125
           ],
-          "block_id": "p14_b24",
+          "block_id": "p14_b23",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 19,
-          "word_count": 3,
-          "line_count": 3,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 14,
-          "block_type": "paragraph",
-          "text": "Rs. 25,000",
-          "bbox": [
-            189.1956024169922,
-            373.16241455078125,
-            233.11557006835938,
-            385.4114074707031
-          ],
-          "block_id": "p14_b25",
-          "font_name": "Mulish-Regular",
-          "font_size": 9.0,
-          "flags": 4,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 10,
-          "word_count": 2,
-          "line_count": 1,
+          "char_count": 29,
+          "word_count": 4,
+          "line_count": 4,
           "source": "pymupdf"
         },
         {
@@ -14910,7 +14404,7 @@
             289.590576171875,
             407.01141357421875
           ],
-          "block_id": "p14_b26",
+          "block_id": "p14_b24",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -14932,7 +14426,7 @@
             279.5544738769531,
             426.0614013671875
           ],
-          "block_id": "p14_b27",
+          "block_id": "p14_b25",
           "font_name": "Mulish-Bold",
           "font_size": 9.0,
           "flags": 20,
@@ -14954,7 +14448,7 @@
             294.011962890625,
             489.6614074707031
           ],
-          "block_id": "p14_b28",
+          "block_id": "p14_b26",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -14976,7 +14470,7 @@
             294.0119323730469,
             553.2614135742188
           ],
-          "block_id": "p14_b29",
+          "block_id": "p14_b27",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -14998,7 +14492,7 @@
             293.99395751953125,
             568.8613891601562
           ],
-          "block_id": "p14_b30",
+          "block_id": "p14_b28",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -15020,7 +14514,7 @@
             294.01104736328125,
             604.8613891601562
           ],
-          "block_id": "p14_b31",
+          "block_id": "p14_b29",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -15042,7 +14536,7 @@
             294.00201416015625,
             620.4613647460938
           ],
-          "block_id": "p14_b32",
+          "block_id": "p14_b30",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -15064,7 +14558,7 @@
             234.1673583984375,
             632.4613647460938
           ],
-          "block_id": "p14_b33",
+          "block_id": "p14_b31",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -15086,7 +14580,7 @@
             293.9867248535156,
             660.0614013671875
           ],
-          "block_id": "p14_b34",
+          "block_id": "p14_b32",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -15108,7 +14602,7 @@
             294.0119323730469,
             699.661376953125
           ],
-          "block_id": "p14_b35",
+          "block_id": "p14_b33",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -15130,7 +14624,7 @@
             294.0119323730469,
             739.2614135742188
           ],
-          "block_id": "p14_b36",
+          "block_id": "p14_b34",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -15152,7 +14646,7 @@
             561.6246337890625,
             70.90213012695312
           ],
-          "block_id": "p14_b37",
+          "block_id": "p14_b35",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -15174,7 +14668,7 @@
             545.71630859375,
             86.20223999023438
           ],
-          "block_id": "p14_b38",
+          "block_id": "p14_b36",
           "font_name": "Mulish-Bold",
           "font_size": 9.0,
           "flags": 20,
@@ -15196,7 +14690,7 @@
             561.6397705078125,
             195.10214233398438
           ],
-          "block_id": "p14_b39",
+          "block_id": "p14_b37",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -15218,7 +14712,7 @@
             561.6381225585938,
             245.50222778320312
           ],
-          "block_id": "p14_b40",
+          "block_id": "p14_b38",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -15240,7 +14734,7 @@
             561.6138916015625,
             260.8020935058594
           ],
-          "block_id": "p14_b41",
+          "block_id": "p14_b39",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -15262,7 +14756,7 @@
             561.6497192382812,
             331.0022277832031
           ],
-          "block_id": "p14_b42",
+          "block_id": "p14_b40",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -15284,7 +14778,7 @@
             561.6266479492188,
             346.3021240234375
           ],
-          "block_id": "p14_b43",
+          "block_id": "p14_b41",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -15306,7 +14800,7 @@
             417.0908508300781,
             358.0021057128906
           ],
-          "block_id": "p14_b44",
+          "block_id": "p14_b42",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -15328,7 +14822,7 @@
             561.6320190429688,
             396.7021179199219
           ],
-          "block_id": "p14_b45",
+          "block_id": "p14_b43",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -15350,7 +14844,7 @@
             561.6137084960938,
             412.0021057128906
           ],
-          "block_id": "p14_b46",
+          "block_id": "p14_b44",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -15372,7 +14866,7 @@
             561.6399536132812,
             458.8021240234375
           ],
-          "block_id": "p14_b47",
+          "block_id": "p14_b45",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -15394,7 +14888,7 @@
             561.62451171875,
             474.10211181640625
           ],
-          "block_id": "p14_b48",
+          "block_id": "p14_b46",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -15416,7 +14910,7 @@
             561.6488647460938,
             556.002197265625
           ],
-          "block_id": "p14_b49",
+          "block_id": "p14_b47",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -15438,7 +14932,7 @@
             561.6030883789062,
             571.3020629882812
           ],
-          "block_id": "p14_b50",
+          "block_id": "p14_b48",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -15460,7 +14954,7 @@
             558.2362060546875,
             583.002197265625
           ],
-          "block_id": "p14_b51",
+          "block_id": "p14_b49",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -15482,7 +14976,7 @@
             353.1639404296875,
             598.3020629882812
           ],
-          "block_id": "p14_b52",
+          "block_id": "p14_b50",
           "font_name": "Mulish-Bold",
           "font_size": 9.0,
           "flags": 20,
@@ -15504,7 +14998,7 @@
             561.64990234375,
             625.3020629882812
           ],
-          "block_id": "p14_b53",
+          "block_id": "p14_b51",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -15526,7 +15020,7 @@
             561.6444702148438,
             699.1021118164062
           ],
-          "block_id": "p14_b54",
+          "block_id": "p14_b52",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -15548,7 +15042,7 @@
             561.60400390625,
             714.402099609375
           ],
-          "block_id": "p14_b55",
+          "block_id": "p14_b53",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -15570,7 +15064,7 @@
             561.6256103515625,
             738.1021118164062
           ],
-          "block_id": "p14_b56",
+          "block_id": "p14_b54",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -15583,9 +15077,9 @@
           "source": "pymupdf"
         }
       ],
-      "block_count": 57,
+      "block_count": 55,
       "char_count": 5268,
-      "word_count": 838,
+      "word_count": 836,
       "page_width": 595.2760009765625,
       "page_height": 841.8900146484375,
       "images": [
@@ -18080,12 +17574,12 @@
         {
           "page_number": 17,
           "block_type": "paragraph",
-          "text": "to Rs. 20 Lacs ",
+          "text": "to Rs. 20 Lacs upon renewal",
           "bbox": [
-            392.96099853515625,
+            392.19140625,
             93.4852294921875,
             428.322021484375,
-            116.55209350585938
+            138.15213012695312
           ],
           "block_id": "p17_b33",
           "font_name": "Mulish-Bold",
@@ -18094,31 +17588,9 @@
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 15,
-          "word_count": 4,
-          "line_count": 2,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 17,
-          "block_type": "paragraph",
-          "text": "upon renewal",
-          "bbox": [
-            392.19140625,
-            115.08514404296875,
-            426.6254577636719,
-            138.15213012695312
-          ],
-          "block_id": "p17_b34",
-          "font_name": "Mulish-Bold",
-          "font_size": 9.0,
-          "flags": 20,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 12,
-          "word_count": 2,
-          "line_count": 2,
+          "char_count": 27,
+          "word_count": 6,
+          "line_count": 4,
           "source": "pymupdf"
         },
         {
@@ -18131,7 +17603,7 @@
             462.5985107421875,
             62.552093505859375
           ],
-          "block_id": "p17_b35",
+          "block_id": "p17_b34",
           "font_name": "Mulish-Bold",
           "font_size": 9.0,
           "flags": 20,
@@ -18153,7 +17625,7 @@
             461.09991455078125,
             94.95223999023438
           ],
-          "block_id": "p17_b36",
+          "block_id": "p17_b35",
           "font_name": "Mulish-Bold",
           "font_size": 9.0,
           "flags": 20,
@@ -18175,7 +17647,7 @@
             460.9155578613281,
             116.55209350585938
           ],
-          "block_id": "p17_b37",
+          "block_id": "p17_b36",
           "font_name": "Mulish-Bold",
           "font_size": 9.0,
           "flags": 20,
@@ -18197,7 +17669,7 @@
             503.140380859375,
             51.752227783203125
           ],
-          "block_id": "p17_b38",
+          "block_id": "p17_b37",
           "font_name": "Mulish-Bold",
           "font_size": 9.0,
           "flags": 20,
@@ -18219,7 +17691,7 @@
             503.2347717285156,
             73.35214233398438
           ],
-          "block_id": "p17_b39",
+          "block_id": "p17_b38",
           "font_name": "Mulish-Bold",
           "font_size": 9.0,
           "flags": 20,
@@ -18241,7 +17713,7 @@
             508.6622314453125,
             105.75222778320312
           ],
-          "block_id": "p17_b40",
+          "block_id": "p17_b39",
           "font_name": "Mulish-Bold",
           "font_size": 9.0,
           "flags": 20,
@@ -18263,7 +17735,7 @@
             555.79052734375,
             51.752227783203125
           ],
-          "block_id": "p17_b41",
+          "block_id": "p17_b40",
           "font_name": "Mulish-Bold",
           "font_size": 9.0,
           "flags": 20,
@@ -18285,7 +17757,7 @@
             552.4246215820312,
             73.35214233398438
           ],
-          "block_id": "p17_b42",
+          "block_id": "p17_b41",
           "font_name": "Mulish-Bold",
           "font_size": 9.0,
           "flags": 20,
@@ -18307,7 +17779,7 @@
             552.1544189453125,
             94.95223999023438
           ],
-          "block_id": "p17_b43",
+          "block_id": "p17_b42",
           "font_name": "Mulish-Bold",
           "font_size": 9.0,
           "flags": 20,
@@ -18329,7 +17801,7 @@
             554.8410034179688,
             116.55209350585938
           ],
-          "block_id": "p17_b44",
+          "block_id": "p17_b43",
           "font_name": "Mulish-Bold",
           "font_size": 9.0,
           "flags": 20,
@@ -18351,7 +17823,7 @@
             552.0869750976562,
             138.15213012695312
           ],
-          "block_id": "p17_b45",
+          "block_id": "p17_b44",
           "font_name": "Mulish-Bold",
           "font_size": 9.0,
           "flags": 20,
@@ -18373,7 +17845,7 @@
             340.34356689453125,
             155.19699096679688
           ],
-          "block_id": "p17_b46",
+          "block_id": "p17_b45",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -18395,7 +17867,7 @@
             331.29827880859375,
             165.99703979492188
           ],
-          "block_id": "p17_b47",
+          "block_id": "p17_b46",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -18417,7 +17889,7 @@
             380.9050598144531,
             155.19699096679688
           ],
-          "block_id": "p17_b48",
+          "block_id": "p17_b47",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -18439,7 +17911,7 @@
             373.03436279296875,
             165.99703979492188
           ],
-          "block_id": "p17_b49",
+          "block_id": "p17_b48",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -18461,7 +17933,7 @@
             464.2544860839844,
             155.19699096679688
           ],
-          "block_id": "p17_b50",
+          "block_id": "p17_b49",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -18483,7 +17955,7 @@
             456.3837890625,
             165.99703979492188
           ],
-          "block_id": "p17_b51",
+          "block_id": "p17_b50",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -18505,7 +17977,7 @@
             505.2061767578125,
             155.19699096679688
           ],
-          "block_id": "p17_b52",
+          "block_id": "p17_b51",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -18527,7 +17999,7 @@
             497.3354797363281,
             165.99703979492188
           ],
-          "block_id": "p17_b53",
+          "block_id": "p17_b52",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -18549,7 +18021,7 @@
             554.9391479492188,
             155.19699096679688
           ],
-          "block_id": "p17_b54",
+          "block_id": "p17_b53",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -18571,7 +18043,7 @@
             561.614013671875,
             197.44699096679688
           ],
-          "block_id": "p17_b55",
+          "block_id": "p17_b54",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -18593,7 +18065,7 @@
             561.6246948242188,
             235.54708862304688
           ],
-          "block_id": "p17_b56",
+          "block_id": "p17_b55",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -18615,7 +18087,7 @@
             561.6229858398438,
             262.1470031738281
           ],
-          "block_id": "p17_b57",
+          "block_id": "p17_b56",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -18637,7 +18109,7 @@
             561.6290893554688,
             288.7470397949219
           ],
-          "block_id": "p17_b58",
+          "block_id": "p17_b57",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -18659,7 +18131,7 @@
             354.33477783203125,
             303.8470153808594
           ],
-          "block_id": "p17_b59",
+          "block_id": "p17_b58",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -18681,7 +18153,7 @@
             358.6727294921875,
             318.9469909667969
           ],
-          "block_id": "p17_b60",
+          "block_id": "p17_b59",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -18703,7 +18175,7 @@
             377.5448913574219,
             334.0470275878906
           ],
-          "block_id": "p17_b61",
+          "block_id": "p17_b60",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -18725,7 +18197,7 @@
             384.43975830078125,
             349.1470031738281
           ],
-          "block_id": "p17_b62",
+          "block_id": "p17_b61",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -18747,7 +18219,7 @@
             355.81884765625,
             364.2471008300781
           ],
-          "block_id": "p17_b63",
+          "block_id": "p17_b62",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -18769,7 +18241,7 @@
             539.5511474609375,
             379.3470153808594
           ],
-          "block_id": "p17_b64",
+          "block_id": "p17_b63",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -18791,7 +18263,7 @@
             561.6489868164062,
             428.947021484375
           ],
-          "block_id": "p17_b65",
+          "block_id": "p17_b64",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -18813,7 +18285,7 @@
             561.64794921875,
             490.0470275878906
           ],
-          "block_id": "p17_b66",
+          "block_id": "p17_b65",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -18835,7 +18307,7 @@
             561.6435546875,
             551.14697265625
           ],
-          "block_id": "p17_b67",
+          "block_id": "p17_b66",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -18857,7 +18329,7 @@
             561.6318969726562,
             612.2470092773438
           ],
-          "block_id": "p17_b68",
+          "block_id": "p17_b67",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -18879,7 +18351,7 @@
             561.6488647460938,
             684.8471069335938
           ],
-          "block_id": "p17_b69",
+          "block_id": "p17_b68",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -18901,7 +18373,7 @@
             561.6381225585938,
             734.9469604492188
           ],
-          "block_id": "p17_b70",
+          "block_id": "p17_b69",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -18914,7 +18386,7 @@
           "source": "pymupdf"
         }
       ],
-      "block_count": 71,
+      "block_count": 70,
       "char_count": 5326,
       "word_count": 846,
       "page_width": 595.2760009765625,
@@ -23339,11 +22811,11 @@
         {
           "page_number": 22,
           "block_type": "paragraph",
-          "text": "0Rs. 10,00,000",
+          "text": "0Rs. 10,00,000YesNot\napplicable",
           "bbox": [
             307.48779296875,
             548.3929443359375,
-            375.8735656738281,
+            477.8336486816406,
             571.44189453125
           ],
           "block_id": "p22_b40",
@@ -23353,31 +22825,9 @@
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 14,
-          "word_count": 2,
-          "line_count": 3,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 22,
-          "block_type": "paragraph",
-          "text": "YesNot\napplicable",
-          "bbox": [
-            385.0356140136719,
-            548.3929443359375,
-            477.8336486816406,
-            571.44189453125
-          ],
-          "block_id": "p22_b41",
-          "font_name": "Mulish-Regular",
-          "font_size": 9.0,
-          "flags": 4,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 17,
-          "word_count": 2,
-          "line_count": 3,
+          "char_count": 31,
+          "word_count": 3,
+          "line_count": 6,
           "source": "pymupdf"
         },
         {
@@ -23390,7 +22840,7 @@
             544.4527587890625,
             571.44189453125
           ],
-          "block_id": "p22_b42",
+          "block_id": "p22_b41",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -23405,12 +22855,34 @@
         {
           "page_number": 22,
           "block_type": "paragraph",
-          "text": "1Rs. 10,00,000",
+          "text": "1Rs. 10,00,000Yes10,00,000 x 6% = 60,000Rs. 60,000",
           "bbox": [
             307.48779296875,
             575.4378662109375,
-            375.8735656738281,
+            545.7487182617188,
             598.4867553710938
+          ],
+          "block_id": "p22_b42",
+          "font_name": "Mulish-Regular",
+          "font_size": 9.0,
+          "flags": 4,
+          "is_bold": false,
+          "is_italic": false,
+          "is_upper": false,
+          "char_count": 50,
+          "word_count": 7,
+          "line_count": 7,
+          "source": "pymupdf"
+        },
+        {
+          "page_number": 22,
+          "block_type": "paragraph",
+          "text": "2##Rs. 15,00,000Yes10,00,000 x 6% = 60,000Rs. 60,000 + Rs. 60,000 = Rs. 1,20,000",
+          "bbox": [
+            307.48779296875,
+            602.4827270507812,
+            555.8467407226562,
+            636.3316650390625
           ],
           "block_id": "p22_b43",
           "font_name": "Mulish-Regular",
@@ -23419,20 +22891,20 @@
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 14,
-          "word_count": 2,
-          "line_count": 3,
+          "char_count": 80,
+          "word_count": 13,
+          "line_count": 9,
           "source": "pymupdf"
         },
         {
           "page_number": 22,
           "block_type": "paragraph",
-          "text": "Yes10,00,000 x 6% = 60,000",
+          "text": "3Rs 15,00,000Yes15,00,000 x 6% = 90,000Rs. 1,20,000 + Rs. 90,000 = Rs. 2,10,000",
           "bbox": [
-            385.0356140136719,
-            575.4378662109375,
-            488.08465576171875,
-            598.4867553710938
+            307.48779296875,
+            640.32763671875,
+            555.8466796875,
+            684.9765625
           ],
           "block_id": "p22_b44",
           "font_name": "Mulish-Regular",
@@ -23441,20 +22913,20 @@
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 26,
-          "word_count": 5,
-          "line_count": 3,
+          "char_count": 79,
+          "word_count": 13,
+          "line_count": 10,
           "source": "pymupdf"
         },
         {
           "page_number": 22,
           "block_type": "paragraph",
-          "text": "Rs. 60,000",
+          "text": "4Rs. 15,00,000NoNil as cus­tomer opted out of the Op­tional Cover",
           "bbox": [
-            501.67559814453125,
-            575.4378662109375,
-            545.7487182617188,
-            587.6868286132812
+            307.48779296875,
+            688.9725341796875,
+            493.42059326171875,
+            733.6214599609375
           ],
           "block_id": "p22_b45",
           "font_name": "Mulish-Regular",
@@ -23463,185 +22935,9 @@
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 10,
-          "word_count": 2,
-          "line_count": 1,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 22,
-          "block_type": "paragraph",
-          "text": "2##Rs. 15,00,000",
-          "bbox": [
-            307.48779296875,
-            602.4827270507812,
-            375.8735656738281,
-            625.5316772460938
-          ],
-          "block_id": "p22_b46",
-          "font_name": "Mulish-Regular",
-          "font_size": 9.0,
-          "flags": 4,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 16,
-          "word_count": 2,
-          "line_count": 3,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 22,
-          "block_type": "paragraph",
-          "text": "Yes10,00,000 x 6% = 60,000",
-          "bbox": [
-            385.0356140136719,
-            602.4827270507812,
-            488.08465576171875,
-            625.5316772460938
-          ],
-          "block_id": "p22_b47",
-          "font_name": "Mulish-Regular",
-          "font_size": 9.0,
-          "flags": 4,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 26,
-          "word_count": 5,
-          "line_count": 3,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 22,
-          "block_type": "paragraph",
-          "text": "Rs. 60,000 + Rs. 60,000 = Rs. 1,20,000",
-          "bbox": [
-            501.67559814453125,
-            602.4827270507812,
-            555.8467407226562,
-            636.3316650390625
-          ],
-          "block_id": "p22_b48",
-          "font_name": "Mulish-Regular",
-          "font_size": 9.0,
-          "flags": 4,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 38,
-          "word_count": 8,
-          "line_count": 3,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 22,
-          "block_type": "paragraph",
-          "text": "3Rs 15,00,000",
-          "bbox": [
-            307.48779296875,
-            640.32763671875,
-            375.8735656738281,
-            663.3765869140625
-          ],
-          "block_id": "p22_b49",
-          "font_name": "Mulish-Regular",
-          "font_size": 9.0,
-          "flags": 4,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 13,
-          "word_count": 2,
-          "line_count": 3,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 22,
-          "block_type": "paragraph",
-          "text": "Yes15,00,000 x 6% = 90,000",
-          "bbox": [
-            385.0356140136719,
-            640.32763671875,
-            488.08465576171875,
-            663.3765869140625
-          ],
-          "block_id": "p22_b50",
-          "font_name": "Mulish-Regular",
-          "font_size": 9.0,
-          "flags": 4,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 26,
-          "word_count": 5,
-          "line_count": 3,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 22,
-          "block_type": "paragraph",
-          "text": "Rs. 1,20,000 + Rs. 90,000 = Rs. 2,10,000",
-          "bbox": [
-            501.67559814453125,
-            640.32763671875,
-            555.8466796875,
-            684.9765625
-          ],
-          "block_id": "p22_b51",
-          "font_name": "Mulish-Regular",
-          "font_size": 9.0,
-          "flags": 4,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 40,
-          "word_count": 8,
-          "line_count": 4,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 22,
-          "block_type": "paragraph",
-          "text": "4Rs. 15,00,000",
-          "bbox": [
-            307.48779296875,
-            688.9725341796875,
-            375.8735656738281,
-            712.021484375
-          ],
-          "block_id": "p22_b52",
-          "font_name": "Mulish-Regular",
-          "font_size": 9.0,
-          "flags": 4,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 14,
-          "word_count": 2,
-          "line_count": 3,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 22,
-          "block_type": "paragraph",
-          "text": "NoNil as cus­tomer opted out of the Op­tional Cover",
-          "bbox": [
-            385.0356140136719,
-            688.9725341796875,
-            493.42059326171875,
-            733.6214599609375
-          ],
-          "block_id": "p22_b53",
-          "font_name": "Mulish-Regular",
-          "font_size": 9.0,
-          "flags": 4,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 51,
-          "word_count": 9,
-          "line_count": 5,
+          "char_count": 65,
+          "word_count": 10,
+          "line_count": 8,
           "source": "pymupdf"
         },
         {
@@ -23654,7 +22950,7 @@
             512.673583984375,
             701.2214965820312
           ],
-          "block_id": "p22_b54",
+          "block_id": "p22_b46",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -23667,9 +22963,9 @@
           "source": "pymupdf"
         }
       ],
-      "block_count": 55,
+      "block_count": 47,
       "char_count": 5226,
-      "word_count": 760,
+      "word_count": 752,
       "page_width": 595.2760009765625,
       "page_height": 841.8900146484375,
       "images": [
@@ -25075,12 +24371,12 @@
         {
           "page_number": 24,
           "block_type": "paragraph",
-          "text": "17.\t \u0007Critical Illness (For persons aged between 18 to 50 ",
+          "text": "17.\t \u0007Critical Illness (For persons aged between 18 to 50 years)",
           "bbox": [
             303.6377868652344,
             35.235225677490234,
             561.7236328125,
-            47.502227783203125
+            59.302093505859375
           ],
           "block_id": "p24_b22",
           "font_name": "Mulish-Bold",
@@ -25089,31 +24385,9 @@
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 58,
-          "word_count": 10,
-          "line_count": 1,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 24,
-          "block_type": "paragraph",
-          "text": "years)",
-          "bbox": [
-            321.6377868652344,
-            47.035091400146484,
-            348.1338195800781,
-            59.302093505859375
-          ],
-          "block_id": "p24_b23",
-          "font_name": "Mulish-Bold",
-          "font_size": 9.0,
-          "flags": 20,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 6,
-          "word_count": 1,
-          "line_count": 1,
+          "char_count": 64,
+          "word_count": 11,
+          "line_count": 2,
           "source": "pymupdf"
         },
         {
@@ -25126,7 +24400,7 @@
             561.6498413085938,
             121.90213012695312
           ],
-          "block_id": "p24_b24",
+          "block_id": "p24_b23",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -25148,7 +24422,7 @@
             561.6390380859375,
             219.90213012695312
           ],
-          "block_id": "p24_b25",
+          "block_id": "p24_b24",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -25170,7 +24444,7 @@
             561.6318359375,
             270.7021179199219
           ],
-          "block_id": "p24_b26",
+          "block_id": "p24_b25",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -25192,7 +24466,7 @@
             561.6245727539062,
             309.7021179199219
           ],
-          "block_id": "p24_b27",
+          "block_id": "p24_b26",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -25214,7 +24488,7 @@
             561.5987548828125,
             336.9021301269531
           ],
-          "block_id": "p24_b28",
+          "block_id": "p24_b27",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -25236,7 +24510,7 @@
             455.6009216308594,
             352.3021240234375
           ],
-          "block_id": "p24_b29",
+          "block_id": "p24_b28",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -25258,7 +24532,7 @@
             561.62548828125,
             379.5022277832031
           ],
-          "block_id": "p24_b30",
+          "block_id": "p24_b29",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -25280,7 +24554,7 @@
             442.38079833984375,
             394.9021301269531
           ],
-          "block_id": "p24_b31",
+          "block_id": "p24_b30",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -25302,7 +24576,7 @@
             416.0387878417969,
             410.3021240234375
           ],
-          "block_id": "p24_b32",
+          "block_id": "p24_b31",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -25324,7 +24598,7 @@
             552.43017578125,
             425.7021179199219
           ],
-          "block_id": "p24_b33",
+          "block_id": "p24_b32",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -25346,7 +24620,7 @@
             409.15283203125,
             441.10211181640625
           ],
-          "block_id": "p24_b34",
+          "block_id": "p24_b33",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -25368,7 +24642,7 @@
             508.85400390625,
             456.5022277832031
           ],
-          "block_id": "p24_b35",
+          "block_id": "p24_b34",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -25390,7 +24664,7 @@
             506.7109680175781,
             471.9021301269531
           ],
-          "block_id": "p24_b36",
+          "block_id": "p24_b35",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -25412,7 +24686,7 @@
             413.3207092285156,
             487.3021240234375
           ],
-          "block_id": "p24_b37",
+          "block_id": "p24_b36",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -25434,7 +24708,7 @@
             440.7878112792969,
             502.7021179199219
           ],
-          "block_id": "p24_b38",
+          "block_id": "p24_b37",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -25456,7 +24730,7 @@
             434.9458923339844,
             518.1021118164062
           ],
-          "block_id": "p24_b39",
+          "block_id": "p24_b38",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -25478,7 +24752,7 @@
             450.78594970703125,
             533.502197265625
           ],
-          "block_id": "p24_b40",
+          "block_id": "p24_b39",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -25493,21 +24767,21 @@
         {
           "page_number": 24,
           "block_type": "paragraph",
-          "text": "\t13.\t  Third Degree Burns",
+          "text": "\t13.\t Third Degree Burns",
           "bbox": [
             303.6377868652344,
             536.6531372070312,
             422.4008483886719,
             548.902099609375
           ],
-          "block_id": "p24_b41",
+          "block_id": "p24_b40",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 25,
+          "char_count": 24,
           "word_count": 4,
           "line_count": 2,
           "source": "pymupdf"
@@ -25522,7 +24796,7 @@
             495.7320251464844,
             564.3020629882812
           ],
-          "block_id": "p24_b42",
+          "block_id": "p24_b41",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -25544,7 +24818,7 @@
             521.7499389648438,
             579.7022094726562
           ],
-          "block_id": "p24_b43",
+          "block_id": "p24_b42",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -25566,7 +24840,7 @@
             421.06976318359375,
             595.1021118164062
           ],
-          "block_id": "p24_b44",
+          "block_id": "p24_b43",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -25588,7 +24862,7 @@
             547.5171508789062,
             610.502197265625
           ],
-          "block_id": "p24_b45",
+          "block_id": "p24_b44",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -25610,7 +24884,7 @@
             478.1999816894531,
             625.902099609375
           ],
-          "block_id": "p24_b46",
+          "block_id": "p24_b45",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -25632,7 +24906,7 @@
             403.4297790527344,
             641.3020629882812
           ],
-          "block_id": "p24_b47",
+          "block_id": "p24_b46",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -25654,7 +24928,7 @@
             421.5107421875,
             656.7022094726562
           ],
-          "block_id": "p24_b48",
+          "block_id": "p24_b47",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -25676,7 +24950,7 @@
             441.66009521484375,
             672.1021118164062
           ],
-          "block_id": "p24_b49",
+          "block_id": "p24_b48",
           "font_name": "Mulish-Bold",
           "font_size": 9.0,
           "flags": 20,
@@ -25698,7 +24972,7 @@
             561.6228637695312,
             734.902099609375
           ],
-          "block_id": "p24_b50",
+          "block_id": "p24_b49",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -25711,8 +24985,8 @@
           "source": "pymupdf"
         }
       ],
-      "block_count": 51,
-      "char_count": 4890,
+      "block_count": 50,
+      "char_count": 4889,
       "word_count": 751,
       "page_width": 595.2760009765625,
       "page_height": 841.8900146484375,
@@ -31406,12 +30680,12 @@
         {
           "page_number": 29,
           "block_type": "paragraph",
-          "text": "24.\t \u0007Waiting Period Reduction Option (Other than those ",
+          "text": "24.\t \u0007Waiting Period Reduction Option (Other than those listed under JumpStart)",
           "bbox": [
             303.6377868652344,
             434.8351135253906,
             561.748779296875,
-            447.10211181640625
+            458.8021240234375
           ],
           "block_id": "p29_b40",
           "font_name": "Mulish-Bold",
@@ -31420,31 +30694,9 @@
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 56,
-          "word_count": 8,
-          "line_count": 1,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 29,
-          "block_type": "paragraph",
-          "text": "listed under JumpStart)",
-          "bbox": [
-            321.6377868652344,
-            446.5351257324219,
-            422.7420959472656,
-            458.8021240234375
-          ],
-          "block_id": "p29_b41",
-          "font_name": "Mulish-Bold",
-          "font_size": 9.0,
-          "flags": 20,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 23,
-          "word_count": 3,
-          "line_count": 1,
+          "char_count": 79,
+          "word_count": 11,
+          "line_count": 2,
           "source": "pymupdf"
         },
         {
@@ -31457,7 +30709,7 @@
             561.6524047851562,
             591.1021118164062
           ],
-          "block_id": "p29_b42",
+          "block_id": "p29_b41",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -31479,7 +30731,7 @@
             509.4022216796875,
             606.402099609375
           ],
-          "block_id": "p29_b43",
+          "block_id": "p29_b42",
           "font_name": "Mulish-Bold",
           "font_size": 9.0,
           "flags": 20,
@@ -31501,7 +30753,7 @@
             561.6607055664062,
             727.3020629882812
           ],
-          "block_id": "p29_b44",
+          "block_id": "p29_b43",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -31514,7 +30766,7 @@
           "source": "pymupdf"
         }
       ],
-      "block_count": 45,
+      "block_count": 44,
       "char_count": 5554,
       "word_count": 842,
       "page_width": 595.2760009765625,
@@ -32680,12 +31932,12 @@
         {
           "page_number": 31,
           "block_type": "paragraph",
-          "text": "5Discount on specialized geriatric health services: Following services when availed through our empaneled service providers’ platform:1. \u0007upto 10% off on first 30 days of Home ",
+          "text": "5Discount on specialized geriatric health services: Following services when availed through our empaneled service providers’ platform:1. \u0007upto 10% off on first 30 days of Home Healthcare services (Nurses & Attendants)2. \u0007upto 20% off on medicine orders (20% on price of medicines) 3. upto 10% off on physiotherapy sessions4. upto 35% off on diagnostic services5. \u0007upto 20% off on medical equipments (Walking stick, wheelchair, BP machine, Sugar testing,)",
           "bbox": [
             40.25,
             297.5277099609375,
-            238.34829711914062,
-            352.9767150878906
+            249.62496948242188,
+            439.376708984375
           ],
           "block_id": "p31_b14",
           "font_name": "Mulish-Regular",
@@ -32694,75 +31946,9 @@
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 176,
-          "word_count": 25,
-          "line_count": 6,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 31,
-          "block_type": "paragraph",
-          "text": "Healthcare services (Nurses & Attendants)2. \u0007upto 20% off on medicine orders (20% on ",
-          "bbox": [
-            63.7599983215332,
-            351.5277099609375,
-            249.62496948242188,
-            374.57672119140625
-          ],
-          "block_id": "p31_b15",
-          "font_name": "Mulish-Regular",
-          "font_size": 9.0,
-          "flags": 4,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 85,
-          "word_count": 13,
-          "line_count": 2,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 31,
-          "block_type": "paragraph",
-          "text": "price of medicines) 3. upto 10% off on physiotherapy sessions4. upto 35% off on diagnostic services5. \u0007upto 20% off on medical equipments ",
-          "bbox": [
-            63.7599983215332,
-            373.1277160644531,
-            239.5002899169922,
-            417.7767028808594
-          ],
-          "block_id": "p31_b16",
-          "font_name": "Mulish-Regular",
-          "font_size": 9.0,
-          "flags": 4,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 138,
-          "word_count": 22,
-          "line_count": 4,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 31,
-          "block_type": "paragraph",
-          "text": "(Walking stick, wheelchair, BP machine, Sugar testing,)",
-          "bbox": [
-            73.58769989013672,
-            416.3277282714844,
-            240.7698211669922,
-            439.376708984375
-          ],
-          "block_id": "p31_b17",
-          "font_name": "Mulish-Regular",
-          "font_size": 9.0,
-          "flags": 4,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 55,
-          "word_count": 7,
-          "line_count": 2,
+          "char_count": 454,
+          "word_count": 67,
+          "line_count": 14,
           "source": "pymupdf"
         },
         {
@@ -32775,7 +31961,7 @@
             537.2705078125,
             309.7767028808594
           ],
-          "block_id": "p31_b18",
+          "block_id": "p31_b15",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -32797,7 +31983,7 @@
             245.72735595703125,
             532.0215454101562
           ],
-          "block_id": "p31_b19",
+          "block_id": "p31_b16",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -32819,7 +32005,7 @@
             537.2705078125,
             456.4216003417969
           ],
-          "block_id": "p31_b20",
+          "block_id": "p31_b17",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -32834,45 +32020,23 @@
         {
           "page_number": 31,
           "block_type": "paragraph",
-          "text": "7Other services: Following services can be availed through our empanelled service provider (specialized for geriatric care). Cost of the services to be borne by Insured.1. Doctor visit at home2. Psychological counselling3. \u0007Facilitation of lifestyle management ",
+          "text": "7Other services: Following services can be availed through our empanelled service provider (specialized for geriatric care). Cost of the services to be borne by Insured.1. Doctor visit at home2. Psychological counselling3. \u0007Facilitation of lifestyle management program via diet, exercise and reading material, for medical conditions like Diabetes, Hypertension, Obesity, Arthritis, Hyperlipidemia.",
           "bbox": [
             40.25,
             536.8175048828125,
-            247.84324645996094,
-            613.8665161132812
-          ],
-          "block_id": "p31_b21",
-          "font_name": "Mulish-Regular",
-          "font_size": 9.0,
-          "flags": 4,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 261,
-          "word_count": 35,
-          "line_count": 8,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 31,
-          "block_type": "paragraph",
-          "text": "program via diet, exercise and reading material, for medical conditions like Diabetes, Hypertension, Obesity, Arthritis, Hyperlipidemia.",
-          "bbox": [
-            73.58769989013672,
-            612.4175415039062,
             249.43504333496094,
             657.0664672851562
           ],
-          "block_id": "p31_b22",
+          "block_id": "p31_b18",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 136,
-          "word_count": 16,
-          "line_count": 4,
+          "char_count": 397,
+          "word_count": 51,
+          "line_count": 12,
           "source": "pymupdf"
         },
         {
@@ -32885,7 +32049,7 @@
             491.7909851074219,
             721.8665161132812
           ],
-          "block_id": "p31_b23",
+          "block_id": "p31_b19",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -32907,7 +32071,7 @@
             556.50341796875,
             657.0664672851562
           ],
-          "block_id": "p31_b24",
+          "block_id": "p31_b20",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -32920,7 +32084,7 @@
           "source": "pymupdf"
         }
       ],
-      "block_count": 25,
+      "block_count": 21,
       "char_count": 3025,
       "word_count": 399,
       "page_width": 595.2760009765625,
@@ -33405,12 +32569,12 @@
         {
           "page_number": 32,
           "block_type": "paragraph",
-          "text": "Access Only Access Only Access Only (Upto 5% Discount)",
+          "text": "Access Only Access Only Access Only (Upto 5% Discount)Access Only (Upto 10% Discount)",
           "bbox": [
             259.6000061035156,
             342.4175109863281,
-            488.7210388183594,
-            365.4664001464844
+            551.79638671875,
+            376.26641845703125
           ],
           "block_id": "p32_b21",
           "font_name": "Mulish-Regular",
@@ -33419,20 +32583,20 @@
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 54,
-          "word_count": 9,
-          "line_count": 4,
+          "char_count": 85,
+          "word_count": 13,
+          "line_count": 7,
           "source": "pymupdf"
         },
         {
           "page_number": 32,
           "block_type": "paragraph",
-          "text": "Access Only (Upto 10% Discount)",
+          "text": "15Home FumigationAccess OnlyAccess OnlyAccess Only (Upto 5% Discount)Available",
           "bbox": [
-            498.6243896484375,
-            342.4175109863281,
-            551.79638671875,
-            376.26641845703125
+            40.25,
+            381.0624084472656,
+            537.2705078125,
+            404.1114196777344
           ],
           "block_id": "p32_b22",
           "font_name": "Mulish-Regular",
@@ -33441,53 +32605,9 @@
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 31,
-          "word_count": 5,
-          "line_count": 3,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 32,
-          "block_type": "paragraph",
-          "text": "15Home FumigationAccess OnlyAccess OnlyAccess Only (Upto 5% Discount)",
-          "bbox": [
-            40.25,
-            381.0624084472656,
-            488.7210388183594,
-            404.1114196777344
-          ],
-          "block_id": "p32_b23",
-          "font_name": "Mulish-Regular",
-          "font_size": 9.0,
-          "flags": 4,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 69,
+          "char_count": 78,
           "word_count": 8,
-          "line_count": 6,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 32,
-          "block_type": "paragraph",
-          "text": "Available",
-          "bbox": [
-            498.6243896484375,
-            381.0624084472656,
-            537.2705078125,
-            393.3114013671875
-          ],
-          "block_id": "p32_b24",
-          "font_name": "Mulish-Regular",
-          "font_size": 9.0,
-          "flags": 4,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 9,
-          "word_count": 1,
-          "line_count": 1,
+          "line_count": 7,
           "source": "pymupdf"
         },
         {
@@ -33500,7 +32620,7 @@
             294.119140625,
             435.330810546875
           ],
-          "block_id": "p32_b25",
+          "block_id": "p32_b23",
           "font_name": "Mulish-Bold",
           "font_size": 9.0,
           "flags": 20,
@@ -33522,7 +32642,7 @@
             294.13800048828125,
             462.9308166503906
           ],
-          "block_id": "p32_b26",
+          "block_id": "p32_b24",
           "font_name": "Mulish-Bold",
           "font_size": 9.0,
           "flags": 20,
@@ -33544,7 +32664,7 @@
             156.83250427246094,
             478.53082275390625
           ],
-          "block_id": "p32_b27",
+          "block_id": "p32_b25",
           "font_name": "Mulish-Bold",
           "font_size": 9.0,
           "flags": 20,
@@ -33566,7 +32686,7 @@
             294.01104736328125,
             542.1307983398438
           ],
-          "block_id": "p32_b28",
+          "block_id": "p32_b26",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -33588,7 +32708,7 @@
             259.5833740234375,
             557.7307739257812
           ],
-          "block_id": "p32_b29",
+          "block_id": "p32_b27",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -33610,7 +32730,7 @@
             174.05010986328125,
             573.3307495117188
           ],
-          "block_id": "p32_b30",
+          "block_id": "p32_b28",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -33632,7 +32752,7 @@
             155.61810302734375,
             588.9307861328125
           ],
-          "block_id": "p32_b31",
+          "block_id": "p32_b29",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -33654,7 +32774,7 @@
             166.57920837402344,
             604.5308227539062
           ],
-          "block_id": "p32_b32",
+          "block_id": "p32_b30",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -33676,7 +32796,7 @@
             294.0028991699219,
             656.1307983398438
           ],
-          "block_id": "p32_b33",
+          "block_id": "p32_b31",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -33698,7 +32818,7 @@
             293.9759826660156,
             671.7307739257812
           ],
-          "block_id": "p32_b34",
+          "block_id": "p32_b32",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -33720,7 +32840,7 @@
             294.0011291503906,
             695.7307739257812
           ],
-          "block_id": "p32_b35",
+          "block_id": "p32_b33",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -33742,7 +32862,7 @@
             293.97607421875,
             735.330810546875
           ],
-          "block_id": "p32_b36",
+          "block_id": "p32_b34",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -33764,7 +32884,7 @@
             561.61376953125,
             435.03082275390625
           ],
-          "block_id": "p32_b37",
+          "block_id": "p32_b35",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -33786,7 +32906,7 @@
             561.6400146484375,
             543.9307861328125
           ],
-          "block_id": "p32_b38",
+          "block_id": "p32_b36",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -33808,7 +32928,7 @@
             561.6407470703125,
             652.8307495117188
           ],
-          "block_id": "p32_b39",
+          "block_id": "p32_b37",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -33830,7 +32950,7 @@
             561.6410522460938,
             679.8307495117188
           ],
-          "block_id": "p32_b40",
+          "block_id": "p32_b38",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -33852,7 +32972,7 @@
             561.6400146484375,
             742.2307739257812
           ],
-          "block_id": "p32_b41",
+          "block_id": "p32_b39",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -33865,9 +32985,9 @@
           "source": "pymupdf"
         }
       ],
-      "block_count": 42,
+      "block_count": 40,
       "char_count": 4294,
-      "word_count": 620,
+      "word_count": 618,
       "page_width": 595.2760009765625,
       "page_height": 841.8900146484375,
       "images": [
@@ -34680,12 +33800,12 @@
         {
           "page_number": 33,
           "block_type": "paragraph",
-          "text": "\t\t\t\t16.\t \u0007Surgery on all internal or external ",
+          "text": "\t\t\t\t16.\t \u0007Surgery on all internal or external tumours/ cysts/ nodules/polyps of any kind including breast lumps with exception of Malignancy",
           "bbox": [
             303.6377868652344,
             296.8531494140625,
             561.6255493164062,
-            309.1021423339844
+            345.10211181640625
           ],
           "block_id": "p33_b36",
           "font_name": "Mulish-Regular",
@@ -34694,20 +33814,20 @@
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 46,
-          "word_count": 7,
-          "line_count": 5,
+          "char_count": 140,
+          "word_count": 20,
+          "line_count": 11,
           "source": "pymupdf"
         },
         {
           "page_number": 33,
           "block_type": "paragraph",
-          "text": "tumours/ cysts/ nodules/polyps of any kind including breast lumps with exception of Malignancy",
+          "text": "\t\t\t\t17.\t \u0007Dialysis required for Chronic Renal Failure. ",
           "bbox": [
-            393.6377868652344,
-            308.8531494140625,
-            561.6218872070312,
-            345.10211181640625
+            303.6377868652344,
+            348.453125,
+            561.6318359375,
+            372.7021179199219
           ],
           "block_id": "p33_b37",
           "font_name": "Mulish-Regular",
@@ -34716,20 +33836,20 @@
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 94,
-          "word_count": 13,
+          "char_count": 55,
+          "word_count": 7,
           "line_count": 6,
           "source": "pymupdf"
         },
         {
           "page_number": 33,
           "block_type": "paragraph",
-          "text": "\t\t\t\t17.\t \u0007Dialysis required for Chronic Renal ",
+          "text": "\t\t\t\t18.\t \u0007Joint Replacement Surgeries unless necessitated by Accident happening after the Policy risk inception date. ",
           "bbox": [
             303.6377868652344,
-            348.453125,
-            561.6318359375,
-            360.7021179199219
+            376.0531311035156,
+            561.62548828125,
+            412.3021240234375
           ],
           "block_id": "p33_b38",
           "font_name": "Mulish-Regular",
@@ -34738,75 +33858,9 @@
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 46,
-          "word_count": 6,
-          "line_count": 5,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 33,
-          "block_type": "paragraph",
-          "text": "Failure. ",
-          "bbox": [
-            393.6377868652344,
-            360.453125,
-            425.9837646484375,
-            372.7021179199219
-          ],
-          "block_id": "p33_b39",
-          "font_name": "Mulish-Regular",
-          "font_size": 9.0,
-          "flags": 4,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 9,
-          "word_count": 1,
-          "line_count": 1,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 33,
-          "block_type": "paragraph",
-          "text": "\t\t\t\t18.\t \u0007Joint Replacement Surgeries unless ",
-          "bbox": [
-            303.6377868652344,
-            376.0531311035156,
-            561.62548828125,
-            388.3021240234375
-          ],
-          "block_id": "p33_b40",
-          "font_name": "Mulish-Regular",
-          "font_size": 9.0,
-          "flags": 4,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 45,
-          "word_count": 5,
-          "line_count": 5,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 33,
-          "block_type": "paragraph",
-          "text": "necessitated by Accident happening after the Policy risk inception date. ",
-          "bbox": [
-            393.6377868652344,
-            388.0531311035156,
-            561.62548828125,
-            412.3021240234375
-          ],
-          "block_id": "p33_b41",
-          "font_name": "Mulish-Regular",
-          "font_size": 9.0,
-          "flags": 4,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 73,
-          "word_count": 10,
-          "line_count": 2,
+          "char_count": 118,
+          "word_count": 15,
+          "line_count": 7,
           "source": "pymupdf"
         },
         {
@@ -34819,7 +33873,7 @@
             494.7958679199219,
             427.9021301269531
           ],
-          "block_id": "p33_b42",
+          "block_id": "p33_b39",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -34841,7 +33895,7 @@
             538.4180908203125,
             443.5022277832031
           ],
-          "block_id": "p33_b43",
+          "block_id": "p33_b40",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -34856,45 +33910,23 @@
         {
           "page_number": 33,
           "block_type": "paragraph",
-          "text": "\t\t\t\t21.\t \u0007Non Infective Arthritis and other form ",
+          "text": "\t\t\t\t21.\t \u0007Non Infective Arthritis and other form arthritis",
           "bbox": [
             303.6377868652344,
             446.8531188964844,
             561.6399536132812,
-            459.10211181640625
-          ],
-          "block_id": "p33_b44",
-          "font_name": "Mulish-Regular",
-          "font_size": 9.0,
-          "flags": 4,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 49,
-          "word_count": 7,
-          "line_count": 5,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 33,
-          "block_type": "paragraph",
-          "text": "arthritis",
-          "bbox": [
-            393.6377868652344,
-            458.8531188964844,
-            426.2177734375,
             471.10211181640625
           ],
-          "block_id": "p33_b45",
+          "block_id": "p33_b41",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 9,
-          "word_count": 1,
-          "line_count": 1,
+          "char_count": 58,
+          "word_count": 8,
+          "line_count": 6,
           "source": "pymupdf"
         },
         {
@@ -34907,7 +33939,7 @@
             489.3879089355469,
             486.7021179199219
           ],
-          "block_id": "p33_b46",
+          "block_id": "p33_b42",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -34929,7 +33961,7 @@
             561.6228637695312,
             526.3020629882812
           ],
-          "block_id": "p33_b47",
+          "block_id": "p33_b43",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -34951,7 +33983,7 @@
             561.645263671875,
             605.502197265625
           ],
-          "block_id": "p33_b48",
+          "block_id": "p33_b44",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -34973,7 +34005,7 @@
             431.5458068847656,
             621.1021118164062
           ],
-          "block_id": "p33_b49",
+          "block_id": "p33_b45",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -34995,7 +34027,7 @@
             412.6727294921875,
             636.7022094726562
           ],
-          "block_id": "p33_b50",
+          "block_id": "p33_b46",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -35017,7 +34049,7 @@
             454.2068786621094,
             652.3020629882812
           ],
-          "block_id": "p33_b51",
+          "block_id": "p33_b47",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -35039,7 +34071,7 @@
             561.6307983398438,
             691.902099609375
           ],
-          "block_id": "p33_b52",
+          "block_id": "p33_b48",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -35061,7 +34093,7 @@
             561.640869140625,
             743.502197265625
           ],
-          "block_id": "p33_b53",
+          "block_id": "p33_b49",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -35074,7 +34106,7 @@
           "source": "pymupdf"
         }
       ],
-      "block_count": 54,
+      "block_count": 50,
       "char_count": 4494,
       "word_count": 668,
       "page_width": 595.2760009765625,
@@ -35933,12 +34965,12 @@
         {
           "page_number": 34,
           "block_type": "paragraph",
-          "text": "\t13.\t \u0007Treatment for, Alcoholism, drug or substance abuse ",
+          "text": "\t13.\t \u0007Treatment for, Alcoholism, drug or substance abuse or any addictive condition and consequences thereof. Code- Excl12",
           "bbox": [
             303.6377868652344,
             499.81512451171875,
             561.6317749023438,
-            512.0820922851562
+            535.4821166992188
           ],
           "block_id": "p34_b38",
           "font_name": "Mulish-Regular",
@@ -35947,20 +34979,20 @@
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 58,
-          "word_count": 8,
-          "line_count": 2,
+          "char_count": 123,
+          "word_count": 17,
+          "line_count": 4,
           "source": "pymupdf"
         },
         {
           "page_number": 34,
           "block_type": "paragraph",
-          "text": "or any addictive condition and consequences thereof. Code- Excl12",
+          "text": "\t14.\t \u0007Treatments received in heath hydros, nature cure clinics, spas or similar establishments or private beds registered as a nursing home attached to such establishments or where admission is arranged wholly or partly for domestic reasons. Code- Excl13",
           "bbox": [
-            339.6377868652344,
-            511.533203125,
-            561.6129150390625,
-            535.4821166992188
+            303.6377868652344,
+            552.3751831054688,
+            561.6307983398438,
+            611.4421997070312
           ],
           "block_id": "p34_b39",
           "font_name": "Mulish-Regular",
@@ -35969,20 +35001,20 @@
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 65,
-          "word_count": 9,
-          "line_count": 2,
+          "char_count": 255,
+          "word_count": 38,
+          "line_count": 6,
           "source": "pymupdf"
         },
         {
           "page_number": 34,
           "block_type": "paragraph",
-          "text": "\t14.\t \u0007Treatments received in heath hydros, nature cure ",
+          "text": "\t15.\t \u0007Dietary supplements and substances that can be purchased without prescription, including but not limited to Vitamins, minerals and organic substances unless prescribed by a medical practitioner as part of hospitalization claim or day care procedure. Code- Excl14",
           "bbox": [
             303.6377868652344,
-            552.3751831054688,
-            561.6134033203125,
-            564.6421508789062
+            628.3351440429688,
+            561.7418212890625,
+            699.1021118164062
           ],
           "block_id": "p34_b40",
           "font_name": "Mulish-Regular",
@@ -35991,75 +35023,9 @@
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 56,
-          "word_count": 8,
-          "line_count": 2,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 34,
-          "block_type": "paragraph",
-          "text": "clinics, spas or similar establishments or private beds registered as a nursing home attached to such establishments or where admission is arranged wholly or partly for domestic reasons. Code- Excl13",
-          "bbox": [
-            339.6377868652344,
-            564.0931396484375,
-            561.6307983398438,
-            611.4421997070312
-          ],
-          "block_id": "p34_b41",
-          "font_name": "Mulish-Regular",
-          "font_size": 9.0,
-          "flags": 4,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 199,
-          "word_count": 30,
-          "line_count": 4,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 34,
-          "block_type": "paragraph",
-          "text": "\t15.\t \u0007Dietary supplements and substances that can be ",
-          "bbox": [
-            303.6377868652344,
-            628.3351440429688,
-            561.6350708007812,
-            640.6021118164062
-          ],
-          "block_id": "p34_b42",
-          "font_name": "Mulish-Regular",
-          "font_size": 9.0,
-          "flags": 4,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 54,
-          "word_count": 8,
-          "line_count": 2,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 34,
-          "block_type": "paragraph",
-          "text": "purchased without prescription, including but not limited to Vitamins, minerals and organic substances unless prescribed by a medical practitioner as part of hospitalization claim or day care procedure. Code- Excl14",
-          "bbox": [
-            339.6377868652344,
-            640.0531005859375,
-            561.7418212890625,
-            699.1021118164062
-          ],
-          "block_id": "p34_b43",
-          "font_name": "Mulish-Regular",
-          "font_size": 9.0,
-          "flags": 4,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 215,
-          "word_count": 30,
-          "line_count": 5,
+          "char_count": 269,
+          "word_count": 38,
+          "line_count": 7,
           "source": "pymupdf"
         },
         {
@@ -36072,7 +35038,7 @@
             468.066162109375,
             713.6820678710938
           ],
-          "block_id": "p34_b44",
+          "block_id": "p34_b41",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -36094,7 +35060,7 @@
             561.6318359375,
             740.26220703125
           ],
-          "block_id": "p34_b45",
+          "block_id": "p34_b42",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -36107,7 +35073,7 @@
           "source": "pymupdf"
         }
       ],
-      "block_count": 46,
+      "block_count": 43,
       "char_count": 4982,
       "word_count": 744,
       "page_width": 595.2760009765625,
@@ -36548,12 +35514,12 @@
         {
           "page_number": 35,
           "block_type": "paragraph",
-          "text": "\t20.\t \u0007War (whether declared or not) and war like occurrence ",
+          "text": "\t20.\t \u0007War (whether declared or not) and war like occurrence or invasion, acts of foreign enemies, hostilities, civil war, rebellion, revolutions, insurrections, mutiny, military or usurped power, seizure, capture, arrest, restraints and detainment of all kinds.",
           "bbox": [
             36.0,
             618.4352416992188,
-            293.9659729003906,
-            630.7022094726562
+            293.9822692871094,
+            678.7022094726562
           ],
           "block_id": "p35_b19",
           "font_name": "Mulish-Regular",
@@ -36562,20 +35528,20 @@
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 61,
-          "word_count": 10,
-          "line_count": 2,
+          "char_count": 262,
+          "word_count": 36,
+          "line_count": 6,
           "source": "pymupdf"
         },
         {
           "page_number": 35,
           "block_type": "paragraph",
-          "text": "or invasion, acts of foreign enemies, hostilities, civil war, rebellion, revolutions, insurrections, mutiny, military or usurped power, seizure, capture, arrest, restraints and detainment of all kinds.",
+          "text": "\t21.\t \u0007Nuclear, chemical or biological attack or weapons, contributed to, caused by, resulting from or from any other cause or event contributing concurrently or in any other sequence to the loss, claim or expense. For the purpose of this exclusion:",
           "bbox": [
-            72.0,
-            630.4532470703125,
-            293.9822692871094,
-            678.7022094726562
+            36.0,
+            681.3151245117188,
+            294.0029602050781,
+            741.5820922851562
           ],
           "block_id": "p35_b20",
           "font_name": "Mulish-Regular",
@@ -36584,53 +35550,9 @@
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 201,
-          "word_count": 26,
-          "line_count": 4,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 35,
-          "block_type": "paragraph",
-          "text": "\t21.\t \u0007Nuclear, chemical or biological attack or weapons, ",
-          "bbox": [
-            36.0,
-            681.3151245117188,
-            293.99285888671875,
-            693.5820922851562
-          ],
-          "block_id": "p35_b21",
-          "font_name": "Mulish-Regular",
-          "font_size": 9.0,
-          "flags": 4,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 58,
-          "word_count": 8,
-          "line_count": 2,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 35,
-          "block_type": "paragraph",
-          "text": "contributed to, caused by, resulting from or from any other cause or event contributing concurrently or in any other sequence to the loss, claim or expense. For the purpose of this exclusion:",
-          "bbox": [
-            72.0,
-            693.3331298828125,
-            294.0029602050781,
-            741.5820922851562
-          ],
-          "block_id": "p35_b22",
-          "font_name": "Mulish-Regular",
-          "font_size": 9.0,
-          "flags": 4,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 191,
-          "word_count": 32,
-          "line_count": 4,
+          "char_count": 249,
+          "word_count": 40,
+          "line_count": 6,
           "source": "pymupdf"
         },
         {
@@ -36643,7 +35565,7 @@
             561.6408081054688,
             119.50222778320312
           ],
-          "block_id": "p35_b23",
+          "block_id": "p35_b21",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -36665,7 +35587,7 @@
             561.6229858398438,
             194.38223266601562
           ],
-          "block_id": "p35_b24",
+          "block_id": "p35_b22",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -36687,7 +35609,7 @@
             561.6409301757812,
             281.2622375488281
           ],
-          "block_id": "p35_b25",
+          "block_id": "p35_b23",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -36702,12 +35624,56 @@
         {
           "page_number": 35,
           "block_type": "paragraph",
-          "text": "\t22.\t \u0007Any expenses incurred on Out Patient treatment. ",
+          "text": "\t22.\t \u0007Any expenses incurred on Out Patient treatment. This exclusion will not be applicable in case optional cover-BeFit has been opted ",
           "bbox": [
             303.6377868652344,
             283.875244140625,
             561.6353149414062,
-            296.1422424316406
+            320.1422424316406
+          ],
+          "block_id": "p35_b24",
+          "font_name": "Mulish-Regular",
+          "font_size": 9.0,
+          "flags": 4,
+          "is_bold": false,
+          "is_italic": false,
+          "is_upper": false,
+          "char_count": 137,
+          "word_count": 21,
+          "line_count": 4,
+          "source": "pymupdf"
+        },
+        {
+          "page_number": 35,
+          "block_type": "paragraph",
+          "text": "\t23.\t \u0007Any expenses incurred on prosthesis, corrective devices, external durable medical equipment of any kind, like wheelchairs, crutches, instruments used in treatment of sleep apnoea syndrome or cost of cochlear implant(s) unless necessitated by an Accident or required intra-operatively.",
+          "bbox": [
+            303.6377868652344,
+            322.755126953125,
+            561.6407470703125,
+            395.0221252441406
+          ],
+          "block_id": "p35_b25",
+          "font_name": "Mulish-Regular",
+          "font_size": 9.0,
+          "flags": 4,
+          "is_bold": false,
+          "is_italic": false,
+          "is_upper": false,
+          "char_count": 291,
+          "word_count": 39,
+          "line_count": 7,
+          "source": "pymupdf"
+        },
+        {
+          "page_number": 35,
+          "block_type": "paragraph",
+          "text": "\t24.\t \u0007Treatment, procedures and preventive, diagnostic, restorative, cosmetic services related to disease, disorder and conditions related to natural teeth and gingiva except if required by an Insured Person while Hospitalized due to an Accident.",
+          "bbox": [
+            303.6377868652344,
+            397.6351318359375,
+            561.6498413085938,
+            457.9021301269531
           ],
           "block_id": "p35_b26",
           "font_name": "Mulish-Regular",
@@ -36716,20 +35682,20 @@
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 55,
-          "word_count": 8,
-          "line_count": 2,
+          "char_count": 247,
+          "word_count": 34,
+          "line_count": 6,
           "source": "pymupdf"
         },
         {
           "page_number": 35,
           "block_type": "paragraph",
-          "text": "This exclusion will not be applicable in case optional cover-BeFit has been opted ",
+          "text": "\t25.\t \u0007Treatment taken outside the geographical limits of India. This exclusion shall not be applicable in case optional cover - Worldwide cover has been opted. ",
           "bbox": [
-            339.6377868652344,
-            295.89324951171875,
-            561.61474609375,
-            320.1422424316406
+            303.6377868652344,
+            460.5152282714844,
+            561.64990234375,
+            496.7822265625
           ],
           "block_id": "p35_b27",
           "font_name": "Mulish-Regular",
@@ -36738,141 +35704,9 @@
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 82,
-          "word_count": 13,
-          "line_count": 2,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 35,
-          "block_type": "paragraph",
-          "text": "\t23.\t \u0007Any expenses incurred on prosthesis, corrective ",
-          "bbox": [
-            303.6377868652344,
-            322.755126953125,
-            561.6300048828125,
-            335.0221252441406
-          ],
-          "block_id": "p35_b28",
-          "font_name": "Mulish-Regular",
-          "font_size": 9.0,
-          "flags": 4,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 55,
-          "word_count": 7,
-          "line_count": 2,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 35,
-          "block_type": "paragraph",
-          "text": "devices, external durable medical equipment of any kind, like wheelchairs, crutches, instruments used in treatment of sleep apnoea syndrome or cost of cochlear implant(s) unless necessitated by an Accident or required intra-operatively.",
-          "bbox": [
-            339.6377868652344,
-            334.77313232421875,
-            561.6407470703125,
-            395.0221252441406
-          ],
-          "block_id": "p35_b29",
-          "font_name": "Mulish-Regular",
-          "font_size": 9.0,
-          "flags": 4,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 236,
-          "word_count": 32,
-          "line_count": 5,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 35,
-          "block_type": "paragraph",
-          "text": "\t24.\t \u0007Treatment, procedures and preventive, diagnostic, ",
-          "bbox": [
-            303.6377868652344,
-            397.6351318359375,
-            561.6382446289062,
-            409.9021301269531
-          ],
-          "block_id": "p35_b30",
-          "font_name": "Mulish-Regular",
-          "font_size": 9.0,
-          "flags": 4,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 57,
-          "word_count": 6,
-          "line_count": 2,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 35,
-          "block_type": "paragraph",
-          "text": "restorative, cosmetic services related to disease, disorder and conditions related to natural teeth and gingiva except if required by an Insured Person while Hospitalized due to an Accident.",
-          "bbox": [
-            339.6377868652344,
-            409.65313720703125,
-            561.6498413085938,
-            457.9021301269531
-          ],
-          "block_id": "p35_b31",
-          "font_name": "Mulish-Regular",
-          "font_size": 9.0,
-          "flags": 4,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 190,
-          "word_count": 28,
+          "char_count": 161,
+          "word_count": 25,
           "line_count": 4,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 35,
-          "block_type": "paragraph",
-          "text": "\t25.\t \u0007Treatment taken outside the geographical limits of ",
-          "bbox": [
-            303.6377868652344,
-            460.5152282714844,
-            561.6400756835938,
-            472.7822265625
-          ],
-          "block_id": "p35_b32",
-          "font_name": "Mulish-Regular",
-          "font_size": 9.0,
-          "flags": 4,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 58,
-          "word_count": 8,
-          "line_count": 2,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 35,
-          "block_type": "paragraph",
-          "text": "India. This exclusion shall not be applicable in case optional cover - Worldwide cover has been opted. ",
-          "bbox": [
-            339.6377868652344,
-            472.5332336425781,
-            561.64990234375,
-            496.7822265625
-          ],
-          "block_id": "p35_b33",
-          "font_name": "Mulish-Regular",
-          "font_size": 9.0,
-          "flags": 4,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 103,
-          "word_count": 17,
-          "line_count": 2,
           "source": "pymupdf"
         },
         {
@@ -36885,7 +35719,7 @@
             561.6397705078125,
             523.6620483398438
           ],
-          "block_id": "p35_b34",
+          "block_id": "p35_b28",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -36900,269 +35734,137 @@
         {
           "page_number": 35,
           "block_type": "paragraph",
-          "text": "\t27.\t \u0007Acupressure, acupuncture, magnetic and other ",
+          "text": "\t27.\t \u0007Acupressure, acupuncture, magnetic and other therapies",
           "bbox": [
             303.6377868652344,
             526.2750854492188,
             561.6117553710938,
-            538.5420532226562
-          ],
-          "block_id": "p35_b35",
-          "font_name": "Mulish-Regular",
-          "font_size": 9.0,
-          "flags": 4,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 52,
-          "word_count": 6,
-          "line_count": 2,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 35,
-          "block_type": "paragraph",
-          "text": "therapies",
-          "bbox": [
-            339.6377868652344,
-            538.2930908203125,
-            378.41876220703125,
             550.5420532226562
           ],
-          "block_id": "p35_b36",
+          "block_id": "p35_b29",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 9,
-          "word_count": 1,
-          "line_count": 1,
+          "char_count": 61,
+          "word_count": 7,
+          "line_count": 3,
           "source": "pymupdf"
         },
         {
           "page_number": 35,
           "block_type": "paragraph",
-          "text": "\t28.\t \u0007Circumcision unless necessary for treatment of an ",
+          "text": "\t28.\t \u0007Circumcision unless necessary for treatment of an Illness or necessitated due to an Accident.",
           "bbox": [
             303.6377868652344,
             553.1550903320312,
             561.6309814453125,
-            565.4220581054688
-          ],
-          "block_id": "p35_b37",
-          "font_name": "Mulish-Regular",
-          "font_size": 9.0,
-          "flags": 4,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 57,
-          "word_count": 8,
-          "line_count": 2,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 35,
-          "block_type": "paragraph",
-          "text": "Illness or necessitated due to an Accident.",
-          "bbox": [
-            339.6377868652344,
-            565.173095703125,
-            513.4330444335938,
             577.4220581054688
           ],
-          "block_id": "p35_b38",
+          "block_id": "p35_b30",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 43,
-          "word_count": 7,
-          "line_count": 1,
+          "char_count": 100,
+          "word_count": 15,
+          "line_count": 3,
           "source": "pymupdf"
         },
         {
           "page_number": 35,
           "block_type": "paragraph",
-          "text": "\t29.\t \u0007Expenses for venereal disease or any sexually ",
+          "text": "\t29.\t \u0007Expenses for venereal disease or any sexually transmitted disease except HIV.",
           "bbox": [
             303.6377868652344,
             580.0350952148438,
             561.6038208007812,
-            592.3020629882812
-          ],
-          "block_id": "p35_b39",
-          "font_name": "Mulish-Regular",
-          "font_size": 9.0,
-          "flags": 4,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 53,
-          "word_count": 8,
-          "line_count": 2,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 35,
-          "block_type": "paragraph",
-          "text": "transmitted disease except HIV.",
-          "bbox": [
-            339.6377868652344,
-            592.0531005859375,
-            471.0628967285156,
             604.3020629882812
           ],
-          "block_id": "p35_b40",
+          "block_id": "p35_b31",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 31,
-          "word_count": 4,
-          "line_count": 1,
+          "char_count": 84,
+          "word_count": 12,
+          "line_count": 3,
           "source": "pymupdf"
         },
         {
           "page_number": 35,
           "block_type": "paragraph",
-          "text": "\t30.\t \u0007Screening, counselling or Treatment relating to ",
+          "text": "\t30.\t \u0007Screening, counselling or Treatment relating to external birth defects and external congenital Illnesses or defects or anomalies",
           "bbox": [
             303.6377868652344,
             606.9151000976562,
             561.6319580078125,
-            619.1820678710938
-          ],
-          "block_id": "p35_b41",
-          "font_name": "Mulish-Regular",
-          "font_size": 9.0,
-          "flags": 4,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 55,
-          "word_count": 7,
-          "line_count": 2,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 35,
-          "block_type": "paragraph",
-          "text": "external birth defects and external congenital Illnesses or defects or anomalies",
-          "bbox": [
-            339.6377868652344,
-            618.93310546875,
-            561.6129760742188,
             643.1820678710938
           ],
-          "block_id": "p35_b42",
+          "block_id": "p35_b32",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 80,
-          "word_count": 11,
-          "line_count": 2,
+          "char_count": 135,
+          "word_count": 18,
+          "line_count": 4,
           "source": "pymupdf"
         },
         {
           "page_number": 35,
           "block_type": "paragraph",
-          "text": "\t31.\t \u0007Intentional self-injury (whether arising from an ",
+          "text": "\t31.\t \u0007Intentional self-injury (whether arising from an attempt to commit suicide or otherwise)",
           "bbox": [
             303.6377868652344,
             645.7951049804688,
             561.6246337890625,
-            658.0620727539062
-          ],
-          "block_id": "p35_b43",
-          "font_name": "Mulish-Regular",
-          "font_size": 9.0,
-          "flags": 4,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 56,
-          "word_count": 7,
-          "line_count": 2,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 35,
-          "block_type": "paragraph",
-          "text": "attempt to commit suicide or otherwise)",
-          "bbox": [
-            339.6377868652344,
-            657.8131103515625,
-            504.6590576171875,
             670.0620727539062
           ],
-          "block_id": "p35_b44",
+          "block_id": "p35_b33",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 39,
-          "word_count": 6,
-          "line_count": 1,
+          "char_count": 95,
+          "word_count": 13,
+          "line_count": 3,
           "source": "pymupdf"
         },
         {
           "page_number": 35,
           "block_type": "paragraph",
-          "text": "\t32.\t \u0007Any ailment/ illness/ injury/ condition or treatment ",
+          "text": "\t32.\t \u0007Any ailment/ illness/ injury/ condition or treatment or service that is specifically excluded in the Policy Schedule under Special Conditions.",
           "bbox": [
             303.6377868652344,
             672.6752319335938,
             561.6398315429688,
-            684.9421997070312
-          ],
-          "block_id": "p35_b45",
-          "font_name": "Mulish-Regular",
-          "font_size": 9.0,
-          "flags": 4,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 60,
-          "word_count": 8,
-          "line_count": 2,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 35,
-          "block_type": "paragraph",
-          "text": "or service that is specifically excluded in the Policy Schedule under Special Conditions.",
-          "bbox": [
-            339.6377868652344,
-            684.6932373046875,
-            561.6254272460938,
             708.9421997070312
           ],
-          "block_id": "p35_b46",
+          "block_id": "p35_b34",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 89,
-          "word_count": 13,
-          "line_count": 2,
+          "char_count": 149,
+          "word_count": 21,
+          "line_count": 4,
           "source": "pymupdf"
         }
       ],
-      "block_count": 47,
+      "block_count": 35,
       "char_count": 5425,
       "word_count": 747,
       "page_width": 595.2760009765625,
@@ -38855,12 +37557,12 @@
         {
           "page_number": 38,
           "block_type": "paragraph",
-          "text": "\t\t13.\t \u0007Possibility of Revision of Terms of the Policy ",
+          "text": "\t\t13.\t \u0007Possibility of Revision of Terms of the Policy Including the Premium Rates",
           "bbox": [
             36.0,
             158.115234375,
             294.0840148925781,
-            170.38223266601562
+            182.38223266601562
           ],
           "block_id": "p38_b5",
           "font_name": "Mulish-Regular",
@@ -38869,31 +37571,9 @@
           "is_bold": false,
           "is_italic": false,
           "is_upper": false,
-          "char_count": 55,
-          "word_count": 9,
-          "line_count": 3,
-          "source": "pymupdf"
-        },
-        {
-          "page_number": 38,
-          "block_type": "paragraph",
-          "text": "Including the Premium Rates",
-          "bbox": [
-            90.0,
-            170.115234375,
-            213.24513244628906,
-            182.38223266601562
-          ],
-          "block_id": "p38_b6",
-          "font_name": "Mulish-Bold",
-          "font_size": 9.0,
-          "flags": 20,
-          "is_bold": false,
-          "is_italic": false,
-          "is_upper": false,
-          "char_count": 27,
-          "word_count": 4,
-          "line_count": 1,
+          "char_count": 82,
+          "word_count": 13,
+          "line_count": 4,
           "source": "pymupdf"
         },
         {
@@ -38906,7 +37586,7 @@
             293.9939880371094,
             209.26223754882812
           ],
-          "block_id": "p38_b7",
+          "block_id": "p38_b6",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -38928,7 +37608,7 @@
             140.07601928710938,
             224.14224243164062
           ],
-          "block_id": "p38_b8",
+          "block_id": "p38_b7",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -38950,7 +37630,7 @@
             294.011962890625,
             407.0221252441406
           ],
-          "block_id": "p38_b9",
+          "block_id": "p38_b8",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -38972,7 +37652,7 @@
             225.3942413330078,
             421.9021301269531
           ],
-          "block_id": "p38_b10",
+          "block_id": "p38_b9",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -38994,7 +37674,7 @@
             293.9975891113281,
             448.7822265625
           ],
-          "block_id": "p38_b11",
+          "block_id": "p38_b10",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -39016,7 +37696,7 @@
             225.76316833496094,
             463.662109375
           ],
-          "block_id": "p38_b12",
+          "block_id": "p38_b11",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -39038,7 +37718,7 @@
             209.22203063964844,
             478.5421142578125
           ],
-          "block_id": "p38_b13",
+          "block_id": "p38_b12",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -39060,7 +37740,7 @@
             265.8131408691406,
             493.422119140625
           ],
-          "block_id": "p38_b14",
+          "block_id": "p38_b13",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -39082,7 +37762,7 @@
             294.0029602050781,
             544.3020629882812
           ],
-          "block_id": "p38_b15",
+          "block_id": "p38_b14",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -39104,7 +37784,7 @@
             293.99212646484375,
             583.1820678710938
           ],
-          "block_id": "p38_b16",
+          "block_id": "p38_b15",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -39126,7 +37806,7 @@
             293.9939880371094,
             658.0620727539062
           ],
-          "block_id": "p38_b17",
+          "block_id": "p38_b16",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -39148,7 +37828,7 @@
             294.00201416015625,
             720.9421997070312
           ],
-          "block_id": "p38_b18",
+          "block_id": "p38_b17",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -39170,7 +37850,7 @@
             561.6264038085938,
             119.50222778320312
           ],
-          "block_id": "p38_b19",
+          "block_id": "p38_b18",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -39192,7 +37872,7 @@
             561.63916015625,
             206.38223266601562
           ],
-          "block_id": "p38_b20",
+          "block_id": "p38_b19",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -39214,7 +37894,7 @@
             509.22393798828125,
             221.26223754882812
           ],
-          "block_id": "p38_b21",
+          "block_id": "p38_b20",
           "font_name": "Mulish-Bold",
           "font_size": 9.0,
           "flags": 20,
@@ -39236,7 +37916,7 @@
             561.639892578125,
             272.1422424316406
           ],
-          "block_id": "p38_b22",
+          "block_id": "p38_b21",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -39258,7 +37938,7 @@
             443.9559631347656,
             287.0221862792969
           ],
-          "block_id": "p38_b23",
+          "block_id": "p38_b22",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -39280,7 +37960,7 @@
             561.6498413085938,
             373.9021301269531
           ],
-          "block_id": "p38_b24",
+          "block_id": "p38_b23",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -39302,7 +37982,7 @@
             561.7307739257812,
             400.7822265625
           ],
-          "block_id": "p38_b25",
+          "block_id": "p38_b24",
           "font_name": "Mulish-Bold",
           "font_size": 9.0,
           "flags": 20,
@@ -39324,7 +38004,7 @@
             447.65496826171875,
             415.662109375
           ],
-          "block_id": "p38_b26",
+          "block_id": "p38_b25",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -39346,7 +38026,7 @@
             561.6048583984375,
             442.5421142578125
           ],
-          "block_id": "p38_b27",
+          "block_id": "p38_b26",
           "font_name": "Mulish-Regular",
           "font_size": 9.0,
           "flags": 4,
@@ -39368,7 +38048,7 @@
             431.4405212402344,
             459.5990905761719
           ],
-          "block_id": "p38_b28",
+          "block_id": "p38_b27",
           "font_name": "Mulish-Bold",
           "font_size": 8.0,
           "flags": 20,
@@ -39390,7 +38070,7 @@
             546.9827880859375,
             534.9590454101562
           ],
-          "block_id": "p38_b29",
+          "block_id": "p38_b28",
           "font_name": "Mulish-Regular",
           "font_size": 8.0,
           "flags": 4,
@@ -39412,7 +38092,7 @@
             548.9987182617188,
             583.3189086914062
           ],
-          "block_id": "p38_b30",
+          "block_id": "p38_b29",
           "font_name": "Mulish-Regular",
           "font_size": 8.0,
           "flags": 4,
@@ -39434,7 +38114,7 @@
             558.9364624023438,
             676.6788330078125
           ],
-          "block_id": "p38_b31",
+          "block_id": "p38_b30",
           "font_name": "Mulish-Regular",
           "font_size": 8.0,
           "flags": 4,
@@ -39456,7 +38136,7 @@
             552.0930786132812,
             734.0387573242188
           ],
-          "block_id": "p38_b32",
+          "block_id": "p38_b31",
           "font_name": "Mulish-Regular",
           "font_size": 8.0,
           "flags": 4,
@@ -39469,7 +38149,7 @@
           "source": "pymupdf"
         }
       ],
-      "block_count": 33,
+      "block_count": 32,
       "char_count": 5479,
       "word_count": 769,
       "page_width": 595.2760009765625,

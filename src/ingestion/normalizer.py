@@ -553,8 +553,9 @@ class Normalizer:
         """Extract clause number from text (e.g., '1.', '1.1', '1.2.3', 'A.', 'I.')."""
         stripped = text.strip()
 
-        # Pattern: 1.2.3 or 1.2 or 1.
-        m = re.match(r'^(\d{1,3})(?:\.(\d{1,3}))?(?:\.(\d{1,3}))?\.\s', stripped)
+        # Pattern: 1.2.3, 1.2, or 1. (the trailing dot is optional, so a clause
+        # like "1.1 Standard Definitions" is still matched)
+        m = re.match(r'^(\d{1,3})(?:\.(\d{1,3}))?(?:\.(\d{1,3}))?\.?(?=\s|$)', stripped)
         if m:
             parts = [m.group(1)]
             if m.group(2):

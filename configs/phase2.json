@@ -1,0 +1,33 @@
+{
+  "version": "1.0",
+  "phase": 2,
+  "chunking": {
+    "target_chars": 900,
+    "max_chars": 1300,
+    "min_chars": 120,
+    "context_prefix": true
+  },
+  "embeddings": {
+    "model": "all-MiniLM-L6-v2",
+    "batch_size": 64,
+    "device": null
+  },
+  "vector_store": {
+    "persist_dir": "data/chroma",
+    "collection": "policy_chunks",
+    "distance": "cosine"
+  },
+  "generation": {
+    "llm": "ollama",
+    "ollama_host": "http://localhost:11434",
+    "model": "llama3.2:3b",
+    "temperature": 0.2,
+    "num_predict": 320,
+    "num_gpu": 0,
+    "max_evidence_chars": 3500,
+    "timeout_seconds": 900
+  },
+  "retrieval": {
+    "default_k": 5
+  }
+}

@@ -18,7 +18,6 @@ Phase 1 stops here — no chunking, embeddings, vector DB, retrieval, or LLM.
 from __future__ import annotations
 
 import hashlib
-import io
 import json
 import logging
 import os
@@ -37,8 +36,14 @@ from .normalizer import Normalizer, NormalizedDocument
 
 logger = logging.getLogger(__name__)
 
-# Set stdout to UTF-8 to handle Unicode characters in policy text
-sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
+# Ensure stdout can encode the Unicode characters in policy text.
+# Reconfigure in place instead of replacing sys.stdout: rebinding the stream
+# detaches the object pytest holds a reference to, which makes test collection
+# fail with "ValueError: I/O operation on closed file".
+try:
+    sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+except (AttributeError, ValueError):  # pragma: no cover - non-reconfigurable stream
+    pass
 
 
 @dataclass
@@ -81,7 +86,10 @@ class IngestionPipeline:
         self.configs_dir = configs_dir
         self.reports_dir = reports_dir
         self.dpi = dpi
-        self.corpus_dirs = corpus_dirs or ["data", "rag_policy_dataset"]
+        # Default to the configured data_dir only. Callers that also want the
+        # top-level corpus folder (e.g. the CLI) pass corpus_dirs explicitly, so
+        # pointing data_dir somewhere else never rescans the repo corpus.
+        self.corpus_dirs = corpus_dirs or [data_dir]
 
         # Initialize components
         self.inspector = PDFInspector()
@@ -452,7 +460,9 @@ class IngestionPipeline:
         # Step 1: Discover PDFs
         pdf_paths = self.discover_pdfs()
         if not pdf_paths:
-            logger.error("No PDF files found in data/ directory.")
+            logger.error(
+                "No PDF files found in corpus directories: %s", ", ".join(self.corpus_dirs)
+            )
             return {"status": "error", "message": "No PDFs found"}
 
         # Step 3: Create/update document registry

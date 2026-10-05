@@ -1,0 +1,13 @@
+# Optional OCR engines — install ONE, not both, unless you want both.
+# src/ingestion/ocr_extractor.py prefers EasyOCR and falls back to pytesseract.
+# The pipeline still runs with neither, but OCR pages are skipped.
+
+# Option A (light, ~15 MB): needs the Tesseract binary installed separately
+#   Windows: https://github.com/UB-Mannheim/tesseract/wiki
+#   Linux:   sudo apt install tesseract-ocr
+#   macOS:   brew install tesseract
+pytesseract>=0.3.10
+
+# Option B (heavy, ~2.5 GB — pulls torch): self-contained, no system binary.
+# This is the engine that produced the committed Phase 1 reports.
+# easyocr>=1.7
