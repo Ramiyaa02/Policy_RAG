@@ -1,0 +1,35 @@
+{
+  "version": "1.0",
+  "phase": 3,
+  "base_config": "configs/phase2.json",
+  "retrieval": {
+    "mode": "hybrid",
+    "fusion": "rrf",
+    "rrf_k": 60,
+    "alpha": 0.5,
+    "candidate_k": 20,
+    "default_k": 5,
+    "bm25": {
+      "k1": 1.5,
+      "b": 0.75
+    },
+    "chunk_corpus": "data/chunks/chunks.jsonl",
+    "bm25_index": "data/bm25/bm25_index.json"
+  },
+  "reranker": {
+    "enabled": true,
+    "kind": "cross-encoder",
+    "model": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+    "batch_size": 32,
+    "device": null,
+    "lexical_weight": 0.20,
+    "semantic_weight": 0.80,
+    "coverage_weight": 0.0
+  },
+  "evaluation": {
+    "eval_set": "data/eval/retrieval_eval.json",
+    "k": 5,
+    "modes": ["semantic", "keyword", "hybrid", "hybrid+rerank"],
+    "report_dir": "reports"
+  }
+}

@@ -20,4 +20,12 @@ sentence-transformers>=3.0
 # Vector store: persistent client, cosine similarity, metadata filtering
 chromadb>=1.0
 
+# Phase 3 — Retrieval Improvement (hybrid retrieval, reranking, evaluation)
+#
+# No new dependencies: BM25 keyword retrieval is implemented in-house on pure
+# Python (src/retrieval/bm25.py), fusion and metrics use the stdlib, and the
+# cross-encoder reranker reuses sentence-transformers (already required above).
+# Reranking degrades to a model-free lexical reranker if the cross-encoder
+# model cannot be downloaded, so the pipeline still runs offline.
+
 # Optional OCR engines (easyocr or pytesseract) — see requirements-ocr.txt

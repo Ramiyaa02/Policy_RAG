@@ -1,0 +1,4502 @@
+{
+  "eval_set": "data/eval/retrieval_eval.json",
+  "k": 5,
+  "candidate_k": 20,
+  "fusion": "rrf",
+  "generated": "2026-10-10T17:01:10.173059+00:00",
+  "modes": [
+    {
+      "label": "keyword",
+      "k": 5,
+      "num_queries": 45,
+      "num_answerable": 43,
+      "aggregate": {
+        "precision@5": 0.3116,
+        "recall@5": 0.35,
+        "hit@5": 0.6744,
+        "ndcg@5": 0.3864,
+        "mrr": 0.5384,
+        "map": 0.2758
+      },
+      "by_category": {
+        "comparison": {
+          "count": 3,
+          "precision@5": 0.3333,
+          "recall@5": 0.4167,
+          "hit@5": 0.6667,
+          "ndcg@5": 0.4578,
+          "mrr": 0.6667,
+          "map": 0.3667
+        },
+        "coverage": {
+          "count": 19,
+          "precision@5": 0.2211,
+          "recall@5": 0.3064,
+          "hit@5": 0.5263,
+          "ndcg@5": 0.3284,
+          "mrr": 0.4649,
+          "map": 0.2491
+        },
+        "eligibility": {
+          "count": 1,
+          "precision@5": 0.4,
+          "recall@5": 0.4,
+          "hit@5": 1.0,
+          "ndcg@5": 0.3008,
+          "mrr": 0.3333,
+          "map": 0.1467
+        },
+        "exclusion": {
+          "count": 4,
+          "precision@5": 0.25,
+          "recall@5": 0.2625,
+          "hit@5": 0.5,
+          "ndcg@5": 0.3148,
+          "mrr": 0.5,
+          "map": 0.2625
+        },
+        "factual": {
+          "count": 14,
+          "precision@5": 0.4286,
+          "recall@5": 0.422,
+          "hit@5": 0.8571,
+          "ndcg@5": 0.4674,
+          "mrr": 0.606,
+          "map": 0.3139
+        },
+        "waiting_period": {
+          "count": 2,
+          "precision@5": 0.4,
+          "recall@5": 0.3095,
+          "hit@5": 1.0,
+          "ndcg@5": 0.4492,
+          "mrr": 0.75,
+          "map": 0.2179
+        }
+      },
+      "per_query": [
+        {
+          "qid": "q_waiting_cataract",
+          "query": "What is the waiting period for cataract surgery?",
+          "category": "waiting_period",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-003::c0069",
+            "DOC-006::c0028",
+            "DOC-008::c0081",
+            "DOC-002::c0046",
+            "DOC-009::c0055"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-006::c0026",
+            "DOC-006::c0028",
+            "DOC-002::c0026",
+            "DOC-002::c0033",
+            "DOC-002::c0034",
+            "DOC-009::c0055"
+          ],
+          "metrics": {
+            "precision@5": 0.4,
+            "recall@5": 0.3333333333333333,
+            "hit@5": 1.0,
+            "ndcg@5": 0.34519134224686937,
+            "mrr": 0.5,
+            "map": 0.15
+          },
+          "missed_chunk_ids": [
+            "DOC-006::c0026",
+            "DOC-002::c0026",
+            "DOC-002::c0033",
+            "DOC-002::c0034"
+          ]
+        },
+        {
+          "qid": "q_grace_premium",
+          "query": "What is the grace period for paying an instalment premium?",
+          "category": "factual",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-003::c0086",
+            "DOC-004::c0081",
+            "DOC-001::c0103",
+            "DOC-010::c0169",
+            "DOC-009::c0093"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-001::c0103",
+            "DOC-010::c0169",
+            "DOC-008::c0104",
+            "DOC-003::c0086",
+            "DOC-009::c0093"
+          ],
+          "metrics": {
+            "precision@5": 0.8,
+            "recall@5": 0.8,
+            "hit@5": 1.0,
+            "ndcg@5": 0.7860137352654724,
+            "mrr": 1.0,
+            "map": 0.6433333333333333
+          },
+          "missed_chunk_ids": [
+            "DOC-008::c0104"
+          ]
+        },
+        {
+          "qid": "q_free_look",
+          "query": "What is the free look period?",
+          "category": "factual",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-005::c0046",
+            "DOC-003::c0082",
+            "DOC-002::c0059",
+            "DOC-006::c0045",
+            "DOC-009::c0072"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-003::c0082",
+            "DOC-005::c0046",
+            "DOC-006::c0045",
+            "DOC-007::c0139"
+          ],
+          "metrics": {
+            "precision@5": 0.6,
+            "recall@5": 0.75,
+            "hit@5": 1.0,
+            "ndcg@5": 0.8048099750039491,
+            "mrr": 1.0,
+            "map": 0.6875
+          },
+          "missed_chunk_ids": [
+            "DOC-007::c0139"
+          ]
+        },
+        {
+          "qid": "q_ayush",
+          "query": "Is AYUSH treatment covered by the policy?",
+          "category": "coverage",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-008::c0001",
+            "DOC-007::c0028",
+            "DOC-002::c0002",
+            "DOC-006::c0001",
+            "DOC-009::c0154"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-003::c0003",
+            "DOC-005::c0000",
+            "DOC-008::c0002",
+            "DOC-006::c0003",
+            "DOC-001::c0002",
+            "DOC-010::c0008"
+          ],
+          "metrics": {
+            "precision@5": 0.0,
+            "recall@5": 0.0,
+            "hit@5": 0.0,
+            "ndcg@5": 0.0,
+            "mrr": 0.0,
+            "map": 0.0
+          },
+          "missed_chunk_ids": [
+            "DOC-003::c0003",
+            "DOC-005::c0000",
+            "DOC-008::c0002",
+            "DOC-006::c0003",
+            "DOC-001::c0002",
+            "DOC-010::c0008"
+          ]
+        },
+        {
+          "qid": "q_copay_outside_area",
+          "query": "What is the co-payment for treatment outside the area of coverage?",
+          "category": "coverage",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-002::c0080",
+            "DOC-008::c0112",
+            "DOC-010::c0103",
+            "DOC-010::c0071",
+            "DOC-001::c0062"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-002::c0080",
+            "DOC-007::c0107",
+            "DOC-008::c0065",
+            "DOC-010::c0082"
+          ],
+          "metrics": {
+            "precision@5": 0.2,
+            "recall@5": 0.25,
+            "hit@5": 1.0,
+            "ndcg@5": 0.3903800499921017,
+            "mrr": 1.0,
+            "map": 0.25
+          },
+          "missed_chunk_ids": [
+            "DOC-007::c0107",
+            "DOC-008::c0065",
+            "DOC-010::c0082"
+          ]
+        },
+        {
+          "qid": "q_ped_waiting",
+          "query": "What is the waiting period for pre-existing diseases?",
+          "category": "waiting_period",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-005::c0037",
+            "DOC-006::c0026",
+            "DOC-010::c0182",
+            "DOC-001::c0115",
+            "DOC-010::c0142"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-005::c0037",
+            "DOC-002::c0045",
+            "DOC-003::c0067",
+            "DOC-006::c0012",
+            "DOC-009::c0053",
+            "DOC-003::c0056",
+            "DOC-006::c0026"
+          ],
+          "metrics": {
+            "precision@5": 0.4,
+            "recall@5": 0.2857142857142857,
+            "hit@5": 1.0,
+            "ndcg@5": 0.5531464700081437,
+            "mrr": 1.0,
+            "map": 0.2857142857142857
+          },
+          "missed_chunk_ids": [
+            "DOC-002::c0045",
+            "DOC-003::c0067",
+            "DOC-006::c0012",
+            "DOC-009::c0053",
+            "DOC-003::c0056"
+          ]
+        },
+        {
+          "qid": "q_maternity",
+          "query": "Is maternity covered and what is the waiting period for it?",
+          "category": "coverage",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-001::c0056",
+            "DOC-010::c0065",
+            "DOC-010::c0093",
+            "DOC-007::c0114",
+            "DOC-001::c0057"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-001::c0056",
+            "DOC-001::c0057",
+            "DOC-001::c0058",
+            "DOC-010::c0065",
+            "DOC-010::c0066",
+            "DOC-010::c0067",
+            "DOC-007::c0114"
+          ],
+          "metrics": {
+            "precision@5": 0.8,
+            "recall@5": 0.5714285714285714,
+            "hit@5": 1.0,
+            "ndcg@5": 0.830419897363192,
+            "mrr": 1.0,
+            "map": 0.5071428571428571
+          },
+          "missed_chunk_ids": [
+            "DOC-001::c0058",
+            "DOC-010::c0066",
+            "DOC-010::c0067"
+          ]
+        },
+        {
+          "qid": "q_room_rent",
+          "query": "What is the room rent limit under the policy?",
+          "category": "coverage",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-004::c0006",
+            "DOC-003::c0026",
+            "DOC-008::c0037",
+            "DOC-007::c0118",
+            "DOC-005::c0065"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-003::c0057",
+            "DOC-003::c0058",
+            "DOC-002::c0024",
+            "DOC-007::c0124"
+          ],
+          "metrics": {
+            "precision@5": 0.0,
+            "recall@5": 0.0,
+            "hit@5": 0.0,
+            "ndcg@5": 0.0,
+            "mrr": 0.0,
+            "map": 0.0
+          },
+          "missed_chunk_ids": [
+            "DOC-003::c0057",
+            "DOC-003::c0058",
+            "DOC-002::c0024",
+            "DOC-007::c0124"
+          ]
+        },
+        {
+          "qid": "q_no_claim_bonus",
+          "query": "How does the no claim bonus work?",
+          "category": "factual",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-010::c0134",
+            "DOC-010::c0113",
+            "DOC-006::c0024",
+            "DOC-006::c0023",
+            "DOC-007::c0057"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-010::c0134",
+            "DOC-010::c0136",
+            "DOC-010::c0137"
+          ],
+          "metrics": {
+            "precision@5": 0.2,
+            "recall@5": 0.3333333333333333,
+            "hit@5": 1.0,
+            "ndcg@5": 0.46927872602275644,
+            "mrr": 1.0,
+            "map": 0.3333333333333333
+          },
+          "missed_chunk_ids": [
+            "DOC-010::c0136",
+            "DOC-010::c0137"
+          ]
+        },
+        {
+          "qid": "q_cashless",
+          "query": "How do I get a cashless hospitalization?",
+          "category": "factual",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-010::c0147",
+            "DOC-007::c0080",
+            "DOC-001::c0076",
+            "DOC-004::c0049",
+            "DOC-004::c0052"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-002::c0069",
+            "DOC-003::c0104",
+            "DOC-006::c0054",
+            "DOC-006::c0055",
+            "DOC-009::c0110",
+            "DOC-007::c0160"
+          ],
+          "metrics": {
+            "precision@5": 0.0,
+            "recall@5": 0.0,
+            "hit@5": 0.0,
+            "ndcg@5": 0.0,
+            "mrr": 0.0,
+            "map": 0.0
+          },
+          "missed_chunk_ids": [
+            "DOC-002::c0069",
+            "DOC-003::c0104",
+            "DOC-006::c0054",
+            "DOC-006::c0055",
+            "DOC-009::c0110",
+            "DOC-007::c0160"
+          ]
+        },
+        {
+          "qid": "q_dental_exclusion",
+          "query": "Are dental treatments excluded?",
+          "category": "exclusion",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-010::c0104",
+            "DOC-005::c0045",
+            "DOC-003::c0025",
+            "DOC-004::c0022",
+            "DOC-004::c0024"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-001::c0099",
+            "DOC-006::c0034",
+            "DOC-007::c0136",
+            "DOC-010::c0104"
+          ],
+          "metrics": {
+            "precision@5": 0.2,
+            "recall@5": 0.25,
+            "hit@5": 1.0,
+            "ndcg@5": 0.3903800499921017,
+            "mrr": 1.0,
+            "map": 0.25
+          },
+          "missed_chunk_ids": [
+            "DOC-001::c0099",
+            "DOC-006::c0034",
+            "DOC-007::c0136"
+          ]
+        },
+        {
+          "qid": "q_obesity",
+          "query": "Is treatment for obesity covered?",
+          "category": "exclusion",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-010::c0052",
+            "DOC-001::c0046",
+            "DOC-010::c0148",
+            "DOC-001::c0043",
+            "DOC-001::c0085"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-002::c0049",
+            "DOC-005::c0041",
+            "DOC-003::c0071",
+            "DOC-007::c0130"
+          ],
+          "metrics": {
+            "precision@5": 0.0,
+            "recall@5": 0.0,
+            "hit@5": 0.0,
+            "ndcg@5": 0.0,
+            "mrr": 0.0,
+            "map": 0.0
+          },
+          "missed_chunk_ids": [
+            "DOC-002::c0049",
+            "DOC-005::c0041",
+            "DOC-003::c0071",
+            "DOC-007::c0130"
+          ]
+        },
+        {
+          "qid": "q_ambulance",
+          "query": "What ambulance expenses are covered?",
+          "category": "coverage",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-004::c0011",
+            "DOC-001::c0041",
+            "DOC-010::c0046",
+            "DOC-007::c0087",
+            "DOC-010::c0091"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-001::c0054",
+            "DOC-003::c0033",
+            "DOC-005::c0018",
+            "DOC-008::c0038",
+            "DOC-006::c0018",
+            "DOC-010::c0063"
+          ],
+          "metrics": {
+            "precision@5": 0.0,
+            "recall@5": 0.0,
+            "hit@5": 0.0,
+            "ndcg@5": 0.0,
+            "mrr": 0.0,
+            "map": 0.0
+          },
+          "missed_chunk_ids": [
+            "DOC-001::c0054",
+            "DOC-003::c0033",
+            "DOC-005::c0018",
+            "DOC-008::c0038",
+            "DOC-006::c0018",
+            "DOC-010::c0063"
+          ]
+        },
+        {
+          "qid": "q_organ_donor",
+          "query": "Are organ donor expenses covered?",
+          "category": "coverage",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-003::c0029",
+            "DOC-001::c0051",
+            "DOC-001::c0053",
+            "DOC-010::c0059",
+            "DOC-009::c0155"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-003::c0029",
+            "DOC-006::c0017",
+            "DOC-007::c0032",
+            "DOC-001::c0053"
+          ],
+          "metrics": {
+            "precision@5": 0.4,
+            "recall@5": 0.5,
+            "hit@5": 1.0,
+            "ndcg@5": 0.5855700749881525,
+            "mrr": 1.0,
+            "map": 0.41666666666666663
+          },
+          "missed_chunk_ids": [
+            "DOC-006::c0017",
+            "DOC-007::c0032"
+          ]
+        },
+        {
+          "qid": "q_cosmetic",
+          "query": "Are cosmetic or plastic surgery treatments covered?",
+          "category": "exclusion",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-010::c0149",
+            "DOC-001::c0085",
+            "DOC-003::c0071",
+            "DOC-002::c0049",
+            "DOC-004::c0065"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-007::c0130",
+            "DOC-006::c0030",
+            "DOC-001::c0046"
+          ],
+          "metrics": {
+            "precision@5": 0.0,
+            "recall@5": 0.0,
+            "hit@5": 0.0,
+            "ndcg@5": 0.0,
+            "mrr": 0.0,
+            "map": 0.0
+          },
+          "missed_chunk_ids": [
+            "DOC-007::c0130",
+            "DOC-006::c0030",
+            "DOC-001::c0046"
+          ]
+        },
+        {
+          "qid": "q_ombudsman",
+          "query": "How do I contact the insurance ombudsman?",
+          "category": "factual",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-004::c0090",
+            "DOC-001::c0140",
+            "DOC-001::c0116",
+            "DOC-003::c0108",
+            "DOC-009::c0228"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-006::c0062",
+            "DOC-006::c0063",
+            "DOC-006::c0064",
+            "DOC-002::c0105",
+            "DOC-007::c0147",
+            "DOC-009::c0228"
+          ],
+          "metrics": {
+            "precision@5": 0.2,
+            "recall@5": 0.16666666666666666,
+            "hit@5": 1.0,
+            "ndcg@5": 0.13120507751234178,
+            "mrr": 0.2,
+            "map": 0.03333333333333333
+          },
+          "missed_chunk_ids": [
+            "DOC-006::c0062",
+            "DOC-006::c0063",
+            "DOC-006::c0064",
+            "DOC-002::c0105",
+            "DOC-007::c0147"
+          ]
+        },
+        {
+          "qid": "q_critical_illness",
+          "query": "What does the critical illness cover pay for?",
+          "category": "coverage",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-009::c0180",
+            "DOC-009::c0125",
+            "DOC-007::c0091",
+            "DOC-008::c0021",
+            "DOC-009::c0200"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-009::c0180",
+            "DOC-009::c0125"
+          ],
+          "metrics": {
+            "precision@5": 0.4,
+            "recall@5": 1.0,
+            "hit@5": 1.0,
+            "ndcg@5": 1.0,
+            "mrr": 1.0,
+            "map": 1.0
+          },
+          "missed_chunk_ids": []
+        },
+        {
+          "qid": "q_pre_hospitalization",
+          "query": "How many days before hospitalization are covered?",
+          "category": "coverage",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-005::c0047",
+            "DOC-007::c0080",
+            "DOC-001::c0039",
+            "DOC-001::c0069",
+            "DOC-010::c0080"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-003::c0059",
+            "DOC-008::c0058",
+            "DOC-003::c0052",
+            "DOC-006::c0013"
+          ],
+          "metrics": {
+            "precision@5": 0.0,
+            "recall@5": 0.0,
+            "hit@5": 0.0,
+            "ndcg@5": 0.0,
+            "mrr": 0.0,
+            "map": 0.0
+          },
+          "missed_chunk_ids": [
+            "DOC-003::c0059",
+            "DOC-008::c0058",
+            "DOC-003::c0052",
+            "DOC-006::c0013"
+          ]
+        },
+        {
+          "qid": "q_post_hospitalization",
+          "query": "How many days after discharge are covered?",
+          "category": "coverage",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-005::c0047",
+            "DOC-010::c0048",
+            "DOC-010::c0045",
+            "DOC-001::c0040",
+            "DOC-001::c0043"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-003::c0060",
+            "DOC-007::c0163",
+            "DOC-003::c0052"
+          ],
+          "metrics": {
+            "precision@5": 0.0,
+            "recall@5": 0.0,
+            "hit@5": 0.0,
+            "ndcg@5": 0.0,
+            "mrr": 0.0,
+            "map": 0.0
+          },
+          "missed_chunk_ids": [
+            "DOC-003::c0060",
+            "DOC-007::c0163",
+            "DOC-003::c0052"
+          ]
+        },
+        {
+          "qid": "q_restoration",
+          "query": "What happens to my sum insured if I exhaust it during the year?",
+          "category": "coverage",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-003::c0040",
+            "DOC-010::c0102",
+            "DOC-003::c0091",
+            "DOC-003::c0039",
+            "DOC-003::c0038"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-004::c0017",
+            "DOC-008::c0039",
+            "DOC-003::c0133",
+            "DOC-006::c0016"
+          ],
+          "metrics": {
+            "precision@5": 0.0,
+            "recall@5": 0.0,
+            "hit@5": 0.0,
+            "ndcg@5": 0.0,
+            "mrr": 0.0,
+            "map": 0.0
+          },
+          "missed_chunk_ids": [
+            "DOC-004::c0017",
+            "DOC-008::c0039",
+            "DOC-003::c0133",
+            "DOC-006::c0016"
+          ]
+        },
+        {
+          "qid": "q_deductible",
+          "query": "What is a deductible and how does it apply?",
+          "category": "coverage",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-009::c0010",
+            "DOC-003::c0006",
+            "DOC-007::c0017",
+            "DOC-005::c0005",
+            "DOC-008::c0005"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-007::c0108",
+            "DOC-003::c0041",
+            "DOC-008::c0069",
+            "DOC-009::c0179"
+          ],
+          "metrics": {
+            "precision@5": 0.0,
+            "recall@5": 0.0,
+            "hit@5": 0.0,
+            "ndcg@5": 0.0,
+            "mrr": 0.0,
+            "map": 0.0
+          },
+          "missed_chunk_ids": [
+            "DOC-007::c0108",
+            "DOC-003::c0041",
+            "DOC-008::c0069",
+            "DOC-009::c0179"
+          ]
+        },
+        {
+          "qid": "q_portability",
+          "query": "Can I port my policy to another insurer?",
+          "category": "eligibility",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-005::c0059",
+            "DOC-007::c0142",
+            "DOC-009::c0090",
+            "DOC-004::c0086",
+            "DOC-002::c0067"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-003::c0084",
+            "DOC-006::c0041",
+            "DOC-008::c0101",
+            "DOC-009::c0090",
+            "DOC-002::c0067"
+          ],
+          "metrics": {
+            "precision@5": 0.4,
+            "recall@5": 0.4,
+            "hit@5": 1.0,
+            "ndcg@5": 0.30078518014914984,
+            "mrr": 0.3333333333333333,
+            "map": 0.14666666666666667
+          },
+          "missed_chunk_ids": [
+            "DOC-003::c0084",
+            "DOC-006::c0041",
+            "DOC-008::c0101"
+          ]
+        },
+        {
+          "qid": "q_migration",
+          "query": "What is policy migration?",
+          "category": "factual",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-010::c0182",
+            "DOC-008::c0100",
+            "DOC-001::c0115",
+            "DOC-007::c0144",
+            "DOC-005::c0059"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-009::c0089",
+            "DOC-005::c0059",
+            "DOC-008::c0100",
+            "DOC-003::c0084",
+            "DOC-006::c0044"
+          ],
+          "metrics": {
+            "precision@5": 0.4,
+            "recall@5": 0.4,
+            "hit@5": 1.0,
+            "ndcg@5": 0.34519134224686937,
+            "mrr": 0.5,
+            "map": 0.18
+          },
+          "missed_chunk_ids": [
+            "DOC-009::c0089",
+            "DOC-003::c0084",
+            "DOC-006::c0044"
+          ]
+        },
+        {
+          "qid": "q_cumulative_bonus",
+          "query": "How does the cumulative bonus increase over renewals?",
+          "category": "factual",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-010::c0113",
+            "DOC-006::c0024",
+            "DOC-010::c0140",
+            "DOC-010::c0135",
+            "DOC-010::c0133"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-001::c0072",
+            "DOC-003::c0061",
+            "DOC-010::c0132",
+            "DOC-004::c0016",
+            "DOC-010::c0133",
+            "DOC-010::c0135"
+          ],
+          "metrics": {
+            "precision@5": 0.4,
+            "recall@5": 0.3333333333333333,
+            "hit@5": 1.0,
+            "ndcg@5": 0.27727342735504823,
+            "mrr": 0.25,
+            "map": 0.10833333333333334
+          },
+          "missed_chunk_ids": [
+            "DOC-001::c0072",
+            "DOC-003::c0061",
+            "DOC-010::c0132",
+            "DOC-004::c0016"
+          ]
+        },
+        {
+          "qid": "q_modern_treatment",
+          "query": "Are modern treatments covered?",
+          "category": "coverage",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-002::c0040",
+            "DOC-010::c0088",
+            "DOC-002::c0031",
+            "DOC-009::c0236",
+            "DOC-005::c0019"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-002::c0040",
+            "DOC-004::c0008",
+            "DOC-005::c0019",
+            "DOC-002::c0031"
+          ],
+          "metrics": {
+            "precision@5": 0.6,
+            "recall@5": 0.75,
+            "hit@5": 1.0,
+            "ndcg@5": 0.7365896932159578,
+            "mrr": 1.0,
+            "map": 0.5666666666666667
+          },
+          "missed_chunk_ids": [
+            "DOC-004::c0008"
+          ]
+        },
+        {
+          "qid": "q_fraud",
+          "query": "What happens if a claim is found to be fraudulent?",
+          "category": "exclusion",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-005::c0051",
+            "DOC-009::c0080",
+            "DOC-001::c0110",
+            "DOC-002::c0058",
+            "DOC-003::c0080"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-009::c0080",
+            "DOC-002::c0058",
+            "DOC-006::c0039",
+            "DOC-005::c0051",
+            "DOC-001::c0110"
+          ],
+          "metrics": {
+            "precision@5": 0.8,
+            "recall@5": 0.8,
+            "hit@5": 1.0,
+            "ndcg@5": 0.8687949224876582,
+            "mrr": 1.0,
+            "map": 0.8
+          },
+          "missed_chunk_ids": [
+            "DOC-006::c0039"
+          ]
+        },
+        {
+          "qid": "q_grievance",
+          "query": "How do I raise a grievance or complaint?",
+          "category": "factual",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-004::c0090",
+            "DOC-009::c0084",
+            "DOC-009::c0083",
+            "DOC-003::c0089",
+            "DOC-004::c0089"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-001::c0116",
+            "DOC-010::c0183",
+            "DOC-005::c0055",
+            "DOC-002::c0065",
+            "DOC-009::c0084",
+            "DOC-004::c0090",
+            "DOC-009::c0083",
+            "DOC-003::c0089"
+          ],
+          "metrics": {
+            "precision@5": 0.8,
+            "recall@5": 0.5,
+            "hit@5": 1.0,
+            "ndcg@5": 0.8687949224876582,
+            "mrr": 1.0,
+            "map": 0.5
+          },
+          "missed_chunk_ids": [
+            "DOC-001::c0116",
+            "DOC-010::c0183",
+            "DOC-005::c0055",
+            "DOC-002::c0065"
+          ]
+        },
+        {
+          "qid": "q_multiple_policies",
+          "query": "I have two insurance policies; how is a claim apportioned between them?",
+          "category": "coverage",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-003::c0031",
+            "DOC-009::c0101",
+            "DOC-005::c0057",
+            "DOC-009::c0161",
+            "DOC-003::c0037"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-009::c0087",
+            "DOC-003::c0079",
+            "DOC-005::c0058",
+            "DOC-001::c0110",
+            "DOC-007::c0017",
+            "DOC-009::c0088",
+            "DOC-001::c0109"
+          ],
+          "metrics": {
+            "precision@5": 0.0,
+            "recall@5": 0.0,
+            "hit@5": 0.0,
+            "ndcg@5": 0.0,
+            "mrr": 0.0,
+            "map": 0.0
+          },
+          "missed_chunk_ids": [
+            "DOC-009::c0087",
+            "DOC-003::c0079",
+            "DOC-005::c0058",
+            "DOC-001::c0110",
+            "DOC-007::c0017",
+            "DOC-009::c0088",
+            "DOC-001::c0109"
+          ]
+        },
+        {
+          "qid": "q_cancellation",
+          "query": "Can I cancel my policy and get a refund of premium?",
+          "category": "factual",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-003::c0085",
+            "DOC-009::c0074",
+            "DOC-010::c0172",
+            "DOC-009::c0076",
+            "DOC-005::c0047"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-001::c0106",
+            "DOC-002::c0056",
+            "DOC-003::c0085",
+            "DOC-009::c0076",
+            "DOC-004::c0087",
+            "DOC-009::c0074",
+            "DOC-005::c0047",
+            "DOC-010::c0172"
+          ],
+          "metrics": {
+            "precision@5": 1.0,
+            "recall@5": 0.625,
+            "hit@5": 1.0,
+            "ndcg@5": 1.0,
+            "mrr": 1.0,
+            "map": 0.625
+          },
+          "missed_chunk_ids": [
+            "DOC-001::c0106",
+            "DOC-002::c0056",
+            "DOC-004::c0087"
+          ]
+        },
+        {
+          "qid": "q_home_care",
+          "query": "Is domiciliary or home care treatment covered?",
+          "category": "coverage",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-009::c0151",
+            "DOC-005::c0020",
+            "DOC-003::c0027",
+            "DOC-008::c0035",
+            "DOC-001::c0084"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-005::c0020",
+            "DOC-003::c0027",
+            "DOC-004::c0012"
+          ],
+          "metrics": {
+            "precision@5": 0.4,
+            "recall@5": 0.6666666666666666,
+            "hit@5": 1.0,
+            "ndcg@5": 0.5307212739772434,
+            "mrr": 0.5,
+            "map": 0.38888888888888884
+          },
+          "missed_chunk_ids": [
+            "DOC-004::c0012"
+          ]
+        },
+        {
+          "qid": "q_consumables",
+          "query": "Are consumables and implants covered?",
+          "category": "coverage",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-002::c0025",
+            "DOC-007::c0023",
+            "DOC-010::c0023",
+            "DOC-008::c0017",
+            "DOC-010::c0118"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-002::c0025",
+            "DOC-007::c0077",
+            "DOC-001::c0037"
+          ],
+          "metrics": {
+            "precision@5": 0.2,
+            "recall@5": 0.3333333333333333,
+            "hit@5": 1.0,
+            "ndcg@5": 0.46927872602275644,
+            "mrr": 1.0,
+            "map": 0.3333333333333333
+          },
+          "missed_chunk_ids": [
+            "DOC-007::c0077",
+            "DOC-001::c0037"
+          ]
+        },
+        {
+          "qid": "q_preventive_checkup",
+          "query": "Is a preventive health check-up available?",
+          "category": "coverage",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-004::c0025",
+            "DOC-003::c0064",
+            "DOC-003::c0043",
+            "DOC-003::c0130",
+            "DOC-003::c0065"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-003::c0043",
+            "DOC-004::c0025",
+            "DOC-003::c0130",
+            "DOC-010::c0088"
+          ],
+          "metrics": {
+            "precision@5": 0.6,
+            "recall@5": 0.75,
+            "hit@5": 1.0,
+            "ndcg@5": 0.75369761125927,
+            "mrr": 1.0,
+            "map": 0.6041666666666666
+          },
+          "missed_chunk_ids": [
+            "DOC-010::c0088"
+          ]
+        },
+        {
+          "qid": "q_sub_limit",
+          "query": "What is a sub-limit and how does it affect a claim?",
+          "category": "coverage",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-006::c0020",
+            "DOC-003::c0022",
+            "DOC-008::c0127",
+            "DOC-005::c0057",
+            "DOC-003::c0024"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-008::c0127",
+            "DOC-002::c0038"
+          ],
+          "metrics": {
+            "precision@5": 0.2,
+            "recall@5": 0.5,
+            "hit@5": 1.0,
+            "ndcg@5": 0.3065735963827292,
+            "mrr": 0.3333333333333333,
+            "map": 0.16666666666666666
+          },
+          "missed_chunk_ids": [
+            "DOC-002::c0038"
+          ]
+        },
+        {
+          "qid": "q_disclosure",
+          "query": "What is the duty of disclosure when buying a policy?",
+          "category": "factual",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-005::c0046",
+            "DOC-007::c0015",
+            "DOC-009::c0072",
+            "DOC-009::c0073",
+            "DOC-004::c0080"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-003::c0077",
+            "DOC-001::c0101",
+            "DOC-008::c0098",
+            "DOC-009::c0091",
+            "DOC-007::c0138"
+          ],
+          "metrics": {
+            "precision@5": 0.0,
+            "recall@5": 0.0,
+            "hit@5": 0.0,
+            "ndcg@5": 0.0,
+            "mrr": 0.0,
+            "map": 0.0
+          },
+          "missed_chunk_ids": [
+            "DOC-003::c0077",
+            "DOC-001::c0101",
+            "DOC-008::c0098",
+            "DOC-009::c0091",
+            "DOC-007::c0138"
+          ]
+        },
+        {
+          "qid": "q_room_modification",
+          "query": "Is there an option to modify the room category coverage?",
+          "category": "coverage",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-007::c0117",
+            "DOC-003::c0058",
+            "DOC-010::c0116",
+            "DOC-008::c0066",
+            "DOC-003::c0057"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-003::c0058",
+            "DOC-005::c0037",
+            "DOC-008::c0067",
+            "DOC-007::c0117"
+          ],
+          "metrics": {
+            "precision@5": 0.4,
+            "recall@5": 0.5,
+            "hit@5": 1.0,
+            "ndcg@5": 0.6366824387328317,
+            "mrr": 1.0,
+            "map": 0.5
+          },
+          "missed_chunk_ids": [
+            "DOC-005::c0037",
+            "DOC-008::c0067"
+          ]
+        },
+        {
+          "qid": "q_moratorium",
+          "query": "What is the moratorium period?",
+          "category": "factual",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-004::c0080",
+            "DOC-006::c0046",
+            "DOC-001::c0105",
+            "DOC-010::c0171",
+            "DOC-005::c0057"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-005::c0057",
+            "DOC-001::c0105",
+            "DOC-010::c0171",
+            "DOC-003::c0080"
+          ],
+          "metrics": {
+            "precision@5": 0.6,
+            "recall@5": 0.75,
+            "hit@5": 1.0,
+            "ndcg@5": 0.5143371794949736,
+            "mrr": 0.3333333333333333,
+            "map": 0.3583333333333333
+          },
+          "missed_chunk_ids": [
+            "DOC-003::c0080"
+          ]
+        },
+        {
+          "qid": "q_nomination",
+          "query": "How do I make a nomination for the policy?",
+          "category": "factual",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-005::c0049",
+            "DOC-009::c0079",
+            "DOC-001::c0101",
+            "DOC-010::c0167",
+            "DOC-007::c0147"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-002::c0062",
+            "DOC-005::c0049",
+            "DOC-009::c0079",
+            "DOC-003::c0088"
+          ],
+          "metrics": {
+            "precision@5": 0.4,
+            "recall@5": 0.5,
+            "hit@5": 1.0,
+            "ndcg@5": 0.6366824387328317,
+            "mrr": 1.0,
+            "map": 0.5
+          },
+          "missed_chunk_ids": [
+            "DOC-002::c0062",
+            "DOC-003::c0088"
+          ]
+        },
+        {
+          "qid": "q_day_care",
+          "query": "What is day care treatment and is it covered?",
+          "category": "coverage",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-010::c0043",
+            "DOC-001::c0037",
+            "DOC-001::c0039",
+            "DOC-010::c0044",
+            "DOC-008::c0028"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-008::c0031",
+            "DOC-007::c0025",
+            "DOC-002::c0006",
+            "DOC-005::c0004"
+          ],
+          "metrics": {
+            "precision@5": 0.0,
+            "recall@5": 0.0,
+            "hit@5": 0.0,
+            "ndcg@5": 0.0,
+            "mrr": 0.0,
+            "map": 0.0
+          },
+          "missed_chunk_ids": [
+            "DOC-008::c0031",
+            "DOC-007::c0025",
+            "DOC-002::c0006",
+            "DOC-005::c0004"
+          ]
+        },
+        {
+          "qid": "q_claim_intimation",
+          "query": "How soon must I intimate a claim to the insurer?",
+          "category": "factual",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-002::c0070",
+            "DOC-005::c0057",
+            "DOC-005::c0047",
+            "DOC-009::c0118",
+            "DOC-009::c0109"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-009::c0118",
+            "DOC-006::c0011",
+            "DOC-004::c0077",
+            "DOC-002::c0070"
+          ],
+          "metrics": {
+            "precision@5": 0.4,
+            "recall@5": 0.5,
+            "hit@5": 1.0,
+            "ndcg@5": 0.5585075862632192,
+            "mrr": 1.0,
+            "map": 0.375
+          },
+          "missed_chunk_ids": [
+            "DOC-006::c0011",
+            "DOC-004::c0077"
+          ]
+        },
+        {
+          "qid": "q_pre_existing_definition",
+          "query": "What is meant by a pre-existing disease?",
+          "category": "factual",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-004::c0059",
+            "DOC-005::c0037",
+            "DOC-010::c0142",
+            "DOC-009::c0178",
+            "DOC-009::c0053"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-002::c0015",
+            "DOC-006::c0012",
+            "DOC-009::c0053",
+            "DOC-001::c0077"
+          ],
+          "metrics": {
+            "precision@5": 0.2,
+            "recall@5": 0.25,
+            "hit@5": 1.0,
+            "ndcg@5": 0.15101961822780524,
+            "mrr": 0.2,
+            "map": 0.05
+          },
+          "missed_chunk_ids": [
+            "DOC-002::c0015",
+            "DOC-006::c0012",
+            "DOC-001::c0077"
+          ]
+        },
+        {
+          "qid": "q_compare_ped_waiting",
+          "query": "Compare the pre-existing disease waiting period between the MediClaim and Activ One policies.",
+          "category": "comparison",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-009::c0100",
+            "DOC-010::c0182",
+            "DOC-005::c0059",
+            "DOC-001::c0115",
+            "DOC-005::c0037"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-002::c0045",
+            "DOC-002::c0046",
+            "DOC-009::c0053",
+            "DOC-009::c0054",
+            "DOC-009::c0178",
+            "DOC-009::c0177"
+          ],
+          "metrics": {
+            "precision@5": 0.0,
+            "recall@5": 0.0,
+            "hit@5": 0.0,
+            "ndcg@5": 0.0,
+            "mrr": 0.0,
+            "map": 0.0
+          },
+          "missed_chunk_ids": [
+            "DOC-002::c0045",
+            "DOC-002::c0046",
+            "DOC-009::c0053",
+            "DOC-009::c0054",
+            "DOC-009::c0178",
+            "DOC-009::c0177"
+          ]
+        },
+        {
+          "qid": "q_compare_air_ambulance",
+          "query": "Which policies provide an emergency air ambulance benefit?",
+          "category": "comparison",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-003::c0033",
+            "DOC-001::c0054",
+            "DOC-010::c0063",
+            "DOC-010::c0002",
+            "DOC-007::c0087"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-001::c0054",
+            "DOC-003::c0033",
+            "DOC-010::c0063",
+            "DOC-005::c0018"
+          ],
+          "metrics": {
+            "precision@5": 0.6,
+            "recall@5": 0.75,
+            "hit@5": 1.0,
+            "ndcg@5": 0.8318724637288826,
+            "mrr": 1.0,
+            "map": 0.75
+          },
+          "missed_chunk_ids": [
+            "DOC-005::c0018"
+          ]
+        },
+        {
+          "qid": "q_compare_grace",
+          "query": "Compare the grace period for premium payment between the Digit Health and Ultimate Care policies.",
+          "category": "comparison",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-008::c0007",
+            "DOC-001::c0008",
+            "DOC-010::c0013",
+            "DOC-005::c0006",
+            "DOC-001::c0103"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-001::c0103",
+            "DOC-010::c0169",
+            "DOC-008::c0104",
+            "DOC-008::c0007"
+          ],
+          "metrics": {
+            "precision@5": 0.4,
+            "recall@5": 0.5,
+            "hit@5": 1.0,
+            "ndcg@5": 0.5413996682199069,
+            "mrr": 1.0,
+            "map": 0.35
+          },
+          "missed_chunk_ids": [
+            "DOC-010::c0169",
+            "DOC-008::c0104"
+          ]
+        },
+        {
+          "qid": "q_ood_stock_market",
+          "query": "What will the stock market do tomorrow?",
+          "category": "out_of_domain",
+          "answerable": false,
+          "ranked_chunk_ids": [
+            "DOC-001::c0076",
+            "DOC-001::c0142",
+            "DOC-010::c0142",
+            "DOC-004::c0059",
+            "DOC-010::c0161"
+          ],
+          "relevant_chunk_ids": [],
+          "metrics": {},
+          "missed_chunk_ids": []
+        },
+        {
+          "qid": "q_ood_exact_premium",
+          "query": "What is the exact premium a 60-year-old smoker in Delhi would pay next year?",
+          "category": "out_of_domain",
+          "answerable": false,
+          "ranked_chunk_ids": [
+            "DOC-009::c0175",
+            "DOC-001::c0058",
+            "DOC-005::c0029",
+            "DOC-004::c0003",
+            "DOC-010::c0067"
+          ],
+          "relevant_chunk_ids": [],
+          "metrics": {},
+          "missed_chunk_ids": []
+        }
+      ],
+      "elapsed_s": 0.48
+    },
+    {
+      "label": "hybrid",
+      "k": 5,
+      "num_queries": 45,
+      "num_answerable": 43,
+      "aggregate": {
+        "precision@5": 0.3907,
+        "recall@5": 0.4167,
+        "hit@5": 0.8837,
+        "ndcg@5": 0.4812,
+        "mrr": 0.6849,
+        "map": 0.3359
+      },
+      "by_category": {
+        "comparison": {
+          "count": 3,
+          "precision@5": 0.6,
+          "recall@5": 0.6389,
+          "hit@5": 1.0,
+          "ndcg@5": 0.688,
+          "mrr": 0.7778,
+          "map": 0.5417
+        },
+        "coverage": {
+          "count": 19,
+          "precision@5": 0.2421,
+          "recall@5": 0.3039,
+          "hit@5": 0.7895,
+          "ndcg@5": 0.3225,
+          "mrr": 0.5018,
+          "map": 0.2064
+        },
+        "eligibility": {
+          "count": 1,
+          "precision@5": 0.4,
+          "recall@5": 0.4,
+          "hit@5": 1.0,
+          "ndcg@5": 0.3836,
+          "mrr": 0.5,
+          "map": 0.2333
+        },
+        "exclusion": {
+          "count": 4,
+          "precision@5": 0.3,
+          "recall@5": 0.3458,
+          "hit@5": 0.75,
+          "ndcg@5": 0.3616,
+          "mrr": 0.5625,
+          "map": 0.2733
+        },
+        "factual": {
+          "count": 14,
+          "precision@5": 0.5571,
+          "recall@5": 0.5488,
+          "hit@5": 1.0,
+          "ndcg@5": 0.6796,
+          "mrr": 0.9167,
+          "map": 0.4974
+        },
+        "waiting_period": {
+          "count": 2,
+          "precision@5": 0.5,
+          "recall@5": 0.381,
+          "hit@5": 1.0,
+          "ndcg@5": 0.5774,
+          "mrr": 1.0,
+          "map": 0.3024
+        }
+      },
+      "per_query": [
+        {
+          "qid": "q_waiting_cataract",
+          "query": "What is the waiting period for cataract surgery?",
+          "category": "waiting_period",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-006::c0028",
+            "DOC-002::c0046",
+            "DOC-004::c0061",
+            "DOC-008::c0081",
+            "DOC-002::c0033"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-006::c0026",
+            "DOC-006::c0028",
+            "DOC-002::c0026",
+            "DOC-002::c0033",
+            "DOC-002::c0034",
+            "DOC-009::c0055"
+          ],
+          "metrics": {
+            "precision@5": 0.4,
+            "recall@5": 0.3333333333333333,
+            "hit@5": 1.0,
+            "ndcg@5": 0.4703652827859579,
+            "mrr": 1.0,
+            "map": 0.2333333333333333
+          },
+          "missed_chunk_ids": [
+            "DOC-006::c0026",
+            "DOC-002::c0026",
+            "DOC-002::c0034",
+            "DOC-009::c0055"
+          ]
+        },
+        {
+          "qid": "q_grace_premium",
+          "query": "What is the grace period for paying an instalment premium?",
+          "category": "factual",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-003::c0086",
+            "DOC-009::c0093",
+            "DOC-001::c0103",
+            "DOC-009::c0094",
+            "DOC-010::c0169"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-001::c0103",
+            "DOC-010::c0169",
+            "DOC-008::c0104",
+            "DOC-003::c0086",
+            "DOC-009::c0093"
+          ],
+          "metrics": {
+            "precision@5": 0.8,
+            "recall@5": 0.8,
+            "hit@5": 1.0,
+            "ndcg@5": 0.8539316501572937,
+            "mrr": 1.0,
+            "map": 0.76
+          },
+          "missed_chunk_ids": [
+            "DOC-008::c0104"
+          ]
+        },
+        {
+          "qid": "q_free_look",
+          "query": "What is the free look period?",
+          "category": "factual",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-003::c0082",
+            "DOC-006::c0045",
+            "DOC-005::c0046",
+            "DOC-008::c0105",
+            "DOC-002::c0059"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-003::c0082",
+            "DOC-005::c0046",
+            "DOC-006::c0045",
+            "DOC-007::c0139"
+          ],
+          "metrics": {
+            "precision@5": 0.6,
+            "recall@5": 0.75,
+            "hit@5": 1.0,
+            "ndcg@5": 0.8318724637288826,
+            "mrr": 1.0,
+            "map": 0.75
+          },
+          "missed_chunk_ids": [
+            "DOC-007::c0139"
+          ]
+        },
+        {
+          "qid": "q_ayush",
+          "query": "Is AYUSH treatment covered by the policy?",
+          "category": "coverage",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-007::c0003",
+            "DOC-006::c0001",
+            "DOC-002::c0002",
+            "DOC-005::c0000",
+            "DOC-010::c0057"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-003::c0003",
+            "DOC-005::c0000",
+            "DOC-008::c0002",
+            "DOC-006::c0003",
+            "DOC-001::c0002",
+            "DOC-010::c0008"
+          ],
+          "metrics": {
+            "precision@5": 0.2,
+            "recall@5": 0.16666666666666666,
+            "hit@5": 1.0,
+            "ndcg@5": 0.14606834984270645,
+            "mrr": 0.25,
+            "map": 0.041666666666666664
+          },
+          "missed_chunk_ids": [
+            "DOC-003::c0003",
+            "DOC-008::c0002",
+            "DOC-006::c0003",
+            "DOC-001::c0002",
+            "DOC-010::c0008"
+          ]
+        },
+        {
+          "qid": "q_copay_outside_area",
+          "query": "What is the co-payment for treatment outside the area of coverage?",
+          "category": "coverage",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-010::c0103",
+            "DOC-002::c0080",
+            "DOC-008::c0112",
+            "DOC-006::c0005",
+            "DOC-010::c0010"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-002::c0080",
+            "DOC-007::c0107",
+            "DOC-008::c0065",
+            "DOC-010::c0082"
+          ],
+          "metrics": {
+            "precision@5": 0.2,
+            "recall@5": 0.25,
+            "hit@5": 1.0,
+            "ndcg@5": 0.24630238874073,
+            "mrr": 0.5,
+            "map": 0.125
+          },
+          "missed_chunk_ids": [
+            "DOC-007::c0107",
+            "DOC-008::c0065",
+            "DOC-010::c0082"
+          ]
+        },
+        {
+          "qid": "q_ped_waiting",
+          "query": "What is the waiting period for pre-existing diseases?",
+          "category": "waiting_period",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-005::c0037",
+            "DOC-006::c0026",
+            "DOC-001::c0078",
+            "DOC-010::c0143",
+            "DOC-003::c0067"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-005::c0037",
+            "DOC-002::c0045",
+            "DOC-003::c0067",
+            "DOC-006::c0012",
+            "DOC-009::c0053",
+            "DOC-003::c0056",
+            "DOC-006::c0026"
+          ],
+          "metrics": {
+            "precision@5": 0.6,
+            "recall@5": 0.42857142857142855,
+            "hit@5": 1.0,
+            "ndcg@5": 0.6843515475204855,
+            "mrr": 1.0,
+            "map": 0.37142857142857144
+          },
+          "missed_chunk_ids": [
+            "DOC-002::c0045",
+            "DOC-006::c0012",
+            "DOC-009::c0053",
+            "DOC-003::c0056"
+          ]
+        },
+        {
+          "qid": "q_maternity",
+          "query": "Is maternity covered and what is the waiting period for it?",
+          "category": "coverage",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-007::c0114",
+            "DOC-001::c0057",
+            "DOC-010::c0093",
+            "DOC-001::c0056",
+            "DOC-010::c0065"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-001::c0056",
+            "DOC-001::c0057",
+            "DOC-001::c0058",
+            "DOC-010::c0065",
+            "DOC-010::c0066",
+            "DOC-010::c0067",
+            "DOC-007::c0114"
+          ],
+          "metrics": {
+            "precision@5": 0.8,
+            "recall@5": 0.5714285714285714,
+            "hit@5": 1.0,
+            "ndcg@5": 0.830419897363192,
+            "mrr": 1.0,
+            "map": 0.5071428571428571
+          },
+          "missed_chunk_ids": [
+            "DOC-001::c0058",
+            "DOC-010::c0066",
+            "DOC-010::c0067"
+          ]
+        },
+        {
+          "qid": "q_room_rent",
+          "query": "What is the room rent limit under the policy?",
+          "category": "coverage",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-008::c0066",
+            "DOC-007::c0118",
+            "DOC-010::c0116",
+            "DOC-007::c0124",
+            "DOC-010::c0117"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-003::c0057",
+            "DOC-003::c0058",
+            "DOC-002::c0024",
+            "DOC-007::c0124"
+          ],
+          "metrics": {
+            "precision@5": 0.2,
+            "recall@5": 0.25,
+            "hit@5": 1.0,
+            "ndcg@5": 0.16812753627111746,
+            "mrr": 0.25,
+            "map": 0.0625
+          },
+          "missed_chunk_ids": [
+            "DOC-003::c0057",
+            "DOC-003::c0058",
+            "DOC-002::c0024"
+          ]
+        },
+        {
+          "qid": "q_no_claim_bonus",
+          "query": "How does the no claim bonus work?",
+          "category": "factual",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-010::c0134",
+            "DOC-010::c0137",
+            "DOC-010::c0131",
+            "DOC-010::c0135",
+            "DOC-010::c0130"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-010::c0134",
+            "DOC-010::c0136",
+            "DOC-010::c0137"
+          ],
+          "metrics": {
+            "precision@5": 0.4,
+            "recall@5": 0.6666666666666666,
+            "hit@5": 1.0,
+            "ndcg@5": 0.7653606369886217,
+            "mrr": 1.0,
+            "map": 0.6666666666666666
+          },
+          "missed_chunk_ids": [
+            "DOC-010::c0136"
+          ]
+        },
+        {
+          "qid": "q_cashless",
+          "query": "How do I get a cashless hospitalization?",
+          "category": "factual",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-006::c0055",
+            "DOC-007::c0160",
+            "DOC-007::c0080",
+            "DOC-010::c0147",
+            "DOC-007::c0004"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-002::c0069",
+            "DOC-003::c0104",
+            "DOC-006::c0054",
+            "DOC-006::c0055",
+            "DOC-009::c0110",
+            "DOC-007::c0160"
+          ],
+          "metrics": {
+            "precision@5": 0.4,
+            "recall@5": 0.3333333333333333,
+            "hit@5": 1.0,
+            "ndcg@5": 0.5531464700081437,
+            "mrr": 1.0,
+            "map": 0.3333333333333333
+          },
+          "missed_chunk_ids": [
+            "DOC-002::c0069",
+            "DOC-003::c0104",
+            "DOC-006::c0054",
+            "DOC-009::c0110"
+          ]
+        },
+        {
+          "qid": "q_dental_exclusion",
+          "query": "Are dental treatments excluded?",
+          "category": "exclusion",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-010::c0104",
+            "DOC-008::c0073",
+            "DOC-010::c0164",
+            "DOC-008::c0074",
+            "DOC-002::c0006"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-001::c0099",
+            "DOC-006::c0034",
+            "DOC-007::c0136",
+            "DOC-010::c0104"
+          ],
+          "metrics": {
+            "precision@5": 0.2,
+            "recall@5": 0.25,
+            "hit@5": 1.0,
+            "ndcg@5": 0.3903800499921017,
+            "mrr": 1.0,
+            "map": 0.25
+          },
+          "missed_chunk_ids": [
+            "DOC-001::c0099",
+            "DOC-006::c0034",
+            "DOC-007::c0136"
+          ]
+        },
+        {
+          "qid": "q_obesity",
+          "query": "Is treatment for obesity covered?",
+          "category": "exclusion",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-010::c0052",
+            "DOC-010::c0148",
+            "DOC-001::c0045",
+            "DOC-001::c0046",
+            "DOC-010::c0050"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-002::c0049",
+            "DOC-005::c0041",
+            "DOC-003::c0071",
+            "DOC-007::c0130"
+          ],
+          "metrics": {
+            "precision@5": 0.0,
+            "recall@5": 0.0,
+            "hit@5": 0.0,
+            "ndcg@5": 0.0,
+            "mrr": 0.0,
+            "map": 0.0
+          },
+          "missed_chunk_ids": [
+            "DOC-002::c0049",
+            "DOC-005::c0041",
+            "DOC-003::c0071",
+            "DOC-007::c0130"
+          ]
+        },
+        {
+          "qid": "q_ambulance",
+          "query": "What ambulance expenses are covered?",
+          "category": "coverage",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-001::c0041",
+            "DOC-010::c0046",
+            "DOC-010::c0091",
+            "DOC-004::c0011",
+            "DOC-007::c0087"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-001::c0054",
+            "DOC-003::c0033",
+            "DOC-005::c0018",
+            "DOC-008::c0038",
+            "DOC-006::c0018",
+            "DOC-010::c0063"
+          ],
+          "metrics": {
+            "precision@5": 0.0,
+            "recall@5": 0.0,
+            "hit@5": 0.0,
+            "ndcg@5": 0.0,
+            "mrr": 0.0,
+            "map": 0.0
+          },
+          "missed_chunk_ids": [
+            "DOC-001::c0054",
+            "DOC-003::c0033",
+            "DOC-005::c0018",
+            "DOC-008::c0038",
+            "DOC-006::c0018",
+            "DOC-010::c0063"
+          ]
+        },
+        {
+          "qid": "q_organ_donor",
+          "query": "Are organ donor expenses covered?",
+          "category": "coverage",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-001::c0051",
+            "DOC-003::c0029",
+            "DOC-001::c0053",
+            "DOC-009::c0155",
+            "DOC-008::c0036"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-003::c0029",
+            "DOC-006::c0017",
+            "DOC-007::c0032",
+            "DOC-001::c0053"
+          ],
+          "metrics": {
+            "precision@5": 0.4,
+            "recall@5": 0.5,
+            "hit@5": 1.0,
+            "ndcg@5": 0.44149241373678083,
+            "mrr": 0.5,
+            "map": 0.29166666666666663
+          },
+          "missed_chunk_ids": [
+            "DOC-006::c0017",
+            "DOC-007::c0032"
+          ]
+        },
+        {
+          "qid": "q_cosmetic",
+          "query": "Are cosmetic or plastic surgery treatments covered?",
+          "category": "exclusion",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-003::c0071",
+            "DOC-001::c0085",
+            "DOC-010::c0149",
+            "DOC-006::c0030",
+            "DOC-002::c0049"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-007::c0130",
+            "DOC-006::c0030",
+            "DOC-001::c0046"
+          ],
+          "metrics": {
+            "precision@5": 0.2,
+            "recall@5": 0.3333333333333333,
+            "hit@5": 1.0,
+            "ndcg@5": 0.20210734650054757,
+            "mrr": 0.25,
+            "map": 0.08333333333333333
+          },
+          "missed_chunk_ids": [
+            "DOC-007::c0130",
+            "DOC-001::c0046"
+          ]
+        },
+        {
+          "qid": "q_ombudsman",
+          "query": "How do I contact the insurance ombudsman?",
+          "category": "factual",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-002::c0105",
+            "DOC-007::c0147",
+            "DOC-009::c0228",
+            "DOC-002::c0110",
+            "DOC-004::c0090"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-006::c0062",
+            "DOC-006::c0063",
+            "DOC-006::c0064",
+            "DOC-002::c0105",
+            "DOC-007::c0147",
+            "DOC-009::c0228"
+          ],
+          "metrics": {
+            "precision@5": 0.6,
+            "recall@5": 0.5,
+            "hit@5": 1.0,
+            "ndcg@5": 0.7227265726449519,
+            "mrr": 1.0,
+            "map": 0.5
+          },
+          "missed_chunk_ids": [
+            "DOC-006::c0062",
+            "DOC-006::c0063",
+            "DOC-006::c0064"
+          ]
+        },
+        {
+          "qid": "q_critical_illness",
+          "query": "What does the critical illness cover pay for?",
+          "category": "coverage",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-009::c0180",
+            "DOC-007::c0091",
+            "DOC-002::c0074",
+            "DOC-003::c0044",
+            "DOC-003::c0045"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-009::c0180",
+            "DOC-009::c0125"
+          ],
+          "metrics": {
+            "precision@5": 0.2,
+            "recall@5": 0.5,
+            "hit@5": 1.0,
+            "ndcg@5": 0.6131471927654584,
+            "mrr": 1.0,
+            "map": 0.5
+          },
+          "missed_chunk_ids": [
+            "DOC-009::c0125"
+          ]
+        },
+        {
+          "qid": "q_pre_hospitalization",
+          "query": "How many days before hospitalization are covered?",
+          "category": "coverage",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-007::c0080",
+            "DOC-008::c0058",
+            "DOC-001::c0040",
+            "DOC-009::c0150",
+            "DOC-005::c0047"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-003::c0059",
+            "DOC-008::c0058",
+            "DOC-003::c0052",
+            "DOC-006::c0013"
+          ],
+          "metrics": {
+            "precision@5": 0.2,
+            "recall@5": 0.25,
+            "hit@5": 1.0,
+            "ndcg@5": 0.24630238874073,
+            "mrr": 0.5,
+            "map": 0.125
+          },
+          "missed_chunk_ids": [
+            "DOC-003::c0059",
+            "DOC-003::c0052",
+            "DOC-006::c0013"
+          ]
+        },
+        {
+          "qid": "q_post_hospitalization",
+          "query": "How many days after discharge are covered?",
+          "category": "coverage",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-008::c0058",
+            "DOC-007::c0114",
+            "DOC-005::c0047",
+            "DOC-002::c0045",
+            "DOC-010::c0048"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-003::c0060",
+            "DOC-007::c0163",
+            "DOC-003::c0052"
+          ],
+          "metrics": {
+            "precision@5": 0.0,
+            "recall@5": 0.0,
+            "hit@5": 0.0,
+            "ndcg@5": 0.0,
+            "mrr": 0.0,
+            "map": 0.0
+          },
+          "missed_chunk_ids": [
+            "DOC-003::c0060",
+            "DOC-007::c0163",
+            "DOC-003::c0052"
+          ]
+        },
+        {
+          "qid": "q_restoration",
+          "query": "What happens to my sum insured if I exhaust it during the year?",
+          "category": "coverage",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-001::c0058",
+            "DOC-010::c0067",
+            "DOC-002::c0079",
+            "DOC-001::c0074",
+            "DOC-003::c0040"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-004::c0017",
+            "DOC-008::c0039",
+            "DOC-003::c0133",
+            "DOC-006::c0016"
+          ],
+          "metrics": {
+            "precision@5": 0.0,
+            "recall@5": 0.0,
+            "hit@5": 0.0,
+            "ndcg@5": 0.0,
+            "mrr": 0.0,
+            "map": 0.0
+          },
+          "missed_chunk_ids": [
+            "DOC-004::c0017",
+            "DOC-008::c0039",
+            "DOC-003::c0133",
+            "DOC-006::c0016"
+          ]
+        },
+        {
+          "qid": "q_deductible",
+          "query": "What is a deductible and how does it apply?",
+          "category": "coverage",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-009::c0010",
+            "DOC-003::c0006",
+            "DOC-008::c0005",
+            "DOC-005::c0036",
+            "DOC-005::c0005"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-007::c0108",
+            "DOC-003::c0041",
+            "DOC-008::c0069",
+            "DOC-009::c0179"
+          ],
+          "metrics": {
+            "precision@5": 0.0,
+            "recall@5": 0.0,
+            "hit@5": 0.0,
+            "ndcg@5": 0.0,
+            "mrr": 0.0,
+            "map": 0.0
+          },
+          "missed_chunk_ids": [
+            "DOC-007::c0108",
+            "DOC-003::c0041",
+            "DOC-008::c0069",
+            "DOC-009::c0179"
+          ]
+        },
+        {
+          "qid": "q_portability",
+          "query": "Can I port my policy to another insurer?",
+          "category": "eligibility",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-007::c0142",
+            "DOC-009::c0090",
+            "DOC-002::c0067",
+            "DOC-005::c0059",
+            "DOC-001::c0115"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-003::c0084",
+            "DOC-006::c0041",
+            "DOC-008::c0101",
+            "DOC-009::c0090",
+            "DOC-002::c0067"
+          ],
+          "metrics": {
+            "precision@5": 0.4,
+            "recall@5": 0.4,
+            "hit@5": 1.0,
+            "ndcg@5": 0.38356636737133565,
+            "mrr": 0.5,
+            "map": 0.2333333333333333
+          },
+          "missed_chunk_ids": [
+            "DOC-003::c0084",
+            "DOC-006::c0041",
+            "DOC-008::c0101"
+          ]
+        },
+        {
+          "qid": "q_migration",
+          "query": "What is policy migration?",
+          "category": "factual",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-001::c0115",
+            "DOC-010::c0182",
+            "DOC-005::c0059",
+            "DOC-007::c0144",
+            "DOC-009::c0089"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-009::c0089",
+            "DOC-005::c0059",
+            "DOC-008::c0100",
+            "DOC-003::c0084",
+            "DOC-006::c0044"
+          ],
+          "metrics": {
+            "precision@5": 0.4,
+            "recall@5": 0.4,
+            "hit@5": 1.0,
+            "ndcg@5": 0.30078518014914984,
+            "mrr": 0.3333333333333333,
+            "map": 0.14666666666666667
+          },
+          "missed_chunk_ids": [
+            "DOC-008::c0100",
+            "DOC-003::c0084",
+            "DOC-006::c0044"
+          ]
+        },
+        {
+          "qid": "q_cumulative_bonus",
+          "query": "How does the cumulative bonus increase over renewals?",
+          "category": "factual",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-010::c0133",
+            "DOC-010::c0140",
+            "DOC-010::c0135",
+            "DOC-010::c0134",
+            "DOC-001::c0073"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-001::c0072",
+            "DOC-003::c0061",
+            "DOC-010::c0132",
+            "DOC-004::c0016",
+            "DOC-010::c0133",
+            "DOC-010::c0135"
+          ],
+          "metrics": {
+            "precision@5": 0.4,
+            "recall@5": 0.3333333333333333,
+            "hit@5": 1.0,
+            "ndcg@5": 0.5087403079104241,
+            "mrr": 1.0,
+            "map": 0.27777777777777773
+          },
+          "missed_chunk_ids": [
+            "DOC-001::c0072",
+            "DOC-003::c0061",
+            "DOC-010::c0132",
+            "DOC-004::c0016"
+          ]
+        },
+        {
+          "qid": "q_modern_treatment",
+          "query": "Are modern treatments covered?",
+          "category": "coverage",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-002::c0040",
+            "DOC-001::c0098",
+            "DOC-010::c0043",
+            "DOC-005::c0019",
+            "DOC-009::c0148"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-002::c0040",
+            "DOC-004::c0008",
+            "DOC-005::c0019",
+            "DOC-002::c0031"
+          ],
+          "metrics": {
+            "precision@5": 0.4,
+            "recall@5": 0.5,
+            "hit@5": 1.0,
+            "ndcg@5": 0.5585075862632192,
+            "mrr": 1.0,
+            "map": 0.375
+          },
+          "missed_chunk_ids": [
+            "DOC-004::c0008",
+            "DOC-002::c0031"
+          ]
+        },
+        {
+          "qid": "q_fraud",
+          "query": "What happens if a claim is found to be fraudulent?",
+          "category": "exclusion",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-009::c0080",
+            "DOC-005::c0051",
+            "DOC-001::c0110",
+            "DOC-010::c0178",
+            "DOC-002::c0058"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-009::c0080",
+            "DOC-002::c0058",
+            "DOC-006::c0039",
+            "DOC-005::c0051",
+            "DOC-001::c0110"
+          ],
+          "metrics": {
+            "precision@5": 0.8,
+            "recall@5": 0.8,
+            "hit@5": 1.0,
+            "ndcg@5": 0.8539316501572937,
+            "mrr": 1.0,
+            "map": 0.76
+          },
+          "missed_chunk_ids": [
+            "DOC-006::c0039"
+          ]
+        },
+        {
+          "qid": "q_grievance",
+          "query": "How do I raise a grievance or complaint?",
+          "category": "factual",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-009::c0084",
+            "DOC-001::c0116",
+            "DOC-004::c0090",
+            "DOC-009::c0083",
+            "DOC-003::c0089"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-001::c0116",
+            "DOC-010::c0183",
+            "DOC-005::c0055",
+            "DOC-002::c0065",
+            "DOC-009::c0084",
+            "DOC-004::c0090",
+            "DOC-009::c0083",
+            "DOC-003::c0089"
+          ],
+          "metrics": {
+            "precision@5": 1.0,
+            "recall@5": 0.625,
+            "hit@5": 1.0,
+            "ndcg@5": 1.0,
+            "mrr": 1.0,
+            "map": 0.625
+          },
+          "missed_chunk_ids": [
+            "DOC-010::c0183",
+            "DOC-005::c0055",
+            "DOC-002::c0065"
+          ]
+        },
+        {
+          "qid": "q_multiple_policies",
+          "query": "I have two insurance policies; how is a claim apportioned between them?",
+          "category": "coverage",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-009::c0101",
+            "DOC-007::c0154",
+            "DOC-009::c0088",
+            "DOC-003::c0031",
+            "DOC-001::c0109"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-009::c0087",
+            "DOC-003::c0079",
+            "DOC-005::c0058",
+            "DOC-001::c0110",
+            "DOC-007::c0017",
+            "DOC-009::c0088",
+            "DOC-001::c0109"
+          ],
+          "metrics": {
+            "precision@5": 0.4,
+            "recall@5": 0.2857142857142857,
+            "hit@5": 1.0,
+            "ndcg@5": 0.30078518014914984,
+            "mrr": 0.3333333333333333,
+            "map": 0.10476190476190476
+          },
+          "missed_chunk_ids": [
+            "DOC-009::c0087",
+            "DOC-003::c0079",
+            "DOC-005::c0058",
+            "DOC-001::c0110",
+            "DOC-007::c0017"
+          ]
+        },
+        {
+          "qid": "q_cancellation",
+          "query": "Can I cancel my policy and get a refund of premium?",
+          "category": "factual",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-009::c0074",
+            "DOC-005::c0047",
+            "DOC-010::c0172",
+            "DOC-009::c0076",
+            "DOC-001::c0106"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-001::c0106",
+            "DOC-002::c0056",
+            "DOC-003::c0085",
+            "DOC-009::c0076",
+            "DOC-004::c0087",
+            "DOC-009::c0074",
+            "DOC-005::c0047",
+            "DOC-010::c0172"
+          ],
+          "metrics": {
+            "precision@5": 1.0,
+            "recall@5": 0.625,
+            "hit@5": 1.0,
+            "ndcg@5": 1.0,
+            "mrr": 1.0,
+            "map": 0.625
+          },
+          "missed_chunk_ids": [
+            "DOC-002::c0056",
+            "DOC-003::c0085",
+            "DOC-004::c0087"
+          ]
+        },
+        {
+          "qid": "q_home_care",
+          "query": "Is domiciliary or home care treatment covered?",
+          "category": "coverage",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-005::c0020",
+            "DOC-009::c0151",
+            "DOC-003::c0027",
+            "DOC-001::c0084",
+            "DOC-002::c0006"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-005::c0020",
+            "DOC-003::c0027",
+            "DOC-004::c0012"
+          ],
+          "metrics": {
+            "precision@5": 0.4,
+            "recall@5": 0.6666666666666666,
+            "hit@5": 1.0,
+            "ndcg@5": 0.7039180890341347,
+            "mrr": 1.0,
+            "map": 0.5555555555555555
+          },
+          "missed_chunk_ids": [
+            "DOC-004::c0012"
+          ]
+        },
+        {
+          "qid": "q_consumables",
+          "query": "Are consumables and implants covered?",
+          "category": "coverage",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-001::c0093",
+            "DOC-010::c0157",
+            "DOC-009::c0147",
+            "DOC-007::c0135",
+            "DOC-002::c0025"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-002::c0025",
+            "DOC-007::c0077",
+            "DOC-001::c0037"
+          ],
+          "metrics": {
+            "precision@5": 0.2,
+            "recall@5": 0.3333333333333333,
+            "hit@5": 1.0,
+            "ndcg@5": 0.18154179253735267,
+            "mrr": 0.2,
+            "map": 0.06666666666666667
+          },
+          "missed_chunk_ids": [
+            "DOC-007::c0077",
+            "DOC-001::c0037"
+          ]
+        },
+        {
+          "qid": "q_preventive_checkup",
+          "query": "Is a preventive health check-up available?",
+          "category": "coverage",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-004::c0025",
+            "DOC-001::c0048",
+            "DOC-010::c0086",
+            "DOC-008::c0054",
+            "DOC-010::c0054"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-003::c0043",
+            "DOC-004::c0025",
+            "DOC-003::c0130",
+            "DOC-010::c0088"
+          ],
+          "metrics": {
+            "precision@5": 0.2,
+            "recall@5": 0.25,
+            "hit@5": 1.0,
+            "ndcg@5": 0.3903800499921017,
+            "mrr": 1.0,
+            "map": 0.25
+          },
+          "missed_chunk_ids": [
+            "DOC-003::c0043",
+            "DOC-003::c0130",
+            "DOC-010::c0088"
+          ]
+        },
+        {
+          "qid": "q_sub_limit",
+          "query": "What is a sub-limit and how does it affect a claim?",
+          "category": "coverage",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-008::c0127",
+            "DOC-005::c0057",
+            "DOC-007::c0017",
+            "DOC-009::c0160",
+            "DOC-006::c0020"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-008::c0127",
+            "DOC-002::c0038"
+          ],
+          "metrics": {
+            "precision@5": 0.2,
+            "recall@5": 0.5,
+            "hit@5": 1.0,
+            "ndcg@5": 0.6131471927654584,
+            "mrr": 1.0,
+            "map": 0.5
+          },
+          "missed_chunk_ids": [
+            "DOC-002::c0038"
+          ]
+        },
+        {
+          "qid": "q_disclosure",
+          "query": "What is the duty of disclosure when buying a policy?",
+          "category": "factual",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-009::c0091",
+            "DOC-007::c0138",
+            "DOC-002::c0057",
+            "DOC-005::c0060",
+            "DOC-009::c0096"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-003::c0077",
+            "DOC-001::c0101",
+            "DOC-008::c0098",
+            "DOC-009::c0091",
+            "DOC-007::c0138"
+          ],
+          "metrics": {
+            "precision@5": 0.4,
+            "recall@5": 0.4,
+            "hit@5": 1.0,
+            "ndcg@5": 0.5531464700081437,
+            "mrr": 1.0,
+            "map": 0.4
+          },
+          "missed_chunk_ids": [
+            "DOC-003::c0077",
+            "DOC-001::c0101",
+            "DOC-008::c0098"
+          ]
+        },
+        {
+          "qid": "q_room_modification",
+          "query": "Is there an option to modify the room category coverage?",
+          "category": "coverage",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-010::c0116",
+            "DOC-003::c0058",
+            "DOC-007::c0117",
+            "DOC-010::c0117",
+            "DOC-003::c0056"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-003::c0058",
+            "DOC-005::c0037",
+            "DOC-008::c0067",
+            "DOC-007::c0117"
+          ],
+          "metrics": {
+            "precision@5": 0.4,
+            "recall@5": 0.5,
+            "hit@5": 1.0,
+            "ndcg@5": 0.44149241373678083,
+            "mrr": 0.5,
+            "map": 0.29166666666666663
+          },
+          "missed_chunk_ids": [
+            "DOC-005::c0037",
+            "DOC-008::c0067"
+          ]
+        },
+        {
+          "qid": "q_moratorium",
+          "query": "What is the moratorium period?",
+          "category": "factual",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-006::c0046",
+            "DOC-010::c0171",
+            "DOC-001::c0105",
+            "DOC-009::c0085",
+            "DOC-005::c0057"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-005::c0057",
+            "DOC-001::c0105",
+            "DOC-010::c0171",
+            "DOC-003::c0080"
+          ],
+          "metrics": {
+            "precision@5": 0.6,
+            "recall@5": 0.75,
+            "hit@5": 1.0,
+            "ndcg@5": 0.592512031964586,
+            "mrr": 0.5,
+            "map": 0.44166666666666665
+          },
+          "missed_chunk_ids": [
+            "DOC-003::c0080"
+          ]
+        },
+        {
+          "qid": "q_nomination",
+          "query": "How do I make a nomination for the policy?",
+          "category": "factual",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-005::c0049",
+            "DOC-009::c0079",
+            "DOC-007::c0147",
+            "DOC-003::c0088",
+            "DOC-001::c0101"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-002::c0062",
+            "DOC-005::c0049",
+            "DOC-009::c0079",
+            "DOC-003::c0088"
+          ],
+          "metrics": {
+            "precision@5": 0.6,
+            "recall@5": 0.75,
+            "hit@5": 1.0,
+            "ndcg@5": 0.8048099750039491,
+            "mrr": 1.0,
+            "map": 0.6875
+          },
+          "missed_chunk_ids": [
+            "DOC-002::c0062"
+          ]
+        },
+        {
+          "qid": "q_day_care",
+          "query": "What is day care treatment and is it covered?",
+          "category": "coverage",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-010::c0043",
+            "DOC-005::c0004",
+            "DOC-001::c0037",
+            "DOC-002::c0040",
+            "DOC-008::c0005"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-008::c0031",
+            "DOC-007::c0025",
+            "DOC-002::c0006",
+            "DOC-005::c0004"
+          ],
+          "metrics": {
+            "precision@5": 0.2,
+            "recall@5": 0.25,
+            "hit@5": 1.0,
+            "ndcg@5": 0.24630238874073,
+            "mrr": 0.5,
+            "map": 0.125
+          },
+          "missed_chunk_ids": [
+            "DOC-008::c0031",
+            "DOC-007::c0025",
+            "DOC-002::c0006"
+          ]
+        },
+        {
+          "qid": "q_claim_intimation",
+          "query": "How soon must I intimate a claim to the insurer?",
+          "category": "factual",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-009::c0118",
+            "DOC-002::c0070",
+            "DOC-009::c0109",
+            "DOC-002::c0061",
+            "DOC-006::c0037"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-009::c0118",
+            "DOC-006::c0011",
+            "DOC-004::c0077",
+            "DOC-002::c0070"
+          ],
+          "metrics": {
+            "precision@5": 0.4,
+            "recall@5": 0.5,
+            "hit@5": 1.0,
+            "ndcg@5": 0.6366824387328317,
+            "mrr": 1.0,
+            "map": 0.5
+          },
+          "missed_chunk_ids": [
+            "DOC-006::c0011",
+            "DOC-004::c0077"
+          ]
+        },
+        {
+          "qid": "q_pre_existing_definition",
+          "query": "What is meant by a pre-existing disease?",
+          "category": "factual",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-009::c0053",
+            "DOC-008::c0013",
+            "DOC-009::c0015",
+            "DOC-004::c0059",
+            "DOC-001::c0010"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-002::c0015",
+            "DOC-006::c0012",
+            "DOC-009::c0053",
+            "DOC-001::c0077"
+          ],
+          "metrics": {
+            "precision@5": 0.2,
+            "recall@5": 0.25,
+            "hit@5": 1.0,
+            "ndcg@5": 0.3903800499921017,
+            "mrr": 1.0,
+            "map": 0.25
+          },
+          "missed_chunk_ids": [
+            "DOC-002::c0015",
+            "DOC-006::c0012",
+            "DOC-001::c0077"
+          ]
+        },
+        {
+          "qid": "q_compare_ped_waiting",
+          "query": "Compare the pre-existing disease waiting period between the MediClaim and Activ One policies.",
+          "category": "comparison",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-009::c0177",
+            "DOC-009::c0053",
+            "DOC-002::c0045",
+            "DOC-009::c0054",
+            "DOC-009::c0238"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-002::c0045",
+            "DOC-002::c0046",
+            "DOC-009::c0053",
+            "DOC-009::c0054",
+            "DOC-009::c0178",
+            "DOC-009::c0177"
+          ],
+          "metrics": {
+            "precision@5": 0.8,
+            "recall@5": 0.6666666666666666,
+            "hit@5": 1.0,
+            "ndcg@5": 0.8687949224876582,
+            "mrr": 1.0,
+            "map": 0.6666666666666666
+          },
+          "missed_chunk_ids": [
+            "DOC-002::c0046",
+            "DOC-009::c0178"
+          ]
+        },
+        {
+          "qid": "q_compare_air_ambulance",
+          "query": "Which policies provide an emergency air ambulance benefit?",
+          "category": "comparison",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-003::c0033",
+            "DOC-001::c0054",
+            "DOC-010::c0063",
+            "DOC-007::c0088",
+            "DOC-007::c0087"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-001::c0054",
+            "DOC-003::c0033",
+            "DOC-010::c0063",
+            "DOC-005::c0018"
+          ],
+          "metrics": {
+            "precision@5": 0.6,
+            "recall@5": 0.75,
+            "hit@5": 1.0,
+            "ndcg@5": 0.8318724637288826,
+            "mrr": 1.0,
+            "map": 0.75
+          },
+          "missed_chunk_ids": [
+            "DOC-005::c0018"
+          ]
+        },
+        {
+          "qid": "q_compare_grace",
+          "query": "Compare the grace period for premium payment between the Digit Health and Ultimate Care policies.",
+          "category": "comparison",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-001::c0008",
+            "DOC-010::c0013",
+            "DOC-008::c0007",
+            "DOC-001::c0103",
+            "DOC-005::c0006"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-001::c0103",
+            "DOC-010::c0169",
+            "DOC-008::c0104",
+            "DOC-008::c0007"
+          ],
+          "metrics": {
+            "precision@5": 0.4,
+            "recall@5": 0.5,
+            "hit@5": 1.0,
+            "ndcg@5": 0.36331756126716835,
+            "mrr": 0.3333333333333333,
+            "map": 0.20833333333333331
+          },
+          "missed_chunk_ids": [
+            "DOC-010::c0169",
+            "DOC-008::c0104"
+          ]
+        },
+        {
+          "qid": "q_ood_stock_market",
+          "query": "What will the stock market do tomorrow?",
+          "category": "out_of_domain",
+          "answerable": false,
+          "ranked_chunk_ids": [
+            "DOC-005::c0072",
+            "DOC-005::c0035",
+            "DOC-001::c0076",
+            "DOC-005::c0034",
+            "DOC-001::c0142"
+          ],
+          "relevant_chunk_ids": [],
+          "metrics": {},
+          "missed_chunk_ids": []
+        },
+        {
+          "qid": "q_ood_exact_premium",
+          "query": "What is the exact premium a 60-year-old smoker in Delhi would pay next year?",
+          "category": "out_of_domain",
+          "answerable": false,
+          "ranked_chunk_ids": [
+            "DOC-005::c0029",
+            "DOC-005::c0024",
+            "DOC-008::c0043",
+            "DOC-008::c0150",
+            "DOC-009::c0175"
+          ],
+          "relevant_chunk_ids": [],
+          "metrics": {},
+          "missed_chunk_ids": []
+        }
+      ],
+      "elapsed_s": 8.9
+    },
+    {
+      "label": "hybrid+rerank",
+      "k": 5,
+      "num_queries": 45,
+      "num_answerable": 43,
+      "aggregate": {
+        "precision@5": 0.4047,
+        "recall@5": 0.4302,
+        "hit@5": 0.814,
+        "ndcg@5": 0.4935,
+        "mrr": 0.6957,
+        "map": 0.3565
+      },
+      "by_category": {
+        "comparison": {
+          "count": 3,
+          "precision@5": 0.7333,
+          "recall@5": 0.7778,
+          "hit@5": 1.0,
+          "ndcg@5": 0.7821,
+          "mrr": 0.7778,
+          "map": 0.6472
+        },
+        "coverage": {
+          "count": 19,
+          "precision@5": 0.2211,
+          "recall@5": 0.2832,
+          "hit@5": 0.6842,
+          "ndcg@5": 0.3201,
+          "mrr": 0.5395,
+          "map": 0.2127
+        },
+        "eligibility": {
+          "count": 1,
+          "precision@5": 0.4,
+          "recall@5": 0.4,
+          "hit@5": 1.0,
+          "ndcg@5": 0.3836,
+          "mrr": 0.5,
+          "map": 0.2333
+        },
+        "exclusion": {
+          "count": 4,
+          "precision@5": 0.3,
+          "recall@5": 0.3458,
+          "hit@5": 0.75,
+          "ndcg@5": 0.4321,
+          "mrr": 0.75,
+          "map": 0.3458
+        },
+        "factual": {
+          "count": 14,
+          "precision@5": 0.6143,
+          "recall@5": 0.5988,
+          "hit@5": 0.9286,
+          "ndcg@5": 0.6947,
+          "mrr": 0.8452,
+          "map": 0.5201
+        },
+        "waiting_period": {
+          "count": 2,
+          "precision@5": 0.4,
+          "recall@5": 0.3095,
+          "hit@5": 1.0,
+          "ndcg@5": 0.4778,
+          "mrr": 1.0,
+          "map": 0.225
+        }
+      },
+      "per_query": [
+        {
+          "qid": "q_waiting_cataract",
+          "query": "What is the waiting period for cataract surgery?",
+          "category": "waiting_period",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-006::c0028",
+            "DOC-004::c0061",
+            "DOC-002::c0046",
+            "DOC-002::c0033",
+            "DOC-008::c0081"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-006::c0026",
+            "DOC-006::c0028",
+            "DOC-002::c0026",
+            "DOC-002::c0033",
+            "DOC-002::c0034",
+            "DOC-009::c0055"
+          ],
+          "metrics": {
+            "precision@5": 0.4,
+            "recall@5": 0.3333333333333333,
+            "hit@5": 1.0,
+            "ndcg@5": 0.48522855511632257,
+            "mrr": 1.0,
+            "map": 0.25
+          },
+          "missed_chunk_ids": [
+            "DOC-006::c0026",
+            "DOC-002::c0026",
+            "DOC-002::c0034",
+            "DOC-009::c0055"
+          ]
+        },
+        {
+          "qid": "q_grace_premium",
+          "query": "What is the grace period for paying an instalment premium?",
+          "category": "factual",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-009::c0093",
+            "DOC-003::c0086",
+            "DOC-009::c0094",
+            "DOC-001::c0103",
+            "DOC-010::c0169"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-001::c0103",
+            "DOC-010::c0169",
+            "DOC-008::c0104",
+            "DOC-003::c0086",
+            "DOC-009::c0093"
+          ],
+          "metrics": {
+            "precision@5": 0.8,
+            "recall@5": 0.8,
+            "hit@5": 1.0,
+            "ndcg@5": 0.830419897363192,
+            "mrr": 1.0,
+            "map": 0.71
+          },
+          "missed_chunk_ids": [
+            "DOC-008::c0104"
+          ]
+        },
+        {
+          "qid": "q_free_look",
+          "query": "What is the free look period?",
+          "category": "factual",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-006::c0045",
+            "DOC-003::c0082",
+            "DOC-005::c0046",
+            "DOC-008::c0105",
+            "DOC-007::c0139"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-003::c0082",
+            "DOC-005::c0046",
+            "DOC-006::c0045",
+            "DOC-007::c0139"
+          ],
+          "metrics": {
+            "precision@5": 0.8,
+            "recall@5": 1.0,
+            "hit@5": 1.0,
+            "ndcg@5": 0.9828920819566879,
+            "mrr": 1.0,
+            "map": 0.95
+          },
+          "missed_chunk_ids": []
+        },
+        {
+          "qid": "q_ayush",
+          "query": "Is AYUSH treatment covered by the policy?",
+          "category": "coverage",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-007::c0003",
+            "DOC-001::c0004",
+            "DOC-008::c0003",
+            "DOC-006::c0001",
+            "DOC-002::c0002"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-003::c0003",
+            "DOC-005::c0000",
+            "DOC-008::c0002",
+            "DOC-006::c0003",
+            "DOC-001::c0002",
+            "DOC-010::c0008"
+          ],
+          "metrics": {
+            "precision@5": 0.0,
+            "recall@5": 0.0,
+            "hit@5": 0.0,
+            "ndcg@5": 0.0,
+            "mrr": 0.0,
+            "map": 0.0
+          },
+          "missed_chunk_ids": [
+            "DOC-003::c0003",
+            "DOC-005::c0000",
+            "DOC-008::c0002",
+            "DOC-006::c0003",
+            "DOC-001::c0002",
+            "DOC-010::c0008"
+          ]
+        },
+        {
+          "qid": "q_copay_outside_area",
+          "query": "What is the co-payment for treatment outside the area of coverage?",
+          "category": "coverage",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-010::c0103",
+            "DOC-002::c0080",
+            "DOC-008::c0112",
+            "DOC-008::c0065",
+            "DOC-010::c0010"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-002::c0080",
+            "DOC-007::c0107",
+            "DOC-008::c0065",
+            "DOC-010::c0082"
+          ],
+          "metrics": {
+            "precision@5": 0.4,
+            "recall@5": 0.5,
+            "hit@5": 1.0,
+            "ndcg@5": 0.4144299250118475,
+            "mrr": 0.5,
+            "map": 0.25
+          },
+          "missed_chunk_ids": [
+            "DOC-007::c0107",
+            "DOC-010::c0082"
+          ]
+        },
+        {
+          "qid": "q_ped_waiting",
+          "query": "What is the waiting period for pre-existing diseases?",
+          "category": "waiting_period",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-005::c0037",
+            "DOC-002::c0046",
+            "DOC-009::c0054",
+            "DOC-008::c0080",
+            "DOC-009::c0053"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-005::c0037",
+            "DOC-002::c0045",
+            "DOC-003::c0067",
+            "DOC-006::c0012",
+            "DOC-009::c0053",
+            "DOC-003::c0056",
+            "DOC-006::c0026"
+          ],
+          "metrics": {
+            "precision@5": 0.4,
+            "recall@5": 0.2857142857142857,
+            "hit@5": 1.0,
+            "ndcg@5": 0.4703652827859579,
+            "mrr": 1.0,
+            "map": 0.19999999999999998
+          },
+          "missed_chunk_ids": [
+            "DOC-002::c0045",
+            "DOC-003::c0067",
+            "DOC-006::c0012",
+            "DOC-003::c0056",
+            "DOC-006::c0026"
+          ]
+        },
+        {
+          "qid": "q_maternity",
+          "query": "Is maternity covered and what is the waiting period for it?",
+          "category": "coverage",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-007::c0114",
+            "DOC-010::c0093",
+            "DOC-001::c0057",
+            "DOC-001::c0056",
+            "DOC-010::c0065"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-001::c0056",
+            "DOC-001::c0057",
+            "DOC-001::c0058",
+            "DOC-010::c0065",
+            "DOC-010::c0066",
+            "DOC-010::c0067",
+            "DOC-007::c0114"
+          ],
+          "metrics": {
+            "precision@5": 0.8,
+            "recall@5": 0.5714285714285714,
+            "hit@5": 1.0,
+            "ndcg@5": 0.7860137352654724,
+            "mrr": 1.0,
+            "map": 0.45952380952380956
+          },
+          "missed_chunk_ids": [
+            "DOC-001::c0058",
+            "DOC-010::c0066",
+            "DOC-010::c0067"
+          ]
+        },
+        {
+          "qid": "q_room_rent",
+          "query": "What is the room rent limit under the policy?",
+          "category": "coverage",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-008::c0066",
+            "DOC-010::c0116",
+            "DOC-010::c0117",
+            "DOC-007::c0118",
+            "DOC-003::c0022"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-003::c0057",
+            "DOC-003::c0058",
+            "DOC-002::c0024",
+            "DOC-007::c0124"
+          ],
+          "metrics": {
+            "precision@5": 0.0,
+            "recall@5": 0.0,
+            "hit@5": 0.0,
+            "ndcg@5": 0.0,
+            "mrr": 0.0,
+            "map": 0.0
+          },
+          "missed_chunk_ids": [
+            "DOC-003::c0057",
+            "DOC-003::c0058",
+            "DOC-002::c0024",
+            "DOC-007::c0124"
+          ]
+        },
+        {
+          "qid": "q_no_claim_bonus",
+          "query": "How does the no claim bonus work?",
+          "category": "factual",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-010::c0134",
+            "DOC-010::c0130",
+            "DOC-010::c0137",
+            "DOC-010::c0131",
+            "DOC-010::c0135"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-010::c0134",
+            "DOC-010::c0136",
+            "DOC-010::c0137"
+          ],
+          "metrics": {
+            "precision@5": 0.4,
+            "recall@5": 0.6666666666666666,
+            "hit@5": 1.0,
+            "ndcg@5": 0.7039180890341347,
+            "mrr": 1.0,
+            "map": 0.5555555555555555
+          },
+          "missed_chunk_ids": [
+            "DOC-010::c0136"
+          ]
+        },
+        {
+          "qid": "q_cashless",
+          "query": "How do I get a cashless hospitalization?",
+          "category": "factual",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-007::c0160",
+            "DOC-006::c0055",
+            "DOC-007::c0080",
+            "DOC-001::c0121",
+            "DOC-002::c0069"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-002::c0069",
+            "DOC-003::c0104",
+            "DOC-006::c0054",
+            "DOC-006::c0055",
+            "DOC-009::c0110",
+            "DOC-007::c0160"
+          ],
+          "metrics": {
+            "precision@5": 0.6,
+            "recall@5": 0.5,
+            "hit@5": 1.0,
+            "ndcg@5": 0.6843515475204855,
+            "mrr": 1.0,
+            "map": 0.43333333333333335
+          },
+          "missed_chunk_ids": [
+            "DOC-003::c0104",
+            "DOC-006::c0054",
+            "DOC-009::c0110"
+          ]
+        },
+        {
+          "qid": "q_dental_exclusion",
+          "query": "Are dental treatments excluded?",
+          "category": "exclusion",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-010::c0104",
+            "DOC-008::c0073",
+            "DOC-010::c0164",
+            "DOC-007::c0005",
+            "DOC-001::c0007"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-001::c0099",
+            "DOC-006::c0034",
+            "DOC-007::c0136",
+            "DOC-010::c0104"
+          ],
+          "metrics": {
+            "precision@5": 0.2,
+            "recall@5": 0.25,
+            "hit@5": 1.0,
+            "ndcg@5": 0.3903800499921017,
+            "mrr": 1.0,
+            "map": 0.25
+          },
+          "missed_chunk_ids": [
+            "DOC-001::c0099",
+            "DOC-006::c0034",
+            "DOC-007::c0136"
+          ]
+        },
+        {
+          "qid": "q_obesity",
+          "query": "Is treatment for obesity covered?",
+          "category": "exclusion",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-010::c0052",
+            "DOC-010::c0148",
+            "DOC-001::c0046",
+            "DOC-001::c0045",
+            "DOC-001::c0085"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-002::c0049",
+            "DOC-005::c0041",
+            "DOC-003::c0071",
+            "DOC-007::c0130"
+          ],
+          "metrics": {
+            "precision@5": 0.0,
+            "recall@5": 0.0,
+            "hit@5": 0.0,
+            "ndcg@5": 0.0,
+            "mrr": 0.0,
+            "map": 0.0
+          },
+          "missed_chunk_ids": [
+            "DOC-002::c0049",
+            "DOC-005::c0041",
+            "DOC-003::c0071",
+            "DOC-007::c0130"
+          ]
+        },
+        {
+          "qid": "q_ambulance",
+          "query": "What ambulance expenses are covered?",
+          "category": "coverage",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-001::c0041",
+            "DOC-010::c0046",
+            "DOC-010::c0091",
+            "DOC-007::c0087",
+            "DOC-004::c0011"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-001::c0054",
+            "DOC-003::c0033",
+            "DOC-005::c0018",
+            "DOC-008::c0038",
+            "DOC-006::c0018",
+            "DOC-010::c0063"
+          ],
+          "metrics": {
+            "precision@5": 0.0,
+            "recall@5": 0.0,
+            "hit@5": 0.0,
+            "ndcg@5": 0.0,
+            "mrr": 0.0,
+            "map": 0.0
+          },
+          "missed_chunk_ids": [
+            "DOC-001::c0054",
+            "DOC-003::c0033",
+            "DOC-005::c0018",
+            "DOC-008::c0038",
+            "DOC-006::c0018",
+            "DOC-010::c0063"
+          ]
+        },
+        {
+          "qid": "q_organ_donor",
+          "query": "Are organ donor expenses covered?",
+          "category": "coverage",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-003::c0029",
+            "DOC-001::c0051",
+            "DOC-001::c0053",
+            "DOC-009::c0155",
+            "DOC-008::c0036"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-003::c0029",
+            "DOC-006::c0017",
+            "DOC-007::c0032",
+            "DOC-001::c0053"
+          ],
+          "metrics": {
+            "precision@5": 0.4,
+            "recall@5": 0.5,
+            "hit@5": 1.0,
+            "ndcg@5": 0.5855700749881525,
+            "mrr": 1.0,
+            "map": 0.41666666666666663
+          },
+          "missed_chunk_ids": [
+            "DOC-006::c0017",
+            "DOC-007::c0032"
+          ]
+        },
+        {
+          "qid": "q_cosmetic",
+          "query": "Are cosmetic or plastic surgery treatments covered?",
+          "category": "exclusion",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-006::c0030",
+            "DOC-003::c0071",
+            "DOC-010::c0149",
+            "DOC-001::c0085",
+            "DOC-002::c0049"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-007::c0130",
+            "DOC-006::c0030",
+            "DOC-001::c0046"
+          ],
+          "metrics": {
+            "precision@5": 0.2,
+            "recall@5": 0.3333333333333333,
+            "hit@5": 1.0,
+            "ndcg@5": 0.46927872602275644,
+            "mrr": 1.0,
+            "map": 0.3333333333333333
+          },
+          "missed_chunk_ids": [
+            "DOC-007::c0130",
+            "DOC-001::c0046"
+          ]
+        },
+        {
+          "qid": "q_ombudsman",
+          "query": "How do I contact the insurance ombudsman?",
+          "category": "factual",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-002::c0105",
+            "DOC-007::c0147",
+            "DOC-009::c0228",
+            "DOC-002::c0110",
+            "DOC-001::c0145"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-006::c0062",
+            "DOC-006::c0063",
+            "DOC-006::c0064",
+            "DOC-002::c0105",
+            "DOC-007::c0147",
+            "DOC-009::c0228"
+          ],
+          "metrics": {
+            "precision@5": 0.6,
+            "recall@5": 0.5,
+            "hit@5": 1.0,
+            "ndcg@5": 0.7227265726449519,
+            "mrr": 1.0,
+            "map": 0.5
+          },
+          "missed_chunk_ids": [
+            "DOC-006::c0062",
+            "DOC-006::c0063",
+            "DOC-006::c0064"
+          ]
+        },
+        {
+          "qid": "q_critical_illness",
+          "query": "What does the critical illness cover pay for?",
+          "category": "coverage",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-009::c0180",
+            "DOC-007::c0091",
+            "DOC-002::c0074",
+            "DOC-003::c0045",
+            "DOC-010::c0099"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-009::c0180",
+            "DOC-009::c0125"
+          ],
+          "metrics": {
+            "precision@5": 0.2,
+            "recall@5": 0.5,
+            "hit@5": 1.0,
+            "ndcg@5": 0.6131471927654584,
+            "mrr": 1.0,
+            "map": 0.5
+          },
+          "missed_chunk_ids": [
+            "DOC-009::c0125"
+          ]
+        },
+        {
+          "qid": "q_pre_hospitalization",
+          "query": "How many days before hospitalization are covered?",
+          "category": "coverage",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-007::c0080",
+            "DOC-009::c0150",
+            "DOC-006::c0015",
+            "DOC-008::c0058",
+            "DOC-001::c0040"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-003::c0059",
+            "DOC-008::c0058",
+            "DOC-003::c0052",
+            "DOC-006::c0013"
+          ],
+          "metrics": {
+            "precision@5": 0.2,
+            "recall@5": 0.25,
+            "hit@5": 1.0,
+            "ndcg@5": 0.16812753627111746,
+            "mrr": 0.25,
+            "map": 0.0625
+          },
+          "missed_chunk_ids": [
+            "DOC-003::c0059",
+            "DOC-003::c0052",
+            "DOC-006::c0013"
+          ]
+        },
+        {
+          "qid": "q_post_hospitalization",
+          "query": "How many days after discharge are covered?",
+          "category": "coverage",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-008::c0058",
+            "DOC-002::c0045",
+            "DOC-007::c0114",
+            "DOC-005::c0061",
+            "DOC-009::c0150"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-003::c0060",
+            "DOC-007::c0163",
+            "DOC-003::c0052"
+          ],
+          "metrics": {
+            "precision@5": 0.0,
+            "recall@5": 0.0,
+            "hit@5": 0.0,
+            "ndcg@5": 0.0,
+            "mrr": 0.0,
+            "map": 0.0
+          },
+          "missed_chunk_ids": [
+            "DOC-003::c0060",
+            "DOC-007::c0163",
+            "DOC-003::c0052"
+          ]
+        },
+        {
+          "qid": "q_restoration",
+          "query": "What happens to my sum insured if I exhaust it during the year?",
+          "category": "coverage",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-001::c0074",
+            "DOC-010::c0139",
+            "DOC-001::c0058",
+            "DOC-010::c0067",
+            "DOC-002::c0079"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-004::c0017",
+            "DOC-008::c0039",
+            "DOC-003::c0133",
+            "DOC-006::c0016"
+          ],
+          "metrics": {
+            "precision@5": 0.0,
+            "recall@5": 0.0,
+            "hit@5": 0.0,
+            "ndcg@5": 0.0,
+            "mrr": 0.0,
+            "map": 0.0
+          },
+          "missed_chunk_ids": [
+            "DOC-004::c0017",
+            "DOC-008::c0039",
+            "DOC-003::c0133",
+            "DOC-006::c0016"
+          ]
+        },
+        {
+          "qid": "q_deductible",
+          "query": "What is a deductible and how does it apply?",
+          "category": "coverage",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-009::c0010",
+            "DOC-008::c0069",
+            "DOC-008::c0005",
+            "DOC-003::c0006",
+            "DOC-005::c0036"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-007::c0108",
+            "DOC-003::c0041",
+            "DOC-008::c0069",
+            "DOC-009::c0179"
+          ],
+          "metrics": {
+            "precision@5": 0.2,
+            "recall@5": 0.25,
+            "hit@5": 1.0,
+            "ndcg@5": 0.24630238874073,
+            "mrr": 0.5,
+            "map": 0.125
+          },
+          "missed_chunk_ids": [
+            "DOC-007::c0108",
+            "DOC-003::c0041",
+            "DOC-009::c0179"
+          ]
+        },
+        {
+          "qid": "q_portability",
+          "query": "Can I port my policy to another insurer?",
+          "category": "eligibility",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-007::c0142",
+            "DOC-002::c0067",
+            "DOC-009::c0090",
+            "DOC-005::c0059",
+            "DOC-001::c0113"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-003::c0084",
+            "DOC-006::c0041",
+            "DOC-008::c0101",
+            "DOC-009::c0090",
+            "DOC-002::c0067"
+          ],
+          "metrics": {
+            "precision@5": 0.4,
+            "recall@5": 0.4,
+            "hit@5": 1.0,
+            "ndcg@5": 0.38356636737133565,
+            "mrr": 0.5,
+            "map": 0.2333333333333333
+          },
+          "missed_chunk_ids": [
+            "DOC-003::c0084",
+            "DOC-006::c0041",
+            "DOC-008::c0101"
+          ]
+        },
+        {
+          "qid": "q_migration",
+          "query": "What is policy migration?",
+          "category": "factual",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-001::c0115",
+            "DOC-005::c0059",
+            "DOC-010::c0182",
+            "DOC-009::c0089",
+            "DOC-007::c0144"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-009::c0089",
+            "DOC-005::c0059",
+            "DOC-008::c0100",
+            "DOC-003::c0084",
+            "DOC-006::c0044"
+          ],
+          "metrics": {
+            "precision@5": 0.4,
+            "recall@5": 0.4,
+            "hit@5": 1.0,
+            "ndcg@5": 0.36005461457723403,
+            "mrr": 0.5,
+            "map": 0.2
+          },
+          "missed_chunk_ids": [
+            "DOC-008::c0100",
+            "DOC-003::c0084",
+            "DOC-006::c0044"
+          ]
+        },
+        {
+          "qid": "q_cumulative_bonus",
+          "query": "How does the cumulative bonus increase over renewals?",
+          "category": "factual",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-010::c0133",
+            "DOC-010::c0140",
+            "DOC-004::c0016",
+            "DOC-001::c0072",
+            "DOC-010::c0135"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-001::c0072",
+            "DOC-003::c0061",
+            "DOC-010::c0132",
+            "DOC-004::c0016",
+            "DOC-010::c0133",
+            "DOC-010::c0135"
+          ],
+          "metrics": {
+            "precision@5": 0.8,
+            "recall@5": 0.6666666666666666,
+            "hit@5": 1.0,
+            "ndcg@5": 0.7860137352654724,
+            "mrr": 1.0,
+            "map": 0.5361111111111111
+          },
+          "missed_chunk_ids": [
+            "DOC-003::c0061",
+            "DOC-010::c0132"
+          ]
+        },
+        {
+          "qid": "q_modern_treatment",
+          "query": "Are modern treatments covered?",
+          "category": "coverage",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-002::c0040",
+            "DOC-001::c0098",
+            "DOC-010::c0043",
+            "DOC-005::c0019",
+            "DOC-009::c0148"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-002::c0040",
+            "DOC-004::c0008",
+            "DOC-005::c0019",
+            "DOC-002::c0031"
+          ],
+          "metrics": {
+            "precision@5": 0.4,
+            "recall@5": 0.5,
+            "hit@5": 1.0,
+            "ndcg@5": 0.5585075862632192,
+            "mrr": 1.0,
+            "map": 0.375
+          },
+          "missed_chunk_ids": [
+            "DOC-004::c0008",
+            "DOC-002::c0031"
+          ]
+        },
+        {
+          "qid": "q_fraud",
+          "query": "What happens if a claim is found to be fraudulent?",
+          "category": "exclusion",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-005::c0051",
+            "DOC-009::c0080",
+            "DOC-001::c0110",
+            "DOC-002::c0058",
+            "DOC-010::c0178"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-009::c0080",
+            "DOC-002::c0058",
+            "DOC-006::c0039",
+            "DOC-005::c0051",
+            "DOC-001::c0110"
+          ],
+          "metrics": {
+            "precision@5": 0.8,
+            "recall@5": 0.8,
+            "hit@5": 1.0,
+            "ndcg@5": 0.8687949224876582,
+            "mrr": 1.0,
+            "map": 0.8
+          },
+          "missed_chunk_ids": [
+            "DOC-006::c0039"
+          ]
+        },
+        {
+          "qid": "q_grievance",
+          "query": "How do I raise a grievance or complaint?",
+          "category": "factual",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-009::c0084",
+            "DOC-001::c0116",
+            "DOC-009::c0083",
+            "DOC-010::c0183",
+            "DOC-003::c0089"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-001::c0116",
+            "DOC-010::c0183",
+            "DOC-005::c0055",
+            "DOC-002::c0065",
+            "DOC-009::c0084",
+            "DOC-004::c0090",
+            "DOC-009::c0083",
+            "DOC-003::c0089"
+          ],
+          "metrics": {
+            "precision@5": 1.0,
+            "recall@5": 0.625,
+            "hit@5": 1.0,
+            "ndcg@5": 1.0,
+            "mrr": 1.0,
+            "map": 0.625
+          },
+          "missed_chunk_ids": [
+            "DOC-005::c0055",
+            "DOC-002::c0065",
+            "DOC-004::c0090"
+          ]
+        },
+        {
+          "qid": "q_multiple_policies",
+          "query": "I have two insurance policies; how is a claim apportioned between them?",
+          "category": "coverage",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-009::c0101",
+            "DOC-009::c0088",
+            "DOC-007::c0154",
+            "DOC-002::c0060",
+            "DOC-001::c0108"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-009::c0087",
+            "DOC-003::c0079",
+            "DOC-005::c0058",
+            "DOC-001::c0110",
+            "DOC-007::c0017",
+            "DOC-009::c0088",
+            "DOC-001::c0109"
+          ],
+          "metrics": {
+            "precision@5": 0.2,
+            "recall@5": 0.14285714285714285,
+            "hit@5": 1.0,
+            "ndcg@5": 0.21398626473452756,
+            "mrr": 0.5,
+            "map": 0.07142857142857142
+          },
+          "missed_chunk_ids": [
+            "DOC-009::c0087",
+            "DOC-003::c0079",
+            "DOC-005::c0058",
+            "DOC-001::c0110",
+            "DOC-007::c0017",
+            "DOC-001::c0109"
+          ]
+        },
+        {
+          "qid": "q_cancellation",
+          "query": "Can I cancel my policy and get a refund of premium?",
+          "category": "factual",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-009::c0074",
+            "DOC-010::c0172",
+            "DOC-005::c0047",
+            "DOC-001::c0106",
+            "DOC-009::c0076"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-001::c0106",
+            "DOC-002::c0056",
+            "DOC-003::c0085",
+            "DOC-009::c0076",
+            "DOC-004::c0087",
+            "DOC-009::c0074",
+            "DOC-005::c0047",
+            "DOC-010::c0172"
+          ],
+          "metrics": {
+            "precision@5": 1.0,
+            "recall@5": 0.625,
+            "hit@5": 1.0,
+            "ndcg@5": 1.0,
+            "mrr": 1.0,
+            "map": 0.625
+          },
+          "missed_chunk_ids": [
+            "DOC-002::c0056",
+            "DOC-003::c0085",
+            "DOC-004::c0087"
+          ]
+        },
+        {
+          "qid": "q_home_care",
+          "query": "Is domiciliary or home care treatment covered?",
+          "category": "coverage",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-005::c0020",
+            "DOC-009::c0151",
+            "DOC-003::c0027",
+            "DOC-001::c0084",
+            "DOC-002::c0006"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-005::c0020",
+            "DOC-003::c0027",
+            "DOC-004::c0012"
+          ],
+          "metrics": {
+            "precision@5": 0.4,
+            "recall@5": 0.6666666666666666,
+            "hit@5": 1.0,
+            "ndcg@5": 0.7039180890341347,
+            "mrr": 1.0,
+            "map": 0.5555555555555555
+          },
+          "missed_chunk_ids": [
+            "DOC-004::c0012"
+          ]
+        },
+        {
+          "qid": "q_consumables",
+          "query": "Are consumables and implants covered?",
+          "category": "coverage",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-001::c0093",
+            "DOC-010::c0161",
+            "DOC-001::c0069",
+            "DOC-001::c0097",
+            "DOC-007::c0135"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-002::c0025",
+            "DOC-007::c0077",
+            "DOC-001::c0037"
+          ],
+          "metrics": {
+            "precision@5": 0.0,
+            "recall@5": 0.0,
+            "hit@5": 0.0,
+            "ndcg@5": 0.0,
+            "mrr": 0.0,
+            "map": 0.0
+          },
+          "missed_chunk_ids": [
+            "DOC-002::c0025",
+            "DOC-007::c0077",
+            "DOC-001::c0037"
+          ]
+        },
+        {
+          "qid": "q_preventive_checkup",
+          "query": "Is a preventive health check-up available?",
+          "category": "coverage",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-004::c0025",
+            "DOC-009::c0157",
+            "DOC-010::c0086",
+            "DOC-008::c0054",
+            "DOC-001::c0048"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-003::c0043",
+            "DOC-004::c0025",
+            "DOC-003::c0130",
+            "DOC-010::c0088"
+          ],
+          "metrics": {
+            "precision@5": 0.2,
+            "recall@5": 0.25,
+            "hit@5": 1.0,
+            "ndcg@5": 0.3903800499921017,
+            "mrr": 1.0,
+            "map": 0.25
+          },
+          "missed_chunk_ids": [
+            "DOC-003::c0043",
+            "DOC-003::c0130",
+            "DOC-010::c0088"
+          ]
+        },
+        {
+          "qid": "q_sub_limit",
+          "query": "What is a sub-limit and how does it affect a claim?",
+          "category": "coverage",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-008::c0127",
+            "DOC-009::c0160",
+            "DOC-005::c0057",
+            "DOC-007::c0017",
+            "DOC-002::c0022"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-008::c0127",
+            "DOC-002::c0038"
+          ],
+          "metrics": {
+            "precision@5": 0.2,
+            "recall@5": 0.5,
+            "hit@5": 1.0,
+            "ndcg@5": 0.6131471927654584,
+            "mrr": 1.0,
+            "map": 0.5
+          },
+          "missed_chunk_ids": [
+            "DOC-002::c0038"
+          ]
+        },
+        {
+          "qid": "q_disclosure",
+          "query": "What is the duty of disclosure when buying a policy?",
+          "category": "factual",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-009::c0091",
+            "DOC-007::c0138",
+            "DOC-002::c0057",
+            "DOC-001::c0101",
+            "DOC-005::c0060"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-003::c0077",
+            "DOC-001::c0101",
+            "DOC-008::c0098",
+            "DOC-009::c0091",
+            "DOC-007::c0138"
+          ],
+          "metrics": {
+            "precision@5": 0.6,
+            "recall@5": 0.6,
+            "hit@5": 1.0,
+            "ndcg@5": 0.6992148198508501,
+            "mrr": 1.0,
+            "map": 0.55
+          },
+          "missed_chunk_ids": [
+            "DOC-003::c0077",
+            "DOC-008::c0098"
+          ]
+        },
+        {
+          "qid": "q_room_modification",
+          "query": "Is there an option to modify the room category coverage?",
+          "category": "coverage",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-003::c0058",
+            "DOC-010::c0116",
+            "DOC-003::c0056",
+            "DOC-010::c0117",
+            "DOC-007::c0117"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-003::c0058",
+            "DOC-005::c0037",
+            "DOC-008::c0067",
+            "DOC-007::c0117"
+          ],
+          "metrics": {
+            "precision@5": 0.4,
+            "recall@5": 0.5,
+            "hit@5": 1.0,
+            "ndcg@5": 0.5413996682199069,
+            "mrr": 1.0,
+            "map": 0.35
+          },
+          "missed_chunk_ids": [
+            "DOC-005::c0037",
+            "DOC-008::c0067"
+          ]
+        },
+        {
+          "qid": "q_moratorium",
+          "query": "What is the moratorium period?",
+          "category": "factual",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-006::c0046",
+            "DOC-009::c0085",
+            "DOC-010::c0171",
+            "DOC-001::c0105",
+            "DOC-002::c0061"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-005::c0057",
+            "DOC-001::c0105",
+            "DOC-010::c0171",
+            "DOC-003::c0080"
+          ],
+          "metrics": {
+            "precision@5": 0.4,
+            "recall@5": 0.5,
+            "hit@5": 1.0,
+            "ndcg@5": 0.36331756126716835,
+            "mrr": 0.3333333333333333,
+            "map": 0.20833333333333331
+          },
+          "missed_chunk_ids": [
+            "DOC-005::c0057",
+            "DOC-003::c0080"
+          ]
+        },
+        {
+          "qid": "q_nomination",
+          "query": "How do I make a nomination for the policy?",
+          "category": "factual",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-005::c0049",
+            "DOC-009::c0079",
+            "DOC-007::c0147",
+            "DOC-003::c0088",
+            "DOC-002::c0062"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-002::c0062",
+            "DOC-005::c0049",
+            "DOC-009::c0079",
+            "DOC-003::c0088"
+          ],
+          "metrics": {
+            "precision@5": 0.8,
+            "recall@5": 1.0,
+            "hit@5": 1.0,
+            "ndcg@5": 0.9558295932317544,
+            "mrr": 1.0,
+            "map": 0.8875
+          },
+          "missed_chunk_ids": []
+        },
+        {
+          "qid": "q_day_care",
+          "query": "What is day care treatment and is it covered?",
+          "category": "coverage",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-010::c0043",
+            "DOC-005::c0004",
+            "DOC-001::c0037",
+            "DOC-010::c0011",
+            "DOC-001::c0006"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-008::c0031",
+            "DOC-007::c0025",
+            "DOC-002::c0006",
+            "DOC-005::c0004"
+          ],
+          "metrics": {
+            "precision@5": 0.2,
+            "recall@5": 0.25,
+            "hit@5": 1.0,
+            "ndcg@5": 0.24630238874073,
+            "mrr": 0.5,
+            "map": 0.125
+          },
+          "missed_chunk_ids": [
+            "DOC-008::c0031",
+            "DOC-007::c0025",
+            "DOC-002::c0006"
+          ]
+        },
+        {
+          "qid": "q_claim_intimation",
+          "query": "How soon must I intimate a claim to the insurer?",
+          "category": "factual",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-002::c0070",
+            "DOC-009::c0118",
+            "DOC-002::c0072",
+            "DOC-009::c0109",
+            "DOC-002::c0061"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-009::c0118",
+            "DOC-006::c0011",
+            "DOC-004::c0077",
+            "DOC-002::c0070"
+          ],
+          "metrics": {
+            "precision@5": 0.4,
+            "recall@5": 0.5,
+            "hit@5": 1.0,
+            "ndcg@5": 0.6366824387328317,
+            "mrr": 1.0,
+            "map": 0.5
+          },
+          "missed_chunk_ids": [
+            "DOC-006::c0011",
+            "DOC-004::c0077"
+          ]
+        },
+        {
+          "qid": "q_pre_existing_definition",
+          "query": "What is meant by a pre-existing disease?",
+          "category": "factual",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-010::c0020",
+            "DOC-009::c0015",
+            "DOC-009::c0024",
+            "DOC-008::c0013",
+            "DOC-001::c0010"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-002::c0015",
+            "DOC-006::c0012",
+            "DOC-009::c0053",
+            "DOC-001::c0077"
+          ],
+          "metrics": {
+            "precision@5": 0.0,
+            "recall@5": 0.0,
+            "hit@5": 0.0,
+            "ndcg@5": 0.0,
+            "mrr": 0.0,
+            "map": 0.0
+          },
+          "missed_chunk_ids": [
+            "DOC-002::c0015",
+            "DOC-006::c0012",
+            "DOC-009::c0053",
+            "DOC-001::c0077"
+          ]
+        },
+        {
+          "qid": "q_compare_ped_waiting",
+          "query": "Compare the pre-existing disease waiting period between the MediClaim and Activ One policies.",
+          "category": "comparison",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-002::c0045",
+            "DOC-002::c0046",
+            "DOC-009::c0177",
+            "DOC-009::c0053",
+            "DOC-009::c0054"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-002::c0045",
+            "DOC-002::c0046",
+            "DOC-009::c0053",
+            "DOC-009::c0054",
+            "DOC-009::c0178",
+            "DOC-009::c0177"
+          ],
+          "metrics": {
+            "precision@5": 1.0,
+            "recall@5": 0.8333333333333334,
+            "hit@5": 1.0,
+            "ndcg@5": 1.0,
+            "mrr": 1.0,
+            "map": 0.8333333333333334
+          },
+          "missed_chunk_ids": [
+            "DOC-009::c0178"
+          ]
+        },
+        {
+          "qid": "q_compare_air_ambulance",
+          "query": "Which policies provide an emergency air ambulance benefit?",
+          "category": "comparison",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-003::c0033",
+            "DOC-001::c0054",
+            "DOC-010::c0063",
+            "DOC-007::c0088",
+            "DOC-007::c0087"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-001::c0054",
+            "DOC-003::c0033",
+            "DOC-010::c0063",
+            "DOC-005::c0018"
+          ],
+          "metrics": {
+            "precision@5": 0.6,
+            "recall@5": 0.75,
+            "hit@5": 1.0,
+            "ndcg@5": 0.8318724637288826,
+            "mrr": 1.0,
+            "map": 0.75
+          },
+          "missed_chunk_ids": [
+            "DOC-005::c0018"
+          ]
+        },
+        {
+          "qid": "q_compare_grace",
+          "query": "Compare the grace period for premium payment between the Digit Health and Ultimate Care policies.",
+          "category": "comparison",
+          "answerable": true,
+          "ranked_chunk_ids": [
+            "DOC-001::c0008",
+            "DOC-010::c0013",
+            "DOC-001::c0103",
+            "DOC-008::c0104",
+            "DOC-008::c0007"
+          ],
+          "relevant_chunk_ids": [
+            "DOC-001::c0103",
+            "DOC-010::c0169",
+            "DOC-008::c0104",
+            "DOC-008::c0007"
+          ],
+          "metrics": {
+            "precision@5": 0.6,
+            "recall@5": 0.75,
+            "hit@5": 1.0,
+            "ndcg@5": 0.5143371794949736,
+            "mrr": 0.3333333333333333,
+            "map": 0.3583333333333333
+          },
+          "missed_chunk_ids": [
+            "DOC-010::c0169"
+          ]
+        },
+        {
+          "qid": "q_ood_stock_market",
+          "query": "What will the stock market do tomorrow?",
+          "category": "out_of_domain",
+          "answerable": false,
+          "ranked_chunk_ids": [
+            "DOC-005::c0035",
+            "DOC-005::c0034",
+            "DOC-003::c0127",
+            "DOC-009::c0160",
+            "DOC-007::c0084"
+          ],
+          "relevant_chunk_ids": [],
+          "metrics": {},
+          "missed_chunk_ids": []
+        },
+        {
+          "qid": "q_ood_exact_premium",
+          "query": "What is the exact premium a 60-year-old smoker in Delhi would pay next year?",
+          "category": "out_of_domain",
+          "answerable": false,
+          "ranked_chunk_ids": [
+            "DOC-008::c0150",
+            "DOC-005::c0029",
+            "DOC-005::c0024",
+            "DOC-008::c0043",
+            "DOC-009::c0137"
+          ],
+          "relevant_chunk_ids": [],
+          "metrics": {},
+          "missed_chunk_ids": []
+        }
+      ],
+      "elapsed_s": 4.9
+    }
+  ]
+}

@@ -36,7 +36,9 @@ SYSTEM_PROMPT = (
     "\"The policy documents provided do not contain this information.\" "
     "Do not guess and do not use outside knowledge.\n"
     "3. Quote waiting periods, percentages and currency amounts exactly.\n"
-    "4. Be concise; use short sentences or bullet points."
+    "4. Be concise; use short sentences or bullet points.\n"
+    "5. Cite ONLY with the bracketed excerpt number, e.g. [1]. Never cite "
+    "section numbers, roman numerals or any other style."
 )
 
 USER_PROMPT_TEMPLATE = (
@@ -175,6 +177,16 @@ class AnswerGenerator:
 
     # ------------------------------------------------------------------
 
+    def resolve_citations(
+        self, answer_text: str, retrieved: list[Any]
+    ) -> tuple[list[Citation], list[int]]:
+        """Public entry point for citation resolution.
+
+        Exposed so the Phase 4 comparison generator can resolve ``[n]`` markers
+        against a flat evidence list without duplicating the logic.
+        """
+        return self._resolve_citations(answer_text, retrieved)
+
     def _resolve_citations(
         self, answer_text: str, retrieved: list[Any]
     ) -> tuple[list[Citation], list[int]]:
@@ -219,6 +231,11 @@ _REFUSAL_PATTERNS = (
 )
 
 
-def _is_refusal(text: str) -> bool:
+def is_refusal(text: str) -> bool:
+    """True when an answer declines to answer for lack of evidence."""
     lowered = (text or "").lower()
     return any(p in lowered for p in _REFUSAL_PATTERNS)
+
+
+# Backwards-compatible private alias (used by the Phase 2 tests).
+_is_refusal = is_refusal

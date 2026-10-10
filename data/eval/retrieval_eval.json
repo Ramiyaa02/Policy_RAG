@@ -1,0 +1,567 @@
+{
+  "version": "2.1",
+  "name": "policy_rag_retrieval_eval",
+  "frozen": "2026-10-10",
+  "description": "Frozen retrieval evaluation set (SRS Phase 3 / 14.1). Relevance is chunk-level: relevant_chunk_ids lists the chunks from data/chunks/chunks.jsonl that contain the clause answering the query. Categories mirror the SRS testing taxonomy (factual, coverage, exclusion, eligibility, waiting_period, comparison). Queries with an empty relevant set are out-of-domain probes and are reported separately (abstention quality is Phase 5).",
+  "labeling_note": "Hand-labelled from the Phase 1 normalized corpus by reading the candidate clauses; a chunk is relevant only if it states or directly qualifies the requested fact. Not derived from any retriever's output, so it stays a fair reference for comparing semantic, keyword, hybrid and reranked retrieval.",
+  "queries": [
+    {
+      "id": "q_waiting_cataract",
+      "query": "What is the waiting period for cataract surgery?",
+      "category": "waiting_period",
+      "relevant_chunk_ids": [
+        "DOC-006::c0026",
+        "DOC-006::c0028",
+        "DOC-002::c0026",
+        "DOC-002::c0033",
+        "DOC-002::c0034",
+        "DOC-009::c0055"
+      ],
+      "notes": "Cataract listed under specified-disease/permanent-exclusion waiting periods."
+    },
+    {
+      "id": "q_grace_premium",
+      "query": "What is the grace period for paying an instalment premium?",
+      "category": "factual",
+      "relevant_chunk_ids": [
+        "DOC-001::c0103",
+        "DOC-010::c0169",
+        "DOC-008::c0104",
+        "DOC-003::c0086",
+        "DOC-009::c0093"
+      ],
+      "notes": "Standard general terms state 15 days monthly, 30 days otherwise."
+    },
+    {
+      "id": "q_free_look",
+      "query": "What is the free look period?",
+      "category": "factual",
+      "relevant_chunk_ids": [
+        "DOC-003::c0082",
+        "DOC-005::c0046",
+        "DOC-006::c0045",
+        "DOC-007::c0139"
+      ],
+      "notes": "Free look applies to new individual health policies, not renewals."
+    },
+    {
+      "id": "q_ayush",
+      "query": "Is AYUSH treatment covered by the policy?",
+      "category": "coverage",
+      "relevant_chunk_ids": [
+        "DOC-003::c0003",
+        "DOC-005::c0000",
+        "DOC-008::c0002",
+        "DOC-006::c0003",
+        "DOC-001::c0002",
+        "DOC-010::c0008"
+      ],
+      "notes": "AYUSH definition/qualifying-hospital criteria and explicit AYUSH cover."
+    },
+    {
+      "id": "q_copay_outside_area",
+      "query": "What is the co-payment for treatment outside the area of coverage?",
+      "category": "coverage",
+      "relevant_chunk_ids": [
+        "DOC-002::c0080",
+        "DOC-007::c0107",
+        "DOC-008::c0065",
+        "DOC-010::c0082"
+      ],
+      "notes": "Co-payment clauses, including out-of-network / voluntary co-payment."
+    },
+    {
+      "id": "q_ped_waiting",
+      "query": "What is the waiting period for pre-existing diseases?",
+      "category": "waiting_period",
+      "relevant_chunk_ids": [
+        "DOC-005::c0037",
+        "DOC-002::c0045",
+        "DOC-003::c0067",
+        "DOC-006::c0012",
+        "DOC-009::c0053",
+        "DOC-003::c0056",
+        "DOC-006::c0026"
+      ],
+      "notes": "PED definition plus pre-existing-disease waiting-period clauses."
+    },
+    {
+      "id": "q_maternity",
+      "query": "Is maternity covered and what is the waiting period for it?",
+      "category": "coverage",
+      "relevant_chunk_ids": [
+        "DOC-001::c0056",
+        "DOC-001::c0057",
+        "DOC-001::c0058",
+        "DOC-010::c0065",
+        "DOC-010::c0066",
+        "DOC-010::c0067",
+        "DOC-007::c0114"
+      ],
+      "notes": "Maternity benefit wallet, newborn cover and the 9-month / 24-to-12-month wait."
+    },
+    {
+      "id": "q_room_rent",
+      "query": "What is the room rent limit under the policy?",
+      "category": "coverage",
+      "relevant_chunk_ids": [
+        "DOC-003::c0057",
+        "DOC-003::c0058",
+        "DOC-002::c0024",
+        "DOC-007::c0124"
+      ],
+      "notes": "Room type / room rent modification options (1% of sum insured per day, 2% ICU)."
+    },
+    {
+      "id": "q_no_claim_bonus",
+      "query": "How does the no claim bonus work?",
+      "category": "factual",
+      "relevant_chunk_ids": [
+        "DOC-010::c0134",
+        "DOC-010::c0136",
+        "DOC-010::c0137"
+      ],
+      "notes": "No claim discount accrual and reduction on a claim."
+    },
+    {
+      "id": "q_cashless",
+      "query": "How do I get a cashless hospitalization?",
+      "category": "factual",
+      "relevant_chunk_ids": [
+        "DOC-002::c0069",
+        "DOC-003::c0104",
+        "DOC-006::c0054",
+        "DOC-006::c0055",
+        "DOC-009::c0110",
+        "DOC-007::c0160"
+      ],
+      "notes": "Cashless facility conditions and claim procedure."
+    },
+    {
+      "id": "q_dental_exclusion",
+      "query": "Are dental treatments excluded?",
+      "category": "exclusion",
+      "relevant_chunk_ids": [
+        "DOC-001::c0099",
+        "DOC-006::c0034",
+        "DOC-007::c0136",
+        "DOC-010::c0104"
+      ],
+      "notes": "Dental treatment exclusions with accident carve-outs."
+    },
+    {
+      "id": "q_obesity",
+      "query": "Is treatment for obesity covered?",
+      "category": "exclusion",
+      "relevant_chunk_ids": [
+        "DOC-002::c0049",
+        "DOC-005::c0041",
+        "DOC-003::c0071",
+        "DOC-007::c0130"
+      ],
+      "notes": "Obesity / weight control exclusion and its qualifying conditions."
+    },
+    {
+      "id": "q_ambulance",
+      "query": "What ambulance expenses are covered?",
+      "category": "coverage",
+      "relevant_chunk_ids": [
+        "DOC-001::c0054",
+        "DOC-003::c0033",
+        "DOC-005::c0018",
+        "DOC-008::c0038",
+        "DOC-006::c0018",
+        "DOC-010::c0063"
+      ],
+      "notes": "Road and emergency air ambulance benefit clauses."
+    },
+    {
+      "id": "q_organ_donor",
+      "query": "Are organ donor expenses covered?",
+      "category": "coverage",
+      "relevant_chunk_ids": [
+        "DOC-003::c0029",
+        "DOC-006::c0017",
+        "DOC-007::c0032",
+        "DOC-001::c0053"
+      ],
+      "notes": "Organ donor harvest-expense benefit and its conditions."
+    },
+    {
+      "id": "q_cosmetic",
+      "query": "Are cosmetic or plastic surgery treatments covered?",
+      "category": "exclusion",
+      "relevant_chunk_ids": [
+        "DOC-007::c0130",
+        "DOC-006::c0030",
+        "DOC-001::c0046"
+      ],
+      "notes": "Cosmetic/plastic surgery exclusion with reconstruction exception."
+    },
+    {
+      "id": "q_ombudsman",
+      "query": "How do I contact the insurance ombudsman?",
+      "category": "factual",
+      "relevant_chunk_ids": [
+        "DOC-006::c0062",
+        "DOC-006::c0063",
+        "DOC-006::c0064",
+        "DOC-002::c0105",
+        "DOC-007::c0147",
+        "DOC-009::c0228"
+      ],
+      "notes": "Insurance Ombudsman office addresses and contact details."
+    },
+    {
+      "id": "q_critical_illness",
+      "query": "What does the critical illness cover pay for?",
+      "category": "coverage",
+      "relevant_chunk_ids": [
+        "DOC-009::c0180",
+        "DOC-009::c0125"
+      ],
+      "notes": "Critical illness optional cover benefit and its claim documentation."
+    },
+    {
+      "id": "q_pre_hospitalization",
+      "query": "How many days before hospitalization are covered?",
+      "category": "coverage",
+      "relevant_chunk_ids": [
+        "DOC-003::c0059",
+        "DOC-008::c0058",
+        "DOC-003::c0052",
+        "DOC-006::c0013"
+      ],
+      "notes": "Pre-hospitalization expense day limits and modifications."
+    },
+    {
+      "id": "q_post_hospitalization",
+      "query": "How many days after discharge are covered?",
+      "category": "coverage",
+      "relevant_chunk_ids": [
+        "DOC-003::c0060",
+        "DOC-007::c0163",
+        "DOC-003::c0052"
+      ],
+      "notes": "Post-hospitalization expense day limits and submission windows."
+    },
+    {
+      "id": "q_restoration",
+      "query": "What happens to my sum insured if I exhaust it during the year?",
+      "category": "coverage",
+      "relevant_chunk_ids": [
+        "DOC-004::c0017",
+        "DOC-008::c0039",
+        "DOC-003::c0133",
+        "DOC-006::c0016"
+      ],
+      "notes": "Automatic restoration / unlimited recharge of sum insured."
+    },
+    {
+      "id": "q_deductible",
+      "query": "What is a deductible and how does it apply?",
+      "category": "coverage",
+      "relevant_chunk_ids": [
+        "DOC-007::c0108",
+        "DOC-003::c0041",
+        "DOC-008::c0069",
+        "DOC-009::c0179"
+      ],
+      "notes": "Voluntary / aggregate deductible clauses."
+    },
+    {
+      "id": "q_portability",
+      "query": "Can I port my policy to another insurer?",
+      "category": "eligibility",
+      "relevant_chunk_ids": [
+        "DOC-003::c0084",
+        "DOC-006::c0041",
+        "DOC-008::c0101",
+        "DOC-009::c0090",
+        "DOC-002::c0067"
+      ],
+      "notes": "Portability conditions and continuity benefits."
+    },
+    {
+      "id": "q_migration",
+      "query": "What is policy migration?",
+      "category": "factual",
+      "relevant_chunk_ids": [
+        "DOC-009::c0089",
+        "DOC-005::c0059",
+        "DOC-008::c0100",
+        "DOC-003::c0084",
+        "DOC-006::c0044"
+      ],
+      "notes": "Migration within the same insurer and continuity of benefits."
+    },
+    {
+      "id": "q_cumulative_bonus",
+      "query": "How does the cumulative bonus increase over renewals?",
+      "category": "factual",
+      "relevant_chunk_ids": [
+        "DOC-001::c0072",
+        "DOC-003::c0061",
+        "DOC-010::c0132",
+        "DOC-004::c0016",
+        "DOC-010::c0133",
+        "DOC-010::c0135"
+      ],
+      "notes": "Cumulative bonus accrual caps and modification options."
+    },
+    {
+      "id": "q_modern_treatment",
+      "query": "Are modern treatments covered?",
+      "category": "coverage",
+      "relevant_chunk_ids": [
+        "DOC-002::c0040",
+        "DOC-004::c0008",
+        "DOC-005::c0019",
+        "DOC-002::c0031"
+      ],
+      "notes": "Coverage for modern treatment procedures and their limits."
+    },
+    {
+      "id": "q_fraud",
+      "query": "What happens if a claim is found to be fraudulent?",
+      "category": "exclusion",
+      "relevant_chunk_ids": [
+        "DOC-009::c0080",
+        "DOC-002::c0058",
+        "DOC-006::c0039",
+        "DOC-005::c0051",
+        "DOC-001::c0110"
+      ],
+      "notes": "Fraud clause consequences."
+    },
+    {
+      "id": "q_grievance",
+      "query": "How do I raise a grievance or complaint?",
+      "category": "factual",
+      "relevant_chunk_ids": [
+        "DOC-001::c0116",
+        "DOC-010::c0183",
+        "DOC-005::c0055",
+        "DOC-002::c0065",
+        "DOC-009::c0084",
+        "DOC-004::c0090",
+        "DOC-009::c0083",
+        "DOC-003::c0089"
+      ],
+      "notes": "Grievance redressal contacts and escalation."
+    },
+    {
+      "id": "q_multiple_policies",
+      "query": "I have two insurance policies; how is a claim apportioned between them?",
+      "category": "coverage",
+      "relevant_chunk_ids": [
+        "DOC-009::c0087",
+        "DOC-003::c0079",
+        "DOC-005::c0058",
+        "DOC-001::c0110",
+        "DOC-007::c0017",
+        "DOC-009::c0088",
+        "DOC-001::c0109"
+      ],
+      "notes": "Contribution / multiple-policies clauses."
+    },
+    {
+      "id": "q_cancellation",
+      "query": "Can I cancel my policy and get a refund of premium?",
+      "category": "factual",
+      "relevant_chunk_ids": [
+        "DOC-001::c0106",
+        "DOC-002::c0056",
+        "DOC-003::c0085",
+        "DOC-009::c0076",
+        "DOC-004::c0087",
+        "DOC-009::c0074",
+        "DOC-005::c0047",
+        "DOC-010::c0172"
+      ],
+      "notes": "Policy cancellation terms and premium refund."
+    },
+    {
+      "id": "q_home_care",
+      "query": "Is domiciliary or home care treatment covered?",
+      "category": "coverage",
+      "relevant_chunk_ids": [
+        "DOC-005::c0020",
+        "DOC-003::c0027",
+        "DOC-004::c0012"
+      ],
+      "notes": "Home care / domiciliary treatment benefits."
+    },
+    {
+      "id": "q_consumables",
+      "query": "Are consumables and implants covered?",
+      "category": "coverage",
+      "relevant_chunk_ids": [
+        "DOC-002::c0025",
+        "DOC-007::c0077",
+        "DOC-001::c0037"
+      ],
+      "notes": "Consumables, implants and medical devices cover."
+    },
+    {
+      "id": "q_preventive_checkup",
+      "query": "Is a preventive health check-up available?",
+      "category": "coverage",
+      "relevant_chunk_ids": [
+        "DOC-003::c0043",
+        "DOC-004::c0025",
+        "DOC-003::c0130",
+        "DOC-010::c0088"
+      ],
+      "notes": "Preventive health check-up benefit and its conditions."
+    },
+    {
+      "id": "q_sub_limit",
+      "query": "What is a sub-limit and how does it affect a claim?",
+      "category": "coverage",
+      "relevant_chunk_ids": [
+        "DOC-008::c0127",
+        "DOC-002::c0038"
+      ],
+      "notes": "Sub-limit handling in claim computation."
+    },
+    {
+      "id": "q_disclosure",
+      "query": "What is the duty of disclosure when buying a policy?",
+      "category": "factual",
+      "relevant_chunk_ids": [
+        "DOC-003::c0077",
+        "DOC-001::c0101",
+        "DOC-008::c0098",
+        "DOC-009::c0091",
+        "DOC-007::c0138"
+      ],
+      "notes": "Disclosure obligation and non-disclosure consequences."
+    },
+    {
+      "id": "q_room_modification",
+      "query": "Is there an option to modify the room category coverage?",
+      "category": "coverage",
+      "relevant_chunk_ids": [
+        "DOC-003::c0058",
+        "DOC-005::c0037",
+        "DOC-008::c0067",
+        "DOC-007::c0117"
+      ],
+      "notes": "Room type / category modification options."
+    },
+    {
+      "id": "q_moratorium",
+      "query": "What is the moratorium period?",
+      "category": "factual",
+      "relevant_chunk_ids": [
+        "DOC-005::c0057",
+        "DOC-001::c0105",
+        "DOC-010::c0171",
+        "DOC-003::c0080"
+      ],
+      "notes": "Moratorium period after continuous coverage."
+    },
+    {
+      "id": "q_nomination",
+      "query": "How do I make a nomination for the policy?",
+      "category": "factual",
+      "relevant_chunk_ids": [
+        "DOC-002::c0062",
+        "DOC-005::c0049",
+        "DOC-009::c0079",
+        "DOC-003::c0088"
+      ],
+      "notes": "Nomination requirement and changes."
+    },
+    {
+      "id": "q_day_care",
+      "query": "What is day care treatment and is it covered?",
+      "category": "coverage",
+      "relevant_chunk_ids": [
+        "DOC-008::c0031",
+        "DOC-007::c0025",
+        "DOC-002::c0006",
+        "DOC-005::c0004"
+      ],
+      "notes": "Day care treatment definition and benefit."
+    },
+    {
+      "id": "q_claim_intimation",
+      "query": "How soon must I intimate a claim to the insurer?",
+      "category": "factual",
+      "relevant_chunk_ids": [
+        "DOC-009::c0118",
+        "DOC-006::c0011",
+        "DOC-004::c0077",
+        "DOC-002::c0070"
+      ],
+      "notes": "Claim notification / intimation time limits."
+    },
+    {
+      "id": "q_pre_existing_definition",
+      "query": "What is meant by a pre-existing disease?",
+      "category": "factual",
+      "relevant_chunk_ids": [
+        "DOC-002::c0015",
+        "DOC-006::c0012",
+        "DOC-009::c0053",
+        "DOC-001::c0077"
+      ],
+      "notes": "Pre-existing disease/condition definition."
+    },
+    {
+      "id": "q_compare_ped_waiting",
+      "query": "Compare the pre-existing disease waiting period between the MediClaim and Activ One policies.",
+      "category": "comparison",
+      "relevant_chunk_ids": [
+        "DOC-002::c0045",
+        "DOC-002::c0046",
+        "DOC-009::c0053",
+        "DOC-009::c0054",
+        "DOC-009::c0178",
+        "DOC-009::c0177"
+      ],
+      "notes": "Multi-document comparison; needs evidence from both DOC-002 and DOC-009."
+    },
+    {
+      "id": "q_compare_air_ambulance",
+      "query": "Which policies provide an emergency air ambulance benefit?",
+      "category": "comparison",
+      "relevant_chunk_ids": [
+        "DOC-001::c0054",
+        "DOC-003::c0033",
+        "DOC-010::c0063",
+        "DOC-005::c0018"
+      ],
+      "notes": "Multi-document comparison across several policies."
+    },
+    {
+      "id": "q_compare_grace",
+      "query": "Compare the grace period for premium payment between the Digit Health and Ultimate Care policies.",
+      "category": "comparison",
+      "relevant_chunk_ids": [
+        "DOC-001::c0103",
+        "DOC-010::c0169",
+        "DOC-008::c0104",
+        "DOC-008::c0007"
+      ],
+      "notes": "Multi-document comparison; Digit (DOC-001/DOC-010) vs Ultimate Care (DOC-008)."
+    },
+    {
+      "id": "q_ood_stock_market",
+      "query": "What will the stock market do tomorrow?",
+      "category": "out_of_domain",
+      "relevant_chunk_ids": [],
+      "notes": "Out-of-domain probe (SRS FR-019): no insurance evidence should be treated as an answer."
+    },
+    {
+      "id": "q_ood_exact_premium",
+      "query": "What is the exact premium a 60-year-old smoker in Delhi would pay next year?",
+      "category": "out_of_domain",
+      "relevant_chunk_ids": [],
+      "notes": "Out-of-domain probe: individual underwriting quote is not in the corpus."
+    }
+  ],
+  "audit_note": "Relevance-audited: for each query the fused retrieval pool was reviewed and genuinely relevant chunks from other policies (the corpus reuses standard IRDAI template clauses) were added, so repeated clauses are not under-labelled. Patterns were read by hand from the clause text, not taken from any retriever's output."
+}

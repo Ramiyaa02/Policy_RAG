@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "phase": 4,
+  "base_config": "configs/phase3.json",
+  "agent": {
+    "use_llm_analysis": true,
+    "llm_confidence_threshold": 0.55,
+    "max_steps": 24,
+    "max_products": 4,
+    "max_evidence_chunks": 80,
+    "criteria": ["coverage", "waiting period", "exclusions", "eligibility"],
+    "product_aliases": {}
+  },
+  "comparison": {
+    "max_evidence_chars": 8000
+  }
+}
