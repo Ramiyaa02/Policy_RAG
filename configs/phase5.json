@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "phase": 5,
+  "base_config": "configs/phase4.json",
+  "grounding": {
+    "use_llm_verification": true,
+    "support_threshold": 0.35,
+    "number_strict": true,
+    "verify_conclusions": false,
+    "stopwords": []
+  },
+  "handler": {
+    "strip_unsupported": true,
+    "min_supported_rate": 0.5,
+    "max_note_claims": 5
+  }
+}

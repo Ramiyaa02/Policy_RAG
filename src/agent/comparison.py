@@ -130,6 +130,20 @@ class ComparisonGenerator:
         """Numbered evidence interleaved across products, plus a criteria header."""
         return self._prepare(query, products, criteria, chunks)[0]
 
+    def prepare(
+        self,
+        query: str,
+        products: Sequence[str],
+        criteria: Sequence[str],
+        chunks: Sequence[Any],
+    ) -> tuple[str, list[Any]]:
+        """Public ``(prompt, used_chunks)`` — numbering matches ``used_chunks``.
+
+        Phase 5 verification reuses this ordering so a ``[n]`` marker in the
+        answer maps onto the exact excerpt the model saw.
+        """
+        return self._prepare(query, products, criteria, chunks)
+
     def answer(
         self,
         query: str,

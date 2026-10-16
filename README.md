@@ -10,7 +10,8 @@ policy wordings. Built in phases against the SRS
 | **Phase 2** | Baseline RAG: chunk → embed → index → retrieve → generate grounded answers with citations | ✅ Complete |
 | **Phase 3** | Retrieval improvement: metadata filtering → hybrid (BM25 + semantic) retrieval → reranking → retrieval evaluation | ✅ Complete |
 | **Phase 4** | Agentic layer: query classification → requirement extraction → query planning → multi-step retrieval → product comparison | ✅ Complete |
-| Phase 5+ | Grounding/verification, evaluation, API/UI, deployment | ⬜ Not started |
+| **Phase 5** | Grounding: claim extraction → evidence verification → unsupported-claim detection → abstention → clarification | ✅ Complete |
+| Phase 6+ | Evaluation vs baseline, ablations, failure taxonomy, API/UI, deployment | ⬜ Not started |
 
 ---
 
@@ -43,6 +44,11 @@ BM25 keyword index → rank-fused hybrid retrieval → cross-encoder reranking
 query analysis → retrieval planning → multi-step retrieval → comparison/answer
   │
   └──► reports/phase4_query_log.jsonl  (agent trace: type, plan, citations, latency)
+  │
+  ▼  Phase 5  run_phase5.py verify
+claim extraction → evidence verification (Agent 5) → response shaping
+  │
+  └──► reports/phase5_query_log.jsonl  (grounding: supported/contradicted/insufficient per claim)
 ```
 
 ---
@@ -226,10 +232,81 @@ CITATIONS:
   [6] Elevate (pp. 33-34) — ELEVATE POLICY WORDINGS — clauses: 4, 8
 evidence=18 chunks  steps=4
 latency[analysis=0.0ms plan=0.0ms retrieval=10001.5ms gen=88364.5ms total=98367.4ms]
+```Settings live in `configs/phase4.json` (analysis confidence threshold, step/product
+  caps, evidence budget, comparison criteria, product aliases).
+
+---
+
+## Phase 5 — Grounding & Verification
+
+```bash
+python run_phase5.py verify "What is the waiting period for cataract surgery?"          # full pipeline + grounding
+python run_phase5.py verify "..." --no-llm          # offline: extractive answer, rules-only verification
+python run_phase5.py verify "..." --no-verify-llm   # LLM answers, but no LLM second-guess of rule verdicts
+python run_phase5.py verify "..." --out reports/verify.json
 ```
 
-Settings live in `configs/phase4.json` (analysis confidence threshold, step/product
-caps, evidence budget, comparison criteria, product aliases).
+Phase 5 implements the SRS §8 guardrail loop and Agent 5 (FR-015–FR-018) on
+  top of the Phase 4 pipeline:
+
+- **Claim extraction (FR-015)** — answers are split into fact claims (headings,
+  citation-only fragments and back-matter dropped; `[n]` markers pulled per
+  claim, including markers placed after the sentence period). Conclusions under
+  a "Conclusion/Note" heading are labelled separately, matching FR-012's
+  fact/conclusion distinction: inference is not verified as fact.
+- **Evidence verification (Agent 5, FR-015)** — each claim is checked against
+  the excerpts its citations resolved to. A deterministic scoring pass does
+  content-token containment plus number consistency (waiting periods, sums,
+  percentages must appear in the cited evidence) and returns one of the three
+  SRS §8 verdicts: **supported / contradicted / insufficient**. Absence of
+  evidence is never turned into evidence of absence. An optional LLM batch
+  second-guesses only the rules; a contradicted rules-verdict is only lifted
+  when the LLM says supported, so contradictions cannot be papered over by a
+  parser error.
+- **Unsupported-claim handling (FR-016, FR-017)** — insufficient fact claims
+  are cut out of the answer rather than presented as policy fact; contradicted
+  claims are removed *and* the conflict is disclosed in a grounding note.
+- **Abstention (O8)** — when no fact claim survives verification (or the
+  supported rate falls below `min_supported_rate`), the response abstains
+  instead of shipping unverified sentences.
+- **Clarification (FR-018)** — an abstention asks one targeted question keyed
+  to the query type (procedure for waiting periods, treatment for exclusions,
+  age for eligibility...), never "please provide more information".
+
+### Example (verified end-to-end, llama3.2:3b)
+
+The model repeated its known Phase 4 failure mode — citing a clause's own
+label `[XXIII]` instead of an excerpt number. Phase 5 now catches it:
+
+```
+QUERY: What is the waiting period for cataract surgery?
+
+CLAIMS:
+  [MISS] (insufficient score=0.00, rules) The waiting period for cataract
+         surgery is 2 years [XXIII].
+
+GROUNDING: 0 supported / 0 contradicted / 1 insufficient of 1 claims
+
+ABSTAINED (clarification asked)
+VERIFIED ANSWER:
+I could not verify enough of the answer against the policy documents, so I
+will not risk presenting policy facts I cannot support. No retrieved excerpt
+supports the key part of this question. Could you name the specific procedure
+or illness whose waiting period you need?
+
+Note: the following statements could not be verified against the policy
+documents and were removed: "The waiting period for cataract surgery is 2
+years [XXIII]".
+latency[retrieval=5888ms gen=41049ms verify=6137ms total=53075ms]
+```
+
+Offline (`--no-llm`), an extractive answer quoting retrieved excerpts scores
+10/10 supported with 9ms verification, so the grounding loop is exercisable
+without any LLM server.
+
+Settings live in `configs/phase5.json` (`support_threshold`, `number_strict`,
+`strip_unsupported`, `min_supported_rate`); retrieval/agent/generation
+settings are inherited through the `phase4 -> phase3 -> phase2` config chain.
 
 ---
 
@@ -270,7 +347,8 @@ caps, evidence budget, comparison criteria, product aliases).
 ## Repository layout
 
 ```
-run_phase1.py / run_phase2.py / run_phase3.py / run_phase4.py   Phase CLIs
+run_phase1.py / run_phase2.py / run_phase3.py / run_phase4.py /   Phase CLIs
+run_phase5.py
 configs/                         documents.json (phase 1) + phase2/3/4.json
 src/ingestion/                   phase 1: inspection, extraction, OCR, normalization
 src/chunking/                    phase 2: structure-aware chunker
@@ -279,13 +357,14 @@ src/retrieval/                   phase 2/3: ChromaDB store, retriever, bm25, rer
 src/generation/                  phase 2: Ollama client + grounded answer generator
 src/evaluation/                  phase 3: retrieval metrics (P@k, R@k, MRR, nDCG)
 src/agent/                       phase 4: classifier, planner, executor, comparison, orchestrator
+src/grounding/                   phase 5: claim extractor, validator (Agent 5), handler, pipeline
 data/normalized/                 canonical per-document JSON (phase 1 output)
 data/chunks/chunks.jsonl         chunk corpus (phase 2 build artifact)
 data/chroma/                     vector index — rebuildable, git-ignored
 data/bm25/bm25_index.json        keyword index — rebuildable, git-ignored
 data/eval/retrieval_eval.json    frozen retrieval evaluation set (phase 3)
 reports/                         extraction report, quality audit, query logs, eval reports
-tests/                           144 tests (34 phase 1, 28 phase 2, 34 phase 3, 48 phase 4)
+tests/                           184 tests (34 phase 1, 28 phase 2, 34 phase 3, 48 phase 4, 40 phase 5)
 ```
 
 ## Tests
@@ -294,6 +373,7 @@ tests/                           144 tests (34 phase 1, 28 phase 2, 34 phase 3, 
 python -m pytest tests/test_phase2_rag.py -q     # 28 passed (~4s)
 python -m pytest tests/test_phase3_retrieval.py -q   # 34 passed (~2s)
 python -m pytest tests/test_phase4_agent.py -q       # 48 passed (~4s, no server needed)
+python -m pytest tests/test_phase5_grounding.py -q   # 40 passed (~2s, no server needed)
 python -m pytest tests/test_phase1_ingestion.py -q   # 34 passed (~3m42s, OCR-heavy)
 ```
 
@@ -319,9 +399,10 @@ python -m pytest tests/test_phase1_ingestion.py -q   # 34 passed (~3m42s, OCR-he
   own label instead (e.g. `[XXIII]`), in which case the marker does not resolve and the
   citation list is short. Answer *format* reliability, like faithfulness, is what
   Phases 5-6 address; the agent pipeline itself is model-agnostic.
-- **Agentic answers are cited but not yet claim-verified.** Phase 4 separates facts from
-  conclusions in the prompt, but per-claim support/contradiction checks (Agent 5,
-  FR-015/FR-016) are Phase 5.
+- **Phase 4 CLI answers are still cited but not claim-verified.** Claim-level
+  support/contradiction checks (Agent 5, FR-015/FR-016) landed in Phase 5 via
+  `run_phase5.py` / `src/grounding/`; `run_phase4.py` keeps its unverified path
+  for baseline comparisons (Phase 6 evaluates both).
 - **Comparisons are slow on CPU.** A 2-policy x 2-criterion comparison retrieves over
   four steps and then generates; on CPU the LLM generation dominates (tens of seconds
   to a few minutes). Reduce `candidate_k`, use `--reranker lexical`, or `--no-llm` for
