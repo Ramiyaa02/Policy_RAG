@@ -304,6 +304,28 @@ Offline (`--no-llm`), an extractive answer quoting retrieved excerpts scores
 10/10 supported with 9ms verification, so the grounding loop is exercisable
 without any LLM server.
 
+A second live run shows the happy path keeping a verified answer and the
+handler cleaning it up in place (multi-step maternity question):
+
+```
+type=multi_step evidence=10 latency[retrieval=8805ms gen=56664ms verify=19586ms] total=85064ms
+GROUNDING: 4 supported / 0 contradicted / 1 insufficient of 5 claims (supported_rate=0.80)
+
+The following products cover maternity:
+* SECTION 4. MATERNITY BENEFIT WALLET & NEWBORN COVER [1]
+* Optional Cover 10: Infertility Treatment Cover [3]
+The waiting period for Infertility Treatment Cover is as opted by You and
+mentioned in your Policy Schedule ... [3].
+
+Note: the following statements could not be verified against the policy
+documents and were removed: "Optional cover 9.".
+```
+
+When the model produces output nothing can be verified in (e.g. only a stray
+citation label with no sentences), the handler abstains rather than shipping
+it — the same cataract question as above once generated an answer of just
+`[XXIII]` and now returns the targeted clarification instead.
+
 Settings live in `configs/phase5.json` (`support_threshold`, `number_strict`,
 `strip_unsupported`, `min_supported_rate`); retrieval/agent/generation
 settings are inherited through the `phase4 -> phase3 -> phase2` config chain.
