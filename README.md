@@ -386,7 +386,7 @@ data/chroma/                     vector index — rebuildable, git-ignored
 data/bm25/bm25_index.json        keyword index — rebuildable, git-ignored
 data/eval/retrieval_eval.json    frozen retrieval evaluation set (phase 3)
 reports/                         extraction report, quality audit, query logs, eval reports
-tests/                           184 tests (34 phase 1, 28 phase 2, 34 phase 3, 48 phase 4, 40 phase 5)
+tests/                           185 tests (34 phase 1, 28 phase 2, 34 phase 3, 48 phase 4, 41 phase 5)
 ```
 
 ## Tests
@@ -395,8 +395,8 @@ tests/                           184 tests (34 phase 1, 28 phase 2, 34 phase 3, 
 python -m pytest tests/test_phase2_rag.py -q     # 28 passed (~4s)
 python -m pytest tests/test_phase3_retrieval.py -q   # 34 passed (~2s)
 python -m pytest tests/test_phase4_agent.py -q       # 48 passed (~4s, no server needed)
-python -m pytest tests/test_phase5_grounding.py -q   # 40 passed (~2s, no server needed)
-python -m pytest tests/test_phase1_ingestion.py -q   # 34 passed (~3m42s, OCR-heavy)
+python -m pytest tests/test_phase5_grounding.py -q   # 41 passed (~3s, no server needed)
+python -m pytest tests/test_phase1_ingestion.py -q   # 34 passed (~9m, OCR-heavy, machine-dependent)
 ```
 
 ## Known limitations
