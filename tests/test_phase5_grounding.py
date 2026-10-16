@@ -310,7 +310,8 @@ class TestGroundingHandler:
         answer = "Supported sentence about cataract waiting periods [1].\nFabricated claim invented out of thin air [2]."
         verification = _verdict("Supported sentence about cataract waiting periods", [1], Verdict.SUPPORTED, line=1)
         verif2 = _verdict("Fabricated claim invented out of thin air", [2], Verdict.INSUFFICIENT, line=2)
-        response = GroundingHandler().build(self._raw(answer), [], [verification, verif2])
+        preds = [verification, verif2]
+        response = GroundingHandler().build(self._raw(answer), [v.claim for v in preds], preds)
         assert "Fabricated claim" not in response.final_answer
         assert "Supported sentence" in response.final_answer
         assert any("removed" in n for n in response.notes)
@@ -319,7 +320,7 @@ class TestGroundingHandler:
     def test_contradicted_claim_removed_with_conflict_note(self):
         answer = "The waiting period is 30 days [1]."
         v = _verdict("The waiting period is 30 days", [1], Verdict.CONTRADICTED, line=1)
-        response = GroundingHandler().build(self._raw(answer), [], [v])
+        response = GroundingHandler().build(self._raw(answer), [v.claim], [v])
         # Nothing supported survives → abstain, but with an explicit FR-017 note.
         assert response.abstained
         assert response.contradicted_claims
@@ -328,7 +329,7 @@ class TestGroundingHandler:
     def test_abstains_when_nothing_supported(self):
         answer = "Claim A is invented entirely [1]."
         v = _verdict("Claim A is invented entirely", [1], Verdict.INSUFFICIENT, line=1)
-        response = GroundingHandler().build(self._raw(answer), [], [v], query_type="coverage")
+        response = GroundingHandler().build(self._raw(answer), [v.claim], [v], query_type="coverage")
         assert response.abstained
         assert response.clarification
         assert "cataract" in response.clarification or "treatment" in response.clarification
@@ -337,7 +338,8 @@ class TestGroundingHandler:
         answer = "Claim A supported here [1].\nClaim B supported too [2]."
         verif1 = _verdict("Claim A supported here", [1], Verdict.SUPPORTED, line=1)
         verif2 = _verdict("Claim B supported too", [2], Verdict.SUPPORTED, line=2)
-        response = GroundingHandler().build(self._raw(answer), [], [verif1, verif2])
+        preds = [verif1, verif2]
+        response = GroundingHandler().build(self._raw(answer), [v.claim for v in preds], preds)
         assert response.supported_rate == 1.0
         assert not response.abstained
         assert response.final_answer == answer
@@ -346,7 +348,8 @@ class TestGroundingHandler:
         answer = "Claim A supported here [1].\nClaim B invented [2]."
         verif1 = _verdict("Claim A supported here", [1], Verdict.SUPPORTED, line=1)
         verif2 = _verdict("Claim B invented", [2], Verdict.INSUFFICIENT, line=2)
-        response = GroundingHandler().build(self._raw(answer), [], [verif1, verif2])
+        preds = [verif1, verif2]
+        response = GroundingHandler().build(self._raw(answer), [v.claim for v in preds], preds)
         assert response.supported_rate == 0.5
         assert not response.abstained  # exactly at threshold → keep, note added
 
@@ -355,6 +358,16 @@ class TestGroundingHandler:
         response = GroundingHandler().build(raw, [], [], query_type="coverage")
         assert response.abstained
         assert response.final_answer == raw["answer"]
+
+    def test_degenerate_answer_with_no_claims_abstains(self):
+        # Real llama3.2:3b failure: output is only a stray citation label, so
+        # extraction yields no claims — the handler must abstain, not ship it.
+        raw = {"answer": "[XXIII]", "abstained": False, "evidence_count": 5}
+        response = GroundingHandler().build(raw, [], [], query_type="waiting_period")
+        assert response.abstained
+        assert "[XXIII]" not in response.final_answer
+        assert response.clarification
+        assert any("No verifiable statements" in n for n in response.notes)
 
     def test_clarification_is_targeted(self):
         q = build_clarification("what is the waiting period", "waiting_period", 0)

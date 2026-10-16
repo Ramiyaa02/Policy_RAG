@@ -96,11 +96,23 @@ class GroundingHandler:
             contradicted_claims=[c.text for c in contradicted],
         )
 
-        if not claims and _is_refusal_answer(answer):
-            # The generator already declined; keep its message as the abstention.
+        if not claims:
+            if _is_refusal_answer(answer):
+                # The generator already declined; keep its message as the abstention.
+                response.abstained = True
+                response.notes.append("Generator abstained: no evidence in the corpus.")
+                response.final_answer = answer
+                return response
+            # Degenerate/unusable output (e.g. only a stray citation label) —
+            # nothing could be verified, so abstain rather than ship it.
             response.abstained = True
-            response.notes.append("Generator abstained: no evidence in the corpus.")
-            response.final_answer = answer
+            response.notes.append(
+                "No verifiable statements could be extracted from the generated answer."
+            )
+            response.clarification = build_clarification(
+                response.query, query_type, response.evidence_count
+            )
+            response.final_answer = f"{ABSTENTION_PREFIX} {response.clarification}"
             return response
 
         if self.strip_unsupported and (unsupported or contradicted):
