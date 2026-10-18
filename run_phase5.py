@@ -145,7 +145,7 @@ def result_citations(query: str, chunks: list):  # noqa: ANN001
 # ----------------------------------------------------------------------
 
 
-def build_agent(config: dict, use_extractive: bool, use_verify_llm: bool | None = None):
+def build_agent(config: dict, use_extractive: bool, use_verify_llm: bool | None = None, return_llm: bool = False):
     from run_phase3 import build_hybrid_retriever
     from src.agent.classifier import ProductMatcher, QueryAnalyzer
     from src.agent.comparison import ComparisonGenerator
@@ -237,6 +237,20 @@ def build_agent(config: dict, use_extractive: bool, use_verify_llm: bool | None 
         rerank=True,
         max_chunks=int(acfg.get("max_evidence_chunks", 80)),
     )
+    if return_llm:
+        llm_used = [llm]
+        if verify_llm is not None and verify_llm is not llm:
+            llm_used.append(verify_llm)
+        return VerifiedAgent(
+            analyzer=analyzer,
+            planner=planner,
+            executor=executor,
+            generator=generator,
+            comparison=comparison,
+            validator=validator,
+            handler=handler,
+        ), llm_used
+
     return VerifiedAgent(
         analyzer=analyzer,
         planner=planner,

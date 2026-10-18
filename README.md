@@ -11,7 +11,8 @@ policy wordings. Built in phases against the SRS
 | **Phase 3** | Retrieval improvement: metadata filtering → hybrid (BM25 + semantic) retrieval → reranking → retrieval evaluation | ✅ Complete |
 | **Phase 4** | Agentic layer: query classification → requirement extraction → query planning → multi-step retrieval → product comparison | ✅ Complete |
 | **Phase 5** | Grounding: claim extraction → evidence verification → unsupported-claim detection → abstention → clarification | ✅ Complete |
-| Phase 6+ | Evaluation vs baseline, ablations, failure taxonomy, API/UI, deployment | ⬜ Not started |
+| **Phase 6** | Evaluation vs baseline, ablation experiments, failure taxonomy (§15), accuracy/grounding/latency/cost records (§14) | ✅ Complete |
+| Phase 7+ | API/UI, deployment & documentation | ⬜ Not started |
 
 ---
 
@@ -49,6 +50,13 @@ query analysis → retrieval planning → multi-step retrieval → comparison/an
 claim extraction → evidence verification (Agent 5) → response shaping
   │
   └──► reports/phase5_query_log.jsonl  (grounding: supported/contradicted/insufficient per claim)
+  │
+  ▼  Phase 6  run_phase6.py evaluate / ablate / report
+baseline (Phase 2) vs full (Phase 5 pipeline) on the frozen set → ablations
+  │
+  ├──► reports/phase6_pipeline_eval.{json,md}    (§14 metrics + token/cost record)
+  ├──► reports/phase6_ablations.json             (pipeline ablation grid)
+  └──► reports/phase6_report.{json,md}           (AC-010..AC-012 roll-up)
 ```
 
 ---
@@ -332,6 +340,71 @@ settings are inherited through the `phase4 -> phase3 -> phase2` config chain.
 
 ---
 
+## Phase 6 — Evaluation
+
+```bash
+python run_phase6.py evaluate --no-llm              # baseline vs full pipelines, offline (no Ollama)
+python run_phase6.py evaluate                       # with the LLM in the loop (records tokens per query)
+python run_phase6.py evaluate --modes full          # only the enhanced pipeline
+python run_phase6.py ablate --no-llm                # pipeline ablation grid
+python run_phase6.py report                         # roll everything up (AC-010..AC-012)
+```
+
+Phase 6 implements the SRS §14/§15 evaluation bundle and DoD items
+"evaluation vs a frozen test set", "failure modes documented" and "latency and
+token/cost measurements recorded":
+
+- **Baseline comparison (AC-010)** — `evaluate` runs two whole systems over the
+  same 45-query frozen set: the **Phase 2 baseline** (semantic-only retrieval,
+  one direct grounded generation, no agent/verification) and the **full
+  Phase 5 pipeline** (classification → planning → hybrid+reranker retrieval →
+  generation → claim verification → response shaping). Agent 5's deterministic
+  validator scores BOTH systems offline as a measuring instrument (for the
+  baseline it is not part of the system), so the unsupported-claim rate (§14.4)
+  is like-for-like.
+- **Metrics (§14)** — answer correctness proxy (§14.2: answered AND ≥1 relevant
+  chunk among the evidence used — the set is single-annotator, chunk qrels are
+  the reference), unsupported claim rate (§14.4), grounding/mean supported rate
+  (§14.5), citation resolution failures (§14.3), abstention accuracy reported
+  separately for answerable queries vs out-of-domain probes (§14.6),
+  per-component latency (§14.7/NFR-004) and token usage (§14.8/NFR-005 — local
+  Ollama inference has no API cost, so tokens and wall time are the record).
+- **Failure taxonomy (§15, AC-012)** — every evaluated query is classified with
+  codes F1–F14 (retrieval failure, missing evidence, classification failure,
+  unsupported generation, citation failure, incorrect/unnecessary abstention,
+  out-of-domain detection failure, ...); F15 (grounding correction) and F16
+  (correct OOD abstention) are recorded as positive detections, excluded from
+  the failure rate.
+- **Ablation experiments** — `ablate` reruns the full pipeline under single
+  changes: no reranker, BM25-only, semantic-only, unsupported-claim keeping,
+  rules-only verification — each reported on the same metrics.
+
+### Offline results (--no-llm, 45 frozen queries)
+
+| metric | baseline (Phase 2) | full (Phase 5 pipeline) | delta |
+|---|---|---|---|
+| answered rate (answerable) | 1.000 | 0.977 | −0.023 |
+| answer correctness (proxy) | 0.791 | 0.809 | +0.019 |
+| unsupported claim rate ↓ | 0.066 | 0.061 | −0.004 |
+| mean grounding supported rate | 0.943 | 0.949 | +0.006 |
+| OOD probes abstained | 0/2 | 1/2 | +1 |
+| mean ms/query | 70 | 5 894 | +5.8k |
+
+Key taxonomy findings (offline run): 26 of the 45 queries lose at least one
+relevant chunk from the evidence actually used (F2: 30–33 — a k=5 evidence
+budget cannot cover multi-chunk qrels), 9 queries retrieve no relevant chunk at
+all (F1), the baseline answers out-of-domain probes instead of abstaining
+(F14: 2) while the full pipeline abstains on one of them (F16: 1) and asks for
+clarification on the other, and unsupported-claim correction fired 11× in the
+full pipeline (F15).
+
+The full-LLM run (below) is the one that matches the deployed system; the
+offline grid is the reproducible fast reference (no Ollama needed).
+
+Settings live in `configs/phase6.json` (`eval_set`, `modes`, `report_dir`).
+
+---
+
 ## Design notes
 
 - **Traceability first** (SRS FR-004): phase 1 marks headers/footers as
@@ -369,24 +442,23 @@ settings are inherited through the `phase4 -> phase3 -> phase2` config chain.
 ## Repository layout
 
 ```
-run_phase1.py / run_phase2.py / run_phase3.py / run_phase4.py /   Phase CLIs
-run_phase5.py
-configs/                         documents.json (phase 1) + phase2/3/4.json
+run_phase1.py ... run_phase6.py   Phase CLIs
+configs/                         documents.json (phase 1) + phase2..phase6.json
 src/ingestion/                   phase 1: inspection, extraction, OCR, normalization
 src/chunking/                    phase 2: structure-aware chunker
 src/embeddings/                  phase 2: sentence-transformers wrapper
 src/retrieval/                   phase 2/3: ChromaDB store, retriever, bm25, reranker, hybrid
 src/generation/                  phase 2: Ollama client + grounded answer generator
-src/evaluation/                  phase 3: retrieval metrics (P@k, R@k, MRR, nDCG)
+src/evaluation/                  phase 3: retrieval metrics · phase 6: pipeline eval + failure taxonomy
 src/agent/                       phase 4: classifier, planner, executor, comparison, orchestrator
 src/grounding/                   phase 5: claim extractor, validator (Agent 5), handler, pipeline
 data/normalized/                 canonical per-document JSON (phase 1 output)
-data/chunks/chunks.jsonl         chunk corpus (phase 2 build artifact)
+data/chunks/chunks.jsonl         chunk corpus (phase 2 build artifact, portable: basename source_path)
 data/chroma/                     vector index — rebuildable, git-ignored
 data/bm25/bm25_index.json        keyword index — rebuildable, git-ignored
 data/eval/retrieval_eval.json    frozen retrieval evaluation set (phase 3)
 reports/                         extraction report, quality audit, query logs, eval reports
-tests/                           185 tests (34 phase 1, 28 phase 2, 34 phase 3, 48 phase 4, 41 phase 5)
+tests/                           210 tests (34 phase 1, 28 phase 2, 34 phase 3, 48 phase 4, 41 phase 5, 25 phase 6)
 ```
 
 ## Tests
@@ -397,34 +469,33 @@ python -m pytest tests/test_phase3_retrieval.py -q   # 34 passed (~2s)
 python -m pytest tests/test_phase4_agent.py -q       # 48 passed (~4s, no server needed)
 python -m pytest tests/test_phase5_grounding.py -q   # 41 passed (~3s, no server needed)
 python -m pytest tests/test_phase1_ingestion.py -q   # 34 passed (~9m, OCR-heavy, machine-dependent)
+python -m pytest tests/test_phase6_evaluation.py -q  # 25 passed (~1s, no server needed)
 ```
 
 ## Known limitations
 
-- **Answer faithfulness is baseline-level.** In the Phase 2 verified run, the model
-  fused two clauses from a *scrambled two-column table* (a general 30-day initial
-  waiting period with a cataract entry from a separate two-year list). Phase 3
-  retrieval now surfaces the correct clause, but claim-level verification is still
-  Phase 5. Related: PDF table layout extraction can interleave columns.
-- **`data/chunks/chunks.jsonl` embeds an absolute `source_path`** from the machine that
-  built it. Rebuild with `python run_phase2.py build --reset` on another machine to
-  refresh it.
+- **PDF table layout extraction can interleave columns.** In the Phase 2 verified
+  run, the model fused two clauses from a *scrambled two-column table* (a general
+  30-day initial waiting period with a cataract entry from a separate two-year list).
+  Phase 3 retrieval now surfaces the correct clause and Phase 5 claim verification
+  strips the fusion when it happens — but the underlying extraction noise remains.
+- **Full-pipeline latency is LLM-bound.** The Phase 6 record shows the offline
+  machinery costs ~5.9 s/query (mostly cross-encoder reranking on CPU) against the
+  baseline's 70 ms, and each Ollama call adds tens of seconds on CPU. Reduce
+  `candidate_k`, use `--reranker lexical`, or `--no-llm` for faster runs.
 - **Generation requires a running Ollama server**; use `--no-llm` for retrieval-only runs
   (no server needed).
 - **Reranker fallback weights are tuned on the frozen set.** The feature-blend
   fallback's defaults (lexical 0.20 / dense 0.80) were selected on
   `data/eval/retrieval_eval.json`, so its reported numbers are optimistic for this set;
   a held-out set is needed to confirm they generalise. The cross-encoder needs no such
-  tuning and is the configured default.
+  tuning and is the configured default (its no-reranker ablation is on record in the
+  Phase 6 ablation grid).
 - **Phase 4 citations depend on the model emitting `[n]` markers.** The resolver and the
   comparison ordering are unit-tested, but llama3.2:3b occasionally copies a clause's
   own label instead (e.g. `[XXIII]`), in which case the marker does not resolve and the
   citation list is short. Answer *format* reliability, like faithfulness, is what
   Phases 5-6 address; the agent pipeline itself is model-agnostic.
-- **Phase 4 CLI answers are still cited but not claim-verified.** Claim-level
-  support/contradiction checks (Agent 5, FR-015/FR-016) landed in Phase 5 via
-  `run_phase5.py` / `src/grounding/`; `run_phase4.py` keeps its unverified path
-  for baseline comparisons (Phase 6 evaluates both).
 - **Comparisons are slow on CPU.** A 2-policy x 2-criterion comparison retrieves over
   four steps and then generates; on CPU the LLM generation dominates (tens of seconds
   to a few minutes). Reduce `candidate_k`, use `--reranker lexical`, or `--no-llm` for
@@ -433,9 +504,10 @@ python -m pytest tests/test_phase1_ingestion.py -q   # 34 passed (~9m, OCR-heavy
   across all 10 documents and 6 categories, and the qrels were relevance-audited (see
   `audit_note` in the JSON) to stop standard IRDAI template clauses repeated across
   policies from being under-labelled. Absolute scores can still shift with a second
-  annotator, but the label set is fixed across all retrieval modes, so the
-  baseline-vs-hybrid-vs-rerank comparison is a like-for-like measurement. Scaling the
-  set and adding a second annotator is Phase 6 work.
+  annotator, but the label set is fixed across every compared system, so the
+  baseline-vs-full comparison and the Phase 6 ablations are like-for-like.
+  Phase 6 answer-correctness is therefore a chunk-qrels *proxy* (answered AND ≥1
+  relevant chunk used), not a human answer-grade.
 
 ## License / data
 

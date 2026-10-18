@@ -39,6 +39,10 @@ class OllamaLLM:
         self.num_predict = num_predict
         self.num_gpu = num_gpu
         self.timeout_seconds = timeout_seconds
+        self.last_usage: dict[str, int] = {}
+        # NFR-005 cumulative accounting: Phase 6 snapshots these before/after
+        # each evaluated query and diffs them into that query's usage.
+        self.usage_totals = {"calls": 0, "prompt_tokens": 0, "completion_tokens": 0}
 
     # ------------------------------------------------------------------
 
@@ -94,4 +98,16 @@ class OllamaLLM:
 
         if body.get("error"):
             raise OllamaError(f"Ollama error: {body['error']}")
+        # NFR-005 — keep the token/latency accounting Ollama reports for the
+        # last call; Phase 6 aggregates ``last_usage`` across a pipeline run.
+        self.last_usage = {
+            "prompt_eval_count": int(body.get("prompt_eval_count") or 0),
+            "eval_count": int(body.get("eval_count") or 0),
+            "prompt_eval_ns": int(body.get("prompt_eval_duration") or 0),
+            "eval_ns": int(body.get("eval_duration") or 0),
+            "total_ns": int(body.get("total_duration") or 0),
+        }
+        self.usage_totals["calls"] += 1
+        self.usage_totals["prompt_tokens"] += self.last_usage["prompt_eval_count"]
+        self.usage_totals["completion_tokens"] += self.last_usage["eval_count"]
         return (body.get("response") or "").strip()

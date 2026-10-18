@@ -414,7 +414,10 @@ class Chunker:
                     product=meta.get("product") or doc.get("product"),
                     uin=meta.get("uin") or doc.get("uin"),
                     document_type=meta.get("document_type") or doc.get("document_type"),
-                    source_path=doc.get("source_path"),
+                    # Basename only: the corpus must stay portable across
+                    # machines (SRS §23 reproducibility). ``filename`` carries
+                    # the same value; nothing resolves the directory at runtime.
+                    source_path=(os.path.basename(doc.get("source_path")) if doc.get("source_path") else None),
                 )
             )
 

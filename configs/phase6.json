@@ -1,0 +1,11 @@
+{
+  "version": "1.0",
+  "phase": 6,
+  "base_config": "configs/phase5.json",
+  "evaluation": {
+    "eval_set": "data/eval/retrieval_eval.json",
+    "modes": ["full", "baseline"],
+    "report_dir": "reports",
+    "cost_note": "local Ollama inference: no API cost; tokens and wall time are recorded instead (NFR-005, AC-011)"
+  }
+}
