@@ -15,7 +15,15 @@ data/bm25/
 reports/phase2_query_log.jsonl
 reports/phase3_query_log.jsonl
 reports/phase4_query_log.jsonl
+reports/phase5_query_log.jsonl
 reports/answer.json
+
+# Phase 6 runtime console logs (the durable records are the .json/.md reports)
+reports/*.log
+reports/archive/
+
+# Working dumps derived from the SRS PDF (not a source artifact)
+srs_text.txt
 
 # Redundant archive of rag_policy_dataset/ (all 10 PDFs are extracted there)
 rag_policy_dataset.zip

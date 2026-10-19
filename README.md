@@ -16,6 +16,84 @@ policy wordings. Built in phases against the SRS
 
 ---
 
+## How it works
+
+The system turns insurance policy PDFs into **verified, citation-backed answers**, in
+two halves:
+
+**Offline build (once, per corpus).** Phase 1 normalizes each PDF into canonical JSON
+(text, pages, structure, products). Phase 2 splits documents at clause/heading
+boundaries into chunks that carry metadata (document id, product, section, clause ids,
+page span) and embeds them into a ChromaDB index. Phase 3 adds an in-house BM25
+response for keyword search over the same chunks, so retrieval can be fused
+(BM25 + dense) and reranked with a cross-encoder.
+
+**Query time (per question).** An agent pipeline runs: classify the query
+(policy-info / comparison / recommendation / multi-step / out-of-domain) → plan
+retrieval steps (one step per product × criterion) → run hybrid retrieval +
+reranking per step under an evidence budget → generate an answer that **must** cite
+the numbered evidence blocks `[n]` it was shown → **verify**: every fact claim in
+the answer is checked against the cited excerpts (token containment + number
+consistency + optional LLM second pass); unsupported sentences are stripped,
+contradictions are disclosed, and if nothing can be verified the system **abstains**
+with a targeted clarification question instead of guessing. Phase 6 evaluates these
+pipelines over a frozen 45-query set: baseline vs full, ablations, failure codes,
+latency/token records.
+
+## Quickstart / demo
+
+One-time setup (≈10 min, mostly the PDF corpus build):
+
+```bash
+python -m venv .venv                        # tested on Python 3.11.0
+.venv/Scripts/python -m pip install -r requirements.txt   # Windows
+source .venv/bin/activate && pip install -r requirements.txt   # macOS/Linux
+
+ollama pull llama3.2:3b                     # local generation server (free, no API key)
+ollama serve                                # keep running; generation needs it
+
+.venv/Scripts/python run_phase1.py          # PDFs → data/normalized/ (may need OCR deps)
+.venv/Scripts/python run_phase2.py build    # chunk + embed + ChromaDB index
+.venv/Scripts/python run_phase3.py build    # BM25 keyword index for hybrid retrieval
+```
+
+Demo commands, in order (`.venv/Scripts/python` on Windows; `python` after activating
+the venv on macOS/Linux; every phase works with `--no-llm` if no Ollama server is up):
+
+```bash
+# 1. Baseline RAG (Phase 2): grounded answer + resolved [n] citations
+python run_phase2.py query "What is the waiting period for cataract surgery?"
+
+# 2. Improved retrieval (Phase 3): same question, better clause surfaced
+python run_phase3.py query "What is the waiting period for cataract surgery?"
+python run_phase3.py eval                 # frozen-set retrieval metrics, all modes
+
+# 3. Agentic layer (Phase 4)
+python run_phase4.py analyze "Compare Digit and Elevate for waiting period"        # plan only
+python run_phase4.py query "Compare the Digit Health Insurance Policy and Elevate for waiting period and exclusions"
+python run_phase4.py query "Which policy is best for maternity?"          # underspecified → clarification
+python run_phase4.py query "What is the current GST rate?"                # out-of-domain → scope statement
+python run_phase4.py products
+
+# 4. Grounding & verification (Phase 5) — same query that failed in Phase 4's example is now caught
+python run_phase5.py verify "What is the waiting period for cataract surgery?" --no-llm   # verify output only
+python run_phase5.py verify "What is the waiting period for cataract surgery?"            # full LLM loop
+python run_phase5.py verify "How is wrongful confinement covered?"       # OOD → abstention + clarification
+
+# 5. Evaluation (Phase 6) — baseline vs full pipelines, ablations, failure taxonomy
+python run_phase6.py evaluate --no-llm    # full offline eval (fast, no server)
+python run_phase6.py evaluate            # full LLM-in-loop eval (long, needs Ollama)
+python run_phase6.py ablate --no-llm
+python run_phase6.py report            # roll-up (AC-010..AC-012) → reports/phase6_report.md
+```
+
+What to look at per demo: answer + `CITATIONS` (every `[n]` resolves to document/
+product/pages/sections/chunks), the per-query `reports/phase*_query_log.jsonl` agent
+traces, grounding verdict lines (`supported / contradicted / insufficient`), the
+abstention + clarification responses, and the phase-6 evaluation tables.
+
+---
+
 ## Pipeline
 
 ```
