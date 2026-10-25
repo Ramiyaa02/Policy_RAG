@@ -22,8 +22,9 @@ from __future__ import annotations
 
 import json
 import logging
+import os
 import statistics
-from dataclasses import asdict, dataclass, field
+from dataclasses import asdict, dataclass, field, fields
 from typing import Any, Callable, Sequence
 
 from .failure_taxonomy import QueryFailureReport, aggregate as taxonomy_aggregate, classify_query
@@ -90,11 +91,18 @@ def mean(values: Sequence[float]) -> float:
 
 
 class PipelineEvaluator:
-    """Evaluate one pipeline (``run_fn``) over the frozen query set."""
+    """Evaluate one pipeline (``run_fn``) over the frozen query set.
 
-    def __init__(self, label: str, run_fn: RunFn) -> None:
+    Pass ``checkpoint_path`` to make long LLM-in-loop runs resumable per
+    query: every finished query is appended (flushed + fsynced) to the
+    checkpoint as one JSON line, and a restarted evaluation replays all
+    previously recorded results instead of re-running them.
+    """
+
+    def __init__(self, label: str, run_fn: RunFn, checkpoint_path: str | None = None) -> None:
         self.label = label
         self.run_fn = run_fn
+        self.checkpoint_path = checkpoint_path
 
     # ------------------------------------------------------------------
 
@@ -168,7 +176,18 @@ class PipelineEvaluator:
     # ------------------------------------------------------------------
 
     def evaluate(self, queries: Sequence[Any]) -> dict[str, Any]:
-        per_query = [self.run_query(q) for q in queries]
+        done = self._load_checkpoint()
+        per_query: list[PipelineQueryResult] = []
+        for q in queries:
+            cached = done.get(q.qid)
+            if cached is not None:
+                print(f"  resume qid={q.qid}", flush=True)
+                per_query.append(cached)
+                continue
+            result = self.run_query(q)
+            per_query.append(result)
+            if self.checkpoint_path:
+                self._append_checkpoint(result)
         return {
             "label": self.label,
             "num_queries": len(queries),
@@ -177,6 +196,44 @@ class PipelineEvaluator:
             "taxonomy": taxonomy_aggregate([r.failure for r in per_query if r.failure]),
             "per_query": [r.to_dict() for r in per_query],
         }
+
+    # ------------------------------------------------------------------
+    # Per-query checkpointing (crash-safe resume for long runs)
+    # ------------------------------------------------------------------
+
+    @classmethod
+    def _from_dict(cls, d: dict[str, Any]) -> PipelineQueryResult:
+        failure = d.get("failure")
+        result = PipelineQueryResult(**{k: v for k, v in d.items() if k != "failure"})
+        if failure:
+            allowed = {f.name for f in fields(QueryFailureReport)}
+            result.failure = QueryFailureReport(**{k: v for k, v in failure.items() if k in allowed})
+        return result
+
+    def _load_checkpoint(self) -> dict[str, PipelineQueryResult]:
+        if not self.checkpoint_path or not os.path.exists(self.checkpoint_path):
+            return {}
+        done: dict[str, PipelineQueryResult] = {}
+        with open(self.checkpoint_path, encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if not line:
+                    continue
+                try:
+                    d = json.loads(line)
+                    if d.get("label") != self.label:
+                        continue
+                    done[d["qid"]] = self._from_dict(d)
+                except (json.JSONDecodeError, KeyError, TypeError):
+                    continue  # torn/partial last line is tolerated
+        return done
+
+    def _append_checkpoint(self, result: PipelineQueryResult) -> None:
+        os.makedirs(os.path.dirname(self.checkpoint_path), exist_ok=True)
+        with open(self.checkpoint_path, "a", encoding="utf-8") as f:
+            f.write(json.dumps(result.to_dict(), ensure_ascii=False) + "\n")
+            f.flush()
+            os.fsync(f.fileno())
 
     # ------------------------------------------------------------------
 

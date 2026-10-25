@@ -306,8 +306,19 @@ def cmd_evaluate(args: argparse.Namespace) -> int:
             print(f"Could not build pipeline '{label}': {exc}", file=sys.stderr)
             return 1
         t0 = time.time()
-        evaluator = PipelineEvaluator(label=label, run_fn=run_fn)
+        qckpt = os.path.join(
+            out_dir,
+            f"phase6_eval_queries_{label}{'_offline' if args.no_llm else ''}.jsonl",
+        )
+        evaluator = PipelineEvaluator(label=label, run_fn=run_fn, checkpoint_path=qckpt)
         report = evaluator.evaluate(queries)
+        done_qids = set(evaluator._load_checkpoint())
+        if os.path.exists(qckpt) and done_qids >= {q.qid for q in queries}:
+            # every query recorded -> the crash-resume file is no longer needed
+            try:
+                os.remove(qckpt)
+            except OSError:
+                pass
         report["eval_set"] = eval_set_path
         report["generated"] = datetime.now(timezone.utc).isoformat()
         report["wall_s"] = round(time.time() - t0, 2)
