@@ -29,3 +29,7 @@ chromadb>=1.0
 # model cannot be downloaded, so the pipeline still runs offline.
 
 # Optional OCR engines (easyocr or pytesseract) — see requirements-ocr.txt
+
+# Phase 7 — Application layer (FastAPI service + bundled web UI)
+fastapi>=0.115
+uvicorn[standard]>=0.30

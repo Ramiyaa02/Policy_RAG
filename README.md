@@ -12,7 +12,8 @@ policy wordings. Built in phases against the SRS
 | **Phase 4** | Agentic layer: query classification → requirement extraction → query planning → multi-step retrieval → product comparison | ✅ Complete |
 | **Phase 5** | Grounding: claim extraction → evidence verification → unsupported-claim detection → abstention → clarification | ✅ Complete |
 | **Phase 6** | Evaluation vs baseline, ablation experiments, failure taxonomy (§15), accuracy/grounding/latency/cost records (§14) | ✅ Complete |
-| Phase 7+ | API/UI, deployment & documentation | ⬜ Not started |
+| **Phase 7** | Application layer: FastAPI service, bundled web UI, optional API-key access control, request logging | ✅ Complete |
+| Phase 8 | Docker + deployment configuration + final docs | ⬜ Not started |
 
 ---
 
@@ -426,6 +427,11 @@ python run_phase6.py evaluate                       # with the LLM in the loop (
 python run_phase6.py evaluate --modes full          # only the enhanced pipeline
 python run_phase6.py ablate --no-llm                # pipeline ablation grid
 python run_phase6.py report                         # roll everything up (AC-010..AC-012)
+
+# 6. Application layer demo (Phase 7): FastAPI + web UI
+python run_phase7.py serve                          # open http://127.0.0.1:8000 in a browser
+python run_phase7.py serve --no-llm                 # same UI, extractive pipeline (no Ollama)
+python run_phase7.py serve --port 8600 --api-key s3cret   # API then requires X-API-Key
 ```
 
 Phase 6 implements the SRS §14/§15 evaluation bundle and DoD items
@@ -483,6 +489,66 @@ Settings live in `configs/phase6.json` (`eval_set`, `modes`, `report_dir`).
 
 ---
 
+## Phase 7 — Application Layer (API + UI)
+
+```bash
+python run_phase7.py serve                   # http://127.0.0.1:8000 (+ /docs OpenAPI)
+python run_phase7.py serve --host 0.0.0.0 --port 8600
+python run_phase7.py serve --no-llm          # extractive pipeline in the UI, no Ollama needed
+python run_phase7.py serve --api-key s3cret  # /api/* then require the X-API-Key header
+```
+
+Phase 7 is the SRS §22 "Application Layer" — FastAPI, user interface,
+authentication/access control where required, logging — wrapped around the
+finished Phase 5 verified pipeline:
+
+- **FastAPI service** (`src/api/service.py`) — one code path into
+  `VerifiedAgent.run`, so the API answers are exactly the CLI answers.
+  Endpoints:
+  - `POST /api/query` — JSON `{query, k?}` → verified answer, normalized
+    citations (document/product/pages/sections/chunk ids), grounding summary
+    (supported/contradicted/insufficient/unsupported claims/notes),
+    abstention + clarification fields, and the per-component latency breakdown.
+  - `GET /api/stream?q=...` — the same pipeline as Server-Sent-Events
+    (a `working` stage event, then the final result); the UI consumes this.
+  - `GET /api/health` — pipeline status, configured model, LLM reachability.
+  - `GET /api/reports` / `GET /api/reports/{name}` — browse the phase 1–6
+    `.json`/`.md` evaluation artifacts from the UI (path traversal and
+    non-report served paths are blocked).
+  Interactive OpenAPI docs are auto-generated at `/docs`.
+- **User interface** (`src/api/static/index.html`) — a dependency-free
+  single-page chat UI served at `/`: query box with sample questions, an
+  extractive/no-LLM toggle, streaming status, type/method/grounding badges,
+  the verified answer, clarification prompts for abstentions, grounding note,
+  resolved citation list, latency grid and the retrieval-step trace. No build
+  step and no frontend framework — the page calls `/api/stream` directly.
+- **Access control** — plain-text demo by default (local-first deployment);
+  set `--api-key` or the `POLICY_RAG_API_KEY` environment variable and every
+  `/api/*` route requires `X-API-Key` (401 otherwise). The UI page itself
+  stays reachable so the requirement can be verified from the browser.
+- **Logging** — every request is appended as one JSON line to
+  `reports/phase7_api_log.jsonl` (`ts`, path, status, duration, errors); it
+  is append-only, machine-local and git-ignored like the other phase logs.
+
+### Verified live run (extractive mode, `--no-llm`)
+
+```
+GET /api/health  → {"status":"ok","pipeline":"phase5-verified","llm_mode":"extractive (no LLM)"}
+GET /            → 200 (UI HTML)
+GET /docs        → 200 (OpenAPI)
+POST /api/query "What is the waiting period for cataract surgery?"
+  → query_type=waiting_period  grounding 10 supported / 0 / 0 of 10 claims
+  → citations [DOC-006 p.13, DOC-002 p.20, DOC-004 p.30, DOC-003 pp.31-32, DOC-009 p.10]
+  → latency {retrieval: 1835ms, verification: 2ms, total: 1838ms}
+GET /api/stream "What is the current GST rate?"
+  → working → done: abstained=true (out_of_domain scope statement, no retrieval)
+
+run_phase7.py serve
+  Policy Intelligence API + UI  →  http://127.0.0.1:8000  (docs at /docs)
+```
+
+---
+
 ## Design notes
 
 - **Traceability first** (SRS FR-004): phase 1 marks headers/footers as
@@ -520,7 +586,7 @@ Settings live in `configs/phase6.json` (`eval_set`, `modes`, `report_dir`).
 ## Repository layout
 
 ```
-run_phase1.py ... run_phase6.py   Phase CLIs
+run_phase1.py ... run_phase7.py   Phase CLIs
 configs/                         documents.json (phase 1) + phase2..phase6.json
 src/ingestion/                   phase 1: inspection, extraction, OCR, normalization
 src/chunking/                    phase 2: structure-aware chunker
@@ -530,13 +596,15 @@ src/generation/                  phase 2: Ollama client + grounded answer genera
 src/evaluation/                  phase 3: retrieval metrics · phase 6: pipeline eval + failure taxonomy
 src/agent/                       phase 4: classifier, planner, executor, comparison, orchestrator
 src/grounding/                   phase 5: claim extractor, validator (Agent 5), handler, pipeline
+src/api/                         phase 7: FastAPI service + static chat UI
 data/normalized/                 canonical per-document JSON (phase 1 output)
 data/chunks/chunks.jsonl         chunk corpus (phase 2 build artifact, portable: basename source_path)
 data/chroma/                     vector index — rebuildable, git-ignored
 data/bm25/bm25_index.json        keyword index — rebuildable, git-ignored
 data/eval/retrieval_eval.json    frozen retrieval evaluation set (phase 3)
 reports/                         extraction report, quality audit, query logs, eval reports
-tests/                           210 tests (34 phase 1, 28 phase 2, 34 phase 3, 48 phase 4, 41 phase 5, 25 phase 6)
+tests/                           225 tests (34 phase 1, 28 phase 2, 34 phase 3, 48 phase 4, 41 phase 5,
+                                 25 phase 6, 15 phase 7)
 ```
 
 ## Tests
@@ -548,6 +616,7 @@ python -m pytest tests/test_phase4_agent.py -q       # 48 passed (~4s, no server
 python -m pytest tests/test_phase5_grounding.py -q   # 41 passed (~3s, no server needed)
 python -m pytest tests/test_phase1_ingestion.py -q   # 34 passed (~9m, OCR-heavy, machine-dependent)
 python -m pytest tests/test_phase6_evaluation.py -q  # 25 passed (~1s, no server needed)
+python -m pytest tests/test_phase7_api.py -q         # 15 passed (~2s, no server needed)
 ```
 
 ## Known limitations

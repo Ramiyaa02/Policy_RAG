@@ -16,6 +16,7 @@ reports/phase2_query_log.jsonl
 reports/phase3_query_log.jsonl
 reports/phase4_query_log.jsonl
 reports/phase5_query_log.jsonl
+reports/phase7_api_log.jsonl
 reports/answer.json
 
 # Phase 6 runtime console logs (the durable records are the .json/.md reports)
