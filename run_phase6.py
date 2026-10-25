@@ -266,16 +266,36 @@ def cmd_evaluate(args: argparse.Namespace) -> int:
     usage = UsageRecorder()
     usage.install()
 
-    builders = {
-        "full": lambda: build_full_run_fn(config, args.no_llm, usage),
-        "baseline": lambda: build_baseline_run_fn(config, args.no_llm, usage),
-    }
     modes = [m.strip() for m in (args.modes or "").split(",") if m.strip()]
     if not modes:
         modes = ecfg.get("modes", ["full", "baseline"])
 
-    reports = []
-    for label in modes:
+    out_dir = ecfg.get("report_dir", "reports")
+    out_path = args.out or os.path.join(out_dir, "phase6_pipeline_eval.json")
+    md_path = os.path.splitext(out_path)[0] + ".md"
+
+    # Resume support — a long LLM run may die mid-way; completed pipeline
+    # reports are checkpointed after each mode and reused in order.
+    reports: list[dict] = []
+    checkpoint_path = os.path.join(out_dir, "phase6_eval_checkpoint.json")
+    if not args.fresh:
+        try:
+            with open(checkpoint_path, encoding="utf-8") as f:
+                prev = json.load(f)
+            if prev.get("eval_set") == eval_set_path and prev.get("no_llm") == bool(args.no_llm):
+                prev_reports = prev.get("reports", [])
+                if prev_reports and [r.get("label") for r in prev_reports] == modes[: len(prev_reports)]:
+                    reports = list(prev_reports)
+                    print(f"resumed {len(reports)} completed pipeline(s) from {checkpoint_path}", flush=True)
+        except (OSError, json.JSONDecodeError, KeyError, TypeError):
+            pass
+
+    builders = {
+        "full": lambda: build_full_run_fn(config, args.no_llm, usage),
+        "baseline": lambda: build_baseline_run_fn(config, args.no_llm, usage),
+    }
+
+    for label in modes[len(reports):]:
         if label not in builders:
             print(f"Unknown mode '{label}' (choose from full, baseline)", file=sys.stderr)
             return 2
@@ -293,12 +313,16 @@ def cmd_evaluate(args: argparse.Namespace) -> int:
         report["wall_s"] = round(time.time() - t0, 2)
         report["no_llm"] = bool(args.no_llm)
         reports.append(report)
+        write_json({"reports": reports, "eval_set": eval_set_path, "no_llm": bool(args.no_llm)}, checkpoint_path)
+        print(f"checkpointed '{label}' ({len(reports)}/{len(modes)}) -> {checkpoint_path}", flush=True)
 
-    out_dir = ecfg.get("report_dir", "reports")
-    out_path = args.out or os.path.join(out_dir, "phase6_pipeline_eval.json")
-    md_path = os.path.splitext(out_path)[0] + ".md"
     payload = {"reports": reports, "eval_set": eval_set_path, "no_llm": bool(args.no_llm)}
     write_json(payload, out_path)
+    try:
+        os.remove(checkpoint_path) if os.path.exists(checkpoint_path) else None
+    except OSError:  # noqa: PERF203 — best-effort cleanup
+        pass
+
     with open(md_path, "w", encoding="utf-8") as f:
         f.write(
             render_markdown(
@@ -602,6 +626,9 @@ def main() -> int:
     p_eval.add_argument("--limit", help="Evaluate only the first N queries (smoke runs)")
     p_eval.add_argument("--no-llm", action="store_true", help="Extractive/fast offline mode (no Ollama)")
     p_eval.add_argument("--out", help="Write JSON here")
+    p_eval.add_argument(
+        "--fresh", action="store_true", help="Ignore any previous evaluate checkpoint and rebuild reports"
+    )
 
     p_ab = sub.add_parser("ablate", help="Ablation experiments over the frozen set")
     p_ab.add_argument("--ablations", help="Comma-separated names: " + ",".join(ABLATIONS))
